@@ -64,8 +64,8 @@ käsittelevän osuuden väliin.
 
 Tämä teos on lisensoitu Creative Commons Nimeä-JaaSamoin 
 4.0 Kansainvälinen -lisenssillä.
-Se tarkoittaa karkeasti, että teosta saa käyttää, jakaa ja muokata.
-Voit siis vapaasti räätälöidä kirjan omaan opetukseesi
-sopivaan muotoon tai yhdistää siihen omaa materiaaliasi.
-Kun teet näin, sinun pitää kuitenkin viitata alkuperäiseen 
-teokseen ja muokatut teokset pitää julkaista samalla lisenssillä.
+Oppimateriaalia saa kopioida, välittää, levittää ja esittää. 
+Oppimateriaalista saa tehdä muokattuja johdannaismateriaaleja ja sen osia saa käyttää 
+toisten oppimateriaalien osana, mutta nämä on julkaistava tällä samalla lisenssillä, 
+millä alkuperäinen oppimateriaali on julkaistu. 
+Nimeni on mainittava alkuperäisenä tekijänä.
