@@ -1104,7 +1104,7 @@ Tässä materiaalissa on siis arviolta \(10^5\)--\(10^6\) a-kirjainta.
 (b) Kun \(t\) on hyvin suuri, voidaan tarkastella raja-arvoa, kun \(t\) lähestyy ääretöntä. Siispä suurilla t:n arvoilla voidaan arvioida
 \(\lim_{t \to \infty} x(t) = 1 + 2/\infty = 1 + 0 = 1\).
 
-\textbf{0.9} Ohjelma osaa melko hyvin arvata, mitä haluat, joten voit kokeilla esimerkiksi kirjoittaa ``plot sin\textsuperscript{2} x from -pi to pi''. Voit kuitenkin käyttää myös täsmällisiä Mathematica-kielen komentoja, jotka olisivat tässä ``Plot{[Sin{[x]}\textsuperscript{2},\{x,-Pi,Pi\}]}'' (tulos on kuvaaja, jossa on kaksi maksimia) sekä ``Integrate{[Sin{[x]}\textsuperscript{2},x]}'' (tulos on \( \frac{1}{2}(x-\sin x \cos x) + c\)).
+\textbf{0.9} Ohjelma osaa melko hyvin arvata, mitä haluat, joten voit kokeilla esimerkiksi kirjoittaa ``plot sin\^\relax 2 x from -pi to pi''. Voit kuitenkin käyttää myös täsmällisiä Mathematica-kielen komentoja, jotka olisivat tässä ``Plot[Sin[x]\^\relax 2,{x,-Pi,Pi}]'' (tulos on kuvaaja, jossa on kaksi maksimia) sekä ``Integrate[Sin[x]\^\relax 2,x]'' (tulos on \( \frac{1}{2}(x-\sin x \cos x) + c\)).
 
 \end{instructions}
 
@@ -4464,6 +4464,33 @@ Myös kokonaiselle systeemille tai useasta osasta koostuvalle kappaleelle voidaa
 
 \end{instructions}
 
+\newpage\begin{exam}{Vapaakappalekuva}{ex:vapaakappalekuva}\noindent
+
+\problem{Auto ajaa loivaa mäkeä ylös kasvattaen vauhtiaan. Ilmanvastus on merkittävä. (a) Piirrä autolle vapaakappalekuva. (b) Etsi kaikille autoon kohdistuville voimille vastavoimat ja piirrä nekin kuvaan.
+}
+
+\physics  Päätellään ensin autoon kohdistuvat voimat. Painovoima vetää autoa suoraan alaspäin. Koska auto ei kuitenkaan vajoa maan sisään, sen renkaisiin täytyy kohdistua maanpinnan kosketuksen tuottama voima, joka työntää autoa ylöspäin kohtisuorassa pintaa vasten. Koska auto liikkuu ylämäen suuntaan, ilmanvastuksen täytyy osoittaa liikettä vastaan eli alamäkeen (ellei ole hyvin voimakas myötätuuli, mutta oletetaan auton liikkuvan ilmaa nopeammin maan suhteen). Auton renkaisiin kohdistuu vierimisvastus, joka myös osoittaa auton liikettä vastaan. Lisäksi koska auton vauhti kasvaa, sillä täytyy olla kiihtyvyyttä ylämäen suuntaan. Tämän kiihtyvyyden se saa siitä, että moottori pyörittää renkaita, jotka maanpintaa vasten kitkan avulla ponnistaen työntävät autoa ylämäen suuntaan. Renkaathan pyörivät niin päin, että ne tavallaan yrittävät työntää maanpintaa kulkusuuntaan nähden taaksepäin, jolloin maanpinta työntää autoa eteenpäin.
+
+\begin{center}%
+\includegraphics[width=0.95\textwidth]{figs/voima_esim_vkk.pdf}%
+\end{center}%
+
+\solu Piirretään vapaakappalekuva autolle. Merkitään painovoimaa \( \bs{G}_{\text{maa} \to \text{auto}} \), koska maa kohdistaa painovoiman autoon. Samoin merkitään maanpinnan kosketuksen tuottamaa autoa kannattelevaa voimaa \( \bs{N}_{\text{maa} \to \text{auto}} \), ja renkaisiin kohdistuvaa voimaa, joka työntää autoa ylämäkeen, \( \bs{F}_{\text{maa} \to \text{auto}} \). Todellisuudessa nämä voimat kohdistuvat auton kaikkiin renkaisiin, mutta piirretään yksinkertaisuuden vuoksi vain yksi nuoli kuvaamaan kummankin voimien kokonisvaikutusta. Täsmällisessä tarkastelussa on väliä, minne voimanuolet piirretään, mutta haluamme nyt piirtää mahdollisimman yksinkertaisen mallin, jossa tämä tarkkuus riittää.
+
+Jätetään vierimisvastusta kuvaava nuoli piirtämättä erikseen. Vierimisvastus olisi myös maanpinnan renkaisiin kohdistama pinnan suuntainen voima, mutta koska kuvassa on jo yksi tällainen voima, voimme ajatella, että vierimisvastuskin sisältyy voimaan \( \bs{F}_{\text{maa} \to \text{auto}} \). Näin kuvasta tulee yksinkertaisempi.
+
+Piirretään kuitenkin ilmanvastus erikseen näkyviin, koska se syntyy ilman ja auton välisestä vuorovaikutuksesta eikä maan ja auton. Merkitään sitä \( \bs{F}_{\text{ilma} \to \text{auto}} \). Koska autolla on kiihtyvyyttä ylämäen suuntaan, ilmanvastusta kuvaavan nuolen täytyy olla selvästi lyhyempi kuin ylämäen suuntaan osoittavan voimanuolen.
+
+Kaikkien voimien vastavoimat löytyvät, kun vaihdetaan niiden alaindekseissä sanojen paikkoja. Toisin sanoen esimerkiksi maan autoon kohdistaman painovoiman \( \bs{G}_{\text{maa} \to \text{auto}} \) vastavoima on auton maahan kohdistama painovoima \( \bs{G}_{\text{auto} \to \text{maa}} \). Koska tämä voima kohdistuu maahan, sitä ei missään nimessä saa piirtää auton kuvaan vaan sitä varten kuvaan on lisättävä uusi kappale, maa, johon maahan kohdistuva painovoima piirretään. Yhdistetään voima-vastavoimapari vielä katkoviivalla.
+
+Maahan kohdistuu myös voima \( \bs{N}_{\text{auto} \to \text{maa}} \), jolla auton renkaat painavat maata (tämä voima tuottaa renkaanjäljet, jos auto ajaa pehmeässä maastossa), sekä voima \( \bs{F}_{\text{auto} \to \text{maa}} \), jolla renkaat työntävät maanpintaa auton kulkusuuntaan nähden taaksepäin (tämä voima viskoo irtonaista maata taaksepäin, jos renkaat jäävät pehmeässä maastossa sutimaan).
+
+Ilmanvastus on auton ja ilman välinen vuorovaikutus, joten se kohdistaa voimia autoon ja ilmaan. Niinpä lisätään kuvaan myös kappale kuvaamaan ilmaa, ja siihen kohdistuu ilmanvastusvoima \( \bs{F}_{\text{auto} \to \text{ilma}} \). Tämä on se voima, jolla liikkuva auto työntää ilmaa pois tieltään.
+
+\eval Kaikille autoon kohdistuville voimille löydettiin vastavoimat kuten pitääkin, ja kaikkia voima-vastavoimapareja kuvaavat nuolet ovat yhtä pitkät ja vastakkaisuuntaiset. Voimanuolten mittakaava vaikuttaa myös järkevältä. Auton paino on varmasti siihen kohdistuvista voimista suurin, sillä autoa on paljon helpompi liikuttaa maanpinnan suunnassa kuin nostaa ylöspäin.
+
+\end{exam}
+
 \subsection{Vektorien graafinen yhteenlasku}
 \label{vektoriengraafinenyhteenlasku}
 
@@ -4608,6 +4635,42 @@ Myös vapaakappalekuvien analyysi usein helpottuu jakamalla voimat pysty- ja vaa
 
 \stopper{Kirjoita omin sanoin ohjeet vapaakappalekuvien piirtämiseen sekä vektoreiden yhteenlaskuun ja komponenttijakoon. Keksi esimerkki, jossa on kolme toistensa kanssa vuorovaikuttavaa kappaletta, piirrä sille vapaakappalekuvio, ja määritä kuvion avulla kuhunkin kappaleeseen kohdistuvaa kokonaisvoimaa kuvaava nuoli.
 }
+
+\newpage\begin{exam}{Vektorien yhteenlasku}{ex:vektorisummaus}\noindent
+
+\problem{Auto ajaa loivaa mäkeä ylös. Mäen kaltevuuskulma on \(5^\circ\). Auton massa on 980 kg. Maanpinta kannattelee autoa \(9570 \un{N}\) kosketusvoimalla, renkaat työntävät autoa ylöspäin yhteensä \(1070 \un{N}\) voimalla ja ilmanvastus vastustaa liikettä \(60 \un{N}\) voimalla. Mikä on auton kiihtyvyys?
+}
+
+\setup  Piirsimme auton vapaakappalekuvan esimerkissä \autoref{ex:vapaakappalekuva}. Kopioidaan sieltä vain autoa kuvaava osuus tähän.
+Merkitään mäen kaltevuuskulmaa \( \theta = 5^\circ \).
+
+\begin{center}%
+\includegraphics[width=0.95\textwidth]{figs/voima_esim_vektorisumma.pdf}%
+\end{center}%
+
+\physics Kiihtyvyyden aiheuttaa dynamiikan peruslain mukaisesti autoon kohdistuva kokonaisvoima,
+\begin{equation} a = \frac{1}{m} F_\text{kokonais}, \end{equation}
+ja tämä saadaan kaikkien autoon kohdistuvien voimien summana eli piirtämällä voimia kuvaavat nuolet peräkkäin. Lopuksi kokonaisvoimaa kuvaava nuoli voidaan lisätä kuvaan ensimmäisen summaan piirretyn nuolen kannasta viimeisen nuolen kärkeen osoittavana nuolena.
+
+Nuolet voi piirtää mihin tahansa järjestykseen, mutta on kätevää piirtää ne niin, että kuvioon muodostuu suorakulmainen kolmio.
+Kolmion täytyy olla suorakulmainen, koska autolla ei voi olla merkittävää kiihtyvyyttä maanpinnan suuntaa vasten kohtisuoraan pintaa vasten ylöspäin. Muutenhan auto nousisi ilmaan tai vajoaisi maan sisään. Kolmion terävin kulma on sama kuin mäen kaltevuuskulma.
+
+Kuvan perusteella kokonaisvoiman suuruus saadaan vähentämällä renkaiden tuottamasta työntövoimasta ilmanvastusvoima sekä painovoiman ja kosketusvoiman muodostaman kolmion lyhyemmän kateetin pituus. Tämä on järkevää, sillä renkaat työntävät autoa ylämäkeen kun taas ilmanvastus vastustaa liikettä ja painovoima vetää autoa alamäen suuntaan. Kolmion lyhyemmän kateetin pituus kertoo, kuinka voimakkaasti painovoima vetää autoa taaksepäin.
+
+\solu Kolmion hypotenuusan pituus on autoon kohdistuvan painovoiman suuruus
+\begin{equation} G_{\text{maa} \to \text{auto}} = mg = 980 \un{kg} \cdot 9.8 \un{m/s}^2 = 9600 \un{N}. \end{equation}
+Kolmion pidemmän kateetin pituus on likimain yhtä suuri, sillä se on autoa kannattelevan voiman suuruus,
+\begin{equation} N_{\text{maa} \to \text{auto}} = 9570 \un{N}. \end{equation}
+Kolmion lyhyemmän kateetin pituus voidaan laskea trigonometrialla, ja se on
+\begin{equation} F_\text{kateetti} =  G_{\text{maa} \to \text{auto}} \sin \theta = 840 \un{N}. \end{equation}
+Näin ollen kokonaisvoiman suuruus on
+\begin{equation} F_\text{kokonais} = F_{\text{maa} \to \text{auto}} - F_{\text{ilma} \to \text{auto}} - F_\text{kateetti} = 1070 \un{N} - 60 \un{N} - 840 \un{N} = 170 \un{N} \end{equation}
+ja auton kiihtyvyys on
+\begin{equation} a = \frac{1}{m} F_\text{kokonais} = \frac{170 \un{N}}{980 \un{kg}} = 0.17 \un{m/s}^2\end{equation}
+
+\eval Auton kiihtyvyys on siis pieni. Tavallisten autojen kiihtyvyydet ovat putoamiskiihtyvyyttä \(9.8 \un{m/s}^2\) pienemmät, mutta tasaisella maalla nopeasti liikkeelle lähtevän auton kiihtyvyys voi olla selvästi yli \(1 \un{m/s}^2\). Tällaisen kiihtyvyyden auto saisikin 1070 N työntövoimalla, jos ylämäkeen noustessa painovoima ei vetäisi autoa alamäen suuntaan.
+
+\end{exam}\newpage
 
 \section{Vuorovaikutuksiin liittyviä voimia}
 \label{vuorovaikutuksiinliittyviävoimia}
@@ -5455,6 +5518,43 @@ Energian säilymislain perusteella emme siis voi päätellä paljonko työntäj�
 \stopper{Työntäjä kohdistaa laatikkoon \(100 \un{N}\) vakiovoiman ja laatikkoon vaikuttaa \(80 \un{N}\) kitkavoima. Työntäjä työntää laatikkoa yhden metrin. (a) Paljonko laatikko saa työntäjältä liike-energiaa? (b) Paljonko laatikko menettää kitkan takia liike-energiaa? (c) Mikä on laatikon liike-energian muutos? (d) Mikä on työntäjän, laatikon ja lattian sisäenergian kokonaismuutos?
 }
 
+\begin{exam}{Dissipatiivinen työ}{ex:dissipatiivinentyo}\noindent
+
+\problem{Auto ajaa loivaa mäkeä ylös. Mäen kaltevuuskulma on \(5^\circ\). Auton massa on 980 kg. Maanpinta kannattelee autoa \(9570 \un{N}\) kosketusvoimalla, renkaat työntävät autoa ylöspäin yhteensä \(1070 \un{N}\) voimalla ja ilmanvastus vastustaa liikettä \(60 \un{N}\) voimalla. (a) Paljonko työtä voimat tekevät, kun auto kulkee \(10 \un{m}\)?
+(b) Millaisia muutoksia energian eri muodoissa tapahtuu? Piirrä energiadiagrammi.
+}
+
+\setup  Tilanne on täsmälleen sama kuin esimerkissä \autoref{ex:vektorisummaus}.
+Merkitään jälleen mäen kaltevuuskulmaa \( \theta = 5^\circ \),
+renkaiden työntövoimaa \( F_{\text{maa} \to \text{auto}} = 1070 \un{N} \),
+ilmanvastusta \( F_{\text{ilma} \to \text{auto}} = 60 \un{N} \),
+painovoiman komponenttia alamäen suuntaan \( G_{x,\text{maa} \to \text{auto}} = -840 \un{N} \) ja
+auton siirtymää mäen suunnassa \(\Delta x = 10 \un{m}\).
+
+\physics Ilmanvastus osoittaa auton liikettä vastaan, joten se tekee negatiivista työtä,
+\begin{equation} W_\text{ilmanvastus} = - F_{\text{ilma} \to \text{auto}} \Delta x = -600 \un{J}. \end{equation}
+Samoin painovoimalla on komponentti liikettä vastaan, joten sekin tekee negatiivista työtä,
+\begin{equation} W_\text{painovoima} = G_{x,\text{maa} \to \text{auto}} \Delta x = -8400 \un{J}. \end{equation}
+Voima, jolla maanpinta kannattelee autoa on puolestaan kohtisuorassa liikkeen suuntaa vastaan, joten se ei tee työtä lainkaan.
+
+Voima, jolla renkaat työntävät autoa, osoittaa auton liikkeen suuntaan, mutta se ei vielä tarkoita, että tämä voima tekisi autoon työtä. Tämä voima nimittäin vaikuttaa aina pisteessä, jossa renkaat koskevat maata, ja jos renkaat eivät sudi, renkaan pinta on maata koskettaessaan hetkellisesti paikoillaan. Niinpä myöskään tämä voima ei tee autoon työtä. Tilanne on sama kuin esimerkissä \autoref{ex:skeitti}, jossa maanpinta ei tehnyt työtä jalkaan.
+
+(b) Painovoiman tekemä työ muuttaa auton liike-energiaa painovoiman potentiaalienergiaksi. Ilmanvastuksen tekemä työ muuttaa auton liike-energiaa ilman liike-energiaksi ja lämpöenergiaksi. Lisäksi auton liikkeeseen liittyy muitakin dissipatiivisia vuorovaikutuksia kuten kitkaa ja vierimisvastusta, jotka muuttavat liike-energiaa lämpöenergiaksi. Jos kyseessä on polttomoottoriauto, polttoaineen palaminen muuttaa polttoaineen kemiallista energiaa lämpöenergiaksi, ja vain pieni osa tästä energiasta saadaan muutettua liike-energiaksi. Jos kyseessä on sähköauto, sen moottori muuntaa akkuun varastoitunutta sähköistä energiaa liike-energiaksi. Tällöinkin osa sähköisestä energiasta muuttuu väistämättä lämpöenergiaksi, mutta paljon suurempi osuus varastoituneesta energiasta saadaan muutettua liike-energiaksi kuin polttomoottorissa.
+
+Autoon tehdään vain negatiivista työtä, joten sen kokonaisenergia pienenee,
+\begin{equation} \Delta E_\text{auto,kokonais} = W_\text{ilmanvastus} + W_\text{painovoima} = -9 \un{kJ}. \end{equation}
+Jos systeemiin otetaan mukaan myös autoa ympäröivä ilma ja maanpinta sekä painovoima, niiden kaikkien yhteinen kokonaisenergia on energian säilymislain perusteella välttämättä vakio.
+Esimerkin \autoref{ex:vektorisummaus} perusteella autolla oli pieni kiihtyvyys ylämäkeen, jolloin sen vauhti ja siis liike-energia kasvaa.
+Samalla myös painovoiman potentiaalienergia kasvaa ja auton, ilman sekä maan lämpöenergia kasvaa. Autoon varastoidun kemiallisen tai sähköisen energian täytyy siis vähentyä niin paljon, että se riittää kattamaan täsmälleen kaikkien muiden energian lajien lisääntymisen. Pelkästään annetuilla tiedoilla emme kuitenkaan voi päätellä, kuinka suuret nämä muutokset ovat.
+
+Hahmotellaan vielä energiadiagrammi alussa ja lopussa. Koska tarkkoja arvoja ei voi laskea, diagrammi ei ole välttämättä oikeassa mittakaavassa. Joka tapauksessa polttoaineeseen tai akkuun varastoituneen energian täytyy olla hyvin suuri, koska sen täytyy riittää pitkillekin matkoille.
+
+\begin{center}%
+\includegraphics[width=0.95\textwidth]{figs/voima_esim_diagrammi.pdf}%
+\end{center}%
+
+\end{exam}
+
 \subsection{Teho}
 \label{teho}
 
@@ -5463,11 +5563,7 @@ Energian säilymislakia sovellettaessa ei usein välitetä kuinka nopeasti prose
 Tehon yksikkö on watti
 \begin{equation} \text{W} = [P] = \frac{[E]}{[t]} = \frac{\text{J}}{\text{s}} = {\text{kgm}^2/\text{s}^3}.\end{equation}
 
-Voiman tekemän työn teho kuvaa sitä, kuinka nopeasti voiman kuvaama vuorovaikutus muuttaa energiaa muodosta toiseen. Esimerkiksi kappaleeseen vaikuttavan kokonaisvoiman teho ilmaisee kuinka nopeasti kappaleen liike-energia muuttuu. Työn määritelmän mukaisesti \(x\)-suunnassa liikkuvaan kappaleeseen vaikuttavan liikkeen suuntaisen voiman teho on
-\begin{equation} P = \frac{\dd W}{\dd t} = F_x \frac{\dd x}{\dd t} = F_x v_x. \end{equation}
-Siispä voima tekee kappaleeseen työtä sitä suuremmalla teholla, mitä nopeammin kappale liikkuu. Tämä johtuu yksinkertaisesti siitä, että työ riippuu \emph{matkasta}, jolla voima vaikuttaa, ja nopea kappale kulkee pitkän matkan lyhyessä ajassa. Esimerkiksi painovoimakentässä ylöspäin nousevan kappaleen potentiaalienergia kasvaa sitä suuremmalla teholla mitä nopeammin kappale nousee (kuva \autoref{fig:voimateho}).
-
-\begin{figure}[tb]
+\begin{figure}[b]
 \caption{Teho kuvaa energian muutoksen nopeutta.
 }
 \footnotesize
@@ -5483,6 +5579,10 @@ Siispä voima tekee kappaleeseen työtä sitä suuremmalla teholla, mitä nopeam
 \end{center}
 \label{fig:voimateho}
 \end{figure}
+
+Voiman tekemän työn teho kuvaa sitä, kuinka nopeasti voiman kuvaama vuorovaikutus muuttaa energiaa muodosta toiseen. Esimerkiksi kappaleeseen vaikuttavan kokonaisvoiman teho ilmaisee kuinka nopeasti kappaleen liike-energia muuttuu. Työn määritelmän mukaisesti \(x\)-suunnassa liikkuvaan kappaleeseen vaikuttavan liikkeen suuntaisen voiman teho on
+\begin{equation} P = \frac{\dd W}{\dd t} = F_x \frac{\dd x}{\dd t} = F_x v_x. \end{equation}
+Siispä voima tekee kappaleeseen työtä sitä suuremmalla teholla, mitä nopeammin kappale liikkuu. Tämä johtuu yksinkertaisesti siitä, että työ riippuu \emph{matkasta}, jolla voima vaikuttaa, ja nopea kappale kulkee pitkän matkan lyhyessä ajassa. Esimerkiksi painovoimakentässä ylöspäin nousevan kappaleen potentiaalienergia kasvaa sitä suuremmalla teholla mitä nopeammin kappale nousee (kuva \autoref{fig:voimateho}).
 
 Teho on keskeinen suure monissa energiansiirron käytännön sovelluksissa. Esimerkiksi jos auto pitää pystyä kiihdyttämään tiettyyn nopeuteen tietyssä ajassa, sen moottorin on pystyttävä tuottamaan tähän vaadittava teho. Vastaavasti jarrutuksessa kitka lämmittää jarrupaloja yhtä suurella teholla kuin millä auton liike-energia vähenee. Lämmitettäessä rakennusta tietyllä teholla pitää eristys mitoittaa niin, ettei rakenteiden kautta hukattu lämpöteho ole lämmitystehoa suurempi, sillä muuten rakennus jäähtyy. Tai päinvastoin jos tietokoneen prosessori kuumenee käytössä tietyllä teholla, lämpöä on kyettävä siirtämään pois yhtä tehokkaasti tai muuten laite ylikuumenee.
 
@@ -5888,7 +5988,7 @@ Avaruuden kolmiulotteisuus sen sijaan on keskeinen ominaisuus myös klassisessa 
 Jo yksiulotteisen liikkeen tapauksessa koordinaatiston käyttö osoittautui erinomaiseksi työkaluksi. Tähän kuului positiivisen suunnan sekä kiintopisteen eli origon valinta, jonka jälkeen esimerkiksi kappaleiden paikka voitiin määritellä yksikäsitteisesti origon suhteen mitatun koordinaatin avulla. Lisäksi koordinaatistossa vektorisuureet kuten nopeus voitiin näppärästi ilmoittaa niiden skalaarikomponentin ja positiivista suuntaa edustavan yksikkövektorin avulla. Paikan kuvaaminen kolmiulotteisessa avaruudessa tapahtuu täsmälleen samalla periaatteella, mutta nyt toisistaan riippumattomia suuntia on kolme. Nämä suunnat voidaan valita monin tavoin, ja riippuu systeemin geometriasta, millainen valinta on hyödyllisin. Yksinkertaisin kolmiulotteinen koordinaatisto on kuitenkin sellainen, jossa positiivisiksi suunniksi valitaan kolme toisiinsa nähden kohtisuoraa, muuttumatonta suuntaa. Näitä suuntia kutsutaan tavallisesti \(x\)-, \(y\)- ja \(z\)-suunniksi ja niiden suuntaisia yksikkövektoreita merkitään usein symboleilla \(\uv{i}\), \(\uv{j}\) sekä \(\uv{k}\). Tällaista koordinaatistoa kutsutaan \textbf{karteesiseksi koordinaatistoksi} (Ren\'e Descartesin mukaan).
 
 \begin{figure}[tb]
-\caption{Karteesinen \\(xyz\\)-koordinaatisto sekä sen yksikkövektorit. Pisteen \\(P\\) paikkavektori on origosta pisteeseen osoittava vektori, joka voidaan esittää koordinaattiakselien suuntaisten komponenttien summana.
+\caption{Karteesinen \(xyz\)-koordinaatisto sekä sen yksikkövektorit. Pisteen \(P\) paikkavektori on origosta pisteeseen osoittava vektori, joka voidaan esittää koordinaattiakselien suuntaisten komponenttien summana.
 }
 \footnotesize
 \begin{center}
@@ -5972,7 +6072,7 @@ ja kappaleen alkunopeus voidaan kirjoittaa komponenttimuodossa
 \begin{center}
 \hspace*{-1.5cm}
 \begin{tabular}{ p{0.8\textwidth} p{0.3\textwidth} }
-(a) Ratkaistaan nopeus ja paikka erikseen \\(x\\)- ja \\(y\\)-suunnissa liikeradan selvittämiseksi.
+(a) Ratkaistaan nopeus ja paikka erikseen \(x\)- ja \(y\)-suunnissa liikeradan selvittämiseksi.
 &
 (b) Nopeuden skalaarikomponentit.
 \\
@@ -6973,9 +7073,6 @@ Kertomalla kokonaisderivaatan lauseke (\autoref{kokonaisderivaatta}) differentia
 Tämä kertoo paljonko funktion \(f\) arvo muuttuu, jos sen argumentteihin tehdään differentiaaliset muutokset \(\dd x\), \(\dd y\) ja \(\dd z\). Differentiaalimuodossa tämä on tarkka lauseke, mutta sitä käytetään usein myös approksimaationa äärellisten muutosten tapauksessa
 \begin{equation} \Delta f \approx \frac{\partial f}{\partial x} \Delta x+ \frac{\partial f}{\partial y} \Delta y + \frac{\partial f}{\partial z} \Delta z. \label{kokonaismuutos} \end{equation}
 
-\stopper{Mikä on korkeuden muutos kuvan \autoref{fig:moniulotteinen_gradientti} esimerkissä, jos siirrytään merkitystä tarkastelupisteestä (a) \(20 \un{m}\) pohjoiseen, (b) \(20 \un{m}\) itään, (c) ensin \(20 \un{m}\) pohjoiseen ja sitten saman verran itään, eli noin \(30 \un{m}\) koilliseen? Arvioi muutos sekä kuvan korkeuskäyrien perusteella että yhtälön (\autoref{kokonaismuutos}) avulla. Saatko likimain saman tuloksen?
-}
-
 \begin{exam}{Osittaisderivaatta}{ex:osittaisderivaatta}\noindent
 
 \problem{Maaston korkeus riippuu eräällä alueella paikasta funktion \(h(x,y) = a x^2 - b y^2 \) mukaisesti, missä \(a = 0.2 \un{m}^{-1}, b = 0.1 \un{m}^{-1}\). Maastossa kulkee polku, jota kuvaa yhtälö \(y = c x^2\), missä \(c = 1.0 \un{m}^{-1} \). Kuinka jyrkästi kulkija joutuu kiipeämään rinnettä, jos hän on pisteessä \( (1\un{m},1\un{m}) \) ja kulkee (a) \(x\)-suuntaan, (b) \(y\)-suuntaan tai (c) polkua pitkin?
@@ -7052,6 +7149,9 @@ Show[pinta, polku, piste]
 \end{center}
 
 \end{exam}
+
+\stopper{Mikä on korkeuden muutos kuvan \autoref{fig:moniulotteinen_gradientti} esimerkissä, jos siirrytään merkitystä tarkastelupisteestä (a) \(20 \un{m}\) pohjoiseen, (b) \(20 \un{m}\) itään, (c) ensin \(20 \un{m}\) pohjoiseen ja sitten saman verran itään, eli noin \(30 \un{m}\) koilliseen? Arvioi muutos sekä kuvan korkeuskäyrien perusteella että yhtälön (\autoref{kokonaismuutos}) avulla. Saatko likimain saman tuloksen?
+}
 
 Osittaisderivaatta siis kertoo miten usean muuttujan funktio kuten kuvassa \autoref{fig:moniulotteinen_gradientti} maastonkorkeus muuttuu yhden koordinaattiakselin suunnassa liikuttaessa ja kokonaisdifferentiaali ilmaisee funktion kokonaismuutoksen kun kuljemme jonkin tietyn siirtymän. Haluaisimme kuitenkin vielä keinon selvittää, \emph{mihin suuntaan kuljettaessa korkeus muuttuu kaikkein nopeimmin}, ja tätä varten määrittelemme \textbf{gradientin}.
 Korkeuden gradientti on \emph{vektori}, joka osoittaa aina maaston \emph{jyrkimmän nousun suuntaan} ja jonka pituus kertoo \emph{kuinka nopeasti korkeus muuttuu} tähän suuntaan kuljettaessa. Jyrkimmän nousun suunta selvästikin riippuu siitä, missä pisteessä kulloinkin olemme, joten gradientti on myös paikan funktio. Se on siis matemaattisesti vektorikenttä.
@@ -8303,6 +8403,52 @@ Yllä esitetyissä laskuissa oletettiin hitausmomentin \(I_\theta\) olevan \emph
 \stopper{Keinulaudalla istuu kaksi lasta, joiden massat ovat \(15 \un{kg}\) sekä \(20 \un{kg}\). (a) Millainen kokonaismomentti lautaan kohdistuu, jos kumpikin istuu \(1.0 \un{m}\) etäisyydellä laudan akselista? (b) Jos laudan hitausmomentti akselin suhteen on \(8.0 \un{kgm}^2\) ja kummankin lapsen jalat ovat irti maasta, mikä on laudan ja lasten muodostaman systeemin kulmakiihtyvyys? (c) Miten lasten pitäisi istua, jotta kulmakiihtyvyys olisi nolla?
 }
 
+\newpage\begin{exam}{Lelu}{ex:lelu}\noindent
+
+\problem{Hyrrässä on naru, josta se vedetään pyörimään. Narun pituus on \(45 \un{cm}\), ja se on kiinni akselissa, jonka säde on \(1.0 \un{cm}\). Hyrrän hitausmomentti on \(2.5 \cdot 10^{-4} \un{kgm}^2\). Vedät narusta keskimäärin \(9.0 \un{N}\) voimalla. (a) Kuinka suuren kulmakiihtyvyyden hyrrä saa? (b) Kuinka suuren kulmanopeuden hyrrä saa? (c) Pyörivää hyrrää jarruttaa kitkan tuottama \(6.0 \cdot 10^{-4} \un{Nm}\) momentti. Kuinka kauan kestää, että hyrrä pysähtyy? }
+
+ \twocol{0.6}{0.35}{ \setup  Piirretään hyrrästä kuva ylhäältä katsoen. Merkitään hyrrän akselin sädettä \(r = 0.010 \un{m}\), hitausmomenttia \(I_\theta = 2.5 \cdot 10^{-4} \un{kgm}^2\), narun pituutta \(s = 0.45 \un{m}\), vetävää voimaa \(F = 9.0 \un{N}\) ja jarruttavaa momenttia \(\tau_{\theta,\mu} = -6.0 \cdot 10^{-4} \un{Nm}\).
+
+\physics (a) Narua vetävä voima kohdistaa hyrrään momentin sen massakeskipisteen suhteen, ja momentin suuruus on voiman ja sen varren pituuden tulo. Voima on nyt akselin tangentin suuntainen, joten varren pituus on sama kuin akselin säde \(r\) ja momentti on
+\begin{equation} \tau_\theta = r_{\perp F} F = rF. \end{equation}
+Tämä momentti tuottaa hyrrälle kulmakiihtyvyyden
+\begin{equation} \alpha_\theta = \frac{1}{I_\theta} \tau_\theta. \end{equation}
+
+}{%
+\begin{center}%
+\includegraphics[width=0.95\textwidth]{figs/pyoriminen_esim_momentti.pdf}%
+\end{center}%
+}
+
+(b) Koska tiedämme narun pituuden emmekä sitä vetevän voiman vaikutusaikaa, loppunopeus on helpoin laskea energiaperiaatteella. Voima osoittaa narun suuntaan ja sen vaikutuspiste siirtyy narun pituuden verran. Niinpä voima tekee naruun työn
+\begin{equation} W = \bs{F} \cdot \Delta \bs{r} = F s. \end{equation}
+Hyrrä oli aluksi levossa ja lähes kaikki voiman tekemä työ siirtyy hyrrän liike-energiaksi, joten vedon jälkeen liike-energia on
+\begin{equation} K = \frac{1}{2} I_\theta \omega_{\theta,\text{max}}^2 = W, \end{equation}
+mistä voidaan ratkaista kulmanopeus \(\omega_{\theta,\text{max}}\).
+
+(c) Jälleen momentti tuottaa kulmakiihtyvyyden, ja kulmakiihtyvyys määritelmän mukaisesti on kulmanopeuden muutosnopeus. Nyt momentti on likimain vakio, joten myös kulmakiihtyvyys on vakio,
+\begin{equation} \alpha_{\theta,\mu} = \frac{\Delta \omega_\theta}{\Delta t}. \end{equation}
+Kulmanopeus muuttuu (b)-kohdassa lasketusta arvosta nollaan, \(\Delta \omega_\theta = - \omega_{\theta,\text{max}}\), ja tähän kuluu siis aika
+\begin{equation} \Delta t = -\frac{\omega_{\theta,\text{max}}}{\alpha_{\theta,\mu}} \end{equation}
+
+ \solu  (a) Kulmakiihtyvyydeksi saadaan
+\begin{equation} \alpha_\theta = \frac{rF}{I_\theta} = \frac{0.010 \un{m} \cdot 9.0 \un{N}}{2.5 \cdot 10^{-4} \un{kgm}^2} = 360 \un{s}^{-2}. \end{equation}
+
+(b) Kulmanopeudeksi saadaan
+\begin{equation} \omega_{\theta,\text{max}} = \sqrt{\frac{2 F s}{I_\theta}} = \sqrt{\frac{2 \cdot 9.0 \un{N} \cdot 0.45 \un{m}}{2.5 \cdot 10^{-4} \un{kgm}^2}} = 180 \un{s}^{-1}. \end{equation}
+
+(c) Hyrrän pysähtyminen kestää tämän mallin mukaan
+\begin{equation} \Delta t = -\frac{I_\theta \omega_{\theta,\text{max}}}{\tau_{\theta,\mu}} = \frac{2.5 \cdot 10^{-4} \un{kgm}^2 \cdot 180 \un{s}^{-1}}{6.0 \cdot 10^{-4} \un{Nm}} = 75 \un{s}. \end{equation}
+Tämä on kuitenkin aika, joka kestäisi hyrrän täydelliseen pysähtymiseen, jos sitä jarruttava hitausmomentti olisi vakio. Todellisuudessa hyrrä kaatuu selvästi tätä ennen, kun sen pyöriminen hidastuu.
+
+ \eval  Hyrrä pyörii mallin mukaan yli minuutin, mikä on aivan realistinen tulos.
+
+Hyrrän kulmanopeus laskettiin kulmanopeuden absoluuttisissa yksiköissä radiaania sekunnissa. Joskus pyörivien kappaleiden pyörimisnopeuksia ilmoitetaan myös esimerkiksi yksiköissä kierrosta sekunnissa tai kierrosta minuutissa (englanniksi `rounds per minute', rpm). Hyrrämme pyörimisnopeus olisi tällaisissa yksiköissä
+\begin{equation} \frac{  180 \un{rad/s} \cdot 60 \un{s/min} }{ 2\pi \un{rad/kierros}} = 1700 \un{kierrosta/min}. \end{equation}
+Tämäkin on aivan järkevä tulos, sillä hyrrät voivat pyöriä jopa yli 10000 kierrosta minuutissa.
+
+\end{exam}
+
 \subsection{Vapaakappalekuva ja tasapaino}
 \label{vapaakappalekuvajatasapaino}
 
@@ -8361,6 +8507,67 @@ Tasapainoehtojen avulla voidaan päätellä levossa oleviin kappaleisiin kohdist
 \stopper{Voiko kappale olla (i) tasapainossa etenevän mutta ei pyörivän liikkeen suhteen tai (ii) tasapainossa pyörivän mutta ei etenevän liikkeen suhteen, jos kappaleeseen kohdistuu (a) yksi voima, (b) kaksi samaan pisteeseen kohdistuvaa voimaa, (c) kaksi eri pisteisiin kohdistuvaa voimaa?
 }
 
+\begin{exam}{Korttitalo}{ex:korttitalo}\noindent
+
+\problem{Rakennat korttitaloa perinteiseen tapaan asettamalla kortteja nojaamaan toisiaan vasten symmetrisesti A-kirjaimen muotoon. Rakennat taloa alustalle, jonka lepokitkakerroin on \(\mu\). Kuinka jyrkkään kulmaan kortit on asetettava, jotta kortit eivät ala liukua, jolloin A-kirjain romahtaa? (a) Johda symbolinen lauseke. (b) Laske kulma, kun \(\mu = 0.3\). }
+
+ \twocol{0.75}{0.24}{ \setup  Piirretään kuva yhdestä korttiparista. Kutsutaan parin kortteja nimillä ``vasen'' ja ``oikea''. Oletetaan, että rakennamme tässä vaiheessa vain korttitalon pohjakerrosta eikä korttien päällä ole toisia kortteja. Merkitään kortin massaa \(m\), pituutta \(L\) ja kulmaa vaakatasosta mitattuna \(\theta\).
+
+\physics Korttien täytyy pysyä tasapainossa. Ne ovat tasapainossa suoraviivaisen liikkeen suhteen, jos ja vain jos niihin kohdistuvien voimien summa on nolla. Erityisesti voimien \(x\)- ja \(y\)-komponenttien pitää molempien summautua erikseen nollaksi, jotta voimien vektorisumma olisi nolla. Kortit ovat pyörimisen suhteen tasapainossa, jos ja vain jos niihin kohdistuvien momenttien summa on nolla.
+
+}{%
+\begin{center}%
+\includegraphics[scale=0.37]{figs/pyoriminen_esim_korttitalo_1.pdf}%
+\end{center}%
+}
+
+ \twocol{0.53}{0.46}{ Piirretään korttien vapaakappalekuvat. Oletetaan, että rakennelma on täysin symmetrinen, jolloin oikean ja vasemman kortin vapaakappalekuvat ovat toistensa peilikuvat. Kumpaakin korttia vetää alaspäin maan painovoima (\( \bs{G} \)). Ne eivät vajoa alustan sisään, koska niitä kannattelee pinnan kosketuksen tukivoima (\( \bs{N} \)). Kortin ja alustan välillä vaikuttaa myös lepokitkavoima (\( \bs{F}_\mu \)), joka estää korttien alareunoja lähtemästä liukumaan ulospäin ainakin niin kauan kun talo pysyy pystyssä. Yläreunastaan kortit koskettavat toisiaan, jolloin korttien välinen kosketusvoima (\( \bs{F} \)) estää niitä kaatumasta toistensa lävitse. Koska oletimme yksinkertaisuuden vuoksi rakenteen täysin symmetriseksi, korttien välisen voiman täytyy olla vaakasuorassa. Muussa tapauksessa toiseen korttiin kohdistuisi yläviistoon ja toiseen alaviistoon osoittava voima. Tämä on toki todellisuudessa aivan mahdollista, mutta silloin rakennelma ei ole symmetrinen.
+
+}{%
+\begin{center}%
+\includegraphics[scale=0.37]{figs/pyoriminen_esim_korttitalo_2.pdf}%
+\end{center}%
+}
+
+Tarkastellaan sitten pelkästään vasemman kortin voimatasapainoa. Korttiin kohdistuu kaksi pystysuuntaista ja kaksi vaakasuuntaista voimaa, jolloin voimien tasapaino toteutuu vain jos nämä voimat ovat keskenään yhtä suuret ja vastakkaissuuntaiset. (Näinhän ei yleisesti tarvitsisi olla, koska nämä eivät ole toistensa vastavoimia.) Siispä, kun jätetään yksinkertaisuuden vuoksi pitkät alaindeksit kirjoittamatta, tasapainossa täytyy olla
+\begin{equation} N = G  \end{equation}
+ja
+\begin{equation} F = F_{\mu}. \end{equation}
+
+Painovoiman suuruus tunnetaan, \(G = mg\) ja lepokitkakerroin antaa maksimin kitkavoiman suuruudelle, \(F_\mu \le \mu N\). Nyt halutaan kuitenkin selvittää ääritilanne, jossa kortit juuri ja juuri pysyvät pystyssä. Tässä tilanteessa lepokitkavoima on maksimissaan, ja epäyhtälössä saavutetaan yhtäsuuruus, \(F_\mu = \mu N\).
+
+ \twocol{0.65}{0.34}{ Pyörimisen tasapainoehtoa varten on määritettävä vielä voimien momentit. Yleisesti momentti on voiman suuruuden ja sen varren pituuden tulo,
+\begin{equation} \tau_\theta = F r_{\perp F}. \end{equation}
+Momentit voi laskea minkä tahansa akselin suhteen, ja niiden summan on oltava tasapainossa aina nolla. Tässä on kätevintä valita akseli kortin alareunaan. Näin siksi, että akseliin kohdistuvan voiman varren pituus \(r_{\perp,F}\) ja siten myös momentti on nolla. Nyt kortin alareunaan kohdistuu kaksi voimaa, joten kun akseli valitaan tänne, tiedämme laskemattakin näiden voimien momenttien olevan nollia.
+
+}{%
+\begin{center}%
+\includegraphics[scale=0.37]{figs/pyoriminen_esim_korttitalo_3.pdf}%
+\end{center}%
+}
+
+Jäljelle jää painovoima ja korttien välinen kosketusvoima. Painovoima vaikuttaa kortin keskipisteeseen, etäisyydellä \(L/2\) akselista, ja sen varren pituudeksi saadaan trigonometrialla
+\begin{equation} r_{\perp G} = \frac{1}{2} L \cos \theta. \end{equation}
+Korttien välinen kosketusvoima vaikuttaa kortin yläpäässä etäisyydellä \(L\) akselista, ja tämän voiman varren pituus on
+\begin{equation} r_{\perp F} = L \sin \theta. \end{equation}
+
+ \solu  Vasempaan korttiin kohdistuva kokonaismomentti on nolla ja kortti tasapainossa, jos painovoiman ja korttien välisen kosketusvoiman momentit ovat yhtä suuret,
+\begin{equation} G r_{\perp G} = |\tau_{\theta,G}| = |\tau_{\theta,F}| = F r_{\perp F}. \end{equation}
+Sijoittamalla edellä johdetut lausekkeet tähän yhtälöön saadaan tasapainoehto
+\begin{equation} \frac{1}{2} mgL \cos \theta = \mu mg L \sin \theta, \end{equation}
+jonka ainoa tuntematon on kulma \(\theta\). Jaetaan yhtälö vielä puolittain tekijöillä \(\cos \theta\) sekä \(\mu mgL\), niin saamme
+\begin{equation} \tan \theta = \frac{\sin \theta}{\cos \theta} = \frac{\frac{1}{2} mgL}{\mu mg L} = \frac{1}{2 \mu}. \end{equation}
+Jos kitkakerroin on \(\mu = 0.3\), kulmaksi tulee
+\begin{equation} \theta = \arctan \frac{1}{2 \mu} = \arctan \frac{1}{0.6} = 1.030 \un{rad} = 59^\circ. \end{equation}
+
+ \eval  Lopputulos on yllättävän yksinkertainen, mutta koska kaikkien voimien suuruus on verrannollinen korttien painoon ja voimien varsien pituudet ovat verrannolliset kortin pituuteen, nämä tekijät supistuvat lopputuloksesta pois. Korttitalo on siis statiikan näkökulmasta ihan yhtä helppo rakentaa minkä kokoisista korteista tahansa.
+
+Kun kitkakerroin kasvaa, \(\frac{1}{2 \mu}\) pienenee. Arkustangentti on aidosti kasvava funktio, joten myös \(\theta = \arctan \frac{1}{2 \mu}\) pienenee. Tämä on järkevää, koska korttitalon rakentaminen on sitä helpompaa, mitä vähemmän kortit pääsevät liukumaan. Siispä suuren kitkakertoimen alustalla talo pysyy pystyssä pienemmällä kulmalla \(\theta\).
+
+Kitkakertoimella 0.3 kulmaksi saatiin likimain \(60^\circ\), eli korteista voi tehdä suunnilleen tasasivuisen kolmion, ja se pysyy vielä pystyssä. Tulos on järkevä, mutta tässä analysoitiin vasta tilanne, jossa korttien päällä ei ole kuormaa. Jos otetaan huomioon, että yleensä korttitaloissa kortteja ladotaan kerroksittain toistensa päälle, vapaakappalekuvaan pitää lisätä A-muodon päällä olevien korttien paino, joka tuottaa korttien yläpäähän niitä alaspäin painavan voiman. Tällöin korttien pitää olla jyrkemmin pystyssä, jotta talo ei kaatuisi. (Voit itse ratkaista tämän hiukan monimutkaisemman tapauksen. Lopputulos on, että jos korttien päällä on paljon painoa, ne pysyvät pystyssä kunhan kulma \(\theta\) on vähintään \(73^\circ\).)
+
+\end{exam}
+
 \section{Kulmaliikemäärä}
 \label{kulmaliikemäärä}
 
@@ -8393,7 +8600,7 @@ Edellä esitetty määritelmä toimii aivan yhtä hyvin sekä pyöriville että 
 \captionof{figure}{
 Suora liike ja kiertoliike, joilla on sama kulmaliikemäärä.
 }
-\includegraphics[height=0.3\textwidth]{figs/pyoriminen_kulmaliikemaara_3.pdf} 
+\includegraphics[height=0.28\textwidth]{figs/pyoriminen_kulmaliikemaara_3.pdf} 
 \label{fig:pyoriminenkulmaliikemaara2a}
 \end{wrapfigure}
 
@@ -8419,6 +8626,62 @@ Lisäksi samoin kuin momentilla kulmaliikemäärälläkin on etumerkki: Kulmalii
 Kulmaliikemäärä on ekstensiivinen suure, joten minkä tahansa kappaleen kulmaliikemäärä on sen hiukkasten kulmaliikemäärien summa. Lisäksi jäykkien kappaleiden kulmaliikemäärä voidaan määrittää laskemalla erikseen kappaleen massakeskipisteen rataliikkeen kulmaliikemäärä ja kappaleen pyörimisen kulmaliikemäärä massakeskipisteen ympäri. Tällöin kappaleen kokonaiskulmaliikemäärä saadaan näiden summana,
 \begin{equation} L_{\theta} = L_{\theta,\text{cm}} + L_{\theta,\text{rotaatio}}, \end{equation}
 aivan samaan tapaan kuin kappaleen liike-energia voitiin laskea massakeskipisteen rataliikkeen energian ja massakeskipisteen ympäri tapahtuvan pyörimisen liike-energian summana.
+
+\begin{exam}{Kulmaliikem\"a\"ar\"a}{ex:kulmaliikemaara_lasku}\noindent
+
+\problem{Frisbee-kiekon säde on \(12 \un{cm}\) ja massa \(42 \un{g}\). Kaverisi heittää kiekkonsa niin, että se pyörii \(8.5\) kierrosta sekunnissa ja etenee suoraan \(3.5 \un{m/s}\) vauhdilla. Kiekko ohittaa sinut \(1.3 \un{m}\) etäisyydeltä. Mikä on kiekon kulmaliikemäärä sinun suhteesi?
+}
+
+ \twocol{0.55}{0.44}{ 
+\setup  Piirretään tilanteesta kuva. Tehtävässä ei kerrottu, kumpaan suuntaan kiekko pyörii, joten on syytä tarkastella erikseen kumpikin suunta, mutta piirretään kuvaan vain toinen mahdollinen tapaus. Merkitään kiekon sädettä \(R = 0.12 \un{m}\), sen massaa \(m = 0.042 \un{kg}\), hitausmomenttia massakeskipisteen suhteen \(I_{\theta,\text{cm}}\), kulmanopeutta \(\omega_{\theta,\text{cm}} = 2\pi \un{rad/kierros} \cdot 8.5 \un{kierros/s} = 53.4 \un{s}^{-1}\), vauhtia \(v = 3.5 \un{m/s}\) ja ohitusetäisyyttä \(r_{\perp v} = 1.3 \un{m}\).
+
+}{%
+\begin{center}%
+\includegraphics[width=0.85\textwidth]{figs/pyoriminen_esim_kulmaliikemaara.pdf}%
+\end{center}%
+}
+
+ \physics  Kiekolla on sekä etenevän että pyörivän liikkeen kulmaliikemäärää. Pyörivän liikkeen liikemäärä lasketaan kiekon massakeskipisteen suhteen, ja se on hitausmomentin ja kulmaliikemäärän tulo,
+\begin{equation} L_{\theta,\text{rotaatio}} = I_{\theta,\text{cm}} \omega_{\theta,\text{cm}}. \end{equation}
+Kiekon muotoisen kappaleen hitausmomentti on esimerkin \autoref{ex:hitausmomentti} perusteella
+\begin{equation} I_{\theta,\text{cm}} = \frac{1}{2}mR^2, \end{equation}
+ja vaikka Frisbee-kiekot eivät olekaan aivan ideaalisia, symmetrisiä kiekkoja, tämä malli riittää.
+
+Etenevän liikkeen kulmaliikemäärä riippuu akselista, jonka suhteen se lasketaan. Kulmaliikemäärä on kiekon massakeskipisteen liikesuoran akselista mitatun lyhyimmän etäisyyden sekä kiekon liikemäärän tulo,
+\begin{equation} L_{\theta,\text{cm}} = r_{\perp v} p = r_{\perp v} m v. \end{equation}
+
+Kokonaiskulmaliikemäärä on näiden summa,
+\begin{equation} L_{\theta} = L_{\theta,\text{cm}} + L_{\theta,\text{rotaatio}}. \end{equation}
+Tässä kuitenkin pitää huomioida pyörimissuunnat. Kuvassa positiivinen suunta on valittu myötäpäivään. Kiekko pyörii myötäpäivään ja ohittaa akselin kuvassa yläpuolelta liikkuen oikealle eli samaan suuntaan kuin myötäpäivään kiertäessä. Niinpä etenevän ja pyörivän liikkeen kulmaliikemäärät ovat molemmat kuvassa positiivisia ja niiden suuruudet lasketaan yhteen. Jos kiekko pyörisikin vastakkaiseen suuntaan, pyörivän liikkeen kulmaliikemäärä olisi negatiivinen. Erityisesti kulmaliikemäärillä olisi tällöin vastakkaiset etumerkit, ja kokonaiskulmaliikemäärä olisi niiden itseisarvojen erotus,
+\begin{equation} L_{\theta} = |L_{\theta,\text{cm}}| - |L_{\theta,\text{rotaatio}}|. \end{equation}
+
+ \solu  Kiekon pyörivän liikkeen kulmaliikemäärä on
+\begin{equation} L_{\theta,\text{rotaatio}} = \frac{1}{2}mR^2 \omega_{\theta,\text{cm}}
+ = 0.016 \un{kgm}^2/\text{s}, \end{equation}
+ja etenevän liikkeen
+\begin{equation} L_{\theta,\text{cm}} = r_{\perp v} m v = 0.191 \un{kgm}^2/\text{s}. \end{equation}
+Yhteensä kuvan tilanteessa kulmaliikemäärä on
+\begin{equation} L_{\theta} = |L_{\theta,\text{cm}}| + |L_{\theta,\text{rotaatio}}| = 0.21 \un{kgm}^2/\text{s}. \end{equation}
+Jos kiekko pyöriikin vastakkaiseen suuntaan, kulmaliikemäärä on
+\begin{equation} L_{\theta} = |L_{\theta,\text{cm}}| - |L_{\theta,\text{rotaatio}}| =  0.17 \un{kgm}^2/\text{s}. \end{equation}
+
+\eval Kiekon etenevän liikkeen kulmaliikemäärä on paljon suurempi kuin sen pyörimisen kulmaliikemäärä. Tässä ei ole mitään ihmeellistä, sillä etenevän liikkeen kulmaliikemäärä on sitä suurempi, mitä kauempaa kappale akselin ohittaa. Tämä kulmaliikemäärä voi siis olla kuinka suuri tahansa. Erityisesti ei siis saa ajatella, että kulmaliikemäärä liittyy vain pyörimiseen.
+
+Tehdäänpä vielä hiukan tarkempi vertailu. Kiekon pyöriessä sen ulkoreunan pisteet liikkuvat massakeskipisteen suhteen nopeudella
+\begin{equation} v_\vartheta = \omega_{\theta, \text{cm}} R = 6.4 \un{m/s}. \end{equation}
+Jos kiekon koko massa olisi sen ulkoreunalla etäisyydellä \(R\) keskipisteestä ja kiertäisi sitä tällä vauhdilla, sillä olisi kulmaliikemäärä
+\begin{equation} L_{\theta} = R m v_\vartheta = 0.032 \un{kgm}^2/\text{s}. \end{equation}
+Tämä on itse asiassa täsmälleen kaksinkertainen arvo verrattuna äsken laskettuun pyörivän liikkeen kulmaliikemäärään \(L_{\theta,\text{rotaatio}} = 0.016 \un{kgm}^2/\text{s}\). Tämä johtuu siitä, että kiekon koko massa ei ole sen reunalla vaan massaa on jakautunut koko kiekon alueella, ja sen takia kiekon hitausmomentin lausekkeessa on kerroin \(\frac{1}{2}\).
+
+Joka tapauksessa pyörivän liikkeen kulmaliikemäärä on suuruusluokkaa
+\begin{equation} L_{\theta,\text{rotaatio}} \approx R m v_\vartheta \end{equation}
+ja etenevän liikkeen kulmaliikemäärä on
+\begin{equation} L_{\theta,\text{cm}} = r_{\perp v} m v. \end{equation}
+Näiden suhde on siis
+\begin{equation} \frac{L_{\theta,\text{rotaatio}}}{L_{\theta,\text{cm}}} \approx \frac{R v_\vartheta}{r_{\perp v} m v}. \end{equation}
+Tässä esimerkissä kiekon ulkoreuna kiertää sen keskusta noin kaksinkertaisella nopeudella kuin millä kiekon keskipiste liikkuu, mutta kiekon säde on vain kymmenesosa etäisyydestä, jolla kiekko ohittaa akselin. Niinpä tämän arvion mukaan \( \frac{L_{\theta,\text{rotaatio}}}{L_{\theta,\text{cm}}} \approx \frac{1}{5} \) eli pyörimisen kulmaliikemäärä on selvästi pienempi kuin etenevän liikkeen kulmaliikemäärä. Aikaisemman laskumme mukaan itse asiassa \( \frac{L_{\theta,\text{rotaatio}}}{L_{\theta,\text{cm}}} \approx \frac{1}{10} \), ja ero johtuu taas siitä, että hitausmomentin kerroin \(1/2\) jätettiin äskeisessä karkeassa arviossa huomioimatta.
+
+\end{exam}\newpage
 
 \subsection{Kulmaliikemäärän säilymislaki}
 \label{kulmaliikemääränsäilymislaki}
@@ -8511,7 +8774,7 @@ Tässä \emph{johdimme} kulmaliikemäärän säilymislain jäykille kappaleille 
 \stopper{Kirjoita omin sanoin tiivistelmä kulmaliikemäärästä. Määrittele sekä pyörivän että etenevän liikkeen kulmaliikemäärä, selitä miten kulmaliikemäärä voi muuttua, ja perustele tätä kautta, millaisessa systeemissä kulmaliikemäärä on vakio.
 }
 
-\begin{exam}{Kulmaliikem\"a\"ar\"a}{ex:kulmaliikemaara}\noindent
+\begin{exam}{Kulmaliikem\"a\"ar\"an s\"ailyminen}{ex:kulmaliikemaara}\noindent
 
 \problem{Satelliitti pyörii pituusakselinsa ympäri nopeudella 1.62 radiaania sekunnissa. Satelliitin rungon hitausmomentti on 2.30 kgm\(^2\). Lisäksi satelliitissa on kaksi kevyttä ``käsivartta'', joiden päissä on 353 g massaiset mittalaitteet. Käsivarret ovat symmetrisesti satelliitin vastakkaisilla puolilla. Aluksi laitteet ovat etäisyydellä 12 cm satelliitin pyörimisakselista. Sitten käsivarret oikaistaan, jolloin mittalaitteet siirtyvät etäisyydelle 55 cm satelliitin pyörimisakselista. Mikä on satelliitin pyörimisnopeus tämän jälkeen?
 }
@@ -8766,7 +9029,7 @@ Kulmaliikemäärävektorin muutosnopeus on sama kuin momenttivektori. Koska mome
 \noindent
 \hspace*{-1.2cm}
 \begin{tabular}{p{1.2\textwidth}}
-\standout{Differentiaalit ja vektorit}{
+\standout{Vektorit}{
 \begin{multicols}{2}
 
 \begin{itemize}
@@ -9025,7 +9288,7 @@ impulssi           & $I_x = \int F_x \dd t$     & impulssimomentti  & $J_\theta 
 \textbf{5.5} Karuselli tekee kierroksen eli kulman \(\Delta \theta = 2 \pi\) ajassa \(\Delta t = 20 \un{s}\), joten kulmanopeus on \(\omega_\theta = \frac{1}{10} \pi \un{s}^{-1} = 0.314 \un{s}^{-1}. \) Tämä on sama kummallekin matkustajalle. Kauempana akselista oleva matkustaja kuitenkin liikkuu nopeammin, sillä hän kulkee pidemmän ympyrän karusellin tehdessä kierroksen. Nopeudet ovat \(0.47 \un{m/s}\) ja \(0.79 \un{m/s}\).
 
 \textbf{5.6} (a) Kun \(\theta=0\), \(\uv{r} = \uv{i}\) ja \(\uv{\vartheta} = \uv{j}\). Näin pitääkin olla, koska tarkastelupiste on \(x\)-akselilla.\\
-(b) Kun \(\theta\) on hyvin pieni, tarkastelupiste on siirtynyt hieman positiiviseen kiertosuuntaan. Tällöin \(\uv{r}\) kääntyy hieman kohti positiivista \(y\)-suuntaa ja \(\uv{\vartheta}\) kohti negatiivista \(y\)-suuntaa. Kun \(\theta = 0.1\), vektoreiksi saadaan
+(b) Kun \(\theta\) on hyvin pieni, tarkastelupiste on siirtynyt hieman positiiviseen kiertosuuntaan. Tällöin \(\uv{r}\) kääntyy hieman kohti positiivista \(y\)-suuntaa ja \(\uv{\vartheta}\) kohti negatiivista \(x\)-suuntaa. Kun \(\theta = 0.1\), vektoreiksi saadaan
 \(\uv{r} \approx 0.995 \uv{i} + 0.1 \uv{j} \) sekä
 \(\uv{\vartheta} \approx -0.1 \uv{i} + 0.995 \uv{j}\), joten näin todella käy.\\
 (c) Kun \(\theta = \frac{2}{3}\pi\), tarkastelupiste on kääntynyt \(30^\circ\) ohi positiivisesta \(y\)-akselista. Radiaalivektorin täytyy osoittaa origosta ylävasemmalle, jolloin sillä on negatiivinen \(x\)-komponentti sekä positiivinen \(y\)-komponentti, ja näistä \(y\)-komponentti on itseisarvoltaan suurempi. Vastaavasti tangenttivektori osoittaa alavasemmalle, joten tällä vektorilla sekä \(x\)- että \(y\)-komponentit ovat negatiiviset, ja \(x\)-komponentti on pidempi.
@@ -11151,7 +11414,7 @@ Tällaista kappaletta ei tietenkään ole, mutta esimerkiksi vakiosähkökentäs
 \textbf{6.4} (a) Sukkulan voi ajatella olevan tasaisesti kiihtyvässä vapaassa pudotuksessa, joten se putoaa levosta sekunnissa matkan
 \(\Delta y = \frac{1}{2} g (\Delta t)^2 = 4.45 \un{m}.\)
 (Huomaa, että nyt \(g=8.9 \un{m/s}^2\).\\
-(b) Jos sukkulalla olisi nopeus \(v\) maanpinnan suuntaan ja se ei putoaisi alaspäin, se kulkisi sekunnissa sivusuuntaisen matkan \(\Delta x = v \Delta t\). Voimme piirtää suorakulmaisen kolmion, jonka yksi kärki (A) on maan keskipisteessä, toinen (B) sukkulan alkuperäisessä paikassa, ja kolmas (C) sukkulan paikassa siirtymän jälkeen. Kateetin AB pituus on \(L_{AB} = 6700 \un{km}\) ja kateetin BC pituus on \(L_{BC} = \Delta x\). Hypotenuusa AC on hieman kateettia AB pidempi, \(L_{AC} = \sqrt{L_{AB}^2 + L{BC}^2} = \sqrt{L_{AB}^2 + (\Delta x)^2}\). Kuitenkin koska sukkula todellisuudessa putoaa, se ei päädy pisteeseen C vaan likimain matkan \(\Delta y = 4.45 \un{m}\) tätä lähemmäs pistettä A. Nyt pitää siis ratkaista \(\Delta x\) niin, että \(L_{AC} = L_{AB} + \Delta y. \) Korottamalla tämä yhtälö puolittain neliöön ja sijoittamalla aikaisemmat tulokset saadaan
+(b) Jos sukkulalla olisi nopeus \(v\) maanpinnan suuntaan ja se ei putoaisi alaspäin, se kulkisi sekunnissa sivusuuntaisen matkan \(\Delta x = v \Delta t\). Voimme piirtää suorakulmaisen kolmion, jonka yksi kärki (A) on maan keskipisteessä, toinen (B) sukkulan alkuperäisessä paikassa, ja kolmas (C) sukkulan paikassa siirtymän jälkeen. Kateetin AB pituus on \(L_{AB} = 6700 \un{km}\) ja kateetin BC pituus on \(L_{BC} = \Delta x\). Hypotenuusa AC on hieman kateettia AB pidempi, \(L_{AC} = \sqrt{L_{AB}^2 + L_{BC}^2} = \sqrt{L_{AB}^2 + (\Delta x)^2}\). Kuitenkin koska sukkula todellisuudessa putoaa, se ei päädy pisteeseen C vaan likimain matkan \(\Delta y = 4.45 \un{m}\) tätä lähemmäs pistettä A. Nyt pitää siis ratkaista \(\Delta x\) niin, että \(L_{AC} = L_{AB} + \Delta y. \) Korottamalla tämä yhtälö puolittain neliöön ja sijoittamalla aikaisemmat tulokset saadaan
 \( L_{AC}^2 = L_{AB}^2 + (\Delta x)^2 = L_{AB}^2 + 2L_{AB} \Delta y + (\Delta y)^2 \) josta \( (\Delta x)^2 = 2L_{AB} \Delta y + (\Delta y)^2 \) eli
 \( \Delta x = \sqrt{2L_{AB} \Delta y + (\Delta y)^2} \approx \sqrt{2L_{AB} \Delta y } \approx 7700 \un{m}. \)
 Sukkulan pitää siis liikkua sivusuuntaisella nopeudella \( 7.7 \un{km/s}\), jotta se pysyisi vapaassa pudotuksessa jatkuvasti yhtä kaukana maasta (eli kiertoradalla).\\
@@ -14750,7 +15013,7 @@ Tällaisen prosessin kulun voi esittää graafisesti yksinkertaisesti piirtämä
 }
 
 \begin{figure}[tb]
-\caption{Kvasistaattisen prosessin \\(pV\\)-diagrammi. Kukin koordinaatiston piste esittää tasapainotilaa. Kvasistaattinen prosessi koostuu tasapainotilojen sarjasta, joten sitä kuvaa alkutilaa esittävästä pisteestä lopputilaa esittävään pisteeseen kulkeva käyrä.
+\caption{Kvasistaattisen prosessin \(pV\)-diagrammi. Kukin koordinaatiston piste esittää tasapainotilaa. Kvasistaattinen prosessi koostuu tasapainotilojen sarjasta, joten sitä kuvaa alkutilaa esittävästä pisteestä lopputilaa esittävään pisteeseen kulkeva käyrä.
 }
 \footnotesize
 \begin{center}
