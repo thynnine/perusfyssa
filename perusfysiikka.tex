@@ -754,7 +754,7 @@ Lukuarvon ilmoittaminen kymmenen potensseissa tarkoittaa \textbf{logaritmisen as
 
 Suuruusluokkien arviointi on laskuteknisesti melko helppoa, mutta ongelmien paloittelu pienempiin osiin ja näiden arviointi voi joskus olla haastavaa, joten tätäkin taitoa on syytä erikseen harjoitella.
 
-\stopper{Arvioi, montako a-kirjainta (ei ole väliä, onko kyseessä iso vai pieni kirjain) koko tässä tekstissä (noin 700 sivua) kaikkiaan on?
+\stopper{Arvioi, montako a-kirjainta (ei ole väliä, onko kyseessä iso vai pieni kirjain) koko tässä kirjassa (noin 800 sivua) kaikkiaan on?
 }
 
 \begin{exam}{Maapallon ja atomin suuruusluokat}{ex:suuruus}\noindent
@@ -1063,6 +1063,29 @@ Kaikkien näiden asioiden muistamiseksi käy muistisääntö \emph{``KEVYT''}:
 } 
 
 \end{tabular}
+
+
+\begin{table}[h!]
+\caption{Kreikkalaiset aakkoset. Etenkin pieniä kirjaimia käytetään matemaattisessa esityksessä suureiden symboleina. 
+}
+\vspace*{-4mm}
+\begin{center}
+\bgroup
+\small
+\def\arraystretch{0.9}
+\begin{tabular}{rlrlrlrlrlrl}
+$A, \alpha$ & alfa & $E, \varepsilon$ & epsilon & $I, \iota$ & ioota & $N, \nu$ & nyy & $P, \rho$ & roo & $\Phi, \varphi$ & fii \\
+$B, \beta$ & beeta & $Z, \zeta$ & zeeta & $K, \kappa$ & kappa & $\Xi, \xi$ & ksii & $\Sigma, \sigma$ & sigma & $X, \chi$ & khii \\
+$\Gamma, \gamma$ & gamma & $H, \eta$ & eeta & $\Lambda, \lambda$ & lambda & $O, o$ & omikron & $T, \tau$ & tau & $\Psi, \psi$ & psii \\
+$\Delta, \delta$ & delta & $\Theta, \theta$ & theeta & $M, \mu$ & myy & $\Pi, \pi$ & pii & $Y, \upsilon$ & ypsilon & $\Omega, \omega$ & oomega
+\end{tabular}
+\egroup
+\end{center}
+\end{table}
+\newpage
+
+
+
 
 \begin{instructions}{Vastaukset pohdintakysymyksiin}{vastaus:johdanto}{ht!}\noindent
 
@@ -15252,7 +15275,7 @@ Kaasuun tehty työ puolestaan saadaan integroimalla painetta tilavuuden muutokse
 \begin{equation} W_\text{sis\"a\"an} = W_\text{kokonais} = -\int_{V_\text{alku}}^{V_\text{loppu}} p \dd V. \end{equation}
 
 Kaasun sisäenergia riippuu ainoastaan sen lämpötilasta, joten isotermisessä prosessissa lämpötila ja sisäenergia ovat vakiot,
-\( \Delta E_\text{sis/"a} = 0. \)
+\( \Delta E_\text{sis\"a} = 0. \)
 Tällöin energian säilymisen perusteella kaasun täytyy luovuttaa prosessissa ympäristöönsä energiaa lämpönä yhtä paljon kuin se vastaanottaa työnä, \(Q_\text{ulos} = W_\text{sis\"a\"an}\).
 
  \solu  Lasketaan tehty työ integroimalla.
@@ -15513,7 +15536,7 @@ Esimerkiksi kiinteän aineen sulattaminen vaatii energiaa, jonka aine yleensä v
 }
 
  \setup  Jään ominaislämpökapasiteetti on noin \(c^m_V = 2.1 \un{J/gK}\) ja veden sulamisen latenttilämpö on \(L = 334 \un{J/g}\).
-Jään alkulämpötila on noin \(T_\text{alku} = 255 \un{K}\) ja loppulämpötila \(T_\text{loppu} = 273 \un{K}\). Ympäristön lämpötila on \(T_\text{ymp\"arist/"o} = 293 \un{K}\).
+Jään alkulämpötila on noin \(T_\text{alku} = 255 \un{K}\) ja loppulämpötila \(T_\text{loppu} = 273 \un{K}\). Ympäristön lämpötila on \(T_\text{ymp\"arist\"o} = 293 \un{K}\).
 
  \physics Jääpala vastaanottaa energiaa lämpönä, joten prosessissa \(\dd Q_\text{kokonais}\) on jääpalalle koko ajan positiivinen ja palan entropia kasvaa. Ympäristö puolestaan luovuttaa energiaa lämpönä, joten ympäristön entropia pienenee. Molemmille entropian muutos on
 \begin{equation} S = \int \frac{\dd Q_\text{kokonais}}{T}. \end{equation}
@@ -15532,7 +15555,7 @@ Kaikkiaan jääpalan entropian muutos on
 (c) Entropian kokonaismuutos on
 \begin{equation} \Delta S_\text{kokonais} = \Delta S_\text{j\"a\"a} + \Delta S_\text{ymp\"arist\"o} = 0.9 \un{J/K}. \end{equation}
 
- \eval  Prosessi on kokonaisuudessaan irrseversiibeli, sillä lämpimään huoneeseen jätetty jääpala muuttuu itsestään vesilammikoksi, mutta vesilammikko ei muutu itsestään jääpalaksi. Tämä näkyy myös siinä, että palan ja sitä ympäröivän huoneen kokonaisentropia kasvaa. Huonehan voisi olla eristetty systeemi, joten sen sisällä tapahtuvassa irreversiibelissä prosessissa entropian täytyy kasvaa.
+ \eval  Prosessi on kokonaisuudessaan irreversiibeli, sillä lämpimään huoneeseen jätetty jääpala muuttuu itsestään vesilammikoksi, mutta vesilammikko ei muutu itsestään jääpalaksi. Tämä näkyy myös siinä, että palan ja sitä ympäröivän huoneen kokonaisentropia kasvaa. Huonehan voisi olla eristetty systeemi, joten sen sisällä tapahtuvassa irreversiibelissä prosessissa entropian täytyy kasvaa.
 
 \end{exam}
 
