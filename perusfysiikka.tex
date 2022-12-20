@@ -431,6 +431,7 @@ $\displaystyle #1$
 \LARGE
 \textbf{\usefont{OT1}{pag}{m}{n}\selectfont
 Fysiikan perusteet
+%Maailman käsikirja
 }\\
 \vspace*{20mm}
 \large
@@ -1119,8 +1120,8 @@ Laskennallisesti aikavälillä \(t = 0 \ldots 4\) s \(x\) muuttuu arviolta \(2.8
 (c) Laskun \(a^2\) tarkkuus on 2 merkitsevää numeroa, \(0.12^2 = 0.014\). Laskun \(b - a^2\) tarkkuus määräytyy desimaaleista, \(3.45-0.014 = 3.44\). Huomaa, että tässä järkevä tarkkuus on kaksi desimaalia eikä kaksi merkitsevää numeroa, koska viimeinen laskutoimitus on vähennyslasku kaksi- ja kolmedesimaalisen luvun välillä.
 
 \textbf{0.7} A-kirjain on suomen yleisin kirjain. Arvioidaan karkeasti, että kaikista kirjaimista osuus \(n_{\text{a}/\text{kirjain}} = 10^{-1}\) on a-kirjaimia.
-Yhdellä rivillä on noin \(n_{\text{kirjain}/\text{rivi}} = 10^2\) kirjainta ja yhdellä sivulla on keskimäärin noin \(n_{\text{rivi}/\text{sivu}} = 4 \cdot 10^1\) riviä (kunkin sivun rivien määrä riippuu tietenkin siitä, onko sivulla esim. kuvia). Materiaalia on noin \(n_\text{sivu} = 7 \cdot 10^{2}\) sivua, joten kaikkiaan a-kirjaimia on
-\( n_{\text{a}} = n_{\text{a}/\text{kirjain}} n_{\text{kirjain}/\text{rivi}} n_{\text{rivi}/\text{sivu}} n_\text{sivu} = 10^{-1} \cdot 10^2 \cdot 4 \cdot 10^1 \cdot 7 \cdot 10^2 = 28 \cdot 10^{4} \approx 10^5. \)
+Yhdellä rivillä on noin \(n_{\text{kirjain}/\text{rivi}} = 10^2\) kirjainta ja yhdellä sivulla on keskimäärin noin \(n_{\text{rivi}/\text{sivu}} = 4 \cdot 10^1\) riviä (kunkin sivun rivien määrä riippuu tietenkin siitä, onko sivulla esim. kuvia). Materiaalia on noin \(n_\text{sivu} = 8 \cdot 10^{2}\) sivua, joten kaikkiaan a-kirjaimia on
+\( n_{\text{a}} = n_{\text{a}/\text{kirjain}} n_{\text{kirjain}/\text{rivi}} n_{\text{rivi}/\text{sivu}} n_\text{sivu} = 10^{-1} \cdot 10^2 \cdot 4 \cdot 10^1 \cdot 8 \cdot 10^2 = 32 \cdot 10^{4} \approx 10^6. \)
 Tässä materiaalissa on siis arviolta \(10^5\)--\(10^6\) a-kirjainta.
 
 \textbf{0.8} (a) Funktion arvo selviää suoralla sijoituksella, \(x(0) = 1 + 2/3 = 5/3\).
@@ -1218,12 +1219,13 @@ Mekaniikan perustehtäviä onkin selvittää, missä kappaleet milläkin ajan he
 
 Paikan muuttumista ajan kuluessa kuvaa \textbf{nopeus}. Jos kappale siirtyy yhden metrin yhdessä sekunnissa, kappaleen \textbf{keskimääräinen nopeus} on yksi metri sekunnissa (1 m\slash s) eli siirtymän ja siihen käytetyn ajan suhde,
 \begin{equation} v_{x,\text{keskiarvo}} = \frac{\Delta x}{\Delta t}. \label{keskinopeus}\end{equation}
-Keskimääräinen nopeus riippuu kuitenkin yleensä siitä, kuinka pitkän ajanjakson \(\Delta t\) yli nopeutta mitataan.
+Toinen samantyyppinen suure on \emph{vauhti}, joka on kuljetun matkan ja siihen kuluneen ajan suhde.
 
 \stopper{Juoksija harjoittelee juoksemalla edestakaisin \(15.0\) metrin matkan. Hän juoksee ensin matkan yhteen suuntaan ajassa \(3.0\) sekuntia, pysähtyy ja kääntyy ajassa \(0.5\) sekuntia, ja juoksee takaisin lähtöpisteeseensä ajassa \(4.0\) sekuntia. (a) Mikä on juoksijan nopeus menomatkalla? (b) Entä paluumatkalla? (c) Mikä on juoksijan keskimääräinen nopeus? (d) Entä keskimääräinen vauhti?
 }
 
-Tehdään sitten ajatuskoe: Oletetaan, että jonkin kappaleen paikka tunnetaan ajan funktiona mielivaltaisella tarkkuudella. Nyt jos määritämme kappaleen siirtymän eripituisilla aikaväleillä \(\Delta t = t_\text{loppu} - t \), missä aikavälin alkuhetki \(t\) pysyy samana mutta loppuhetki \(t_\text{loppu} = t + \Delta t\) valitaan yhä lähempää alkuhetkeä, huomataan, että näin määritetty keskimääräinen nopeus \( \Delta x / \Delta t = [x(t + \Delta t) - x(t)] / \Delta t\) ei muutu mielivaltaisesti vaan lähestyy jotakin tiettyä arvoa. Matemaattisesti tätä ominaisuutta kutsutaan raja-arvoksi, ja sen avulla määritellään kappaleen hetkellinen nopeus eri lyhyemmin pelkkä nopeus
+Keskimääräinen nopeus ja vauhti riippuvat yleensä siitä, kuinka pitkän ajanjakson \(\Delta t\) yli niitä mitataan.
+Tehdään kuitenkin ajatuskoe: Oletetaan, että jonkin kappaleen paikka tunnetaan ajan funktiona mielivaltaisella tarkkuudella. Nyt jos määritämme kappaleen siirtymän eripituisilla aikaväleillä \(\Delta t = t_\text{loppu} - t \), missä aikavälin alkuhetki \(t\) pysyy samana mutta loppuhetki \(t_\text{loppu} = t + \Delta t\) valitaan yhä lähempää alkuhetkeä, huomataan, että näin määritetty keskimääräinen nopeus \( \Delta x / \Delta t = [x(t + \Delta t) - x(t)] / \Delta t\) ei muutu mielivaltaisesti vaan lähestyy jotakin tiettyä arvoa. Matemaattisesti tätä ominaisuutta kutsutaan raja-arvoksi, ja sen avulla määritellään kappaleen hetkellinen nopeus eri lyhyemmin pelkkä nopeus
 \begin{equation} v_x = \lim_{\Delta t \to 0} \frac{\Delta x}{\Delta t} = \frac{\dd x}{\dd t}. \label{nopeuskomponentti} \end{equation}
 Tämä on suure, joka riippuu ajan hetkestä \( t \) eli toisin sanoen hetkellinen nopeus on ajan funktio, \( v_x(t) \), kuten kappaleen paikkakoordinaattikin. Alaindeksi \(x\) on tässä muistuttamassa, että kyseessä on nopeus suuntaan, jossa \(x\) kasvaa --- \emph{jos liike suuntautuu negatiiviseen \(x\)-suuntaan, myös nopeus \(v_x\) on negatiivinen}.
 
@@ -2973,7 +2975,7 @@ Vaunujen törmäyksen analyysi.
 Ymmärtääksemme rekan ja kärpäsen törmäyksen tutkimme seuraavaksi kappaleiden törmäyksiä kokeellisesti. Tätä varten hankimme suoran radan ja radalla lähes kitkattomasti liikkuvia vaunuja. Näihin vaunuihin kohdistuvat dissipatiiviset vuorovaikutukset ovat niin heikot, että vaunujen liike-energia pysyy likimain vakiona ja vaunut siis kulkevat radalla vakionopeudella. Vaunuissa on myös joustavat puskurit, jolloin ne törmätessään kimpoavat toisistaan elastisesti niin, että vaunujen muodostaman systeemin mekaaninen energia on likimain vakio.
 Annamme vaunujen törmätä tällä radalla ja mittaamme vaunujen liikkeen videoimalla. Voimme kokeen jälkeen palata tutkimaan törmäyksestä saatua kuvamateriaalia kuva kuvalta (kuva \autoref{fig:liikemaaratormays_malli} (a)) ja määrittää näin vaunujen paikat tasaisin väliajoin. Tämän perusteella voimme piirtää vaunujen paikan kuvaajan (kuva \autoref{fig:liikemaaratormays_malli} (b)).
 
-\stopper{Vaunu liikkuu aluksi negatiiviseen \(x\)-suuntaan vauhdilla \(2.0 \un{m/s}\) ja lopuksi positiiviseen suuntaan vauhdilla \(1.0 \un{m/s}\). Mikä on (a) vauhdin muutos, (b) nopeuden muutos? (c) Millainen on vaunun nopeuden kuvaaja?
+\stopper{Vaunu liikkuu aluksi negatiiviseen \(x\)-suuntaan vauhdilla \(2.0 \un{m/s}\) ja törmäyksen jälkeen positiiviseen suuntaan vauhdilla \(1.0 \un{m/s}\). Mikä on (a) vauhdin muutos, (b) nopeuden muutos? (c) Millainen on vaunun nopeuden kuvaaja?
 }
 
 \begin{wrapfigure}{R}{0.3\textwidth}
@@ -3075,7 +3077,7 @@ A:n nopeuden muutos on siis \(\Delta v_{x,A} = -1.00 \un{m/s}\) (huomaa, että t
 \begin{equation} \frac{\Delta v_{x,A} }{ \Delta v_{x,B} } = - 2.00 \end{equation}
 eli jälleen vaunujen nopeudet muuttuvat vastakkaisiin suuntiin ja \emph{nopeuksien muutosten suhde on kääntäen verrannollinen kappaleiden kokoon tai täsmällisemmin niiden massaan}.
 
-\stopper{Vaunun A massa on 2 yksikköä ja vaunun B massa 5 yksikköä. Vaunujen nopeudet ovat aluksi \(v_{x,A} = 3.00 \un{m/s}\) ja \(v_{x,B} = 0.20 \un{m/s}\) ja vaunun A nopeus on lopuksi \(v_{x,A} = -1.00 \un{m/s}\). Ennusta, mikä on\\
+\stopper{Vaunun A massa on 2 yksikköä ja vaunun B massa 5 yksikköä. Vaunut törmäävät. Nopeudet ovat aluksi \(v_{x,A} = 3.00 \un{m/s}\) sekä \(v_{x,B} = 0.20 \un{m/s}\) ja vaunun A nopeus on lopuksi \(v_{x,A} = -1.00 \un{m/s}\). Ennusta, mikä on\\
 (a) A:n nopeuden muutos,\\
 (b) B:n nopeuden muutos,\\
 (c) B:n loppunopeus.
@@ -6765,8 +6767,8 @@ Erilaisia viivaintegraaleja. Polkua ympäröivän viivan väri kertoo, onko liik
 &
 (b) Muutuva voima.
 \\ 
-\includegraphics[height=0.33\textwidth]{figs/moniulotteinen_viivaintegraali_7.pdf} &
-\includegraphics[height=0.33\textwidth]{figs/moniulotteinen_viivaintegraali_8.pdf}
+\includegraphics[height=0.33\textwidth]{figs/moniulotteinen_viivaintegraali_7.png} &
+\includegraphics[height=0.33\textwidth]{figs/moniulotteinen_viivaintegraali_8.png}
 \end{tabular}
 %\vspace*{5mm}
 \label{fig:moniulotteinenviivaintegraali2b}
@@ -6903,7 +6905,7 @@ Kuitenkin koska potentiaalienergia on paikan funktio, sillä täytyy olla pistee
 &
 (c) Työ on negatiivinen, joten vuorovaikutus ei ole konservatiivinen.
 \\
-\includegraphics[height=0.3\textwidth]{figs/moniulotteinen_viivaintegraali_9.pdf} &
+\includegraphics[height=0.3\textwidth]{figs/moniulotteinen_viivaintegraali_9.png} &
 \includegraphics[height=0.3\textwidth]{figs/moniulotteinen_viivaintegraali_10.pdf} &
 \includegraphics[height=0.3\textwidth]{figs/moniulotteinen_viivaintegraali_11.pdf} 
 \end{tabular}
@@ -7062,7 +7064,7 @@ Tämä tehtävä yleistyy mielivaltaisen potentiaalienergian tapaukseen: jos tie
 \\
 \includegraphics[height=0.31\textwidth]{figs/moniulotteinen_korkeuskayra_1.pdf} &
 \includegraphics[height=0.31\textwidth]{figs/moniulotteinen_korkeuskayra_2.pdf} &
-\includegraphics[height=0.31\textwidth]{figs/moniulotteinen_korkeuskayra_3.pdf} \\(d) Maaston profiili \\(x\\)- (sininen) ja \\(y\\)-suunnassa (punainen).
+\includegraphics[height=0.31\textwidth]{figs/moniulotteinen_korkeuskayra_3.pdf} \\(d) Maaston profiili \(x\)- (sininen) ja \(y\)-suunnassa (punainen).
 &
 (e) Profiilikuvaajien sijainti.
 &
@@ -7991,7 +7993,7 @@ Oleellista tässä jaossa etenevään ja pyörivään liikkeeseen on huomata, et
 \subsection{Hitausmomentti ja pyörimisen liike-energia}
 \label{hitausmomenttijapyörimisenliike-energia}
 
-Suoraviivaisen liikkeen laeissa kuten liikemäärän säilymislaissa ja dynamiikan peruslaissa esiintyy kaikissa kappaleen \emph{inertiaa} kuvaava massa, joka kertoo kuinka vaikea kappaleen etenemisliikettä on muuttaa. Myös pyörimisliikkeeseen liittyy inertia, joka kertoo kuinka helppoa kappaleen pyörimisliikettä on muuttaa. Tätä pyörimisen inertiaa kutsutaan \textbf{hitausmomentiksi}.
+Suoraviivaisen liikkeen laeissa kuten liikemäärän säilymislaissa ja dynamiikan peruslaissa esiintyy kaikissa kappaleen \emph{inertiaa} kuvaava massa, joka kertoo kuinka vaikea kappaleen etenemisliikettä on muuttaa. Myös pyörimisliikkeeseen liittyy inertia, joka kertoo kuinka vaikeaa kappaleen pyörimisliikettä on muuttaa. Tätä pyörimisen inertiaa kutsutaan \textbf{hitausmomentiksi}.
 
 \begin{figure}[b!]
 \caption{Jäykän sauvan hitausmomentti riippuu akselista, jonka suhteen se määritetään.
@@ -8664,7 +8666,7 @@ aivan samaan tapaan kuin kappaleen liike-energia voitiin laskea massakeskipistee
 \end{center}%
 }
 
- \physics  Kiekolla on sekä etenevän että pyörivän liikkeen kulmaliikemäärää. Pyörivän liikkeen liikemäärä lasketaan kiekon massakeskipisteen suhteen, ja se on hitausmomentin ja kulmaliikemäärän tulo,
+ \physics  Kiekolla on sekä etenevän että pyörivän liikkeen kulmaliikemäärää. Pyörivän liikkeen kulmaliikemäärä lasketaan kiekon massakeskipisteen suhteen, ja se on hitausmomentin ja kulmanopeuden tulo,
 \begin{equation} L_{\theta,\text{rotaatio}} = I_{\theta,\text{cm}} \omega_{\theta,\text{cm}}. \end{equation}
 Kiekon muotoisen kappaleen hitausmomentti on esimerkin \autoref{ex:hitausmomentti} perusteella
 \begin{equation} I_{\theta,\text{cm}} = \frac{1}{2}mR^2, \end{equation}
@@ -21870,7 +21872,7 @@ ja sen pituus on
 Tässä käytettiin myös aina pätevää yhtälöä \(\uv{r}/r^2 = \bs{r}/r^3\).
 Johdin on pisteessä A \(z\)-suuntainen, ja jos virta kiertää kuvaan merkittyyn suuntaan, virta kulkee positiiviseen \(z\)-suuntaan, jolloin
 \begin{equation} i \dd \bs{s} = i \dd s \uv{k}. \end{equation}
-Koko johtimen kenttä saadaan integroimalla renkaan ylitse, ja symmetriasta johtuen riittää tarkastella \(x\)-kompoenenttia,
+Koko johtimen kenttä saadaan integroimalla renkaan ylitse, ja symmetriasta johtuen riittää tarkastella \(x\)-komponenttia,
 \begin{equation} B = B_x = \int \dd B_x. \end{equation}
 
  \solu  Tarkasteltu johtimen osa tuottaa kentän
@@ -21985,7 +21987,7 @@ Gaussin laki magneettikentille on luonnon peruslaki aivan kuten Gaussin laki sä
 \includegraphics[width=0.28\textwidth]{figs/magnetismi_ampere_2.pdf} &
 \includegraphics[width=0.28\textwidth]{figs/magnetismi_ampere_3.pdf} &
 \includegraphics[width=0.28\textwidth]{figs/magnetismi_ampere_4.pdf} \\
-(e) Sama viivaintegraali kuin (b) ja (c).
+(e) Sama integraali kuin (b) ja (c).
 &
 (f) Reitti, joka ei kierrä johdinta.
 &
@@ -21995,7 +21997,7 @@ Gaussin laki magneettikentille on luonnon peruslaki aivan kuten Gaussin laki sä
 \\
 \includegraphics[width=0.28\textwidth]{figs/magnetismi_ampere_5.pdf} &
 \includegraphics[width=0.28\textwidth]{figs/magnetismi_ampere_6.pdf} &
-\includegraphics[width=0.28\textwidth]{figs/magnetismi_ampere_7.pdf} &
+\includegraphics[width=0.28\textwidth]{figs/magnetismi_ampere_7.png} &
 \includegraphics[width=0.28\textwidth]{figs/magnetismi_ampere_8.pdf} 
 \end{tabular}
 \end{center}
@@ -22037,10 +22039,10 @@ Itse asiassa tulos (\autoref{melkein_ampere}) pätee \emph{millä tahansa} reiti
 \begin{tabular}{ p{0.95\textwidth}  }
 (a) Reitin läpi kulkeva kokonaisvirta on nolla, joten viivaintegraali on nolla.
 \\
-\includegraphics[width=0.95\textwidth]{figs/magnetismi_ampere_9.pdf} \\
+\includegraphics[width=0.95\textwidth]{figs/magnetismi_ampere_9.png} \\
 (b) Reitin läpi kulkee nollasta poikkeava virta, joten viivaintegraali ei ole nolla. Reitin ulkopuolelle jäävät virrat eivät vaikuta viivaintegraalin arvoon.
 \\
-\includegraphics[width=0.95\textwidth]{figs/magnetismi_ampere_10.pdf} 
+\includegraphics[width=0.95\textwidth]{figs/magnetismi_ampere_10.png} 
 \end{tabular}
 \end{center}
 \label{fig:magnetismi_ampere_2}
@@ -23532,7 +23534,7 @@ Tässä tarkastelussa magneettivuo laskettiin jonkin mielivaltaisen muotoisen su
 \begin{center}
 %\hspace*{-1.5cm}
 \begin{tabular}{ p{0.9\textwidth}}
-\includegraphics[width=0.9\textwidth]{figs/induktio_faraday_2.pdf} 
+\includegraphics[width=0.9\textwidth]{figs/induktio_faraday_2.png} 
 \end{tabular}
 \end{center}
 \label{fig:induktio_faradaynlaki}
@@ -23794,8 +23796,8 @@ ja koko käämiin indusoituva jännite on
 \begin{equation} \mathcal{E} = N \mathcal{E}_\text{kierros} = - \frac{N^2A}{\Delta z} \mu_0 \frac{\dd i}{\dd t}. \label{suorainduktanssi} \end{equation}
 Indusoitunut jännite on siis suoraan verrannollinen käämin läpi kulkevan virran muutosnopeuteen eli aikaderivaattaan. Yhtälössä esiintyvä verrannollisuuskerroin on käämin ominaisuuksista riippuva vakio, jota kutsutaan käämin itseinduktanssiksi tai vain \textbf{induktanssiksi} ja merkitään symbolilla \(L\). Induktanssin avulla lausuttuna käämiin indusoitunut jännite eli potentiaaliero käämin päiden välillä on siis
 \bigeq{ \Delta V = \mathcal{E} = - L \frac{\dd i}{\dd t}. \label{induktanssi} }
-Induktanssin yksiköllä on erikoisnimi \textbf{henry}, ja sitä merkitään symbolilla H, jonka yhteys muihin SI-yksiköihin on
-\begin{equation} \un{H} = [L] = \frac{[V][t]}{[i]} = \frac{\text{Vs}}{\text{A}}. \end{equation}
+Induktanssin yksiköllä on erikoisnimi \textbf{henry} (Joseph Henryn mukaan), ja sitä merkitään symbolilla H, jonka yhteys muihin SI-yksiköihin on
+\begin{equation} \un{H} = [L] = \frac{[V][t]}{[i]} = \frac{\text{Vs}}{\text{A}} = \frac{\text{kgm}^2}{\text{s}^2\text{A}^2}. \end{equation}
 
 \stopper{Selitä yhtälössä (\autoref{induktanssi}) esiintyvän miinusmerkin fysikaalinen merkitys.
 }
@@ -24083,7 +24085,7 @@ Ainoa ero kuvissa on se, että kuvassa (a) reitti rajoittaa suoraa ympyräpintaa
 \begin{center}
 %\hspace*{-1.5cm}
 \begin{tabular}{ p{0.9\textwidth}}
-\includegraphics[width=0.9\textwidth]{figs/induktio_faraday_1.pdf} 
+\includegraphics[width=0.9\textwidth]{figs/induktio_faraday_1.png} 
 \end{tabular}
 \end{center}
 \label{fig:induktio_maxwellinlaki}
@@ -24648,17 +24650,17 @@ Nimitys kulmataajuus oikeastaan viittaakin siihen, että \(\omega\) liittyy sek�
 }
 
 \begin{figure}[tb]
-\caption{Pyörivä vaiheenosoitin piirtää harmonisen liikkeen kuvaajan. Huomaa, että tässä \\(x\\)-akseli on piirretty pystyyn.
+\caption{Pyörivä vaiheenosoitin piirtää harmonisen liikkeen kuvaajan. Huomaa, että tässä \(x\)-akseli on piirretty pystyyn.
 }
 \footnotesize
 \begin{center}
 %\hspace*{-1.5cm}
 \begin{tabular}{p{0.9\textwidth}}
-(a) Vaiheen alkuarvo määrittelee vaiheenosoittimen asennon hetkellä \\(t=0\\).
+(a) Vaiheen alkuarvo määrittelee vaiheenosoittimen asennon hetkellä \(t=0\).
 \\ 
 \includegraphics[width=0.9\textwidth]{figs/jaksollinen_vaihe_1.pdf} \\
  
-(b) Ajan kulkiessa vaiheenosoitin kääntyy ja sen \\(x\\)-komponentti piirtää kuvaajan.
+(b) Ajan kulkiessa vaiheenosoitin kääntyy ja sen \(x\)-komponentti piirtää kuvaajan.
 \\ 
 \includegraphics[width=0.9\textwidth]{figs/jaksollinen_vaihe_2.pdf} \\
  
@@ -29311,7 +29313,7 @@ Kun interferoivien aaltojen vaiheet on näin selvitetty, voimme ratkaista vaihee
 \problem{Aaltolähde tuottaa yksin aallon, jonka amplitudi on \(A\) ja intensiteetti \(I\). Systeemissä on kaksi tällaista lähdettä, joiden tuottamat aallot saapuvat havaintopisteeseen niin, että niiden välinen vaihe-ero on \(\Delta \phi\). Mikä on summa-aallon amplitudi ja intensiteetti?
 }
 
-<!-- \textbackslash{}physics `{=latex} Piirretään vaiheenosoitinkuvio, jossa on siis kaksi nuolta. Nuolten pituudet vastaavat aaltojen amplitudeja ja niiden välinen kulma on aaltojen vaihe-ero. Aaltojen superposition amplitudi on nuolten vektorisumman pituus.
+\physics  Piirretään vaiheenosoitinkuvio, jossa on siis kaksi nuolta. Nuolten pituudet vastaavat aaltojen amplitudeja ja niiden välinen kulma on aaltojen vaihe-ero. Aaltojen superposition amplitudi on nuolten vektorisumman pituus.
 
  \twocol{0.7}{0.29}{ \solu  Jaetaan vaiheenosoitinkuvioon syntynyt kolmio kahteen samanmuotoiseen suorakulmaiseen kolmioon. Kummankin kolmion hypotenuusan pituus on \(A\) ja sen toisen kateetin pituus on puolet vaiheenosoittimien summan pituudesta. Kuvasta nähdään, että näiden välinen kulma on puolet vaihe-erosta eli \(\Delta \phi/2\). Niinpä nuolten summan pituudeksi eli aaltojen summan amplitudiksi saadaan
 \begin{equation} A_\text{summa} = 2 A \cos \frac{\Delta \phi}{2}. \end{equation}
