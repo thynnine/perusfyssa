@@ -18834,7 +18834,7 @@ Potentiaali on siis tarkastelupisteessä yksi voltti, jos systeemiin potentiaali
 \subsection{Potentiaalin ja sähkökentän yhteys}
 \label{potentiaalinjasähkökentänyhteys}
 
-Vaikka määrittelimme potentiaalin systeemin potentiaalienergian kautta, potentiaalia ei käytännössä kannata laskea tätä kautta. Sähkökentän ja potentiaalin käyttökelpoisuus matemaattisina työkaluina perustuu pitkälti juuri siihen, että ne kuvaavat kenttää vaikkei kentässä olisi varausta, johon kohdistuisi voima ja jolla olisi kentässä potentiaalienergiaa. Käytännössä yleensä halaummekin määrittää potentiaalin suoraan sähkökentän perusteella tai päinvastoin sähkökentän potentiaalin perusteella.
+Vaikka määrittelimme potentiaalin systeemin potentiaalienergian kautta, potentiaalia ei käytännössä kannata laskea tätä kautta. Sähkökentän ja potentiaalin käyttökelpoisuus matemaattisina työkaluina perustuu pitkälti juuri siihen, että ne kuvaavat kenttää vaikkei kentässä olisi varausta, johon kohdistuisi voima ja jolla olisi kentässä potentiaalienergiaa. Käytännössä yleensä haluammekin määrittää potentiaalin suoraan sähkökentän perusteella tai päinvastoin sähkökentän potentiaalin perusteella.
 Kuvasta \autoref{fig:sahko_potentiaali_3} (h) voimme saada idean, kuinka tämä käytännössä onnistuu. Jos \(z\)-akseli on kuvassa ylöspäin, sähkökentän \(z\)-komponentti on
 \begin{equation} E_z = - 10 \un{N/C} . \end{equation}
 \emph{Jos} systeemiin tuotaisiin testivaraus \(q_\text{testi} = 1 \un{C}\), tähän kohdistuisi voima
@@ -19058,7 +19058,7 @@ Integraali on kuitenkin lineaarinen laskutoimitus, joten summan voi siirtää in
 \begin{equation} \Delta V_{\text{kokonais}}  = -\int \bs{E}_{1} \cdot \dd \bs{r} - \ldots -\int \bs{E}_{N} \cdot \dd \bs{r}  = - \sum_{i=1}^N \int \bs{E}_{i} \cdot \dd \bs{r}. \end{equation}
 Näin saimme jaettua usean varauksen yhdessä tuottaman sähkökentän integraalin osiin niin, että voimme laskea erikseen jokaisen varauksen yksin tuottaman sähkökentän integraalin. Nämä integraalit kuvaavat kuitenkin yhtälön (\autoref{e2pot_3}) perusteella kunkin yksittäisen varauksen tuottamaa potentiaalin muutosta erikseen,
 \begin{equation} \Delta V_i = - \int \bs{E}_{i} \cdot \dd \bs{r}. \end{equation}
-Niinpä kaikkien varaus yhdessä tuottaman potentiaalin muutokset saadaan laskettua kunkin varauksen yksinään tuottaman potentiaalin muutosten summana,
+Niinpä kaikkien varausten yhdessä tuottaman potentiaalin muutokset saadaan laskettua kunkin varauksen yksinään tuottaman potentiaalin muutosten summana,
 \begin{equation} \Delta V_{\text{kokonais}} = \Delta V_1 + \ldots + \Delta V_N = \sum_{i=1}^N \Delta V_i. \end{equation}
 
 Tämä tulos pätee kaikille varauksille. Mutta erityisesti jos varaukset \(q_i\) ovat pistemäisiä ja potentiaalin nollakohta valitaan äärettömän kauas kaikista varauksista, kunkin pistevarauksen potentiaalille voidaan käyttää lauseketta (\autoref{v_piste}), ja potentiaalille saadaan tarkastelupisteessä P lauseke
@@ -19105,7 +19105,7 @@ Tämä on siis \(L\)-säteisen tasaisesti varatun sauvan potentiaali kohtisuoral
 
 Laskussa esiintyvä integraali ei ole aivan helppo laskea, mutta integraalifunktion voi etsiä taulukkokirjoista tai laskea tietokoneella. Integraalin muodostaminen oli kuitenkin nyt huomattavasti helpompaa kuin sähkökenttää laskettaessa, koska \emph{potentiaali on skalaari} ja \emph{sähkökenttä on vektori}. Sähkökenttien yhteenlaskussa täytyy huomioida sähkökenttävektorien komponentit, mutta potentiaalien yhteenlaskussa ei, koska potentiaalilla ei ole komponentteja. Tämä näkyy myös kuvissa \autoref{fig:sahko_integraali_2} ja \autoref{fig:potentiaali_integraali}, joissa on esitetty sähkökentän ja potentiaalin laskussa tarvittava geometria. Sähkökentän määrityksessä tarvittu kuva \autoref{fig:sahko_integraali_2} on monimutkaisempi, sillä siihen on täytynyt piirtää myös vektoreiden komponentteja ja yhdenmuotoisia kolmioita.
 
-\stopper{Sauvan sähkökenttä on \(x\)-akselilla symmetrian perusteella \(x\)-suuntainen, ja sähkökentän \(x\)-komponentti pisteessä P on yhtälön (\autoref{pot2e_3}) mukaisesti potentiaalin derivaatta tarkastelupisteen \(x_P\)-koordinaatin suhteen, \(E_x = - \frac{\partial V}{\partial x_P}\). Laske sähkökenttä tämän säännön avulla ja vertaa aikaisemmin laskettuun tulokseen (\autoref{e_kentta_tanko_lyhyt}).
+\stopper{Yllä kuvatun sauvan sähkökenttä on \(x\)-akselilla symmetrian perusteella \(x\)-suuntainen, ja sähkökentän \(x\)-komponentti pisteessä P on yhtälön (\autoref{pot2e_3}) mukaisesti potentiaalin derivaatta tarkastelupisteen \(x_P\)-koordinaatin suhteen, \(E_x = - \frac{\partial V}{\partial x_P}\). Laske sähkökenttä tämän säännön avulla ja vertaa aikaisemmin laskettuun tulokseen (\autoref{e_kentta_tanko_lyhyt}).
 }
 
 \begin{exam}{Kiekon potentiaali}{ex:varattu_kiekko_pot}\noindent
@@ -19685,7 +19685,7 @@ Rinnan kytkettyjen kondensaattoreiden kapasitanssit lasketaan siis suoraan yhtee
 \index{sarjaankytkentä}
 
 Kondensaattorit voi yhdistää toisellakin tavalla, kuten kuvassa \autoref{fig:sahko_kondensaattori_yhteenlasku} (c). Kuvassa vasemmanpuoleisen kondensaattorin yksi levy on yhdistetty pariston positiiviseen napaan ja sen toinen levy oikeanpuoleisen kondensaattorin levyyn. Tämän kondensaattorin toinen levy on edelleen yhdistetty pariston negatiiviseen napaan. Tätä kutsutaan \emph{sarjaankytkennäksi}.
-Tässä kytkennässä on nyt \emph{kolme} toisistaan erillistä johdekappaletta: pariston positiiviseen napaan kytketty levy, pariston negatiiviseen napaan kytketty levy sekä \emph{toisiinsa} kytketyt levyt, joita ei ole yhdistetty paristoon. Nämä kaikki voivat olla eri potentiaaleissa, joten kondensaattoreiden jännitteet eivät välttämättä ole yhtä suuret. Kondensaattoreiden varauksen sen sijaan täytyy olla yhtä suuri. Tämä johtuu siitä, että kun paristo siirtää varausta kytkennän uloimpiin levyihin, tämä varaus vetää puoleensä kytkennän keskelle jääneen kappaleen varauksia. Näin tämä keskimmäinen kappale polarisoituu, ja sen täytyy vieläpä polarisoitua niin, että kappaleen kokonaisvaraus on vakio, nolla. Niinpä yhdistetyille levyille kertyy toiselle positiivinen ja toiselle itseisarvoltaan yhtä suuri negatiivinen varaus. \emph{Kaikilla} kondensaattorilevyillä on siis oltava tässä kytkennässä itseisarvoltaan yhtä suuri varaus, \(Q\).
+Tässä kytkennässä on nyt \emph{kolme} toisistaan erillistä johdekappaletta: pariston positiiviseen napaan kytketty levy, pariston negatiiviseen napaan kytketty levy sekä \emph{toisiinsa} kytketyt levyt, joita ei ole yhdistetty paristoon. Nämä kaikki voivat olla eri potentiaaleissa, joten kondensaattoreiden jännitteet eivät välttämättä ole yhtä suuret. Kondensaattoreiden varauksen sen sijaan täytyy olla yhtä suuri. Tämä johtuu siitä, että kun paristo siirtää varausta kytkennän uloimpiin levyihin, tämä varaus vetää puoleensa kytkennän keskelle jääneen kappaleen varauksia. Näin tämä keskimmäinen kappale polarisoituu, ja sen täytyy vieläpä polarisoitua niin, että kappaleen kokonaisvaraus on vakio, nolla. Niinpä yhdistetyille levyille kertyy toiselle positiivinen ja toiselle itseisarvoltaan yhtä suuri negatiivinen varaus. \emph{Kaikilla} kondensaattorilevyillä on siis oltava tässä kytkennässä itseisarvoltaan yhtä suuri varaus, \(Q\).
 
 Jos siis kondensaattoreiden kapasitanssit ovat erillään \(C_1\) ja \(C_2\), kondensaattoreiden jännitteiden pitää olla
 \(\Delta V_1 = Q / C_1\) ja \(\Delta V_2 = Q / C_2\). Koska keskenään yhteen kytkettyjen levyjen täytyy olla samassa potentiaalissa, potentiaaliero kytkennän päiden välillä saadaan laskemalla yhteen potentiaaliero kummankin kondensaattorin yli,
@@ -19798,7 +19798,7 @@ Potentiaaliero eli \textbf{jännite} on fysikaalisesti mitattavissa oleva suure,
 
 \item Usean varauksen tuottama kokonaispotentiaali saadaan laskemalla yhteen kunkin varauksen yksinään tuottama potentiaali,
 \begin{equation} V_\text{kokonais} = \sum_i V_i. \nonumber \end{equation}
-Varatun kappaleen potentiaali voidaan laskea jakamlla kappale pieniin osiin, laskemalla kunkin osan luoma potentiaali pistevarausmallin kautta ja laskemalla kaikkien osien tuottamat potentiaalit yhteen.
+Varatun kappaleen potentiaali voidaan laskea jakamalla kappale pieniin osiin, laskemalla kunkin osan luoma potentiaali pistevarausmallin kautta ja laskemalla kaikkien osien tuottamat potentiaalit yhteen.
 
 \end{itemize}
 
@@ -20079,7 +20079,7 @@ Tietysti äärettömiä kappaleita ei ole olemassakaan, mutta esimerkiksi ääre
 \textbf{10.33} (a) Skalaarit: potentiaalienergia, potentiaali. Vektorit: voima, sähkökenttä.\\
 (b) Riippuvat testivarauksesta: potentiaalienergia, voima.\\
 (c) Kaikki voivat riippua paikasta.\\
-(d) Nollasta poikkeavat: sähkökenttä, potentiaali ja mahdollisesti potentiaalienergia. Koska varauksia on vain yksi, ei ole mitään toista varausta, jonka kanssa tämä varaus voisi vuorovaikuttaa. Niinpä voima ainakin on nolla. Potentiaalienergian nollakohdan voi valita vapaasti.
+(d) Nollasta poikkeavat: sähkökenttä, potentiaali ja mahdollisesti potentiaalienergia. Koska varauksia on vain yksi, ei ole mitään toista varausta, jonka kanssa tämä varaus voisi vuorovaikuttaa. Niinpä voima ainakin on nolla. Potentiaalienergian nollakohdan voi valita vapaasti, joten sen voi asettaa nollaan. Myöhemmin opimme, että sähkökenttään liittyy energiaa, joten siinä mielessä on itse asiassa perusteltua sanoa, että potentiaalienergia ei ole nolla. Joka tapauksessa potentiaalienergia on vakio.
 
 \textbf{10.35} Ei voi. Ainoastaan konservatiivisiin vektorikenttiin liittyy potentiaalia vastaava funktio. Mikä tahansa vektorikenttä, jossa on pyörre, on ei-konservatiivinen.
 
@@ -20614,7 +20614,7 @@ korkeasta potentiaalista (pariston plusnapa) kohti matalaa potentiaalia (paristo
 Virran voi kirjoittaa myös varauksen määrän ja sen nopeuden avulla muodossa
 \( i = \rho A v_\text{vaellus} = \rho_e e \pi R^2 v_\text{vaellus}, \)
 jolloin vaellusnopeudeksi ratkeaa
-\begin{equation} v_\text{vaellus} = \frac{i}{\rho_e e \pi R^2} :\end{equation}
+\begin{equation} v_\text{vaellus} = \frac{i}{\rho_e e \pi R^2}. \end{equation}
 
  \solu  (a) Resistanssi on \(R = 8.0 \ \Omega\), (b) virta \(i = 0.19 \un{A}\) ja (c) vaellusnopeus
 \( v_\text{vaellus} = 0.44 \un{mm/s}. \)
@@ -20968,7 +20968,7 @@ Vastusten kytkentäsäännöt ovat samantyyppiset kuin kondensaattoreidenkin, mu
 Vastuskytkentöjen korvaaminen yhdellä kokonaisresistanssilla on joskus helpoin tapa selvittää piirissä kulkeva kokonaisvirta. Tätä tekniikkaa on havainnollistettu kuvassa \autoref{fig:sahko_vastus_redusointi}, jossa halutaan selvittää paristosta ja kolmesta vastuksesta koostuvan piirin toiminta.
 Piirissä on kolme vastusta, joiden resistanssit ovat yhden ohmin kokoluokkaa. Pariston sisäinen resistanssi on 0.1 \(\Omega\), mikä on vain kertaluokkaa pienempi, joten myös pariston resistanssi on otettu huomioon. Tämä onnistuu kuvaamalla paristo ideaalisen jännitelähteen sekä ideaalisen vastuksen sarjaankytkentänä. Nämä komponentit kuvaavat siis pariston lähdejännitettä (tässä 6 V) ja sisäistä resistanssia, ja yhdessä tämä kytkentä tuottaa yhtälöä (\autoref{epaideaalinen_paristo}) noudattavan virrasta riippuvan napajännitteen.
 
-Kun pariston sisäinen resistanssi on erotettu omaksi komponentikseen, se ei poikkea mitenkään piirin muiden komponenttien resistansseista. Seuraava askel onkin vastusten resistanssien yhdistäminen yhdeksi, koko piiriä kuvaavaksi resistanssiksi. Tässä esimerkissä tämä onnistuu askeleittain. Ensin rinnankytketyt \(2 \ \Omega\) ja \(3 \ \Omega\) ohmin vastukset voidaan kuvata kokonaisresistanssilla \(R\), jonka suuruus saadaan laskettua rinannkytkentäsäännöllä (\autoref{vastus_rinnan}),
+Kun pariston sisäinen resistanssi on erotettu omaksi komponentikseen, se ei poikkea mitenkään piirin muiden komponenttien resistansseista. Seuraava askel onkin vastusten resistanssien yhdistäminen yhdeksi, koko piiriä kuvaavaksi resistanssiksi. Tässä esimerkissä tämä onnistuu askeleittain. Ensin rinnankytketyt \(2 \ \Omega\) ja \(3 \ \Omega\) ohmin vastukset voidaan kuvata kokonaisresistanssilla \(R\), jonka suuruus saadaan laskettua rinnankytkentäsäännöllä (\autoref{vastus_rinnan}),
 \begin{equation} R_\text{rinnan} = \left( \frac{1}{2 \ \Omega} + \frac{1}{3 \ \Omega} \right)^{-1} = \left( \frac{5}{6 \ \Omega} \right)^{-1} = \frac{6}{5} \ \Omega = 1.2 \ \Omega. \end{equation}
 Tämän jälkeen piirissä on jäljellä kolme sarjaankytkettyä vastusta, joiden kokonaisresistanssi saadaan sarjaankytkentäsäännön (\autoref{vastus_sarjassa}) perusteella suoralla yhteenlaskulla
 \begin{equation} R_\text{sarjassa} = 1 \ \Omega + 1.2 \ \Omega + 0.1 \ \Omega = 2.3 \ \Omega. \end{equation}
@@ -21146,7 +21146,7 @@ Tässä silmukassa siis potentiaali kasvaa kuljettaessa pariston läpi virran 1 
 
 Yhtälössä (\autoref{piiri8}) jännitteet on kirjoitettu komponenttien ominaisuuksien ja piirissä kulkevien \emph{virtojen} avulla, joten tätä yhtälöä voidaan käyttää näiden tuntemattomien virtojen ratkaisemisessa.
 Kaksi muuta kuvaan \autoref{fig:virta_piirianalyysi} (c) piirrettyä silmukkaa voidaan analysoida samaan tapaan, ja näin saatavat yhtälöt on johdettu esimerkissä \autoref{ex:virtapiiri}.
-Yhdessä nämä kolme silmukkaa käyvät läpi \emph{kaikki} piirin johtimet ja komponentit, joten enempää silmukoita ei kannata etsiä. Piirissä on kyllä enemmänkin silmukoita. Esimerkiksi piirin ``ulkoreunaa'' kulkeva, virtojen 1, 2 ja 3 reittiä kulkeva polku on myös aivan kelvollinen silmukka, ja sille voidaan kirjoittaa silmukkasäännön perusteella oma jänniteyhtälönsä, joka on näennäisesti erilainen kuvan \autoref{fig:virta_piirianalyysi} (c) kolmesta silmukasta saatuihin yhtälöihin verrattuna. Tämä neljäs yhtälö ei kuitenkaan sisältäisi mitään uutta informaatiota, sillä sen voisi johtaa jo kolmesta ensimmäisestä yhtälöstä. (Matematiikassa sanotaan, että nämä neljä yhtälöä olisivat toisitaan lineaarisesti riippuvaiset.) Yhteensä jännitesääntö antaa meille tässä esimerkissä siis täsmälleen kolme toisistaan riipumatonta yhtälöä.
+Yhdessä nämä kolme silmukkaa käyvät läpi \emph{kaikki} piirin johtimet ja komponentit, joten enempää silmukoita ei kannata etsiä. Piirissä on kyllä enemmänkin silmukoita. Esimerkiksi piirin ``ulkoreunaa'' kulkeva, virtojen 1, 2 ja 3 reittiä kulkeva polku on myös aivan kelvollinen silmukka, ja sille voidaan kirjoittaa silmukkasäännön perusteella oma jänniteyhtälönsä, joka on näennäisesti erilainen kuvan \autoref{fig:virta_piirianalyysi} (c) kolmesta silmukasta saatuihin yhtälöihin verrattuna. Tämä neljäs yhtälö ei kuitenkaan sisältäisi mitään uutta informaatiota, sillä sen voisi johtaa jo kolmesta ensimmäisestä yhtälöstä. (Matematiikassa sanotaan, että nämä neljä yhtälöä olisivat toisitaan lineaarisesti riippuvaiset.) Yhteensä jännitesääntö antaa meille tässä esimerkissä siis täsmälleen kolme toisistaan riippumatonta yhtälöä.
 
 Piirissä on myös useita risteyksiä, mutta näistäkin riittää poimia vain niin monta, että saamme tarpeeksi yhtälöitä kaikkien virtojen ratkaisemiseksi. Tässä tapauksessa riittää kolme risteystä, ja kuvaan \autoref{fig:virta_piirianalyysi} (d) on valittu jotkin kolme risteystä. Kuvan ensimmäiseen risteykseen saapuu virta 1 ja sieltä lähtevät virrat 2 ja 4, joten risteyssäännön mukaan
 \begin{equation} i_1 = i_2 + i_4. \label{piiri7} \end{equation}
@@ -21878,7 +21878,7 @@ V_B(t) = \frac{1}{C} q(t) = \mathcal{E} \left( 1 - e^{-\frac{1}{RC} t} \right). 
 (c) Paristo muuttaa kemiallista energiaa elektronien potentiaalienergiaksi teholla
 \( P_\text{paristo} = -i \mathcal{E} = -\frac{\mathcal{E}^2}{R} e^{-\frac{1}{RC} t}. \)
 Kaikkiaan pariston varastoimaa energiaa kuluu
-\begin{equation} \Delta E_\text{paristo} = -\frac{\mathcal{E}^2}{R} \int_0^\infty e^{-\frac{1}{RC} t} \dd t = C \mathcal{E}^2 \bigg|_0^\infty e^{\frac{1}{RC} t} = C \mathcal{E}^2 = -1.8 \un{mJ}. \end{equation}
+\begin{equation} \Delta E_\text{paristo} = -\frac{\mathcal{E}^2}{R} \int_0^\infty e^{-\frac{1}{RC} t} \dd t = C \mathcal{E}^2 \bigg|_0^\infty e^{-\frac{1}{RC} t} = -C \mathcal{E}^2 = -1.8 \un{mJ}. \end{equation}
 Vastus muuttaa elektronien paristolta saamaa energiaa lämmöksi teholla
 \( P_\text{vastus} = R i^2 = \frac{\mathcal{E}^2}{R} e^{-\frac{2}{RC} t}, \)
 jolloin kokonaismuutos on
@@ -22424,7 +22424,7 @@ Tässä esimerkissä virta kulkee kuvassa ylöspäin, jolloin sitä kiertää ma
 
 Magneettikentän voi siis synnyttää kestomagneetin lisäksi myös virtajohtimella. Toisaalta ulkoisessa magneettikentässä olevaan kestomagneettiin kohdistuu voima, joten seuraavaksi on selvitettävä, kohdistuuko myös virtajohtimeen voima, kun johdin tuodaan magneettikenttään. Tämä voidaan selvittää kuvan \autoref{fig:magnetismi_johdin_2} kokeen avulla. Kuvassa on kaksi yhdensuuntaista pitkää johdinta, A ja B. Kuvassa (a) johtimessa A kulkee virta, ja johtimen ympärillä on samanlainen pyörteinen magneettikenttä kuin kuvassa \autoref{fig:magnetismi_johdin_1} (b). Nyt kenttä on kuitenkin esitetty hieman eri tavalla. Sen sijaan että kuvaan olisi piirretty kokonaisen silmukan piirtävä kenttäviiva, magneettikenttä on esitetty vain kuvan tasossa. Magneettikenttä kiertää johdinta A oikean käden säännön mukaisesti niin, että kentän suunta on johtimen A vasemmalla puolella kohti katsojaa. Tästä kenttä kulkee johtimen edestä ja kiertää takaisin kuvan tasoon niin, että kenttä osoittaa johtimen oikealla puolella poispäin katsojasta. Kuvassa katsojaa kohti osoittavaa kenttää on kuvattu pisteillä, jotka esittävät katsojaa kohti osoittavien nuolten kärkiä. Katsojasta poispäin osoittavaa kenttää on kuvattu risteillä, jotka esittävät katsojasta poispäin osoittavien nuolten kantoja.
 
-Vaikka johtimen A ympärillä on kuvassa (a) magneettikenttä, johtimeen B ei silti kohdistu voimaa, koska siinä ei kulje sähkövirta. Tilanne kuitenkin muuttuu, kun myös johdin B yhdistetään paristoon ja siinäkin alkaa kulkea sähkövirta (kuva (b)). Kummassakin johtimessa kulkee virta samaan suuntaan, ja kumpaankin johtimeen kohdistuu voima. Toisin sanoen \emph{magneettikentässä olevaan virtajohtimeen voi kohdistua voima, kun johtimessa kulkee virta}.
+Vaikka johtimen A ympärillä on kuvassa \autoref{fig:magnetismi_johdin_2} (a) magneettikenttä, johtimeen B ei silti kohdistu voimaa, koska siinä ei kulje sähkövirta. Tilanne kuitenkin muuttuu, kun myös johdin B yhdistetään paristoon ja siinäkin alkaa kulkea sähkövirta (kuva (b)). Kummassakin johtimessa kulkee virta samaan suuntaan, ja kumpaankin johtimeen kohdistuu voima. Toisin sanoen \emph{magneettikentässä olevaan virtajohtimeen voi kohdistua voima, kun johtimessa kulkee virta}.
 Itse asiassa ampeerin vanha määritelmä SI-yksikkönä perustui tähän ilmiöön. Ampeeri nimittäin määriteltiin aikaisemmin niin, että kun kaksi pitkää yhdensuuntaista johdinta asetetaan metrin päähän toisistaan ja kummassakin kulkee samansuuntainen yhden ampeerin virta, kumpaankin johtimeen kohdistuu \(2 \cdot 10^{-7} \un{N}\) voima metrin pituutta kohden.
 
 Tarkkojen kokeellisten mittausten mukaan tällaisten yhdensuuntaisten virtajohdinten välinen magneettinen voima on itse asiassa suoraan verrannollinen kummassakin johtimessa kulkevan sähkövirran suuruuteen \(i_A\) ja \(i_B\) sekä johdinten pituuteen \(L\) ja kääntäen verrannollinen johdinten väliseen etäisyyteen \(r_{A \to B}\),
@@ -22469,8 +22469,8 @@ Magneettikentän yksiköllä on erikoisnimi \textbf{tesla} (Nikola Teslan mukaan
 Siispä sekä sähköistä että magneettista vuorovaikutusta voi kuvata kenttämallilla, jossa vuorovaikutuksen yksi osapuoli luo avaruuteen kentän ja toinen osapuoli tuntee tässä kentässä voiman.
 Magneettinen voima on kuitenkin monimutkaisempi kuin sähköinen voima, sillä siinä missä varattuun hiukkaseen kohdistuva sähköinen voima riippuu vain varauksen suuruudesta sekä sähkökentästä, virtajohtimeen kohdistuva magneettinen voima riippuu johtimessa kulkevan virran suuruuden ja magneettikentän lisäksi myös siitä, missä asennossa johdin on magneettikenttään nähden.
 
-Kuvassa (b) johtimen A synnyttämä magneettikenttä \(\bs{B}_A\) osoittaa johtimen B kohdalla katsojasta poispäin, virta kulkee kuvassa ylöspäin ja voima kohdistuu kuvassa vasemmalle. Tässä tapauksessa johtimet siis vetävät toisiaan puoleensa. Voima ei siis osoita magneettikentän suuntaan eikä edes virran kulkusuuntaan vaan \emph{kohtisuoraan} näihin kumpaankin nähden.
-Kuvassa (c) johtimen A luoma magneettikenttä osoittaa samaan suuntaan kuin kuvassa (b), mutta johtimessa B kulkee virta vastakkaiseen suuntiin, jolloin johtimeen B kohdistuu voima päinvastaiseen suuntaan kuin kuvassa (b), ja johtimet hylkivät toisiaan.
+Kuvassa \autoref{fig:magnetismi_johdin_2} (b) johtimen A synnyttämä magneettikenttä \(\bs{B}_A\) osoittaa johtimen B kohdalla katsojasta poispäin, virta kulkee kuvassa ylöspäin ja voima kohdistuu kuvassa vasemmalle. Tässä tapauksessa johtimet siis vetävät toisiaan puoleensa. Voima ei siis osoita magneettikentän suuntaan eikä edes virran kulkusuuntaan vaan \emph{kohtisuoraan} näihin kumpaankin nähden.
+Kuvassa \autoref{fig:magnetismi_johdin_2} (c) johtimen A luoma magneettikenttä osoittaa samaan suuntaan kuin kuvassa (b), mutta johtimessa B kulkee virta vastakkaiseen suuntiin, jolloin johtimeen B kohdistuu voima päinvastaiseen suuntaan kuin kuvassa (b), ja johtimet hylkivät toisiaan.
 
 \begin{figure}[tb]
 \caption{Virtajohtimeen kohdistuva magneettisen voiman suuruus riippuu johtimen ja kentän välisestä kulmasta.
@@ -23041,7 +23041,7 @@ Samalla periaatteella voimme päätellä viivaintegraalin arvon myös kuvassa (f
 Itse asiassa tulos (\autoref{melkein_ampere}) pätee \emph{millä tahansa} reitillä riippumatta siitä, kiertääkö se johtimen vai ei. Mitä tahansa reittiä voidaan nimittäin approksimoida johdinta kiertävillä kaarilla ja johtimesta poispäin osoittavilla suorilla, jolloin sama päättely toimii edelleen. Esimerkiksi kuvan (g) epäsäännöllisen muotoinen reitti voidaan jakaa kaariin ja suoriin kuvan (h) tapaan. Käyräviivaisia reittejä voi kuvata tällaisella suorista ja kaarista koostuvalla reitillä mielivaltaisen tarkasti. Toisaalta viivaintegraalin arvo on verrannollinen reitin läpi kulkevan virran suuruuteen \emph{millä tahansa} kaarista ja suorista koostuvalla reitillä. Niinpä viivaintegraalin täytyy riippua vain sen läpi kulkevan virran suuruudesta myös kuvan (g) käyrällä reitillä.
 
 \begin{figure}[b!]
-\caption{Amp`\`e`{=latex}ren laki virtajohtimille. Magneettikentän viivaintegraali suljettua reittiä pitkin riippuu ainoastaan reitin läpi kulkevasta kokonaisvirrasta. Kokonaiskentän viivaintegraalin voi määrittää myös laskemalla jokaisen johtimen yksinään tuottaman kentän viivaintegraalin ja laskemalla nämä yhteen.
+\caption{Amp\`eren laki virtajohtimille. Magneettikentän viivaintegraali suljettua reittiä pitkin riippuu ainoastaan reitin läpi kulkevasta kokonaisvirrasta. Kokonaiskentän viivaintegraalin voi määrittää myös laskemalla jokaisen johtimen yksinään tuottaman kentän viivaintegraalin ja laskemalla nämä yhteen.
 }
 \footnotesize
 \begin{center}
@@ -23239,7 +23239,7 @@ Kestomagneetin, virtasilmukan ja pyörivän varatun kappaleen magneettikentät o
 
 \index{elektroni}
 
-Luvun alussa opimme, että elektronit ovat mikroskooppisia magneettisia dipoleja ja että kestomagneettien magneettisuus johtuu elektronien muodostamien dipolien järjestymisestä yhdensuuntaisiksi. Nyt voimme selittää, miksi näin on. Atomeissa olevien elektronien liikkeen tarkka ymmärtäminen vaatii kvanttimekaniikkaa, johon tutustumme vasta luvussa \autoref{luku:kvanttimekaniikka}. Oleellista atomien magneettisuuden kannalta on kuitenkin se, että elektronit voivat \emph{kiertää} atoimydintä, jolloin niillä on \emph{kulmaliikemäärää}. Tämän lisäksi elektroneilla on sisäistä kulmaliikemäärää. Ja koska elektroni on negatiivisesti varautunut hiukkanen, sen kiertoliike muodostaa mikroskooppisen virtasilmukan. Näin elektroni synnyttää ympärilleen dipolin magneettikentän, jonka suunnan ja voimakkuuden määrää elektronin kulmaliikemäärän suunta ja suuruus.
+Luvun alussa opimme, että elektronit ovat mikroskooppisia magneettisia dipoleja ja että kestomagneettien magneettisuus johtuu elektronien muodostamien dipolien järjestymisestä yhdensuuntaisiksi. Nyt voimme selittää, miksi näin on. Atomeissa olevien elektronien liikkeen tarkka ymmärtäminen vaatii kvanttimekaniikkaa, johon tutustumme vasta luvussa \autoref{luku:kvanttimekaniikka}. Oleellista atomien magneettisuuden kannalta on kuitenkin se, että elektronit voivat \emph{kiertää} atomiydintä, jolloin niillä on \emph{kulmaliikemäärää}. Tämän lisäksi elektroneilla on sisäistä kulmaliikemäärää. Ja koska elektroni on negatiivisesti varautunut hiukkanen, sen kiertoliike muodostaa mikroskooppisen virtasilmukan. Näin elektroni synnyttää ympärilleen dipolin magneettikentän, jonka suunnan ja voimakkuuden määrää elektronin kulmaliikemäärän suunta ja suuruus.
 
 \index{magneetti}
 
@@ -24729,7 +24729,7 @@ Koska äärettömän pitkä käämi on sylinterisymmetrinen, sen magneettikentä
 \stopper{(a) Riippuuko kuvan \autoref{fig:induktanssi_kela_2} (b) polun läpi kulkeva kokonaisvirta polun vaakasuuntaisesta leveydestä?\\
 (b) Mikä on viivaintegraali pitkin polun vaakasuoria sivuja?\\
 (c) Mikä on viivaintegraali pitkin polun pystysuoraa, käämin ulkopuoleista sivua, jos tämä sivu on hyvin kaukana käämistä? Entä jos sivu on lähellä käämiä?\\
-(d) Perustele tämän perusteella, miksi magneettikentän täytyy olla käämin sisällä homogeeninen ja käämin ulkopuoella nolla.
+(d) Perustele tämän perusteella, miksi magneettikentän täytyy olla käämin sisällä homogeeninen ja käämin ulkopuolella nolla.
 }
 
 Yllä esitetyn päättelytehtävän lopputulos on se, että magneettikentän täytyy olla käämin ulkopuolella täsmälleen nolla ja käämin sisällä homogeeninen. Äärettömän pitkä käämi siis vangitsee magneettikentän sisäänsä aivan kuten äärettömän suuri kondensaattori vangitsee sähkökentän sisäänsä. Tällöin viivaintegraali kuvan \autoref{fig:induktanssi_kela_2} (b) polkua pitkin on nolla kaikkialla muualla paitsi käämin sisällä kulkevalla sivulla. Tämä sivu on magneettikentän suuntainen, joten viivaintegraali sitä pitkin on yksinkertaisesti kentän voimakkuuden ja sivun pituuden tulo,
@@ -24885,7 +24885,7 @@ Tämä tulos pätee kuitenkin vain pitkälle suoralle käämille, ja käämin mu
 
 \stopper{Käämin säde on \(1 \un{cm}\), pituus \(5 \un{cm}\) ja käämissä on 500 kierrosta.\\
 (a) Arvioi käämin induktanssi pitkän käämin mallilla.\\
-(b) Kuinka suuri jännite käämiin indusoituu, jos virta kasvaa nollasta yhteen ampeeriin 10 millisekunnissa?\\
+(b) Kuinka suuri jännite käämiin indusoituu, jos virta pienenee kahdesta yhteen ampeeriin 10 millisekunnissa?\\
 (c) Kumpi käämin napa on tällöin korkeammassa potentiaalissa (se, josta virta saapuu, vai se, josta virta poistuu)?
 }
 
@@ -25108,14 +25108,14 @@ Voimme muotoilla Maxwellin lain täsmällisesti tarkastelemaalla kuvan \autoref{
 
 Kun virta kulkee, se synnyttää johdinta kiertäviä magneettikentän pyörteitä. Jos valitsemme johdinta kiertävän suljetun polun kuten kuvassa \autoref{fig:induktio_maxwellampere_2} (a), magneettikentän viivaintegraali tätä reittiä pitkin on positiivinen. Tämän reitin läpi kulkee myös sähkövirta, ja Amp\`eren lain mukaan magneettikentän viivaintegraali on suoraan verrannollinen pinnan läpi kulkevaan kokonaisvirtaan.
 
-Nyt meidän täytyy kuitenkin määritellä täsmällisesi, mitä Amp\`eren laissa tarkoitetaan, kun puhutaan suljetun reitin läpi kulkevasta virrasta. Kuvassa \autoref{fig:induktio_maxwellampere_2} (a) reitti on ympyrä, ja voimme ajatella että reitin keskellä on ympyrän muotoinen pinta (piirretty kuvaan oranssina). Tai toisin päin, voimme \emph{ensin} valita ympyrän muotoisen pinnan ja määritellä sen \emph{jälkeen} tätä pintaa rajaavan suljetun reitin kiertämällä pinnan ympäri sen reunaa pitkin. Kumpikin ajattelutapa johtaa siihen, että meillä on täsmällisesti määritelty pinta ja sitä rajaava reitti. \emph{Tällöin sanomme virran kulkevan reitin läpi, jos se kulkee reitin rajaaman pinnan läpi}.
+Nyt meidän täytyy kuitenkin määritellä täsmällisesti, mitä Amp\`eren laissa tarkoitetaan, kun puhutaan suljetun reitin läpi kulkevasta virrasta. Kuvassa \autoref{fig:induktio_maxwellampere_2} (a) reitti on ympyrä, ja voimme ajatella että reitin keskellä on ympyrän muotoinen pinta (piirretty kuvaan oranssina). Tai toisin päin, voimme \emph{ensin} valita ympyrän muotoisen pinnan ja määritellä sen \emph{jälkeen} tätä pintaa rajaavan suljetun reitin kiertämällä pinnan ympäri sen reunaa pitkin. Kumpikin ajattelutapa johtaa siihen, että meillä on täsmällisesti määritelty pinta ja sitä rajaava reitti. \emph{Tällöin sanomme virran kulkevan reitin läpi, jos se kulkee reitin rajaaman pinnan läpi}.
 
 Edellä valitsimme pinnaksi ympyrän, mutta tämä ei ole kuitenkaan ainoa mahdollinen valinta. Tarkasteltavan pinnan ei nimittäin tarvitse olla tasomainen, vaan voimme valita minkä muotoisen pinnan tahansa, kunhan tarkastelemamme suljettu reitti kulkee pinnan reunaa pitkin. Nyt reittimme on ympyrä, joten reitin rajaamaksi pinnaksi voidaan valita ympyrän sijaan myös esimerkiksi puolipallo tai vaikkapa toisesta päästään avoin sylinteripinta (eli ämpärin muotoinen pinta). Jos magneettikentän synnyttää \emph{katkeamaton} virtajohdin, Amp\`eren laki pätee näille kaikille riippumatta valitun pinnan muodosta.
 
 Kuvassa \autoref{fig:induktio_maxwellampere_2} kondensaattori kuitenkin \emph{katkaisee} virtajohtimen, ja voimme valita juuri sellaisen pinnan, jonka pohja kulkee kondensaattorilevyjen välistä. Tällainen pinta on piirretty kuviin \autoref{fig:induktio_maxwellampere_2} (c) ja (d). Tällä pinnalla on sama reuna kuin kuvien \autoref{fig:induktio_maxwellampere_2} (a) ja (b) ympyrällä, joten magneettikentän viivaintegraalin tämän pinnan ympäri täytyy olla kummassakin kuvassa sama. Kondensaattorilevyjen välissä ei kulje sähkövirtaa, joten \emph{virta pinnan läpi on nolla}. Sen sijaan kondensaattorilevyjen välissä on voimistuva sähkökenttä, joten \emph{sähkövuo pinnan läpi muuttuu virran kulkiessa}.
 
 \begin{figure}[tb]
-\caption{Amp`\`e`{=latex}ren lain mukaan magneettikentän integraali pinnan reunan ympäri on verrannollinen pinnan läpi kulkevaan kokonaisvirtaan. Voimme valita useita pintoja, joilla on sama reuna, mutta joiden läpi kulkee erilaiset virrat. Amp`\`e`{=latex}ren lakia pitää siis laajentaa. Virran lisäksi myös muuttuva sähkökenttä toimii magneettikentän pyörteen keskuksena.
+\caption{Amp\`eren lain mukaan magneettikentän integraali pinnan reunan ympäri on verrannollinen pinnan läpi kulkevaan kokonaisvirtaan. Voimme valita useita pintoja, joilla on sama reuna, mutta joiden läpi kulkee erilaiset virrat. Amp\`eren lakia pitää siis laajentaa. Virran lisäksi myös muuttuva sähkökenttä toimii magneettikentän pyörteen keskuksena.
 }
 \footnotesize
 \begin{center}
@@ -25357,7 +25357,7 @@ Tämä on \textbf{Amp\`eren ja Maxwellin laki magneettikentille}.
 
 
 \begin{table}[hb]
-\caption{Sähkömagnetismin peruslait taulukkona. Miten pyörteiset ja pyörteettömät kentät syntyvät, ja mitkä lait näitä kuvaavat?```{=latex}
+\caption{Sähkömagnetismin peruslait taulukkona. Miten pyörteiset ja pyörteettömät kentät syntyvät, ja mitkä lait näitä kuvaavat?
 }
 \begin{center}
 \bgroup
@@ -25485,10 +25485,10 @@ Tämä on sama tulos kuin mitä aikaisemmin laskettiin.\\
 \textbf{13.28} (a) Mallin mukaan
 \begin{equation} L = 1.257 \cdot 10^{-6} \un{N/A}^2 \cdot \frac{500^2 \pi (0.01 \un{m})^2}{0.05 \un{m}} = 2.0 \un{mH}. \end{equation}
 (b) Virran keskimääräinen muutosnopeus on
-\begin{equation} \frac{\Delta i}{\Delta t} = \frac{1 \un{A}}{0.01 \un{s}} = 100 \un{A/s}, \end{equation}
+\begin{equation} \frac{\Delta i}{\Delta t} = \frac{-1 \un{A}}{0.01 \un{s}} = -100 \un{A/s}, \end{equation}
 jolloin jännite on keskimäärin
 \begin{equation} \mathcal{E} = -L \frac{\Delta i}{\Delta t} = 0.2 \un{V}. \end{equation}
-(c) Koska virta kasvaa, käämiin indusoituu negatiivinen jännite. Siispä potentiaali pienenee käämissä virran suunnassa eli korkeammassa potentiaalissa on käämin se pää, josta virta saapuu.
+(c) Koska virta pienenee, käämiin indusoituu positiivinen jännite. Siispä potentiaali kasvaa käämissä virran suunnassa eli korkeammassa potentiaalissa on käämin se pää, josta virta poistuu.
 
 \end{instructions}
 
@@ -28048,7 +28048,7 @@ Pidemmälle välille sitoutuneen energian kokonaismäärä saadaan tämän lause
 Kuvassa \autoref{fig:aalto_energiatiheys_1} (a) onkin esitetty yhden aallonpituuden matkalle sitoutuneen energian määrä energiatiheyden kuvaajassa keltaisella väritettynä pinta-alana.
 
 Vaikka energiatiheys vaihtelee sinimuotoisesti, sen \emph{keskiarvo} on sinifunktion symmetrisyyden perusteella täsmälleen puolet maksimista. Tämä keskiarvo on piirretty kuvaan \autoref{fig:aalto_energiatiheys_1} (a) katkoviivalla, ja selvästikin tämän viivan alle jäävä pinta-ala on keskimäärin sama kuin keltaisen kuvaajan rajaama pinta-ala.
-Merkitsemme tätä keskimääräistä energiatiheytta \(\avr{\lambda_E}\), jolloin yhden aallonpituuden matkalle on sitoutunut energiaa määrä
+Merkitsemme tätä keskimääräistä energiatiheyttä \(\avr{\lambda_E}\), jolloin yhden aallonpituuden matkalle on sitoutunut energiaa määrä
 \begin{equation} E_\lambda = \avr{\lambda_E} \lambda. \end{equation}
 Toisaalta aalto kulkee yhden jaksonajan kuluessa juuri yhden aallonpituuden matkan, joten se kuljettaa jaksonajan aikana täsmälleen näin paljon energiaa.
 Aallon kuljettaman energian \emph{keskimääräinen} teho on näin ollen kuljetetun energian \(\Delta E = E_\lambda\) ja tähän käytetyn ajan \(\Delta t = T\) suhde,
@@ -29918,7 +29918,7 @@ Kolmessa ulottuvuudessa aallon energia leviää pallon pintana (kuva \autoref{fi
 \begin{equation} \avr{\rho_{E, \text{3D}} } = \frac{E_\text{jakso}}{V_\text{pallopinta}} = \frac{PT}{4 \pi r^2 \lambda}. \label{energiatiheys3d} \end{equation}
 
 Tästä johtuen aallon muoto ei voi kahdessa ja kolmessa ulottuvuudessa pysyä vakiona edes ideaalisessa väliaineessa. Koska aallon energiatiheys on verrannollinen amplitudin neliöön (vrt. köydessä kulkevan aallon energiatiheys (\autoref{mekaaninen_aalto_energiatiheys}), \( \avr{\lambda_E} = \frac{1}{2} \mu \omega^2 A^2 \)), ja energiatiheys pienenee kuljettaessa kauemmaksi aallon lähteestä, täytyy myös aallon amplitudin tällöin pienentyä. Tämä ilmiö itse asiassa näkyy myös kuvassa \autoref{fig:moniaalto_pinta}, jossa aaltojen poikkileikkauksista selvästi nähdään aallonharjojen madaltuvan etäisyyden \(r\) kasvaessa.
-Esimerkiksi kolmessa ulottuvuudessa energiatiheys on suoraan verrannollinen amplitudin neliöön ja kääntäen verrannollinen etäisyyteen \(r\), \(A^2 \sim \avr{\rho_{E,\text{3D}}} \sim 1/r^2\), jolloin amplitudin täytyy olla kääntäen verrannollinen etäisyyteen, \(A \sim 1/r\).
+Esimerkiksi kolmessa ulottuvuudessa energiatiheys on suoraan verrannollinen amplitudin neliöön ja kääntäen verrannollinen etäisyyden \(r\) neliöön, \(A^2 \sim \avr{\rho_{E,\text{3D}}} \sim 1/r^2\), jolloin amplitudin täytyy olla kääntäen verrannollinen etäisyyteen, \(A \sim 1/r\).
 
 \stopper{Miten aallon amplitudi riippuu lähteestä mitatusta etäisyydestä \(r\), jos kyseessä on\\
 (a) pistemäinen lähde, joka lähettää aaltoja veden pinnalla,\\
@@ -30040,7 +30040,7 @@ Esimerkiksi Aurinko on Maapallosta niin kaukana, että Maahan saapuvan valon suu
 
 \index{tasoaalto}
 
-Jos aaltojen lähde on hyvin kaukana havaintopisteestä, kahdessa ulottuvuudessa aaltorintamista tulee suoria viivoja (kuva \autoref{fig:moniaalto_tasoaalto} (b)) ja kolmessa ulottuvuudessa suoria tasoja (kuva \autoref{fig:moniaalto_tasoaalto} (c)), mikä vuoksi tällaista aaltoa kutsutaan \emph{tasoaalloksi}.
+Jos aaltojen lähde on hyvin kaukana havaintopisteestä, kahdessa ulottuvuudessa aaltorintamista tulee suoria viivoja (kuva \autoref{fig:moniaalto_tasoaalto} (b)) ja kolmessa ulottuvuudessa suoria tasoja (kuva \autoref{fig:moniaalto_tasoaalto} (c)), minkä vuoksi tällaista aaltoa kutsutaan \emph{tasoaalloksi}.
 Jos tasoaalto kulkee esimerkiksi \(x\)-suuntaan, aallon vaihe ja aaltofunktio riippuvat vain \(x\)-koordinaatista eivätkä laikaan kulkusuuntaan nähden kohtisuorista \(y\)- ja \(z\)-koordinaateista. Tämän vuoksi tasoaallot käyttäytyvät samalla tavalla kuin yksiulotteiset sinimuotoiset aallot.
 On paljon helpompi analysoida suoria aaltorintamia kuin kaarevia, joten aaltojen analyysissä aaltorintamien ajatellaan olevan suoria melkein aina, kun aaltojen lähde on kaukana havaintopisteestä.
 
@@ -30211,7 +30211,7 @@ Taittumislain selittävä geometria.
 \end{wrapfigure}
 
 Aaltorintamien ja rajapinnan väliset kulmat voi päätellä geometrisesti kuvan \autoref{fig:moniaalto_taittuminen_2a} kuvion avulla.
-Väliaineessa A aaltorintamien välinen etäisyys on sama kuin aallonpituus tässä väliaineessa, \(\lambda_A\), ja vastaavasti väliaineessa B rintamien välinen etäisyys on \(\lambda_B\). Kuviossa tämä tarkoittaa sitä, että merkittyjen pisteiden \(Q\) ja \(R\) väinen etäisyys on \(L_{QR} = \lambda_A\) ja pisteiden \(P\) ja \(S\) välinen etäisyys on \(L_{PS} = \lambda_B\).
+Väliaineessa A aaltorintamien välinen etäisyys on sama kuin aallonpituus tässä väliaineessa, \(\lambda_A\), ja vastaavasti väliaineessa B rintamien välinen etäisyys on \(\lambda_B\). Kuviossa tämä tarkoittaa sitä, että merkittyjen pisteiden \(Q\) ja \(R\) välinen etäisyys on \(L_{QR} = \lambda_A\) ja pisteiden \(P\) ja \(S\) välinen etäisyys on \(L_{PS} = \lambda_B\).
 Lisäksi aaltorintamien täytyy olla rajapinnalla jatkuvat, sillä aallon vaihe ei muutu sen läpäistessä rajapinnan. Niinpä rintamia kuvaavissa viivoissa ei saa olla hyppäystä rajapinnalla. Kuvassa tämä näkyy niin, että aaltorintamat kohtaavat pisteissä \(P\) ja \(Q\).
 
 Kolmiot \(PQR\) sekä \(PQS\) ovat suorakulmaiset, ja jana \(PQ\) on niiden yhteinen hypotenuusa.
@@ -30384,7 +30384,7 @@ Kuvassa \autoref{fig:moniaalto_polarisaatio_1} (c) on esitetty vielä köysi, jo
 
 Polarisaatio on merkittävä ilmiö siksi, että valokin on poikittainen aalto, joka voi siis olla polarisoitunut. Sähkömagneettisessa aallossa sähkö- ja magneettikenttä nimittäin värähtelevät kohtisuorassa sekä toisiaan että valon kulkusuuntaa vastaan. Yleensä sähkömagneettisen aallon sähkökenttä vuorovaikuttaa ympäristön kanssa voimakkaammin kuin magneettikenttä, joten valon polarisaatiosuunta määritellään nimenomaan sähkökentän värähtelysuuntana.
 
-Valon polarisoituminen on yleinen ilmiö. Valo voi polarisoitua osittain tai jopa töydellisesti heijastuessaan rajapinnasta. On myös olemassa aineita ja rakenteita, joissa valon absorptio riippuu polarisaatiosuunnasta. Nämä ovat \emph{polarisaattoreita}, ja ne päästävät tiettyyn suuntaan polarisoituneen sähkömagneettisen aallon lävitseen mutta absorboivat tehokkaasti tätä suuntaa vastaan polarisoituneet aallot. Toisin sanoen tällaiset aineet ovat läpinäkyviä vain jos valo on polarisoitunut oikeaan suuntaan.
+Valon polarisoituminen on yleinen ilmiö. Valo voi polarisoitua osittain tai jopa täydellisesti heijastuessaan rajapinnasta. On myös olemassa aineita ja rakenteita, joissa valon absorptio riippuu polarisaatiosuunnasta. Nämä ovat \emph{polarisaattoreita}, ja ne päästävät tiettyyn suuntaan polarisoituneen sähkömagneettisen aallon lävitseen mutta absorboivat tehokkaasti tätä suuntaa vastaan polarisoituneet aallot. Toisin sanoen tällaiset aineet ovat läpinäkyviä vain jos valo on polarisoitunut oikeaan suuntaan.
 
 \begin{figure}[tb]
 \caption{Köysi kulkee kahden lähekkäisen, liukkaan tangon välistä, mikä estää köyden värähtelyn vaakasuunnassa. Tämä on polarisaattori, joka päästää lävitseen vain pystysuuntaisen värähtelyn.
@@ -31142,7 +31142,7 @@ Kun vielä jaamme yhtälön puolittain tekijällä \(f\) ja järjestelemme termi
 \label{fig:optiikka_kovera_linssi}
 \end{figure}
 
-Kuvassa \autoref{fig:optiikka_kovera_linssi} on esitetty vastaavasti kuvan muodostuminen koverassa linssissä. Kuvassa (a) on jälleen analysoitu pistemäisestä lampusta lähtevien valonsäteiden kulku. Kohtisuoraan linssiin saapuva valonsäde taittuu niin, että se kulkee kuvassa linssin oikealla puolella poispäin linssin vasemmanpuoleisesta valepolttopisteestä. Lampusta kohti linssin oikeanpuoleista valepolttopistettä lähtenyt valonsäde kääntyy linssissä symmetria-akselin suuntaiseksi. Ja linssin keskipisteen kautta kulkeva säde etenee suoraan. Nämä valonsäteet eivät leikkaa missään, mutta niiden jatkeet leikkaavat kuvassa linssin vasemmalla puolelle eli samalla puolella kuin missä lamppu todellisuudessa on. Lamppua linssin läpi katsova havaitsija näkee lampun valonsäteiden jatkeiden leikkauspisteessä.
+Kuvassa \autoref{fig:optiikka_kovera_linssi} on esitetty vastaavasti kuvan muodostuminen koverassa linssissä. Kuvassa (a) on jälleen analysoitu pistemäisestä lampusta lähtevien valonsäteiden kulku. Kohtisuoraan linssiin saapuva valonsäde taittuu niin, että se kulkee kuvassa linssin oikealla puolella poispäin linssin vasemmanpuoleisesta valepolttopisteestä. Lampusta kohti linssin oikeanpuoleista valepolttopistettä lähtenyt valonsäde kääntyy linssissä symmetria-akselin suuntaiseksi. Ja linssin keskipisteen kautta kulkeva säde etenee suoraan. Nämä valonsäteet eivät leikkaa missään, mutta niiden jatkeet leikkaavat kuvassa linssin vasemmalla puolella eli samalla puolella kuin missä lamppu todellisuudessa on. Lamppua linssin läpi katsova havaitsija näkee lampun valonsäteiden jatkeiden leikkauspisteessä.
 
 Kuvassa \autoref{fig:optiikka_kovera_linssi} (b) on esitetty ei-pistemäisen esineen kuvan muodostuminen samassa linssissä. Esineen päissä on jälleen punainen ja vihreä lamppu, ja esineen kuva selviää tutkimalla, missä nämä lamput nähdään. Nyt linssin muodostama kuva on \emph{pienempi} kuin esine, \emph{samalla puolella linssiä} kuin esine ja \emph{samoin päin} kuin esine.
 
@@ -31570,7 +31570,7 @@ eli jos
 \begin{equation} \frac{1}{2} w \sin \theta = \frac{1}{2} \lambda. \end{equation}
 Tämä tilanne siis vastaa kuvaa \autoref{fig:moniaalto_yksirako} (c), jossa vaiheenosoittimet tekevät silmukan ja muodostavat täydellisen ympyrän.
 
-Edellisessä tilanteessa raon vasemasta ja oikeasta puoliskosta saapuvat aallot kumoavat toisensa täydellisesti.
+Edellisessä tilanteessa raon vasemmasta ja oikeasta puoliskosta saapuvat aallot kumoavat toisensa täydellisesti.
 Täydellinen tuhoava interferenssi on mahdollista muillakin tavoilla. Kuvassa \autoref{fig:moniaalto_yksirako} (d) on esitetty tilanne, jossa punaisena merkityn lähteen aalto on vastakkaisessa vaiheessa sen viereisen \emph{harmaalla} merkityn lähteen aallon kanssa.
 Näiden lähteiden välinen etäisyys on tässä tapauksessa \emph{neljännes} raon kokonaisleveydestä, \(w/4\). Samaan tapaan \emph{mitkä tahansa} aallot, joiden lähteiden välinen etäisyys on neljännes raon leveydestä, kumoavat toisensa tässä suunnassa. Niinpä jokaiselle aallolle on olemassa pari, jonka kanssa se on vastakkaisessa vaiheessa, ja aaltojen summan amplitudi on nolla.
 
@@ -32896,7 +32896,7 @@ Muuttuva todennäköisyystiheys.
 
 Yleisesti todennäköisyystiheys ei kuitenkaan ole vakio, jolloin satunnaismuuttuja ei ole tasaisesti jakautunut. Tällöinkin kuitenkin todennäköisyystiheyttä voidaan pitää vakiona infinitesimaalisen lyhyillä väleillä \([x, x+\dd x]\), jolloin yhtälön (\autoref{rhoptasainen}) mukaan satunnaismuuttujan arvon todennäköisyys olla tällä välillä on
 \begin{equation} \dd P = P(x < X < x+\dd x) = \rho_X(x) (x+\dd x - x) = \rho_X(x) \dd x. \end{equation}
-Todennäköisyys mitata satunnaismuutujalle arvo äärelliseltä välilä \([a,b]\) saadaan näin ollen jakamalla väli infinitesimaalisen pieniin osiin ja laskemalla näiden todennäköisyydet yhteen eli integroimalla
+Todennäköisyys mitata satunnaismuuttujalle arvo äärelliseltä välillä \([a,b]\) saadaan näin ollen jakamalla väli infinitesimaalisen pieniin osiin ja laskemalla näiden todennäköisyydet yhteen eli integroimalla
 \bigeq{ P(a < X < b) = \int_a^b \rho_X(x) \dd x. }
 Graafisesti tämä tarkoittaa sitä, että todennäköisyys on todennäköisyystiheyden \(\rho_X\) kuvaajan alle jäävä pinta-ala.
 
@@ -33009,7 +33009,7 @@ Paikkakoordinaatin varianssi on näiden avulla
 
 \stopper{Mitkä näistä väitteistä ovat totta? Perustele!\\
 (a) Hiukkasen paikan odotusarvo on sen paikan todennäköisin mittaustulos.\\
-(b) Hiukkasen paikan mittaus poikkeaa paikan odotusarvosta korkeintaan hajonnan verran.\\
+(b) Hiukkasen paikan mittaus poikkeaa paikan odotusarvosta korkeintaan keskihajonnan verran.\\
 (c) Aaltofunktion itseisarvon neliö ei voi olla missään suurempi kuin 1.\\
 (d) Jos hiukkasen aaltofunktio poikkeaa nollasta vain välillä \( [0, 2] \), on olemassa jokin piste, jossa \(|\psi(x)| \ge 1/\sqrt{2}\).
 }
@@ -33043,7 +33043,7 @@ Jos valitsemme positiivisen reaaliarvon, saamme \(a = \sqrt{\frac{1}{2}}\).
 
 joten keskihajonta on \(\sigma_x = \sqrt{\sigma_x^2} = \frac{\sqrt{2}}{3} \approx 0.47\).
 
- \eval  Jakaumafunktio on kolmio, jonka kannan pituus on 2 ja korkeus 1, joten sen pinta-ala on 1, kuten pitääkin. Koska funktio on kasvava, odotusarvon on oltava välin \([0,2]\) keskipistettä suurempi, kuten laskun mukaan onkin. Hajonnan puolestaan täytyy olla pienempi kuin etäisyys odotusarvosta jakauman reunoille, kuten onkin.
+ \eval  Jakaumafunktio on kolmio, jonka kannan pituus on 2 ja korkeus 1, joten sen pinta-ala on 1, kuten pitääkin. Koska funktio on kasvava, odotusarvon on oltava välin \([0,2]\) keskipistettä suurempi, kuten laskun mukaan onkin. Keskihajonnan puolestaan täytyy olla pienempi kuin etäisyys odotusarvosta jakauman reunoille, kuten onkin.
 
 Voimme laskea varianssin myös neliöllisen odotusarvon avulla.
 Nimittäin \(\avr{x^2} = \int_0^2 \frac{1}{2} x^3 \dd x = \bigg|_0^2 \frac{1}{8} x^4 = 2\) ja tästä saadaan varianssiksi
@@ -33385,7 +33385,7 @@ Kyseessä on tyhjässä avaruudessa vapaasti liikkuva elektroni, jonka liikkeese
 }
 
  \physics Aaltolukuesitys antaa kertoimet, joilla sinimuotoisia aaltoja \(e^{\ii k x - \omega t}\) pitää Fourier-muunnoksessa painottaa, jotta saisimme muodostettua elektronin aaltofunktion. Aaltofunktio saadaan siis integroimalla funktioiden \( a(k) \) ja \(e^{\ii k x - \omega t}\) tuloa. Lisäksi nyt kysyttiin erityisesti hetkeä \(t = 0\), joten ajasta riippuvat termit ovat nollia. Jäljelle jää integraali
-\begin{equation} \psi(x) = \frac{1}{2 \pi} \int_{-\infty}^{\infty} a(k) e^{\ii k x} \dd k. \end{equation}
+\begin{equation} \psi(x) = \frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{\infty} a(k) e^{\ii k x} \dd k. \end{equation}
 
 Aaltoluvun todennäköisyystiheys on aaltolukuesityksen itseisarvon neliö, \(\rho_K (k) = |a(k)|^2 \). Liikemäärä on aaltoluvun ja redusoidun Planckin vakion tulo, \(p_x = \hbar k\), ja nopeus liikemäärän ja massan suhde, \(v_x = p_x / m_e\).
 Paikan todennäköisyystiheys on aaltofunktion itseisarvon neliö, \( \rho_X (x) = |\psi(x)|^2 \). Epätarkkuudella tarkoitetaan näiden jakaumien hajontoja, ja epätarkkuusperiaatteen mukaan pitää olla \( \sigma_x \sigma_k \ge \frac{1}{2}\).
@@ -33878,7 +33878,7 @@ E_\uparrow & 0  \\
 0 \\
 E_\downarrow
 \end{array}\right] \ \hat{=} \ E_\downarrow \ket{\downarrow\ }\end{equation}
-Systeemiä kuvaava Schrödingern yhtälö on näin ollen matriisin ominaisarvoyhtälö
+Systeemiä kuvaava Schrödingerin yhtälö on näin ollen matriisin ominaisarvoyhtälö
 \begin{equation} \hat{H} \ket{\psi} = E_\text{kokonais} \ket{\psi} \Leftrightarrow \left[\begin{array}{cc} 
 E_\uparrow & 0  \\
 0 & E_\downarrow
@@ -34039,7 +34039,7 @@ Eräs tällainen ilmiö on kovalenttisten sidosten muodostuminen, jonka yksinker
 \stopper{Montako kupua on kuvan \autoref{fig:kvantti_kovalentti} (b) aaltofunktiossa? (Huom. kupu ei ole aaltofunktion maksimi vaan solmujen erottama alue.) Mikä on tilan kvanttiluku? Miltä näyttäisi seuraavan viritystilan aaltofunktio?
 }
 
-Myös vapaasti liikkuvat hiukkaset voivat tunneloitua kuten kuvassa \autoref{fig:kvantti_tunneloituminen}, jossa elektronia kuvaava aaltopulssi törmää energiavalliin eli alueeseen, jossa elektronin potentiaalienergia olisi sen kokonaisenergiaa suurempi. Jos elektroni olisi klassinen hiukkanen, sen liike-energia ei voisi mitenkään riittää nousemaan tämän energiavallin yli eikä elektroni siis voisi millään päästä vallin toiselle puolelle. Kuitenkin koska elektroni on aalto, se ei kimpoa energiavallista kuin pallo seinästä vaan vallikin on aallolle vain rajapinta. Jos valli olisi paksu, aalto kokoisi kokonaisheijastumisen ja elektroni palaisi varmasti takaisin tulosuuntaansa. Sen sijaan jos valli on tarpeeksi ohut, osa aallosta voi läpäistä sen ja jatkaa matkaansa vallin takana alueessa, johon elektronin ei klassisen hiukkasmallin mukaan pitäisi päästä. Tätä hyödynnetään esimerkiksi tunnelointimikroskoopissa, jossa pintojen rakenteita voidaan havaita atomienkin kokoluokkaa tarkemmin tuomalla erittäin terävä neula alle nanometrin päähän tutkittavasta pinnasta. Elektronin irrottaminen tutkittavasta pinnasta vaatisi paljon energiaa, joten pinnan ja neulan väliin jäävä rako on elektronille potentiaalienergiavalli. Klassisesti elektronien pitäisi pysyä tiukasti kiinni pinnassa, mutta todellisuudessa elektroniaallot voivat tunneloitua tutkittavasta pinnasta neulaan ilman, että niitä varsinaisesti irrotetaan pinnasta antamalla niille energiaa. Elektronien tunneloituessa pinnan ja neulan välillä siirtyy varausta ja systeemissä kulkee siis sähkövirta, ja mikroskoopin toiminta perustuu tämän virran mittaamiseen neulan paikan funktiona.
+Myös vapaasti liikkuvat hiukkaset voivat tunneloitua kuten kuvassa \autoref{fig:kvantti_tunneloituminen}, jossa elektronia kuvaava aaltopulssi törmää energiavalliin eli alueeseen, jossa elektronin potentiaalienergia olisi sen kokonaisenergiaa suurempi. Jos elektroni olisi klassinen hiukkanen, sen liike-energia ei voisi mitenkään riittää nousemaan tämän energiavallin yli eikä elektroni siis voisi millään päästä vallin toiselle puolelle. Kuitenkin koska elektroni on aalto, se ei kimpoa energiavallista kuin pallo seinästä vaan vallikin on aallolle vain rajapinta. Jos valli olisi paksu, aalto kokisi kokonaisheijastumisen ja elektroni palaisi varmasti takaisin tulosuuntaansa. Sen sijaan jos valli on tarpeeksi ohut, osa aallosta voi läpäistä sen ja jatkaa matkaansa vallin takana alueessa, johon elektronin ei klassisen hiukkasmallin mukaan pitäisi päästä. Tätä hyödynnetään esimerkiksi tunnelointimikroskoopissa, jossa pintojen rakenteita voidaan havaita atomienkin kokoluokkaa tarkemmin tuomalla erittäin terävä neula alle nanometrin päähän tutkittavasta pinnasta. Elektronin irrottaminen tutkittavasta pinnasta vaatisi paljon energiaa, joten pinnan ja neulan väliin jäävä rako on elektronille potentiaalienergiavalli. Klassisesti elektronien pitäisi pysyä tiukasti kiinni pinnassa, mutta todellisuudessa elektroniaallot voivat tunneloitua tutkittavasta pinnasta neulaan ilman, että niitä varsinaisesti irrotetaan pinnasta antamalla niille energiaa. Elektronien tunneloituessa pinnan ja neulan välillä siirtyy varausta ja systeemissä kulkee siis sähkövirta, ja mikroskoopin toiminta perustuu tämän virran mittaamiseen neulan paikan funktiona.
 
 \stopper{Jos kuvan \autoref{fig:kvantti_tunneloituminen} (c) elektronin paikka tai nopeus mitataan, mitä voidaan havaita ja kuinka todennäköisesti?
 }
@@ -34067,7 +34067,7 @@ Jäljelle jäävät vielä jatkuvuusehdot alueiden rajalla
 \psi'_1(L/2) &=& \psi'_2(L/2) \end{eqnarray}
 
 sekä normitusehto
-\begin{equation} \int_0^{L/2} |\psi_1|^2 \dd x + \int_{L/2}^0 |\psi_2|^2 \dd x = 1. \end{equation}
+\begin{equation} \int_0^{L/2} |\psi_1|^2 \dd x + \int_{L/2}^L |\psi_2|^2 \dd x = 1. \end{equation}
 Energian ominaisarvot ratkeavat jatkuvuusehdoista.
 Aaltofunktion amplitudi selviää normitusehdosta, mutta sitä ei tässä tarvitse välttämättä ratkaista.
 
@@ -34486,7 +34486,7 @@ Kulmaliikemäärää kuvaa vektori \(\bs{L}\). Klassisesti tämän vektorin suun
 Tutkiessamme aaltofunktioita yhdessä ulottuvuudessa opimme, että eteneviä aaltoja kuvaavissa aaltofunktioissa sekä reaali- että imaginääriosat muodostavat eteneviä aaltoja niin, että imaginääriosa kulkee reaaliosan edellä (vrt. kuva \autoref{fig:kvantti_vapaahiukkanen}). Tämä pätee myös kiertoliikkeessä oleville aalloille.
 Jos nimittäin elektroni kiertää ydintä jonkin akselin ympäri, sen aaltofunktion reaali- ja imaginääriosat muodostavat tässä suunnassa etenevät, ydintä kiertävät aallot kuten kuvaan \autoref{fig:kvantti_kulmaliikemaara_bc} (a) on piirretty.
 
-Opimme yhdessä ulottuvuudessa myös sen, että vastakkaisiin suuntiin kulkevien aaltojen superpositio muodosta seisovan aallon, ja näin käy myös ydintä kiertävän elektronin aaltofunktiossa, jos ydintä kiertää kaksi aaltoa yhtä aikaa vastakkaisiin suuntiin.
+Opimme yhdessä ulottuvuudessa myös sen, että vastakkaisiin suuntiin kulkevien aaltojen superpositio muodostaa seisovan aallon, ja näin käy myös ydintä kiertävän elektronin aaltofunktiossa, jos ydintä kiertää kaksi aaltoa yhtä aikaa vastakkaisiin suuntiin.
 Itse asiassa osoittautuu, että pallon pinnalla kulkeva aalto voi muodostaa etenevän aallon vain yhden akselin ympäri. Muissa suunnissa on pakko muodostua seisovia aaltoja. Tämä ei ole kvanttimekaaninen erikoisuus vain yleinen aaltojen ominaisuus, joka pätee myös ydintä kiertävän elektronin aaltofunktiolle. Seisovien aaltojen suunnissa aaltofunktioon muodostuu solmuja ja kupuja.
 
 \begin{figure}[b!]
@@ -34586,11 +34586,11 @@ Kuvan \autoref{fig:kvantti_aaltofunktio_pallo} aaltofunktio on varsin monimutkai
 \stopper{Tutki kuvaa \autoref{fig:kvantti_aaltofunktio_sarja}. Miten aaltofunktio muuttuu, kun \(l\) kasvaa? Entä kun \(m\) kasvaa? Onko tiloissa \(m=0\) jotain erikoista?
 }
 
-Seisovien aaltojen muodostuminen \(x\)- ja \(y\)-akselien ympärille tarkoittaa sitä, että elektronin kulmaliikemäärävektorilla on komponentit myös \(x\)- ja \(y\)-suunnissa. Nämä kulmaliikemäärän komponentit ovat kuitenkin epämääräiset. Jos mittaisimme esimerkiksi elektronin kulmaliikemäärän \(x\)-akselin ympäri eli kulmaliikemäärän komponentin \(L_x\), elektronin voitaisiin havaita kiertävän tätä akselia kumpaan tahansa suuntaan. Nämä eri kiertosuunnat vastaavat kulmaliikemäärän komponentin \(L_x\) eri etumerkkejä, ja niinpä komponentille \(L_x\) voidaan mitata sekä positiivinen että negatiivinen arvo. Itse asiassa myös komponentin \(L_x\) itsesarvolla on hajontaa.
+Seisovien aaltojen muodostuminen \(x\)- ja \(y\)-akselien ympärille tarkoittaa sitä, että elektronin kulmaliikemäärävektorilla on komponentit myös \(x\)- ja \(y\)-suunnissa. Nämä kulmaliikemäärän komponentit ovat kuitenkin epämääräiset. Jos mittaisimme esimerkiksi elektronin kulmaliikemäärän \(x\)-akselin ympäri eli kulmaliikemäärän komponentin \(L_x\), elektronin voitaisiin havaita kiertävän tätä akselia kumpaan tahansa suuntaan. Nämä eri kiertosuunnat vastaavat kulmaliikemäärän komponentin \(L_x\) eri etumerkkejä, ja niinpä komponentille \(L_x\) voidaan mitata sekä positiivinen että negatiivinen arvo. Itse asiassa myös komponentin \(L_x\) itseisarvolla on hajontaa.
 Aivan samanlainen päättely pätee komponentille \(L_y\). Toisin sanoen ainoastaan yksi kulmaliikemäärävektorin \(\bs{L}\) komponenteista voi olla täsmällisesti tunnettu ja vektorin muut komponentit ovat välttämättä epämääräiset. Tästä syystä kulmaliikemäärävektorin suunta ei voi koskaan olla täsmällinen (ellei kulmaliikemäärä ole nolla) vaan siihen liittyy aina epätarkkuus.
 
 \begin{figure}[b!]
-\caption{Kulmaliikemäärävektorin pituuden määrää kvanttiluku \(l\) ja sen \(z\)-komponentin kvanttiluku \(m\). Jos \(m = l\), elektroni kiertää pääasiassa \(z\)-akselia. Jos taas \(m = 0\), elektronin liike tapahtuu pelkästään \(x\)- ja \(y\)- akselien ympäri. Tämä on mhadollista, koska elektroni on aalto. Jos elektronia yrittää ajatella klassisena hiukkasena, tulos tarkoittaisi elektronin liikkuvan usealla radalla yhtä aikaa.
+\caption{Kulmaliikemäärävektorin pituuden määrää kvanttiluku \(l\) ja sen \(z\)-komponentin kvanttiluku \(m\). Jos \(m = l\), elektroni kiertää pääasiassa \(z\)-akselia. Jos taas \(m = 0\), elektronin liike tapahtuu pelkästään \(x\)- ja \(y\)- akselien ympäri. Tämä on mahdollista, koska elektroni on aalto. Jos elektronia yrittää ajatella klassisena hiukkasena, tulos tarkoittaisi elektronin liikkuvan usealla radalla yhtä aikaa.
 }
 \footnotesize
 \begin{center}
@@ -34686,7 +34686,7 @@ Päättelemme nyt elektronin paikan jakauman kuvaan \autoref{fig:kvantti_orbitaa
 
 Kuvan ensimmäinen tila on perustila \(\ket{1,0,0}\). Tässä tilassa radiaalifunktiossa on yksi kupu ja kulmafunktio on vakio. Tämä tarkoittaa sitä, että elektroni voi olla yhtä suurella todennäköisyydellä missä tahansa suunnassa ytimestä katsoen, jolloin paikan jakauma on pallo, jonka keskellä ydin on.
 
-Toinen tila on \(\ket{3,0,0}\). Tässä tilassa kulmaosuus on jälleen vakio, joten nytkin elektroni voi olla missä tahansa suunnassa yhtä suurella todennäköisyydellä. Radiaalifunktiossa on kuitenkin kolme kupua, joita erottaa kaksi solmua. Solmun kohdalla todennäköisyys havaita elektroni on nolla, joten elektronin paikan jakaumaan muodostuu kolme pallokuorta. Radiaalifunktion kunkin kuvun kohdalla on kuori, jossa elektroni on suurella todennäköisyydella, ja kunkin solmun kohdalla on kuoria erottava ``tyhjä'' alue, josaa elektroni ei voi olla.
+Toinen tila on \(\ket{3,0,0}\). Tässä tilassa kulmaosuus on jälleen vakio, joten nytkin elektroni voi olla missä tahansa suunnassa yhtä suurella todennäköisyydellä. Radiaalifunktiossa on kuitenkin kolme kupua, joita erottaa kaksi solmua. Solmun kohdalla todennäköisyys havaita elektroni on nolla, joten elektronin paikan jakaumaan muodostuu kolme pallokuorta. Radiaalifunktion kunkin kuvun kohdalla on kuori, jossa elektroni on suurella todennäköisyydella, ja kunkin solmun kohdalla on kuoria erottava ``tyhjä'' alue, jossa elektroni ei voi olla.
 
 Kolmas tila on \(\ket{2,1,0}\). Nyt radiaalifunktiossa on jälleen vain yksi kupu, mutta nyt kulmafunktiossa on kuvut atomin ``navoilla'' eli \(z\)-akselilla ja solmu ``päiväntasaajalla'' eli \(xy\)-tasossa. Tämä tarkoittaa sitä, että \emph{elektronia ei voi havaita kaikissa suunnissa yhtä suurella todennäköisyydella}. Suurin todennäköisyys on kupujen suunnassa ja solmujen suunnassa elektronin havaitsemisen todennäköisyys on nolla. Paikan jakauma on pyörähdyssymmetrinen \(z\)-akselin suhteen, joten elektronin paikan todennäköisyystiheys on nolla koko \(xy\)-tasossa, ja niinpä paikan jakaumaan muodostuu kaksi erillistä, likimain kartion muotoista aluetta, joista toinen on ytimestä positiivisen \(z\)-suunnan puolella ja toinen negatiivisessa suunnassa.
 
@@ -34776,7 +34776,7 @@ Kyseessä on jälleen puhtaasti kvanttimekaaninen ominaisuus, joka pätee ns. \t
 \index{fermioni}
 \index{bosoni}
 
-Koska esimerkiksi kvanttilukua \(n=1\) vastaa vain kaksi tilaa, \(\ket{1,0,0,1/2}\) ja \(\ket{1,0,0,-1/2}\), Paulin säännön mukaan \(1\text{s}\)-orbitaalille mahtuu siis maksimissaan \emph{kaksi} elektronia. Kolmannen elektronin on asetuttava energiassa toiseksi matalimmalle orbitaalille, joka on \(2\text{s}\), eli esimerkiksi tilalle \(\ket{2,0,0,1/2}\). Vaikkapa hiiliatomissa on kuusi elektronia, joten hiilen elektroneista kaksi on orbitaalilla \(1s\), kaksi orbitaalilla \(2\text{s}\) ja kaksi orbitaalilla \(2\text{p}\). Kaikkiaan hiilen elektronirakennetta merkitään siis \(1\text{s}^2 2\text{s}^2 2\text{p}^2\). Koska kaikilla tiloilla \(\ket{2,1,m,s}\) on sama energia (kun emme huomioi elektronien välistä hylkivää sähköistä vuorovaikutusta), hiilen kaksi \(2\text{p}\)-elektronia voivat olla millä tahansa näistä tiloista tai jossakin tilojen superpositiossa kuten esimerkiksi tiloissa \(\ket{2,1,1,1/2}\) (ns. p\(_z\)-orbitaali) ja \(\frac{1}{\sqrt{2}}\ket{2,1,1,1/2} + \frac{1}{\sqrt{2}}\ket{2,1,-1,1/2}\) (ns. p\(_x\)-orbitaali). Merkintä \(2\text{p}^2\) ei siis kerro täsmälleen millaiset näiden elektronien tilat ovat, mutta atomin kemiallisten ominaisuuksien kannalta tärkeintä onkin se, että näillä orbitaaleilla on vain \emph{kolme} elektronia --- siellä on siis vielä tilaa \emph{kolmelle muulle} elektronille.
+Koska esimerkiksi kvanttilukua \(n=1\) vastaa vain kaksi tilaa, \(\ket{1,0,0,1/2}\) ja \(\ket{1,0,0,-1/2}\), Paulin säännön mukaan \(1\text{s}\)-orbitaalille mahtuu siis maksimissaan \emph{kaksi} elektronia. Kolmannen elektronin on asetuttava energiassa toiseksi matalimmalle orbitaalille, joka on \(2\text{s}\), eli esimerkiksi tilalle \(\ket{2,0,0,1/2}\). Vaikkapa hiiliatomissa on kuusi elektronia, joten hiilen elektroneista kaksi on orbitaalilla \(1s\), kaksi orbitaalilla \(2\text{s}\) ja kaksi orbitaalilla \(2\text{p}\). Kaikkiaan hiilen elektronirakennetta merkitään siis \(1\text{s}^2 2\text{s}^2 2\text{p}^2\). Koska kaikilla tiloilla \(\ket{2,1,m,s}\) on sama energia (kun emme huomioi elektronien välistä hylkivää sähköistä vuorovaikutusta), hiilen kaksi \(2\text{p}\)-elektronia voivat olla millä tahansa näistä tiloista tai jossakin tilojen superpositiossa kuten esimerkiksi tiloissa \(\ket{2,1,1,1/2}\) (ns. p\(_z\)-orbitaali) ja \(\frac{1}{\sqrt{2}}\ket{2,1,1,1/2} + \frac{1}{\sqrt{2}}\ket{2,1,-1,1/2}\) (ns. p\(_x\)-orbitaali). Merkintä \(2\text{p}^2\) ei siis kerro täsmälleen millaiset näiden elektronien tilat ovat, mutta atomin kemiallisten ominaisuuksien kannalta tärkeintä onkin se, että näillä orbitaaleilla on vain \emph{kaksi} elektronia --- siellä on siis vielä tilaa \emph{neljälle muulle} elektronille.
 
 \stopper{Kolme elektronia asetetaan äärettömän syvään potentiaalikuoppaan (kuva \autoref{fig:kvantti_kuoppa}). Oletetaan, että elektronien välinen sähköinen vuorovaikutus muuttaa elektronien sallittujen tilojen energioita vain vähän. Mitkä ovat elektronien energiat? Mikä on pienin ja toiseksi pienin energia, jonka jokin kuopassa oleva elektroni voi absorboida (yksiköissä \( \frac{\hbar^2 \pi^2}{2 m L^2} \))?
 }
