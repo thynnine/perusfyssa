@@ -417,7 +417,7 @@
   \item sisäenergia, 59, 222, 252, 311
   \item sisäinen vuorovaikutus, 68
   \item skalaari, 31, 115
-  \item skalaarikomponentti, 32, 89, 98, 133, 145
+  \item skalaarikomponentti, 31, 89, 98, 133, 145
   \item solmu, 651, 773, 777
   \item spektri, 602, 753
   \item spektroskooppinen notaatio, 782
@@ -525,7 +525,7 @@
   \item yhtälöryhmä, 471
   \item yksikkö, 10, 31
   \item yksikkötarkastelu, 10
-  \item yksikkövektori, 32
+  \item yksikkövektori, 31
   \item ylivaimennus, 604
   \item ylätaajuus, 600, 652, 755
   \item ympyräliike, 166
