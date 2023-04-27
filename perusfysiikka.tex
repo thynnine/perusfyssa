@@ -1638,16 +1638,6 @@ Vektorin \(\bs{v}\) pituus positiiviseen \(x\)-suuntaan (eli suuntaan johon vekt
 
 \index{paikka}
 
-Myös kappaleen paikka voidaan määritellä vektorina. Tämä voi vaikuttaa oudolta, koska paikallahan ei sinänsä ole suuntaa. Kuitenkin paikka mitataan koordinaatistossa origon suhteen, jolloin ``paikan suunta'' on se suunta, jossa paikka on origosta katsoen. Näin määritellään \textbf{paikkavektori}, joka on origosta tarkasteltavaan paikkaan osoittava vektori. Yksiulotteisessa tapauksessa paikkavektori osoittaa siis suuntaan \(\uv{i}\) eli positiiviseen \(x\)-suuntaan, kun paikan koordinaatti \(x\) on positiivinen, ja suuntaan \(-\uv{i}\) eli negatiiviseen \(x\)-suuntaan, kun paikan koordinaatti on negatiivinen. Paikkavektorin pituus on tarkasteltavan paikan etäisyys origosta. Tämähän kuitenkin tarkoittaa, että \emph{paikkavektorin skalaarikomponentti on sama asia kuin paikkakoordinaatti}, joten yksiulotteisessa tapauksessa paikkavektori on yksinkertaisesti
-\begin{equation} \bs{r} = x \uv{i}. \label{yksid_paikkavektori}\end{equation}
-
-\index{siirtymä}
-\index{Delta, $\Delta$}
-
-Näin määriteltynä myös paikan muutokset eli siirtymät ovat vektoreita, sillä
-\begin{equation} \Delta \bs{r} = \bs{r}_\text{loppu} - \bs{r}_\text{alku} = x_\text{loppu} \uv{i} - x_\text{alku} \uv{i} = (x_\text{loppu} - x_\text{alku}) \uv{i} = \Delta x \uv{i}. \label{siirtymavektori} \end{equation}
-Tässä käytettiin vektorien ja skalaarien kertolaskun laskusääntöjä, jotka ovat samanlaiset kuin tavallisen kertolaskun säännöt. Toisin sanoen voidaan laskea esimerkiksi \(x\bs{a} + y\bs{a} = (x+y)\bs{a}\). Tulokseksi saatiin, että paikkavektorin muutos on sama asia kuin paikkakoordinaatin (eli paikkavektorin skalaarikomponentin) muutos kerrottuna yksikkövektorilla, joka antaa vektorille suunnan. Varsinainen lasku voitiin siis tässä yksiulotteisessa tapauksessa suorittaa pelkästään vektorien skalaarikomponentteja käyttäen, koska kaikki vektorit ovat \(x\)-suuntaisia ja niiden suunta \(\uv{i}\) voitiin ottaa yhteiseksi tekijäksi.
-
 \begin{wrapfigure}{L}{0.5\textwidth}
 \centering
 \footnotesize
@@ -1659,6 +1649,16 @@ Vektorin muutos skalaarikomponentin muutoksen ja yksikkövektorin tulona.
 
 \label{fig:liikevektorit2}
 \end{wrapfigure}
+
+Myös kappaleen paikka voidaan määritellä vektorina. Tämä voi vaikuttaa oudolta, koska paikallahan ei sinänsä ole suuntaa. Kuitenkin paikka mitataan koordinaatistossa origon suhteen, jolloin ``paikan suunta'' on se suunta, jossa paikka on origosta katsoen. Näin määritellään \textbf{paikkavektori}, joka on origosta tarkasteltavaan paikkaan osoittava vektori. Yksiulotteisessa tapauksessa paikkavektori osoittaa siis suuntaan \(\uv{i}\) eli positiiviseen \(x\)-suuntaan, kun paikan koordinaatti \(x\) on positiivinen, ja suuntaan \(-\uv{i}\) eli negatiiviseen \(x\)-suuntaan, kun paikan koordinaatti on negatiivinen. Paikkavektorin pituus on tarkasteltavan paikan etäisyys origosta. Tämähän kuitenkin tarkoittaa, että \emph{paikkavektorin skalaarikomponentti on sama asia kuin paikkakoordinaatti}, joten yksiulotteisessa tapauksessa paikkavektori on yksinkertaisesti
+\begin{equation} \bs{r} = x \uv{i}. \label{yksid_paikkavektori}\end{equation}
+
+\index{siirtymä}
+\index{Delta, $\Delta$}
+
+Näin määriteltynä myös paikan muutokset eli siirtymät ovat vektoreita, sillä
+\begin{equation} \Delta \bs{r} = \bs{r}_\text{loppu} - \bs{r}_\text{alku} = x_\text{loppu} \uv{i} - x_\text{alku} \uv{i} = (x_\text{loppu} - x_\text{alku}) \uv{i} = \Delta x \uv{i}. \label{siirtymavektori} \end{equation}
+Tässä käytettiin vektorien ja skalaarien kertolaskun laskusääntöjä, jotka ovat samanlaiset kuin tavallisen kertolaskun säännöt. Toisin sanoen voidaan laskea esimerkiksi \(x\bs{a} + y\bs{a} = (x+y)\bs{a}\). Tulokseksi saatiin, että paikkavektorin muutos on sama asia kuin paikkakoordinaatin (eli paikkavektorin skalaarikomponentin) muutos kerrottuna yksikkövektorilla, joka antaa vektorille suunnan. Varsinainen lasku voitiin siis tässä yksiulotteisessa tapauksessa suorittaa pelkästään vektorien skalaarikomponentteja käyttäen, koska kaikki vektorit ovat \(x\)-suuntaisia ja niiden suunta \(\uv{i}\) voitiin ottaa yhteiseksi tekijäksi.
 
 \index{differentiaali, $\dd$}
 \index{nollavektori}
@@ -6609,7 +6609,7 @@ Jos voima tunnetaan \emph{ajan funktiona}, kiihtyvyyden komponentit voidaan suor
 
 \stopper{Kappaleeseen (massa \(1 \un{kg}\)) vaikuttavan kokonaisvoiman skalaarikomponentit riippuvat ajasta niin, että \(F_x\) on aluksi \(2.0 \un{N}\) ja sekunnin päästä \(-1.0 \un{N}\) ja \(F_y\) on aluksi \(2.0 \un{N}\) ja sekunnin päästä \(4.0 \un{N}\). Kumpikin komponentti muuttuu lineaarisesti ajan funktiona (eli niiden kuvaajat ovat suorat). Jos kappale liikkuu aluksi negatiiviseen \(x\)-suuntaan \(1.0 \un{m/s}\) vauhdilla, mitkä ovat sen nopeuden komponentit sekunnin päästä?
 }
-
+\newpage
 \begin{exam}{Kuulapeli}{ex:aikavoima}\noindent
 
 \problem{Kuulapelissä pyritään ohjaamaan pientä kuulaa (massa \(10 \un{g}\)) labyrintissä kallistamalla pelilautaa, jolloin painovoima vetää kuulaa aina jyrkimmän laskun suuntaan. Pelaaja voi kahdesta nupista kääntämällä vaikuttaa laudan kallistumaan ja samalla siis kuulaan kohdistuvaan kokonaisvoimaan kahdessa kohtisuorassa suunnassa \(x\) ja \(y\). Millaisen reitin levosta lähtevä kuula kulkee kahden sekunnin aikana, jos siihen vaikuttavan kokonaisvoiman \(x\)-suuntainen skalaarikomponentti on \(F_x = A t \) ja \(y\)-suuntainen \(F_y = B \sin C t\), missä \(A = 3.0\cdot10^{-4} \un{N/s}, B = 7.0\cdot10^{-4} \un{N}, C = 3.5 \un{s}^{-1}\)?
@@ -13411,7 +13411,7 @@ Siispä jos haluamme selvittää kahvin lämpötilan jollakin ajan hetkellä, me
 
 Differentiaaliyhtälöiden ratkaiseminen yleisesti on vaikeaa, mutta tässä tapauksessa ratkaisu voidaan löytää monellakin tavalla. Jos tiedämme jo etukäteen, millainen funktio yhtälön voisi ratkaista, \textbf{yrite} on helpoin tapa ratkaista differentiaaliyhtälö. Jäähtyvän kahvin tapauksessa tiedämme, että kahvi on aluksi lämpötilassa \(T_\text{alku}\) ja sen lämpötila lähestyy vähitellen ympäröivän ilman lämpötilaa \(T_\text{ilma}\). Lämpötilaa täytyy siis kuvata funktio, joka lähestyy vakioarvoa. Esimerkiksi eksponenttifunktio on tällainen, joten ratkaisu voisi olla
 \begin{equation} T(t) = a + b e^{- t / c }, \label{dy_yrite} \end{equation}
-missä \(a\), \(b\) ja \(c\) ovat jotkin vakiot. Tämä on siis \emph{arvaus}. Meidän täytyy laskea funktion derivaatta ja sijoittaa funktio derivaattoineen differentiaaliyhtälöön (\autoref{dy2}) selvittääksemme, onko arvaus oikein. Jos on, voimme samalla ratkaista ainakin osan tuntemattomista vakioista \(a\), \(b\) ja \(c\) tunnettujen fysikaalisten parameterien \(k\), \(C\), \(T_\text{alku}\) ja \(T_\text{ilma}\) avulla.
+missä \(a\), \(b\) ja \(c\) ovat jotkin vakiot. Yrite on siis \emph{arvaus}. Meidän täytyy laskea funktion derivaatta ja sijoittaa funktio derivaattoineen differentiaaliyhtälöön (\autoref{dy2}) selvittääksemme, onko arvaus oikein. Jos on, voimme samalla ratkaista ainakin osan tuntemattomista vakioista \(a\), \(b\) ja \(c\) tunnettujen fysikaalisten parameterien \(k\), \(C\), \(T_\text{alku}\) ja \(T_\text{ilma}\) avulla.
 
 \stopper{(a) Mitkä ovat yritteessä \autoref{dy_yrite} esiintyvien vakioiden yksiköt?\\
 (b) Osoita, että jos \(c > 0\), yrite lähestyy vakioarvoa, kun aika kuluu.\\
@@ -13483,6 +13483,10 @@ Sitä vastoin jos lämpökapasiteetti \(C\) olisi suurempi --- esimerkiksi jos k
 (c) Kullakin käyrällä lämpötila muuttuu kaikkiaan \(60 \un{K}\) pitkän ajan kuluessa. Kuinka suuri osuus tästä muutoksesta tapahtuu ajassa \(t = c\)?
 }
 
+Olet ehkä kuullut radioaktiivisuudesta ja puoliintumisajasta. Puoliintumisaika on se aika, jolloin puolet radioaktiivisen aineen atomiytimistä hajoaa muuttuen toisiksi alkuaineiksi. Toisin sanoen yhden puoliintumisajan jälkeen ytimiä on jäljellä puolet alkuperäisestä määrästä. Kahden puoliintumisajan jälkeen jäljellä on neljäsosa, kolmen jälkeen kahdeksasosa jne., sillä jokainen seuraava puoliintumisaika puolittaa aina jäljelle jääneen määrän.
+
+Aikavakio on aivan samanlainen suure kuin puoliintumisaika. Äskeisen pohdintatehtävän oikea lopputulos on se, että kun lämpötila on aluksi \(355 \un{K}\) ja lopuksi \(295 \un{K}\) eli kokonaismuutos on \(60 \un{K}\), yhden aikavakion \(c\) pituisessa ajassa muutoksesta ehtii tapahtua noin kaksi kolmannesta eli likimain \(40 \un{K}\). Seuraavan yhtä pitkän ajan kuluessa jäljelle jäänyt \(20 \un{K}\) ero loppulämpötilaan pienenee jälleen likimain yhteen kolmasosaan, jolloin \(60 \un{K}\) kokonaismuutoksesta on jäljellä enää noin yhdeksäsosa. Aina kun aikaa kuluu aikavakion verran, jäljellä olevasta erosta lopputilaan häviää noin kaksi kolmasosaa ja yksi kolmasosa jää vielä jäljelle. Puoliintumisaikaan verraten aikavakion voikin ajatella olevan likimain ``kolmasosiintumisaika''. Täsmällisesti jäljelle jää osuus \(1/e \approx 0.368\) eli hieman enemmän kuin yksi kolmasosa.
+
 \index{alkuehto}
 
 Kuvassa \autoref{fig:jatkuva_dy_2} (b) muuttuu vakion \(b\) arvo, ja selvästikin tämä vakio säätelee funktion \( T(t) \) alkuarvoa, sillä käyrät alkavat kuvassa eri kohdista. Tätä vakiota emme saaneet ratkaistua differentiaaliyhtälöstä, eikä sitä voikaan sen perusteella ratkaista. Differentiaaliyhtälöön (\autoref{dy2}) nimittäin sisältyy tieto lämmönjohtavuudesta \(k\), lämpökapasiteetista \(C\) ja ympäristön lämpötilasta \(T_\text{ilma}\), \emph{mutta siinä ei ole tietoa kahvin lämpötilasta alussa}. Vakion \(b\) ratkaisemiseen tarvitaan siis \textbf{alkuehto}. Tässä tapauksessa tiedämme, että kahvin lämpötila oli aluksi
@@ -13536,9 +13540,6 @@ ja vakiotermin \( T_\text{ilma} \) lisääminen yhtälön kummallekin puolelle j
 \begin{equation}  T(t) = T_\text{ilma} + (T_\text{alku} - T_\text{ilma}) e^{- \frac{k}{C} t}. \end{equation}
 Tämä on täsmälleen sama kuin yritteellä etsitty ratkaisu (\autoref{dy_ratkaisu_2}).
 Näin pitää olla, koska ei ole tietenkään mitään väliä, miten ratkaisun etsii. Siksi differentiaaliyhtälöitä ratkaistaessa kannattaakin miettiä, miten pääsee helpoimmalla. Jos ratkaisun osaa arvata, yritteen avulla arvauksen voi osoittaa oikeaksi. Separointia kannattaa yrittää, jos arvaaminen ei onnistu. Silloinkin ratkaisu kannattaa ehdottomasti aina tarkistaa sijoittamalla se alkuperäiseen differentiaaliyhtälöön ja tutkimalla, toteutuuko yhtälö.
-
-\stopper{Selitä omin sanoin, mikä on differentiaaliyhtälö. Mikä on yrite, ja miten ratkaiset differentiaaliyhtälön, jos tiedät sopivan yritteen? Mikä on alkuarvo, ja miksi sellaisia tarvitaan?
-}
 
 \newpage \begin{exam}{Korkoa korolle}{ex:dy}\noindent
 
@@ -13650,6 +13651,9 @@ ja
 ovat kumpikin samaa muotoa: derivaatta = funktio + vakio, eli fysikaalisesti suureen muutosnopeus = suureen arvo + vakio. Tällaisessa tapauksessa suureen muutosta kuvaa \emph{aina} eksponenttifunktio, täysin riippumatta siitä, mikä suure on kyseessä.
 
 \end{exam}
+
+\stopper{Selitä omin sanoin, mikä on differentiaaliyhtälö. Mikä on yrite, ja miten ratkaiset differentiaaliyhtälön, jos tiedät sopivan yritteen? Mikä on alkuarvo, ja miksi sellaisia tarvitaan?
+}
 
 \section{Tilanmuuttujat}
 \label{tilanmuuttujat}
