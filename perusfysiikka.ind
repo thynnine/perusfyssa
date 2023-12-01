@@ -1,539 +1,543 @@
 \begin{theindex}
 
-  \item aallonharja, 617
-  \item aallonpituus, 625
-  \item aallonpohja, 617
-  \item aallot, 616
-  \item aaltofunktio, 617, 623, 735, 768
-  \item aaltoliikkeen perusyhtälö, 625, 627
-  \item aaltoluku, 626, 734
-  \item aaltolukuesitys, 747
-  \item aaltopulssi, 617, 623, 735
-  \item aaltorintama, 672
-  \item aaltoyhtälö, 663, 697
-  \item absoluuttinen, 219
-  \item absoluuttinen nollapiste, 280
-  \item absorptio, 673, 753
-  \item adiabaattilaki, 344
-  \item adiabaattinen, 338
-  \item adiabaattivakio, 344, 351
+  \item aallonharja, 631
+  \item aallonpituus, 639
+  \item aallonpohja, 631
+  \item aallot, 630
+  \item aaltofunktio, 631, 637, 749, 782
+  \item aaltoliikkeen perusyhtälö, 639, 641
+  \item aaltoluku, 640, 748
+  \item aaltolukuesitys, 761
+  \item aaltopulssi, 631, 637, 749
+  \item aaltorintama, 686
+  \item aaltoyhtälö, 677, 711
+  \item absoluuttinen, 233
+  \item absoluuttinen nollapiste, 294
+  \item absorptio, 687, 767
+  \item adiabaattilaki, 358
+  \item adiabaattinen, 352
+  \item adiabaattivakio, 358, 365
   \item aika, 25
-  \item aika-avaruus, 238
-  \item aikadilataatio, 230
-  \item aikavakio, 291, 478, 603
-  \item ainemäärä, 284
-  \item ajatuskoe, 218
+  \item aika-avaruus, 252
+  \item aikadilataatio, 244
+  \item aikavakio, 305, 492, 617
+  \item ainemäärä, 298
+  \item ajatuskoe, 232
   \item akseli, 12, 24
-  \item alivaimennus, 603
-  \item alkeisvaraus, 378
-  \item alkuehto, 292, 582
-  \item ampeeri, 452
-  \item amplitudi, 576
-  \item Ampèren ja Maxwellin laki, 564
-  \item Ampèren laki, 510, 513
-  \item approksimaatio, 11, 30, 589
-  \item Arkhimedeen laki, 273
-  \item asymptootti, 16, 395, 410
-  \item atomi, 153, 770
-  \item avaruusaika, 238
-  \item avaruusaikaintervalli, 238
-  \item Avogadron vakio, 284
-  \item avoin systeemi, 51
+  \item alivaimennus, 617
+  \item alkeisvaraus, 392
+  \item alkuehto, 306, 596
+  \item ampeeri, 466
+  \item amplitudi, 590
+  \item Ampèren ja Maxwellin laki, 578
+  \item Ampèren laki, 524, 527
+  \item approksimaatio, 11, 34, 603
+  \item Arkhimedeen laki, 287
+  \item asymptootti, 16, 409, 424
+  \item atomi, 167, 784
+  \item avaruusaika, 252
+  \item avaruusaikaintervalli, 252
+  \item Avogadron vakio, 298
+  \item avoin systeemi, 65
 
   \indexspace
 
-  \item beli, 676
-  \item Bernoullin yhtälö, 277
-  \item Biot'n ja Savartin laki, 505
-  \item Boltzmannin vakio, 298
-  \item bosoni, 783
+  \item beli, 690
+  \item Bernoullin yhtälö, 291
+  \item Biot'n ja Savartin laki, 519
+  \item Boltzmannin vakio, 312
+  \item bosoni, 797
 
   \indexspace
 
-  \item Carnot'n prosessi, 363
-  \item celsius, 280
-  \item Coriolis-voima, 212
-  \item coulombi, 378
-  \item Coulombin laki, 384
+  \item Carnot'n prosessi, 377
+  \item celsius, 294
+  \item Coriolis-voima, 226
+  \item coulombi, 392
+  \item Coulombin laki, 398
 
   \indexspace
 
-  \item de Broglien hypoteesi, 734
-  \item Delta, $\Delta$, 24, 30, 32, 53, 157
-  \item derivaatta, 25, 30, 35, 102, 137, 155
-  \item desibeli, 676
-  \item differentiaali, $\dd$, 25, 30, 32, 35, 157, 290
-  \item differentiaaliyhtälö, 290, 478, 581, 605
-  \item diffraktio, 678, 710, 712, 716
-  \item dimensio, 10, 31
-  \item dipoli, 382, 495, 516, 779
-  \item dispersio, 653, 682, 737
-  \item dissipatiivinen, 62, 69, 121, 451
-  \item Doppler-ilmiö, 659
-  \item dynamiikan peruslaki, 91, 137
+  \item de Broglien hypoteesi, 748
+  \item Delta, $\Delta$, 28, 36, 40, 67, 171
+  \item derivaatta, 31, 34, 45, 116, 151, 169
+  \item desibeli, 690
+  \item differentiaali, $\dd$, 31, 36, 40, 45, 171, 304
+  \item differentiaaliyhtälö, 304, 492, 595, 619
+  \item diffraktio, 692, 724, 726, 730
+  \item dimensio, 10, 37
+  \item dipoli, 396, 509, 530, 793
+  \item dispersio, 667, 696, 751
+  \item dissipatiivinen, 76, 83, 135, 465
+  \item Doppler-ilmiö, 673
+  \item dynamiikan peruslaki, 105, 151
 
   \indexspace
 
-  \item ekstensiivinen, 46, 48, 53
-  \item ekvipartitio, 310, 321, 727
-  \item ekvivalenssiperiaate, 212
-  \item elastinen, 55, 65, 71, 103, 104, 141
-  \item elektrodi, 434
-  \item elektrolyytti, 434
-  \item elektroni, 153, 378, 516
-  \item elektronivoltti, 422
-  \item emissio, 726, 753
-  \item energia, 49, 115, 252, 583, 730, 734, 772
-  \item energiadiagrammi, 52
-  \item energiansiirtokaavio, 357
-  \item energiaperiaate, 51, 412
-  \item energiatiheys, 485, 560, 632, 698
-  \item entropia, 326, 330, 354
-  \item entropiadiagrammi, 361
-  \item epäelastinen, 65, 70, 141
-  \item epäinertiaalikoordinaatisto, 210
-  \item epätarkkuusperiaate, 640, 749
-  \item eriste, 286, 380, 430
-  \item eristetty, 326
-  \item eristetty systeemi, 51
-  \item esine, 701
-  \item etelänapa, 494
-  \item Eulerin kaava, 585
+  \item ekstensiivinen, 60, 62, 67
+  \item ekvipartitio, 324, 335, 741
+  \item ekvivalenssiperiaate, 226
+  \item elastinen, 69, 79, 85, 117, 118, 155
+  \item elektrodi, 448
+  \item elektrolyytti, 448
+  \item elektroni, 167, 392, 530
+  \item elektronivoltti, 436
+  \item emissio, 740, 767
+  \item energia, 63, 129, 266, 597, 744, 748, 786
+  \item energiadiagrammi, 66
+  \item energiansiirtokaavio, 371
+  \item energiaperiaate, 65, 426
+  \item energiatiheys, 499, 574, 646, 712
+  \item entropia, 340, 344, 368
+  \item entropiadiagrammi, 375
+  \item epäelastinen, 79, 84, 155
+  \item epäinertiaalikoordinaatisto, 224
+  \item epätarkkuusperiaate, 654, 763
+  \item eriste, 300, 394, 444
+  \item eristetty, 340
+  \item eristetty systeemi, 65
+  \item esine, 715
+  \item etelänapa, 508
+  \item etäisyys, 24
+  \item Eulerin kaava, 599
 
   \indexspace
 
-  \item faasi, 264, 285
-  \item Faradayn häkki, 429
-  \item Faradayn laki, 548
-  \item faradi, 437
-  \item fermioni, 783
-  \item fotoni, 730
-  \item Fourier-sarja, 599, 636, 747
-  \item funktio, 25
+  \item faasi, 278, 299
+  \item Faradayn häkki, 443
+  \item Faradayn laki, 562
+  \item faradi, 451
+  \item fermioni, 797
+  \item fotoni, 744
+  \item Fourier-sarja, 613, 650, 761
+  \item funktio, 28
 
   \indexspace
 
-  \item Galilei-muunnos, 216, 546
-  \item Gaussin laki, 398, 405, 510
-  \item Gaussin pinta, 406
-  \item gradientti, 158, 420
+  \item Galilei-muunnos, 230, 560
+  \item Gaussin laki, 412, 419, 524
+  \item Gaussin pinta, 420
+  \item gradientti, 172, 434
 
   \indexspace
 
-  \item harmoninen, 56, 103, 577, 600, 625
-  \item heijastuminen, 642, 679
-  \item heiluri, 589
-  \item heitto, 134
-  \item heittoliike, 36, 54
-  \item henry, 556
-  \item hertsi, 576
-  \item hetkellinen nopeus, 25
-  \item hila, 456, 710
-  \item hitausmomentti, 175
-  \item homogeeninen, 161
-  \item huojunta, 597
-  \item Huygensin periaate, 677, 706
-  \item hydrostaattinen, 268
-  \item hyötysuhde, 360
+  \item harmoninen, 70, 117, 591, 614, 639
+  \item heijastuminen, 656, 693
+  \item heiluri, 603
+  \item heitto, 148
+  \item heittoliike, 44, 68
+  \item henry, 570
+  \item hertsi, 590
+  \item hetkellinen nopeus, 31
+  \item hila, 470, 724
+  \item hitausmomentti, 189
+  \item homogeeninen, 175
+  \item huojunta, 611
+  \item Huygensin periaate, 691, 720
+  \item hydrostaattinen, 282
+  \item hyötysuhde, 374
 
   \indexspace
 
-  \item ideaalikaasu, 297, 306, 330
-  \item ilmanpaine, 268
-  \item imaginääriyksikkö, 584
-  \item impulssi, 72, 111
-  \item impulssimomentti, 194
-  \item induktanssi, 551, 556
-  \item induktio, 534
-  \item induktiolaki, 537
-  \item inertia, 53, 210, 250
-  \item inertiaalikoordinaatisto, 210
-  \item infinitesimaali, 25, 30
-  \item integraali, 30, 35, 39, 115, 137, 178, 391
-  \item intensiivinen, 46
-  \item intensiteetti, 675, 708, 714
-  \item interferenssi, 685, 706, 716, 717, 733
-  \item interferometri, 717
-  \item invariantti, 219, 239, 254
-  \item ioni, 378
-  \item irreversiibeli, 60, 324, 327
-  \item isentrooppinen, 342, 344
-  \item isobaarinen, 343
-  \item isokoorinen, 343
-  \item isoterminen, 343
-  \item itseinduktanssi, 554
-  \item itseisarvo, 32, 133, 584
+  \item ideaalikaasu, 311, 320, 344
+  \item ilmanpaine, 282
+  \item imaginääriyksikkö, 598
+  \item impulssi, 86, 125
+  \item impulssimomentti, 208
+  \item induktanssi, 565, 570
+  \item induktio, 548
+  \item induktiolaki, 551
+  \item inertia, 67, 224, 264
+  \item inertiaalikoordinaatisto, 224
+  \item infinitesimaali, 31, 36
+  \item integraali, 34, 45, 46, 129, 151, 192, 405
+  \item intensiivinen, 60
+  \item intensiteetti, 689, 722, 728
+  \item interferenssi, 699, 720, 730, 731, 747
+  \item interferometri, 731
+  \item invariantti, 233, 253, 268
+  \item ioni, 392
+  \item irreversiibeli, 74, 338, 341
+  \item isentrooppinen, 356, 358
+  \item isobaarinen, 357
+  \item isokoorinen, 357
+  \item isoterminen, 357
+  \item itseinduktanssi, 568
+  \item itseisarvo, 39, 147, 598
 
   \indexspace
 
-  \item jakso, 575
-  \item jaksollinen, 166, 574
-  \item jaksonaika, 576
-  \item jatkavuuden laki, 90
-  \item jatkuva virtaus, 451
-  \item jatkuvuus, 275
-  \item johde, 286, 380, 428
-  \item johtavuus, 458
-  \item joule, 50
-  \item jousi, 52, 55, 103
-  \item jännite, 421, 536
-  \item jännitelähde, 434
-  \item jännitys, 104, 264
-  \item jäykkä, 104
+  \item jakso, 589
+  \item jaksollinen, 180, 588
+  \item jaksonaika, 590
+  \item jatkavuuden laki, 104
+  \item jatkuva virtaus, 465
+  \item jatkuvuus, 289
+  \item johde, 300, 394, 442
+  \item johtavuus, 472
+  \item joule, 64
+  \item jousi, 66, 69, 117
+  \item jännite, 435, 550
+  \item jännitelähde, 448
+  \item jännitys, 118, 278
+  \item jäykkä, 118
 
   \indexspace
 
-  \item kaasu, 264
-  \item kaasuvakio, 297
-  \item kaksoisrako, 706, 732
-  \item kapasitanssi, 437
-  \item kappale, 26, 94
-  \item kausaliteetti, 247
-  \item kela, 551
-  \item kelvin, 280, 298
-  \item kenttä, 154, 385
-  \item kenttäviiva, 398
-  \item keskeiskiihtyvyys, 170
-  \item keskiarvo, 308, 318
-  \item keskihajonta, 742, 749
-  \item keskinopeus, 25
-  \item keskinäisinduktanssi, 554
-  \item keskipakoisvoima, 212
-  \item ket, 738
-  \item kiertoliike, 166, 775
-  \item kiertoprosessi, 359
-  \item kiihtyvyys, 33, 91, 137, 210
-  \item kiinteä, 264
-  \item kiintopiste, 24, 210
-  \item kilogramma, 53
-  \item Kirchhoffin säännöt, 465, 469
-  \item kitka, 59, 69, 107
-  \item kohtisuora, 106, 116, 143, 401
-  \item kokonaisheijastuminen, 681
-  \item kokoonpuristumaton, 265
-  \item kolloidi, 264
-  \item kolmiulotteinen, 132, 196, 309, 672, 768
-  \item kompleksiluku, 584, 735
-  \item kondensaattori, 437
-  \item konservatiivinen, 62, 101, 117, 151, 159
-  \item koordinaatisto, 24, 132, 210, 227, 243, 584
-  \item kovera, 699, 700
-  \item kulma, 166
-  \item kulmakerroin, 28, 35
-  \item kulmakiihtyvyys, 171
-  \item kulmaliikemäärä, 190, 775, 778
-  \item kulmanopeus, 168
-  \item kulmataajuus, 578
-  \item kupera, 699, 700
-  \item kupu, 651, 773, 777
-  \item kuva, 699, 701
-  \item kuvaaja, 11, 27
+  \item kaasu, 278
+  \item kaasuvakio, 311
+  \item kaksoisrako, 720, 746
+  \item kapasitanssi, 451
+  \item kappale, 26, 108
+  \item kausaliteetti, 261
+  \item kela, 565
+  \item kelvin, 294, 312
+  \item kenttä, 168, 399
+  \item kenttäviiva, 412
+  \item keskeiskiihtyvyys, 184
+  \item keskiarvo, 322, 332
+  \item keskihajonta, 756, 763
+  \item keskinopeus, 27, 29
+  \item keskinäisinduktanssi, 568
+  \item keskipakoisvoima, 226
+  \item ket, 752
+  \item kiertoliike, 180, 789
+  \item kiertoprosessi, 373
+  \item kiihtyvyys, 41, 105, 151, 224
+  \item kiinteä, 278
+  \item kiintopiste, 24, 224
+  \item kilogramma, 67
+  \item Kirchhoffin säännöt, 479, 483
+  \item kitka, 73, 83, 121
+  \item kohtisuora, 120, 130, 157, 415
+  \item kokonaisheijastuminen, 695
+  \item kokoonpuristumaton, 279
+  \item kolloidi, 278
+  \item kolmiulotteinen, 146, 210, 323, 686, 782
+  \item kompleksiluku, 598, 749
+  \item kondensaattori, 451
+  \item konservatiivinen, 76, 115, 131, 165, 173
+  \item koordinaatisto, 24, 40, 146, 224, 241, 257, 598
+  \item koordinaatti, 24
+  \item kovera, 713, 714
+  \item kulma, 180
+  \item kulmakerroin, 30, 45
+  \item kulmakiihtyvyys, 185
+  \item kulmaliikemäärä, 204, 789, 792
+  \item kulmanopeus, 182
+  \item kulmataajuus, 592
+  \item kupera, 713, 714
+  \item kupu, 665, 787, 791
+  \item kuva, 713, 715
+  \item kuvaaja, 11, 26
   \item kvalitatiivinen, 14
   \item kvantitatiivinen, 14
-  \item kvantittuminen, 753, 755, 772, 775
-  \item kvanttiluku, 738, 769, 772, 775, 779
-  \item kvanttimekaniikka, 314, 727
-  \item kvasistaattinen, 339
-  \item käämi, 551
+  \item kvantittuminen, 767, 769, 786, 789
+  \item kvanttiluku, 752, 783, 786, 789, 793
+  \item kvanttimekaniikka, 328, 741
+  \item kvasistaattinen, 353
+  \item käämi, 565
 
   \indexspace
 
-  \item lakipiste, 36, 55
-  \item laminaarinen, 274
-  \item latenttilämpö, 284
-  \item Lenzin laki, 538
-  \item lepo, 27
-  \item lepokitka, 107, 109
-  \item levykondensaattori, 437
-  \item liike-energia, 54, 118, 252, 310, 737
-  \item liikediagrammi, 28, 135, 140
-  \item liikekitka, 107, 110
-  \item liikemäärä, 67, 91, 115, 139, 250, 734
-  \item linssi, 700
-  \item linssiyhtälö, 702
+  \item lakipiste, 44, 69
+  \item laminaarinen, 288
+  \item latenttilämpö, 298
+  \item Lenzin laki, 552
+  \item lepo, 26
+  \item lepokitka, 121, 123
+  \item levykondensaattori, 451
+  \item liike-energia, 68, 132, 266, 324, 751
+  \item liikediagrammi, 27, 149, 154
+  \item liikekitka, 121, 124
+  \item liikemäärä, 81, 105, 129, 153, 264, 748
+  \item linssi, 714
+  \item linssiyhtälö, 716
   \item logaritminen, 15
-  \item Lorentz-muunnos, 238, 241
-  \item Lorentzin tekijä, 232
-  \item lähde, 402
-  \item lähdejännite, 435
-  \item lämmönjohtavuus, 286
-  \item lämpö, 121, 281
-  \item lämpökapasiteetti, 283, 312, 349
-  \item lämpölaajeneminen, 298
-  \item lämpötila, 279, 310, 332
-  \item lämpövoimakone, 360
-  \item lämpövuo, 288
-  \item läpäiseminen, 642, 679
+  \item Lorentz-muunnos, 252, 255
+  \item Lorentzin tekijä, 246
+  \item lähde, 416
+  \item lähdejännite, 449
+  \item lämmönjohtavuus, 300
+  \item lämpö, 135, 295
+  \item lämpökapasiteetti, 297, 326, 363
+  \item lämpölaajeneminen, 312
+  \item lämpötila, 293, 324, 346
+  \item lämpövoimakone, 374
+  \item lämpövuo, 302
+  \item läpäiseminen, 656, 693
 
   \indexspace
 
-  \item maadoitus, 435
-  \item magneetti, 494, 517
-  \item magneettikenttä, 497, 546
-  \item magneettivakio, 513
-  \item magneettivuo, 510, 537, 549
-  \item magneettivuon tiheys, 510
-  \item magnetoituminen, 496
-  \item makroskooppinen, 15, 317
-  \item makrotila, 317
-  \item malli, 11, 56, 105, 306, 409, 756, 770
-  \item massa, 53, 153, 210, 250
-  \item massakeskipiste, 76
-  \item massakeskipistekoordinaatisto, 219
-  \item matriisi, 471, 762
-  \item Maxwellin laki, 561
-  \item Maxwellin yhtälöt, 564
-  \item mekaaninen energia, 58
+  \item maadoitus, 449
+  \item magneetti, 508, 531
+  \item magneettikenttä, 511, 560
+  \item magneettivakio, 527
+  \item magneettivuo, 524, 551, 563
+  \item magneettivuon tiheys, 524
+  \item magnetoituminen, 510
+  \item makroskooppinen, 15, 331
+  \item makrotila, 331
+  \item malli, 11, 70, 119, 320, 423, 770, 784
+  \item massa, 67, 167, 224, 264
+  \item massakeskipiste, 90
+  \item massakeskipistekoordinaatisto, 233
+  \item matka, 24
+  \item matriisi, 485, 776
+  \item Maxwellin laki, 575
+  \item Maxwellin yhtälöt, 578
+  \item mekaaninen energia, 72
   \item metri, 24, 25
-  \item mikroskooppinen, 15, 317
-  \item mikrotila, 317
-  \item Minkowski-koordinaatisto, 243
-  \item mittakaava, 31
-  \item moiré-kuvio, 599
-  \item momentti, 182, 524
-  \item moodi, 651
-  \item mooli, 284
-  \item multiplisiteetti, 318
-  \item musta kappale, 726
-  \item muutos, 24, 30, 53, 539
+  \item mikroskooppinen, 15, 331
+  \item mikrotila, 331
+  \item Minkowski-koordinaatisto, 257
+  \item mittakaava, 38
+  \item moiré-kuvio, 613
+  \item momentti, 196, 538
+  \item moodi, 665
+  \item mooli, 298
+  \item multiplisiteetti, 332
+  \item musta kappale, 740
+  \item muutos, 28, 36, 67, 553
 
   \indexspace
 
-  \item nabla, $\nabla$, 159
-  \item napa, 434, 494, 517
-  \item napakoordinaatisto, 166, 585
-  \item neste, 264
-  \item neutroni, 153
-  \item newton, 88, 91
-  \item Newtonin lait, 88, 90--92
-  \item nielu, 402
-  \item nollavektori, 32
-  \item nopeus, 25, 33, 135, 655
-  \item normaalivoima, 106
-  \item normitus, 741, 759
-  \item noste, 273
-  \item näennäisvoima, 212
+  \item nabla, $\nabla$, 173
+  \item napa, 448, 508, 531
+  \item napakoordinaatisto, 180, 599
+  \item neste, 278
+  \item neutroni, 167
+  \item newton, 102, 105
+  \item Newtonin lait, 102, 104--106
+  \item nielu, 416
+  \item nollavektori, 40
+  \item nopeus, 27, 29, 40, 149, 669
+  \item normaalivoima, 120
+  \item normitus, 755, 773
+  \item noste, 287
+  \item näennäisvoima, 226
 
   \indexspace
 
-  \item odotusarvo, 318, 741
-  \item ohmi, 458
-  \item Ohmin laki, 458
-  \item oikean käden sääntö, 196, 498, 515, 538
-  \item oikosulku, 463
-  \item olomuodon muutos, 284
-  \item olomuoto, 264
-  \item ominaisaika, 231
-  \item ominaisenergia, 757
-  \item ominaislämpökapasiteetti, 284, 312, 349
-  \item ominaistila, 757, 761
-  \item optiikka, 693, 699, 706
-  \item orbitaali, 782
-  \item origo, 24, 132
-  \item osittaisderivaatta, 155
-  \item oskillaatio, 574
+  \item odotusarvo, 332, 755
+  \item ohmi, 472
+  \item Ohmin laki, 472
+  \item oikean käden sääntö, 210, 512, 529, 552
+  \item oikosulku, 477
+  \item olomuodon muutos, 298
+  \item olomuoto, 278
+  \item ominaisaika, 245
+  \item ominaisenergia, 771
+  \item ominaislämpökapasiteetti, 298, 326, 363
+  \item ominaistila, 771, 775
+  \item optiikka, 707, 713, 720
+  \item orbitaali, 796
+  \item origo, 24, 146
+  \item osittaisderivaatta, 169
+  \item oskillaatio, 588
 
   \indexspace
 
-  \item paikka, 24, 32, 75, 132, 779
-  \item paine, 266, 308
-  \item painopiste, 187
-  \item painottomuus, 213
-  \item painovoima, 36, 53, 103, 152, 210
-  \item paristo, 434
-  \item Paulin sääntö, 783
-  \item peili, 679, 699
-  \item periodi, 575
-  \item permeabiliteetti, 513
-  \item permittiivisyys, 405, 430
-  \item perustaajuus, 600, 652, 755
-  \item perustila, 753
-  \item piirikaavio, 464
-  \item pinta-ala, 29, 35
-  \item pintavaraustiheys, 394
-  \item pintavektori, 401
-  \item pistetulo, 144
-  \item pistevaraus, 384
-  \item pitkittäinen, 618
+  \item paikka, 24, 39, 89, 146, 793
+  \item paine, 280, 322
+  \item painopiste, 201
+  \item painottomuus, 227
+  \item painovoima, 44, 67, 117, 166, 224
+  \item paristo, 448
+  \item Paulin sääntö, 797
+  \item peili, 693, 713
+  \item periodi, 589
+  \item permeabiliteetti, 527
+  \item permittiivisyys, 419, 444
+  \item perustaajuus, 614, 666, 769
+  \item perustila, 767
+  \item piirikaavio, 478
+  \item pinta-ala, 33, 45
+  \item pintavaraustiheys, 408
+  \item pintavektori, 415
+  \item pistetulo, 158
+  \item pistevaraus, 398
+  \item pitkittäinen, 632
   \item pituus, 24
-  \item pituuskontraktio, 541
-  \item pituusvaraustiheys, 394
-  \item Planckin hypoteesi, 726, 734
-  \item Planckin vakio, 727
-  \item plasma, 264
-  \item plastinen, 104
-  \item pohjoisnapa, 494
-  \item poikittainen, 618
-  \item poikkipinta-ala, 270, 401
-  \item polarisaatio, 381, 495, 682
-  \item polttopiste, 699
-  \item polttoväli, 699
-  \item potentiaali, 417, 423
-  \item potentiaalienergia, 54, 77, 102, 117, 415, 524, 589
-  \item projektio, 143, 577
-  \item protoni, 153, 378
-  \item puoliarvoleveys, 638
-  \item putoamiskiihtyvyys, 37
-  \item pV-diagrammi, 342
-  \item pysäytysjännite, 729
-  \item pyöriminen, 174
-  \item pyörimisen liikeyhtälö, 184
+  \item pituuskontraktio, 555
+  \item pituusvaraustiheys, 408
+  \item Planckin hypoteesi, 740, 748
+  \item Planckin vakio, 741
+  \item plasma, 278
+  \item plastinen, 118
+  \item pohjoisnapa, 508
+  \item poikittainen, 632
+  \item poikkipinta-ala, 284, 415
+  \item polarisaatio, 395, 509, 696
+  \item polttopiste, 713
+  \item polttoväli, 713
+  \item potentiaali, 431, 437
+  \item potentiaalienergia, 68, 91, 116, 131, 429, 538, 603
+  \item projektio, 157, 591
+  \item protoni, 167, 392
+  \item puoliarvoleveys, 652
+  \item putoamiskiihtyvyys, 45
+  \item pV-diagrammi, 356
+  \item pysäytysjännite, 743
+  \item pyöriminen, 188
+  \item pyörimisen liikeyhtälö, 198
   \item pyöristäminen, 14, 15
-  \item pyörre, 274, 513
+  \item pyörre, 288, 527
 
   \indexspace
 
-  \item radiaalinen, 166, 773
-  \item radiaani, 166
-  \item raja-arvo, 16, 25, 28
-  \item rajapinta, 642, 679, 763
-  \item rata, 28, 135, 147
-  \item RC-piiri, 475
-  \item resistanssi, 458
-  \item resonanssi, 606
-  \item resultantti, 187
-  \item reunaehto, 643, 763
-  \item reversiibeli, 60, 327
-  \item rinnankytkentä, 438, 466
-  \item risteys, 465
-  \item ristitulo, 197, 505
-  \item rms-nopeus, 309
-  \item ryhmänopeus, 655, 737
-  \item räjähtävä erotus, 66
+  \item radiaalinen, 180, 787
+  \item radiaani, 180
+  \item raja-arvo, 16, 30, 34
+  \item rajapinta, 656, 693, 777
+  \item rata, 27, 149, 161
+  \item RC-piiri, 489
+  \item resistanssi, 472
+  \item resonanssi, 620
+  \item resultantti, 201
+  \item reunaehto, 657, 777
+  \item reversiibeli, 74, 341
+  \item rinnankytkentä, 452, 480
+  \item risteys, 479
+  \item ristitulo, 211, 519
+  \item rms-nopeus, 323
+  \item ryhmänopeus, 669, 751
+  \item räjähtävä erotus, 80
 
   \indexspace
 
-  \item sarjaankytkentä, 438, 465
-  \item sarjakehitelmä, 585, 589, 599
-  \item satunnaisliike, 222
-  \item Schrödingerin yhtälö, 760, 772
-  \item seisova aalto, 646, 650, 738, 755, 773, 777
+  \item sarjaankytkentä, 452, 479
+  \item sarjakehitelmä, 599, 603, 613
+  \item satunnaisliike, 236
+  \item Schrödingerin yhtälö, 774, 786
+  \item seisova aalto, 660, 664, 752, 769, 787, 791
+  \item sekantti, 30
   \item sekunti, 25
-  \item separointi, 293
-  \item SI-järjestelmä, 9, 15, 25, 53, 91, 284, 298, 378, 727
-  \item siirtymä, 24, 29, 32
-  \item silmukka, 465, 515
-  \item sironta, 456
-  \item sisäenergia, 59, 222, 252, 311
-  \item sisäinen vuorovaikutus, 68
-  \item skalaari, 31, 115
-  \item skalaarikomponentti, 31, 89, 98, 133, 145
-  \item solmu, 651, 773, 777
-  \item spektri, 602, 753
-  \item spektroskooppinen notaatio, 782
-  \item spin, 781
-  \item stationaarinen, 757
-  \item suhteellinen, 215, 219, 544
-  \item suhteellisuusperiaate, 215
-  \item suhteellisuusteoria, 227
-  \item suljettu reitti, 62, 151, 510
-  \item suljettu systeemi, 51
-  \item superpositio, 88, 389, 503, 635, 744
+  \item separointi, 307
+  \item SI-järjestelmä, 9, 15, 25, 67, 105, 298, 312, 392, 741
+  \item siirtymä, 27, 33, 40
+  \item silmukka, 479, 529
+  \item sironta, 470
+  \item sisäenergia, 73, 236, 266, 325
+  \item sisäinen vuorovaikutus, 82
+  \item skalaari, 37, 129
+  \item skalaarikomponentti, 39, 103, 112, 147, 159
+  \item solmu, 665, 787, 791
+  \item spektri, 616, 767
+  \item spektroskooppinen notaatio, 796
+  \item spin, 795
+  \item stationaarinen, 771
+  \item suhteellinen, 229, 233, 558
+  \item suhteellisuusperiaate, 229
+  \item suhteellisuusteoria, 241
+  \item suljettu reitti, 76, 165, 524
+  \item suljettu systeemi, 65
+  \item superpositio, 102, 403, 517, 649, 758
   \item suure, 9
-  \item suurennussuhde, 702
+  \item suurennussuhde, 716
   \item suuruusluokka-arvio, 15
-  \item symmetria, 12, 405
-  \item systeemi, 46, 51, 68
-  \item säde, 699
-  \item sähkökenttä, 385, 546
-  \item sähkömagneettinen, 541, 693
-  \item sähköpari, 434
-  \item sähkövakio, 405
-  \item sähkövaraus, 153, 376
-  \item sähkövirta, 452
-  \item sähkövuo, 400, 561
-  \item säilyvä, 48, 50, 67, 141, 195, 217, 248, 379
+  \item symmetria, 12, 419
+  \item systeemi, 60, 65, 82
+  \item säde, 713
+  \item sähkökenttä, 399, 560
+  \item sähkömagneettinen, 555, 707
+  \item sähköpari, 448
+  \item sähkövakio, 419
+  \item sähkövaraus, 167, 390
+  \item sähkövirta, 466
+  \item sähkövuo, 414, 575
+  \item säilyvä, 62, 64, 81, 155, 209, 231, 262, 393
 
   \indexspace
 
-  \item taajuus, 576, 730
-  \item taitekerroin, 680
-  \item taittuminen, 679
-  \item taittumislaki, 680
-  \item tangentti, 28, 35, 167, 398
-  \item tapahtuma, 227, 242
-  \item tasa-arvopinta, 158, 419
-  \item tasainen liike, 28
-  \item tasaisesti kiihtyvä liike, 37, 134
-  \item tasapaino, 55, 90, 103, 188, 321, 574, 587
-  \item tasoaalto, 677
-  \item Taylorin sarja, 588
-  \item teho, 123, 147, 481, 633
-  \item termodynamiikan pääsäännöt, 280, 282, 324, 326, 338
-  \item tesla, 499
-  \item testivaraus, 387
-  \item tiheys, 177
-  \item tila, 58, 317, 738
-  \item tilanmuuttuja, 295
-  \item tilanyhtälö, 296
-  \item todennäköisyys, 318, 733, 740, 747
-  \item tunneloituminen, 765
-  \item turbulentti, 274
-  \item työ, 112, 143, 147, 148, 347
-  \item törmäys, 63, 70, 71, 139
+  \item taajuus, 590, 744
+  \item taitekerroin, 694
+  \item taittuminen, 693
+  \item taittumislaki, 694
+  \item tangentti, 30, 45, 181, 412
+  \item tapahtuma, 241, 256
+  \item tasa-arvopinta, 172, 433
+  \item tasainen liike, 33
+  \item tasaisesti kiihtyvä liike, 45, 148
+  \item tasapaino, 69, 104, 117, 202, 335, 588, 601
+  \item tasoaalto, 691
+  \item Taylorin sarja, 602
+  \item teho, 137, 161, 495, 647
+  \item termodynamiikan pääsäännöt, 294, 296, 338, 340, 352
+  \item tesla, 513
+  \item testivaraus, 401
+  \item tiheys, 191
+  \item tila, 72, 331, 752
+  \item tilanmuuttuja, 309
+  \item tilanyhtälö, 310
+  \item todennäköisyys, 332, 747, 754, 761
+  \item tunneloituminen, 779
+  \item turbulentti, 288
+  \item työ, 126, 157, 161, 162, 361
+  \item törmäys, 77, 84, 85, 153
 
   \indexspace
 
-  \item ulkoinen vuorovaikutus, 68
+  \item ulkoinen vuorovaikutus, 82
 
   \indexspace
 
-  \item vaellusnopeus, 456
-  \item vaihe, 578, 585, 627
-  \item vaiheenosoitin, 580, 594, 628, 688, 708, 713
-  \item vaiheensiirto, 647
-  \item vaihenopeus, 655
-  \item vaikutuspiste, 120
-  \item vaimennus, 602
-  \item valekuva, 702
-  \item valo, 679, 693, 699, 727
-  \item valonnopeus, 25, 226, 238, 544, 697
-  \item valosähköinen ilmiö, 727
-  \item vapaa pudotus, 36, 53, 134, 213
-  \item vapaakappalekuva, 94, 96
-  \item vapausaste, 313
-  \item varauksenkuljettaja, 379
-  \item varaustiheys, 393
-  \item varianssi, 742
-  \item varjostin, 703
-  \item vastavoima, 92
-  \item vastus, 459
-  \item vauhti, 25, 32
-  \item vektori, 31, 96, 115, 132, 196, 401, 738
-  \item vektorikenttäkuvaaja, 389
-  \item vektorikomponentti, 98
-  \item vieriminen, 180
-  \item viivaintegraali, 148, 510, 549
-  \item viritystila, 753
-  \item virrantiheys, 460
-  \item virtapiiri, 455
-  \item virtaus, 274
-  \item virtaviiva, 274, 400
-  \item voima, 88, 91, 102, 384, 501, 502
-  \item voiman varsi, 183
-  \item voltti, 417
-  \item vuo, 288, 400, 510
-  \item vuorovaikutus, 13, 36, 68, 92, 101, 153, 376, 494, 541
-  \item värähtely, 574
+  \item vaellusnopeus, 470
+  \item vaihe, 592, 599, 641
+  \item vaiheenosoitin, 594, 608, 642, 702, 722, 727
+  \item vaiheensiirto, 661
+  \item vaihenopeus, 669
+  \item vaikutuspiste, 134
+  \item vaimennus, 616
+  \item valekuva, 716
+  \item valo, 693, 707, 713, 741
+  \item valonnopeus, 25, 240, 252, 558, 711
+  \item valosähköinen ilmiö, 741
+  \item vapaa pudotus, 44, 67, 148, 227
+  \item vapaakappalekuva, 108, 110
+  \item vapausaste, 327
+  \item varauksenkuljettaja, 393
+  \item varaustiheys, 407
+  \item varianssi, 756
+  \item varjostin, 717
+  \item vastavoima, 106
+  \item vastus, 473
+  \item vauhti, 29, 39
+  \item vektori, 37, 110, 129, 146, 210, 415, 752
+  \item vektorikenttäkuvaaja, 403
+  \item vektorikomponentti, 112
+  \item vieriminen, 194
+  \item viivaintegraali, 162, 524, 563
+  \item viritystila, 767
+  \item virrantiheys, 474
+  \item virtapiiri, 469
+  \item virtaus, 288
+  \item virtaviiva, 288, 414
+  \item voima, 102, 105, 116, 398, 515, 516
+  \item voiman varsi, 197
+  \item voltti, 431
+  \item vuo, 302, 414, 524
+  \item vuorovaikutus, 13, 44, 82, 106, 115, 167, 390, 508, 555
+  \item värähtely, 588
 
   \indexspace
 
-  \item weber, 510
+  \item weber, 524
 
   \indexspace
 
-  \item yhtälöryhmä, 471
-  \item yksikkö, 10, 31
+  \item yhtälöryhmä, 485
+  \item yksikkö, 10, 37
   \item yksikkötarkastelu, 10
-  \item yksikkövektori, 31
-  \item ylivaimennus, 604
-  \item ylätaajuus, 600, 652, 755
-  \item ympyräliike, 166
-  \item ympäristö, 46, 68
-  \item yrite, 290, 478
+  \item yksikkövektori, 39
+  \item ylivaimennus, 618
+  \item ylätaajuus, 614, 666, 769
+  \item ympyräliike, 180
+  \item ympäristö, 60, 82
+  \item yrite, 304, 492
 
   \indexspace
 
-  \item ääni, 592, 599, 602
+  \item ääni, 606, 613, 616
 
 \end{theindex}

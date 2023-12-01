@@ -22,860 +22,868 @@
 \indexentry{asymptootti}{16}
 \indexentry{paikka}{24}
 \indexentry{pituus}{24}
+\indexentry{matka}{24}
 \indexentry{metri}{24}
+\indexentry{etäisyys}{24}
 \indexentry{kiintopiste}{24}
 \indexentry{koordinaatisto}{24}
+\indexentry{koordinaatti}{24}
 \indexentry{origo}{24}
 \indexentry{akseli}{24}
-\indexentry{siirtymä}{24}
-\indexentry{muutos}{24}
-\indexentry{Delta, $\Delta$}{24}
 \indexentry{aika}{25}
 \indexentry{sekunti}{25}
 \indexentry{valonnopeus}{25}
 \indexentry{SI-järjestelmä}{25}
 \indexentry{metri}{25}
-\indexentry{funktio}{25}
-\indexentry{nopeus}{25}
-\indexentry{vauhti}{25}
-\indexentry{keskinopeus}{25}
-\indexentry{raja-arvo}{25}
-\indexentry{hetkellinen nopeus}{25}
-\indexentry{differentiaali, $\dd$}{25}
-\indexentry{infinitesimaali}{25}
-\indexentry{derivaatta}{25}
 \indexentry{kappale}{26}
-\indexentry{kuvaaja}{27}
-\indexentry{lepo}{27}
-\indexentry{liikediagrammi}{28}
-\indexentry{rata}{28}
-\indexentry{tasainen liike}{28}
-\indexentry{raja-arvo}{28}
-\indexentry{tangentti}{28}
-\indexentry{kulmakerroin}{28}
-\indexentry{pinta-ala}{29}
-\indexentry{siirtymä}{29}
-\indexentry{approksimaatio}{30}
-\indexentry{integraali}{30}
-\indexentry{derivaatta}{30}
-\indexentry{differentiaali, $\dd$}{30}
-\indexentry{infinitesimaali}{30}
-\indexentry{muutos}{30}
-\indexentry{Delta, $\Delta$}{30}
-\indexentry{skalaari}{31}
-\indexentry{vektori}{31}
-\indexentry{dimensio}{31}
-\indexentry{yksikkö}{31}
-\indexentry{mittakaava}{31}
-\indexentry{yksikkövektori}{31}
-\indexentry{skalaarikomponentti}{31}
-\indexentry{vauhti}{32}
-\indexentry{itseisarvo}{32}
-\indexentry{paikka}{32}
-\indexentry{siirtymä}{32}
-\indexentry{Delta, $\Delta$}{32}
-\indexentry{differentiaali, $\dd$}{32}
-\indexentry{nollavektori}{32}
-\indexentry{nopeus}{33}
-\indexentry{kiihtyvyys}{33}
-\indexentry{derivaatta}{35}
-\indexentry{differentiaali, $\dd$}{35}
-\indexentry{tangentti}{35}
-\indexentry{kulmakerroin}{35}
-\indexentry{pinta-ala}{35}
-\indexentry{derivaatta}{35}
-\indexentry{integraali}{35}
-\indexentry{vapaa pudotus}{36}
-\indexentry{painovoima}{36}
-\indexentry{heittoliike}{36}
-\indexentry{vuorovaikutus}{36}
-\indexentry{lakipiste}{36}
-\indexentry{putoamiskiihtyvyys}{37}
-\indexentry{tasaisesti kiihtyvä liike}{37}
-\indexentry{integraali}{39}
-\indexentry{systeemi}{46}
-\indexentry{ympäristö}{46}
-\indexentry{intensiivinen}{46}
-\indexentry{ekstensiivinen}{46}
-\indexentry{ekstensiivinen}{48}
-\indexentry{säilyvä}{48}
-\indexentry{energia}{49}
-\indexentry{joule}{50}
-\indexentry{säilyvä}{50}
-\indexentry{systeemi}{51}
-\indexentry{avoin systeemi}{51}
-\indexentry{suljettu systeemi}{51}
-\indexentry{eristetty systeemi}{51}
-\indexentry{energiaperiaate}{51}
-\indexentry{energiadiagrammi}{52}
-\indexentry{jousi}{52}
-\indexentry{vapaa pudotus}{53}
-\indexentry{muutos}{53}
-\indexentry{Delta, $\Delta$}{53}
-\indexentry{painovoima}{53}
-\indexentry{ekstensiivinen}{53}
-\indexentry{massa}{53}
-\indexentry{kilogramma}{53}
-\indexentry{SI-järjestelmä}{53}
-\indexentry{inertia}{53}
-\indexentry{liike-energia}{54}
-\indexentry{potentiaalienergia}{54}
-\indexentry{heittoliike}{54}
-\indexentry{lakipiste}{55}
-\indexentry{elastinen}{55}
-\indexentry{jousi}{55}
-\indexentry{tasapaino}{55}
-\indexentry{malli}{56}
-\indexentry{harmoninen}{56}
-\indexentry{mekaaninen energia}{58}
-\indexentry{tila}{58}
-\indexentry{sisäenergia}{59}
-\indexentry{kitka}{59}
-\indexentry{irreversiibeli}{60}
-\indexentry{reversiibeli}{60}
-\indexentry{konservatiivinen}{62}
-\indexentry{dissipatiivinen}{62}
-\indexentry{suljettu reitti}{62}
-\indexentry{törmäys}{63}
-\indexentry{elastinen}{65}
-\indexentry{epäelastinen}{65}
-\indexentry{räjähtävä erotus}{66}
-\indexentry{liikemäärä}{67}
-\indexentry{säilyvä}{67}
-\indexentry{vuorovaikutus}{68}
-\indexentry{ympäristö}{68}
-\indexentry{ulkoinen vuorovaikutus}{68}
-\indexentry{sisäinen vuorovaikutus}{68}
-\indexentry{systeemi}{68}
-\indexentry{dissipatiivinen}{69}
-\indexentry{kitka}{69}
-\indexentry{epäelastinen}{70}
-\indexentry{törmäys}{70}
-\indexentry{elastinen}{71}
-\indexentry{törmäys}{71}
-\indexentry{impulssi}{72}
-\indexentry{paikka}{75}
-\indexentry{massakeskipiste}{76}
-\indexentry{potentiaalienergia}{77}
-\indexentry{voima}{88}
-\indexentry{Newtonin lait}{88}
-\indexentry{newton}{88}
-\indexentry{superpositio}{88}
-\indexentry{skalaarikomponentti}{89}
-\indexentry{jatkavuuden laki}{90}
-\indexentry{Newtonin lait}{90}
-\indexentry{tasapaino}{90}
-\indexentry{Newtonin lait}{91}
-\indexentry{dynamiikan peruslaki}{91}
-\indexentry{voima}{91}
-\indexentry{liikemäärä}{91}
-\indexentry{kiihtyvyys}{91}
-\indexentry{newton}{91}
-\indexentry{SI-järjestelmä}{91}
-\indexentry{vuorovaikutus}{92}
-\indexentry{Newtonin lait}{92}
-\indexentry{vastavoima}{92}
-\indexentry{vapaakappalekuva}{94}
-\indexentry{kappale}{94}
-\indexentry{vapaakappalekuva}{96}
-\indexentry{vektori}{96}
-\indexentry{vektorikomponentti}{98}
-\indexentry{skalaarikomponentti}{98}
-\indexentry{konservatiivinen}{101}
-\indexentry{vuorovaikutus}{101}
-\indexentry{potentiaalienergia}{102}
+\indexentry{kuvaaja}{26}
+\indexentry{lepo}{26}
+\indexentry{siirtymä}{27}
+\indexentry{liikediagrammi}{27}
+\indexentry{rata}{27}
+\indexentry{nopeus}{27}
+\indexentry{keskinopeus}{27}
+\indexentry{funktio}{28}
+\indexentry{Delta, $\Delta$}{28}
+\indexentry{muutos}{28}
+\indexentry{nopeus}{29}
+\indexentry{vauhti}{29}
+\indexentry{keskinopeus}{29}
+\indexentry{sekantti}{30}
+\indexentry{kulmakerroin}{30}
+\indexentry{raja-arvo}{30}
+\indexentry{tangentti}{30}
+\indexentry{kulmakerroin}{30}
+\indexentry{differentiaali, $\dd$}{31}
+\indexentry{infinitesimaali}{31}
+\indexentry{hetkellinen nopeus}{31}
+\indexentry{derivaatta}{31}
+\indexentry{tasainen liike}{33}
+\indexentry{pinta-ala}{33}
+\indexentry{siirtymä}{33}
+\indexentry{approksimaatio}{34}
+\indexentry{integraali}{34}
+\indexentry{derivaatta}{34}
+\indexentry{raja-arvo}{34}
+\indexentry{differentiaali, $\dd$}{36}
+\indexentry{infinitesimaali}{36}
+\indexentry{muutos}{36}
+\indexentry{Delta, $\Delta$}{36}
+\indexentry{skalaari}{37}
+\indexentry{vektori}{37}
+\indexentry{dimensio}{37}
+\indexentry{yksikkö}{37}
+\indexentry{mittakaava}{38}
+\indexentry{yksikkövektori}{39}
+\indexentry{skalaarikomponentti}{39}
+\indexentry{vauhti}{39}
+\indexentry{itseisarvo}{39}
+\indexentry{paikka}{39}
+\indexentry{koordinaatisto}{40}
+\indexentry{siirtymä}{40}
+\indexentry{Delta, $\Delta$}{40}
+\indexentry{differentiaali, $\dd$}{40}
+\indexentry{nollavektori}{40}
+\indexentry{nopeus}{40}
+\indexentry{kiihtyvyys}{41}
+\indexentry{vapaa pudotus}{44}
+\indexentry{painovoima}{44}
+\indexentry{heittoliike}{44}
+\indexentry{vuorovaikutus}{44}
+\indexentry{lakipiste}{44}
+\indexentry{putoamiskiihtyvyys}{45}
+\indexentry{tasaisesti kiihtyvä liike}{45}
+\indexentry{derivaatta}{45}
+\indexentry{differentiaali, $\dd$}{45}
+\indexentry{tangentti}{45}
+\indexentry{kulmakerroin}{45}
+\indexentry{pinta-ala}{45}
+\indexentry{derivaatta}{45}
+\indexentry{integraali}{45}
+\indexentry{integraali}{46}
+\indexentry{systeemi}{60}
+\indexentry{ympäristö}{60}
+\indexentry{intensiivinen}{60}
+\indexentry{ekstensiivinen}{60}
+\indexentry{ekstensiivinen}{62}
+\indexentry{säilyvä}{62}
+\indexentry{energia}{63}
+\indexentry{joule}{64}
+\indexentry{säilyvä}{64}
+\indexentry{systeemi}{65}
+\indexentry{avoin systeemi}{65}
+\indexentry{suljettu systeemi}{65}
+\indexentry{eristetty systeemi}{65}
+\indexentry{energiaperiaate}{65}
+\indexentry{energiadiagrammi}{66}
+\indexentry{jousi}{66}
+\indexentry{vapaa pudotus}{67}
+\indexentry{muutos}{67}
+\indexentry{Delta, $\Delta$}{67}
+\indexentry{painovoima}{67}
+\indexentry{ekstensiivinen}{67}
+\indexentry{massa}{67}
+\indexentry{kilogramma}{67}
+\indexentry{SI-järjestelmä}{67}
+\indexentry{inertia}{67}
+\indexentry{liike-energia}{68}
+\indexentry{potentiaalienergia}{68}
+\indexentry{heittoliike}{68}
+\indexentry{lakipiste}{69}
+\indexentry{elastinen}{69}
+\indexentry{jousi}{69}
+\indexentry{tasapaino}{69}
+\indexentry{malli}{70}
+\indexentry{harmoninen}{70}
+\indexentry{mekaaninen energia}{72}
+\indexentry{tila}{72}
+\indexentry{sisäenergia}{73}
+\indexentry{kitka}{73}
+\indexentry{irreversiibeli}{74}
+\indexentry{reversiibeli}{74}
+\indexentry{konservatiivinen}{76}
+\indexentry{dissipatiivinen}{76}
+\indexentry{suljettu reitti}{76}
+\indexentry{törmäys}{77}
+\indexentry{elastinen}{79}
+\indexentry{epäelastinen}{79}
+\indexentry{räjähtävä erotus}{80}
+\indexentry{liikemäärä}{81}
+\indexentry{säilyvä}{81}
+\indexentry{vuorovaikutus}{82}
+\indexentry{ympäristö}{82}
+\indexentry{ulkoinen vuorovaikutus}{82}
+\indexentry{sisäinen vuorovaikutus}{82}
+\indexentry{systeemi}{82}
+\indexentry{dissipatiivinen}{83}
+\indexentry{kitka}{83}
+\indexentry{epäelastinen}{84}
+\indexentry{törmäys}{84}
+\indexentry{elastinen}{85}
+\indexentry{törmäys}{85}
+\indexentry{impulssi}{86}
+\indexentry{paikka}{89}
+\indexentry{massakeskipiste}{90}
+\indexentry{potentiaalienergia}{91}
 \indexentry{voima}{102}
-\indexentry{derivaatta}{102}
-\indexentry{painovoima}{103}
-\indexentry{jousi}{103}
-\indexentry{elastinen}{103}
-\indexentry{harmoninen}{103}
-\indexentry{tasapaino}{103}
-\indexentry{jännitys}{104}
-\indexentry{elastinen}{104}
-\indexentry{plastinen}{104}
-\indexentry{jäykkä}{104}
-\indexentry{malli}{105}
-\indexentry{normaalivoima}{106}
-\indexentry{kohtisuora}{106}
-\indexentry{kitka}{107}
-\indexentry{lepokitka}{107}
-\indexentry{liikekitka}{107}
-\indexentry{lepokitka}{109}
-\indexentry{liikekitka}{110}
-\indexentry{impulssi}{111}
-\indexentry{työ}{112}
-\indexentry{integraali}{115}
-\indexentry{energia}{115}
-\indexentry{liikemäärä}{115}
-\indexentry{skalaari}{115}
-\indexentry{vektori}{115}
-\indexentry{kohtisuora}{116}
-\indexentry{potentiaalienergia}{117}
-\indexentry{konservatiivinen}{117}
-\indexentry{liike-energia}{118}
-\indexentry{vaikutuspiste}{120}
-\indexentry{dissipatiivinen}{121}
-\indexentry{lämpö}{121}
-\indexentry{teho}{123}
-\indexentry{kolmiulotteinen}{132}
-\indexentry{koordinaatisto}{132}
-\indexentry{origo}{132}
-\indexentry{paikka}{132}
-\indexentry{vektori}{132}
-\indexentry{itseisarvo}{133}
-\indexentry{skalaarikomponentti}{133}
-\indexentry{heitto}{134}
-\indexentry{vapaa pudotus}{134}
-\indexentry{tasaisesti kiihtyvä liike}{134}
-\indexentry{liikediagrammi}{135}
-\indexentry{rata}{135}
-\indexentry{nopeus}{135}
-\indexentry{derivaatta}{137}
-\indexentry{integraali}{137}
-\indexentry{kiihtyvyys}{137}
-\indexentry{dynamiikan peruslaki}{137}
-\indexentry{liikemäärä}{139}
-\indexentry{törmäys}{139}
-\indexentry{liikediagrammi}{140}
-\indexentry{säilyvä}{141}
-\indexentry{elastinen}{141}
-\indexentry{epäelastinen}{141}
-\indexentry{työ}{143}
-\indexentry{projektio}{143}
-\indexentry{kohtisuora}{143}
-\indexentry{pistetulo}{144}
-\indexentry{skalaarikomponentti}{145}
-\indexentry{työ}{147}
-\indexentry{teho}{147}
-\indexentry{rata}{147}
-\indexentry{työ}{148}
-\indexentry{viivaintegraali}{148}
-\indexentry{konservatiivinen}{151}
-\indexentry{suljettu reitti}{151}
-\indexentry{painovoima}{152}
-\indexentry{vuorovaikutus}{153}
-\indexentry{atomi}{153}
-\indexentry{massa}{153}
-\indexentry{protoni}{153}
-\indexentry{neutroni}{153}
-\indexentry{sähkövaraus}{153}
-\indexentry{elektroni}{153}
-\indexentry{kenttä}{154}
-\indexentry{derivaatta}{155}
-\indexentry{osittaisderivaatta}{155}
-\indexentry{differentiaali, $\dd$}{157}
-\indexentry{Delta, $\Delta$}{157}
-\indexentry{gradientti}{158}
-\indexentry{tasa-arvopinta}{158}
-\indexentry{konservatiivinen}{159}
-\indexentry{nabla, $\nabla$}{159}
-\indexentry{homogeeninen}{161}
-\indexentry{ympyräliike}{166}
-\indexentry{kiertoliike}{166}
-\indexentry{radiaani}{166}
-\indexentry{kulma}{166}
-\indexentry{jaksollinen}{166}
-\indexentry{radiaalinen}{166}
-\indexentry{napakoordinaatisto}{166}
-\indexentry{tangentti}{167}
-\indexentry{kulmanopeus}{168}
-\indexentry{keskeiskiihtyvyys}{170}
-\indexentry{kulmakiihtyvyys}{171}
-\indexentry{pyöriminen}{174}
-\indexentry{hitausmomentti}{175}
-\indexentry{tiheys}{177}
-\indexentry{integraali}{178}
-\indexentry{vieriminen}{180}
-\indexentry{momentti}{182}
-\indexentry{voiman varsi}{183}
-\indexentry{pyörimisen liikeyhtälö}{184}
-\indexentry{painopiste}{187}
-\indexentry{resultantti}{187}
-\indexentry{tasapaino}{188}
-\indexentry{kulmaliikemäärä}{190}
-\indexentry{impulssimomentti}{194}
-\indexentry{säilyvä}{195}
-\indexentry{vektori}{196}
-\indexentry{kolmiulotteinen}{196}
-\indexentry{oikean käden sääntö}{196}
-\indexentry{ristitulo}{197}
-\indexentry{kiintopiste}{210}
-\indexentry{inertiaalikoordinaatisto}{210}
-\indexentry{epäinertiaalikoordinaatisto}{210}
-\indexentry{koordinaatisto}{210}
-\indexentry{inertia}{210}
-\indexentry{painovoima}{210}
-\indexentry{massa}{210}
-\indexentry{kiihtyvyys}{210}
-\indexentry{ekvivalenssiperiaate}{212}
-\indexentry{näennäisvoima}{212}
-\indexentry{keskipakoisvoima}{212}
-\indexentry{Coriolis-voima}{212}
-\indexentry{vapaa pudotus}{213}
-\indexentry{painottomuus}{213}
-\indexentry{suhteellinen}{215}
-\indexentry{suhteellisuusperiaate}{215}
-\indexentry{Galilei-muunnos}{216}
-\indexentry{säilyvä}{217}
-\indexentry{ajatuskoe}{218}
-\indexentry{massakeskipistekoordinaatisto}{219}
-\indexentry{suhteellinen}{219}
-\indexentry{absoluuttinen}{219}
-\indexentry{invariantti}{219}
-\indexentry{sisäenergia}{222}
-\indexentry{satunnaisliike}{222}
-\indexentry{valonnopeus}{226}
-\indexentry{suhteellisuusteoria}{227}
-\indexentry{tapahtuma}{227}
-\indexentry{koordinaatisto}{227}
-\indexentry{aikadilataatio}{230}
-\indexentry{ominaisaika}{231}
-\indexentry{Lorentzin tekijä}{232}
-\indexentry{avaruusaika}{238}
-\indexentry{aika-avaruus}{238}
-\indexentry{Lorentz-muunnos}{238}
-\indexentry{valonnopeus}{238}
-\indexentry{avaruusaikaintervalli}{238}
-\indexentry{invariantti}{239}
-\indexentry{Lorentz-muunnos}{241}
-\indexentry{tapahtuma}{242}
-\indexentry{Minkowski-koordinaatisto}{243}
-\indexentry{koordinaatisto}{243}
-\indexentry{kausaliteetti}{247}
-\indexentry{säilyvä}{248}
-\indexentry{liikemäärä}{250}
-\indexentry{massa}{250}
-\indexentry{inertia}{250}
-\indexentry{liike-energia}{252}
-\indexentry{energia}{252}
-\indexentry{sisäenergia}{252}
-\indexentry{invariantti}{254}
-\indexentry{olomuoto}{264}
-\indexentry{kiinteä}{264}
-\indexentry{neste}{264}
-\indexentry{kaasu}{264}
-\indexentry{kolloidi}{264}
-\indexentry{plasma}{264}
-\indexentry{faasi}{264}
-\indexentry{jännitys}{264}
-\indexentry{kokoonpuristumaton}{265}
-\indexentry{paine}{266}
-\indexentry{hydrostaattinen}{268}
-\indexentry{ilmanpaine}{268}
-\indexentry{poikkipinta-ala}{270}
-\indexentry{noste}{273}
-\indexentry{Arkhimedeen laki}{273}
-\indexentry{virtaus}{274}
-\indexentry{pyörre}{274}
-\indexentry{virtaviiva}{274}
-\indexentry{laminaarinen}{274}
-\indexentry{turbulentti}{274}
-\indexentry{jatkuvuus}{275}
-\indexentry{Bernoullin yhtälö}{277}
-\indexentry{lämpötila}{279}
-\indexentry{celsius}{280}
-\indexentry{kelvin}{280}
-\indexentry{absoluuttinen nollapiste}{280}
-\indexentry{termodynamiikan pääsäännöt}{280}
-\indexentry{lämpö}{281}
-\indexentry{termodynamiikan pääsäännöt}{282}
-\indexentry{lämpökapasiteetti}{283}
-\indexentry{ominaislämpökapasiteetti}{284}
-\indexentry{ainemäärä}{284}
-\indexentry{mooli}{284}
-\indexentry{Avogadron vakio}{284}
-\indexentry{SI-järjestelmä}{284}
-\indexentry{olomuodon muutos}{284}
-\indexentry{latenttilämpö}{284}
-\indexentry{faasi}{285}
-\indexentry{johde}{286}
-\indexentry{eriste}{286}
-\indexentry{lämmönjohtavuus}{286}
-\indexentry{vuo}{288}
-\indexentry{lämpövuo}{288}
-\indexentry{differentiaali, $\dd$}{290}
-\indexentry{differentiaaliyhtälö}{290}
-\indexentry{yrite}{290}
-\indexentry{aikavakio}{291}
-\indexentry{alkuehto}{292}
-\indexentry{separointi}{293}
-\indexentry{tilanmuuttuja}{295}
-\indexentry{tilanyhtälö}{296}
-\indexentry{ideaalikaasu}{297}
-\indexentry{kaasuvakio}{297}
-\indexentry{Boltzmannin vakio}{298}
+\indexentry{Newtonin lait}{102}
+\indexentry{newton}{102}
+\indexentry{superpositio}{102}
+\indexentry{skalaarikomponentti}{103}
+\indexentry{jatkavuuden laki}{104}
+\indexentry{Newtonin lait}{104}
+\indexentry{tasapaino}{104}
+\indexentry{Newtonin lait}{105}
+\indexentry{dynamiikan peruslaki}{105}
+\indexentry{voima}{105}
+\indexentry{liikemäärä}{105}
+\indexentry{kiihtyvyys}{105}
+\indexentry{newton}{105}
+\indexentry{SI-järjestelmä}{105}
+\indexentry{vuorovaikutus}{106}
+\indexentry{Newtonin lait}{106}
+\indexentry{vastavoima}{106}
+\indexentry{vapaakappalekuva}{108}
+\indexentry{kappale}{108}
+\indexentry{vapaakappalekuva}{110}
+\indexentry{vektori}{110}
+\indexentry{vektorikomponentti}{112}
+\indexentry{skalaarikomponentti}{112}
+\indexentry{konservatiivinen}{115}
+\indexentry{vuorovaikutus}{115}
+\indexentry{potentiaalienergia}{116}
+\indexentry{voima}{116}
+\indexentry{derivaatta}{116}
+\indexentry{painovoima}{117}
+\indexentry{jousi}{117}
+\indexentry{elastinen}{117}
+\indexentry{harmoninen}{117}
+\indexentry{tasapaino}{117}
+\indexentry{jännitys}{118}
+\indexentry{elastinen}{118}
+\indexentry{plastinen}{118}
+\indexentry{jäykkä}{118}
+\indexentry{malli}{119}
+\indexentry{normaalivoima}{120}
+\indexentry{kohtisuora}{120}
+\indexentry{kitka}{121}
+\indexentry{lepokitka}{121}
+\indexentry{liikekitka}{121}
+\indexentry{lepokitka}{123}
+\indexentry{liikekitka}{124}
+\indexentry{impulssi}{125}
+\indexentry{työ}{126}
+\indexentry{integraali}{129}
+\indexentry{energia}{129}
+\indexentry{liikemäärä}{129}
+\indexentry{skalaari}{129}
+\indexentry{vektori}{129}
+\indexentry{kohtisuora}{130}
+\indexentry{potentiaalienergia}{131}
+\indexentry{konservatiivinen}{131}
+\indexentry{liike-energia}{132}
+\indexentry{vaikutuspiste}{134}
+\indexentry{dissipatiivinen}{135}
+\indexentry{lämpö}{135}
+\indexentry{teho}{137}
+\indexentry{kolmiulotteinen}{146}
+\indexentry{koordinaatisto}{146}
+\indexentry{origo}{146}
+\indexentry{paikka}{146}
+\indexentry{vektori}{146}
+\indexentry{itseisarvo}{147}
+\indexentry{skalaarikomponentti}{147}
+\indexentry{heitto}{148}
+\indexentry{vapaa pudotus}{148}
+\indexentry{tasaisesti kiihtyvä liike}{148}
+\indexentry{liikediagrammi}{149}
+\indexentry{rata}{149}
+\indexentry{nopeus}{149}
+\indexentry{derivaatta}{151}
+\indexentry{integraali}{151}
+\indexentry{kiihtyvyys}{151}
+\indexentry{dynamiikan peruslaki}{151}
+\indexentry{liikemäärä}{153}
+\indexentry{törmäys}{153}
+\indexentry{liikediagrammi}{154}
+\indexentry{säilyvä}{155}
+\indexentry{elastinen}{155}
+\indexentry{epäelastinen}{155}
+\indexentry{työ}{157}
+\indexentry{projektio}{157}
+\indexentry{kohtisuora}{157}
+\indexentry{pistetulo}{158}
+\indexentry{skalaarikomponentti}{159}
+\indexentry{työ}{161}
+\indexentry{teho}{161}
+\indexentry{rata}{161}
+\indexentry{työ}{162}
+\indexentry{viivaintegraali}{162}
+\indexentry{konservatiivinen}{165}
+\indexentry{suljettu reitti}{165}
+\indexentry{painovoima}{166}
+\indexentry{vuorovaikutus}{167}
+\indexentry{atomi}{167}
+\indexentry{massa}{167}
+\indexentry{protoni}{167}
+\indexentry{neutroni}{167}
+\indexentry{sähkövaraus}{167}
+\indexentry{elektroni}{167}
+\indexentry{kenttä}{168}
+\indexentry{derivaatta}{169}
+\indexentry{osittaisderivaatta}{169}
+\indexentry{differentiaali, $\dd$}{171}
+\indexentry{Delta, $\Delta$}{171}
+\indexentry{gradientti}{172}
+\indexentry{tasa-arvopinta}{172}
+\indexentry{konservatiivinen}{173}
+\indexentry{nabla, $\nabla$}{173}
+\indexentry{homogeeninen}{175}
+\indexentry{ympyräliike}{180}
+\indexentry{kiertoliike}{180}
+\indexentry{radiaani}{180}
+\indexentry{kulma}{180}
+\indexentry{jaksollinen}{180}
+\indexentry{radiaalinen}{180}
+\indexentry{napakoordinaatisto}{180}
+\indexentry{tangentti}{181}
+\indexentry{kulmanopeus}{182}
+\indexentry{keskeiskiihtyvyys}{184}
+\indexentry{kulmakiihtyvyys}{185}
+\indexentry{pyöriminen}{188}
+\indexentry{hitausmomentti}{189}
+\indexentry{tiheys}{191}
+\indexentry{integraali}{192}
+\indexentry{vieriminen}{194}
+\indexentry{momentti}{196}
+\indexentry{voiman varsi}{197}
+\indexentry{pyörimisen liikeyhtälö}{198}
+\indexentry{painopiste}{201}
+\indexentry{resultantti}{201}
+\indexentry{tasapaino}{202}
+\indexentry{kulmaliikemäärä}{204}
+\indexentry{impulssimomentti}{208}
+\indexentry{säilyvä}{209}
+\indexentry{vektori}{210}
+\indexentry{kolmiulotteinen}{210}
+\indexentry{oikean käden sääntö}{210}
+\indexentry{ristitulo}{211}
+\indexentry{kiintopiste}{224}
+\indexentry{inertiaalikoordinaatisto}{224}
+\indexentry{epäinertiaalikoordinaatisto}{224}
+\indexentry{koordinaatisto}{224}
+\indexentry{inertia}{224}
+\indexentry{painovoima}{224}
+\indexentry{massa}{224}
+\indexentry{kiihtyvyys}{224}
+\indexentry{ekvivalenssiperiaate}{226}
+\indexentry{näennäisvoima}{226}
+\indexentry{keskipakoisvoima}{226}
+\indexentry{Coriolis-voima}{226}
+\indexentry{vapaa pudotus}{227}
+\indexentry{painottomuus}{227}
+\indexentry{suhteellinen}{229}
+\indexentry{suhteellisuusperiaate}{229}
+\indexentry{Galilei-muunnos}{230}
+\indexentry{säilyvä}{231}
+\indexentry{ajatuskoe}{232}
+\indexentry{massakeskipistekoordinaatisto}{233}
+\indexentry{suhteellinen}{233}
+\indexentry{absoluuttinen}{233}
+\indexentry{invariantti}{233}
+\indexentry{sisäenergia}{236}
+\indexentry{satunnaisliike}{236}
+\indexentry{valonnopeus}{240}
+\indexentry{suhteellisuusteoria}{241}
+\indexentry{tapahtuma}{241}
+\indexentry{koordinaatisto}{241}
+\indexentry{aikadilataatio}{244}
+\indexentry{ominaisaika}{245}
+\indexentry{Lorentzin tekijä}{246}
+\indexentry{avaruusaika}{252}
+\indexentry{aika-avaruus}{252}
+\indexentry{Lorentz-muunnos}{252}
+\indexentry{valonnopeus}{252}
+\indexentry{avaruusaikaintervalli}{252}
+\indexentry{invariantti}{253}
+\indexentry{Lorentz-muunnos}{255}
+\indexentry{tapahtuma}{256}
+\indexentry{Minkowski-koordinaatisto}{257}
+\indexentry{koordinaatisto}{257}
+\indexentry{kausaliteetti}{261}
+\indexentry{säilyvä}{262}
+\indexentry{liikemäärä}{264}
+\indexentry{massa}{264}
+\indexentry{inertia}{264}
+\indexentry{liike-energia}{266}
+\indexentry{energia}{266}
+\indexentry{sisäenergia}{266}
+\indexentry{invariantti}{268}
+\indexentry{olomuoto}{278}
+\indexentry{kiinteä}{278}
+\indexentry{neste}{278}
+\indexentry{kaasu}{278}
+\indexentry{kolloidi}{278}
+\indexentry{plasma}{278}
+\indexentry{faasi}{278}
+\indexentry{jännitys}{278}
+\indexentry{kokoonpuristumaton}{279}
+\indexentry{paine}{280}
+\indexentry{hydrostaattinen}{282}
+\indexentry{ilmanpaine}{282}
+\indexentry{poikkipinta-ala}{284}
+\indexentry{noste}{287}
+\indexentry{Arkhimedeen laki}{287}
+\indexentry{virtaus}{288}
+\indexentry{pyörre}{288}
+\indexentry{virtaviiva}{288}
+\indexentry{laminaarinen}{288}
+\indexentry{turbulentti}{288}
+\indexentry{jatkuvuus}{289}
+\indexentry{Bernoullin yhtälö}{291}
+\indexentry{lämpötila}{293}
+\indexentry{celsius}{294}
+\indexentry{kelvin}{294}
+\indexentry{absoluuttinen nollapiste}{294}
+\indexentry{termodynamiikan pääsäännöt}{294}
+\indexentry{lämpö}{295}
+\indexentry{termodynamiikan pääsäännöt}{296}
+\indexentry{lämpökapasiteetti}{297}
+\indexentry{ominaislämpökapasiteetti}{298}
+\indexentry{ainemäärä}{298}
+\indexentry{mooli}{298}
+\indexentry{Avogadron vakio}{298}
 \indexentry{SI-järjestelmä}{298}
-\indexentry{kelvin}{298}
-\indexentry{lämpölaajeneminen}{298}
-\indexentry{ideaalikaasu}{306}
-\indexentry{malli}{306}
-\indexentry{keskiarvo}{308}
-\indexentry{paine}{308}
-\indexentry{kolmiulotteinen}{309}
-\indexentry{rms-nopeus}{309}
-\indexentry{lämpötila}{310}
-\indexentry{liike-energia}{310}
-\indexentry{ekvipartitio}{310}
-\indexentry{sisäenergia}{311}
-\indexentry{ominaislämpökapasiteetti}{312}
-\indexentry{lämpökapasiteetti}{312}
-\indexentry{vapausaste}{313}
-\indexentry{kvanttimekaniikka}{314}
-\indexentry{tila}{317}
-\indexentry{mikrotila}{317}
-\indexentry{makrotila}{317}
-\indexentry{mikroskooppinen}{317}
-\indexentry{makroskooppinen}{317}
-\indexentry{multiplisiteetti}{318}
-\indexentry{todennäköisyys}{318}
-\indexentry{odotusarvo}{318}
-\indexentry{keskiarvo}{318}
-\indexentry{ekvipartitio}{321}
-\indexentry{tasapaino}{321}
-\indexentry{termodynamiikan pääsäännöt}{324}
-\indexentry{irreversiibeli}{324}
-\indexentry{entropia}{326}
-\indexentry{eristetty}{326}
-\indexentry{termodynamiikan pääsäännöt}{326}
-\indexentry{irreversiibeli}{327}
-\indexentry{reversiibeli}{327}
-\indexentry{entropia}{330}
-\indexentry{ideaalikaasu}{330}
-\indexentry{lämpötila}{332}
-\indexentry{adiabaattinen}{338}
+\indexentry{olomuodon muutos}{298}
+\indexentry{latenttilämpö}{298}
+\indexentry{faasi}{299}
+\indexentry{johde}{300}
+\indexentry{eriste}{300}
+\indexentry{lämmönjohtavuus}{300}
+\indexentry{vuo}{302}
+\indexentry{lämpövuo}{302}
+\indexentry{differentiaali, $\dd$}{304}
+\indexentry{differentiaaliyhtälö}{304}
+\indexentry{yrite}{304}
+\indexentry{aikavakio}{305}
+\indexentry{alkuehto}{306}
+\indexentry{separointi}{307}
+\indexentry{tilanmuuttuja}{309}
+\indexentry{tilanyhtälö}{310}
+\indexentry{ideaalikaasu}{311}
+\indexentry{kaasuvakio}{311}
+\indexentry{Boltzmannin vakio}{312}
+\indexentry{SI-järjestelmä}{312}
+\indexentry{kelvin}{312}
+\indexentry{lämpölaajeneminen}{312}
+\indexentry{ideaalikaasu}{320}
+\indexentry{malli}{320}
+\indexentry{keskiarvo}{322}
+\indexentry{paine}{322}
+\indexentry{kolmiulotteinen}{323}
+\indexentry{rms-nopeus}{323}
+\indexentry{lämpötila}{324}
+\indexentry{liike-energia}{324}
+\indexentry{ekvipartitio}{324}
+\indexentry{sisäenergia}{325}
+\indexentry{ominaislämpökapasiteetti}{326}
+\indexentry{lämpökapasiteetti}{326}
+\indexentry{vapausaste}{327}
+\indexentry{kvanttimekaniikka}{328}
+\indexentry{tila}{331}
+\indexentry{mikrotila}{331}
+\indexentry{makrotila}{331}
+\indexentry{mikroskooppinen}{331}
+\indexentry{makroskooppinen}{331}
+\indexentry{multiplisiteetti}{332}
+\indexentry{todennäköisyys}{332}
+\indexentry{odotusarvo}{332}
+\indexentry{keskiarvo}{332}
+\indexentry{ekvipartitio}{335}
+\indexentry{tasapaino}{335}
 \indexentry{termodynamiikan pääsäännöt}{338}
-\indexentry{kvasistaattinen}{339}
-\indexentry{isentrooppinen}{342}
-\indexentry{pV-diagrammi}{342}
-\indexentry{isokoorinen}{343}
-\indexentry{isobaarinen}{343}
-\indexentry{isoterminen}{343}
-\indexentry{isentrooppinen}{344}
-\indexentry{adiabaattivakio}{344}
-\indexentry{adiabaattilaki}{344}
-\indexentry{työ}{347}
-\indexentry{ominaislämpökapasiteetti}{349}
-\indexentry{lämpökapasiteetti}{349}
-\indexentry{adiabaattivakio}{351}
-\indexentry{entropia}{354}
-\indexentry{energiansiirtokaavio}{357}
-\indexentry{kiertoprosessi}{359}
-\indexentry{lämpövoimakone}{360}
-\indexentry{hyötysuhde}{360}
-\indexentry{entropiadiagrammi}{361}
-\indexentry{Carnot'n prosessi}{363}
-\indexentry{vuorovaikutus}{376}
-\indexentry{sähkövaraus}{376}
-\indexentry{alkeisvaraus}{378}
-\indexentry{coulombi}{378}
-\indexentry{protoni}{378}
-\indexentry{elektroni}{378}
-\indexentry{SI-järjestelmä}{378}
-\indexentry{ioni}{378}
-\indexentry{säilyvä}{379}
-\indexentry{varauksenkuljettaja}{379}
-\indexentry{johde}{380}
-\indexentry{eriste}{380}
-\indexentry{polarisaatio}{381}
-\indexentry{dipoli}{382}
-\indexentry{pistevaraus}{384}
-\indexentry{Coulombin laki}{384}
-\indexentry{voima}{384}
-\indexentry{kenttä}{385}
-\indexentry{sähkökenttä}{385}
-\indexentry{testivaraus}{387}
-\indexentry{vektorikenttäkuvaaja}{389}
-\indexentry{superpositio}{389}
-\indexentry{integraali}{391}
-\indexentry{varaustiheys}{393}
-\indexentry{pintavaraustiheys}{394}
-\indexentry{pituusvaraustiheys}{394}
-\indexentry{asymptootti}{395}
-\indexentry{Gaussin laki}{398}
-\indexentry{kenttäviiva}{398}
-\indexentry{tangentti}{398}
-\indexentry{vuo}{400}
-\indexentry{sähkövuo}{400}
-\indexentry{virtaviiva}{400}
-\indexentry{poikkipinta-ala}{401}
-\indexentry{kohtisuora}{401}
-\indexentry{vektori}{401}
-\indexentry{pintavektori}{401}
-\indexentry{lähde}{402}
-\indexentry{nielu}{402}
-\indexentry{sähkövakio}{405}
-\indexentry{permittiivisyys}{405}
-\indexentry{Gaussin laki}{405}
-\indexentry{symmetria}{405}
-\indexentry{Gaussin pinta}{406}
-\indexentry{malli}{409}
-\indexentry{asymptootti}{410}
-\indexentry{energiaperiaate}{412}
-\indexentry{potentiaalienergia}{415}
-\indexentry{potentiaali}{417}
-\indexentry{voltti}{417}
-\indexentry{tasa-arvopinta}{419}
-\indexentry{gradientti}{420}
-\indexentry{jännite}{421}
-\indexentry{elektronivoltti}{422}
-\indexentry{potentiaali}{423}
-\indexentry{johde}{428}
-\indexentry{Faradayn häkki}{429}
-\indexentry{eriste}{430}
-\indexentry{permittiivisyys}{430}
-\indexentry{jännitelähde}{434}
-\indexentry{sähköpari}{434}
-\indexentry{paristo}{434}
-\indexentry{elektrodi}{434}
-\indexentry{elektrolyytti}{434}
-\indexentry{napa}{434}
-\indexentry{lähdejännite}{435}
-\indexentry{maadoitus}{435}
-\indexentry{kondensaattori}{437}
-\indexentry{kapasitanssi}{437}
-\indexentry{faradi}{437}
-\indexentry{levykondensaattori}{437}
-\indexentry{rinnankytkentä}{438}
-\indexentry{sarjaankytkentä}{438}
-\indexentry{dissipatiivinen}{451}
-\indexentry{jatkuva virtaus}{451}
-\indexentry{sähkövirta}{452}
-\indexentry{ampeeri}{452}
-\indexentry{virtapiiri}{455}
-\indexentry{hila}{456}
-\indexentry{sironta}{456}
-\indexentry{vaellusnopeus}{456}
-\indexentry{johtavuus}{458}
-\indexentry{resistanssi}{458}
-\indexentry{Ohmin laki}{458}
-\indexentry{ohmi}{458}
-\indexentry{vastus}{459}
-\indexentry{virrantiheys}{460}
-\indexentry{oikosulku}{463}
-\indexentry{piirikaavio}{464}
-\indexentry{silmukka}{465}
-\indexentry{risteys}{465}
-\indexentry{Kirchhoffin säännöt}{465}
-\indexentry{sarjaankytkentä}{465}
-\indexentry{rinnankytkentä}{466}
-\indexentry{Kirchhoffin säännöt}{469}
-\indexentry{yhtälöryhmä}{471}
-\indexentry{matriisi}{471}
-\indexentry{RC-piiri}{475}
-\indexentry{differentiaaliyhtälö}{478}
-\indexentry{yrite}{478}
-\indexentry{aikavakio}{478}
-\indexentry{teho}{481}
-\indexentry{energiatiheys}{485}
-\indexentry{magneetti}{494}
-\indexentry{vuorovaikutus}{494}
-\indexentry{napa}{494}
-\indexentry{pohjoisnapa}{494}
-\indexentry{etelänapa}{494}
-\indexentry{dipoli}{495}
-\indexentry{polarisaatio}{495}
-\indexentry{magnetoituminen}{496}
-\indexentry{magneettikenttä}{497}
-\indexentry{oikean käden sääntö}{498}
-\indexentry{tesla}{499}
-\indexentry{voima}{501}
-\indexentry{voima}{502}
-\indexentry{superpositio}{503}
-\indexentry{Biot'n ja Savartin laki}{505}
-\indexentry{ristitulo}{505}
-\indexentry{Gaussin laki}{510}
-\indexentry{magneettivuo}{510}
-\indexentry{vuo}{510}
-\indexentry{weber}{510}
-\indexentry{magneettivuon tiheys}{510}
-\indexentry{Ampèren laki}{510}
-\indexentry{viivaintegraali}{510}
-\indexentry{suljettu reitti}{510}
-\indexentry{Ampèren laki}{513}
-\indexentry{magneettivakio}{513}
-\indexentry{permeabiliteetti}{513}
-\indexentry{pyörre}{513}
-\indexentry{silmukka}{515}
-\indexentry{oikean käden sääntö}{515}
-\indexentry{dipoli}{516}
-\indexentry{elektroni}{516}
-\indexentry{magneetti}{517}
-\indexentry{napa}{517}
-\indexentry{momentti}{524}
-\indexentry{potentiaalienergia}{524}
-\indexentry{induktio}{534}
-\indexentry{jännite}{536}
-\indexentry{induktiolaki}{537}
-\indexentry{magneettivuo}{537}
-\indexentry{Lenzin laki}{538}
-\indexentry{oikean käden sääntö}{538}
-\indexentry{muutos}{539}
-\indexentry{sähkömagneettinen}{541}
-\indexentry{vuorovaikutus}{541}
-\indexentry{pituuskontraktio}{541}
-\indexentry{valonnopeus}{544}
-\indexentry{suhteellinen}{544}
-\indexentry{magneettikenttä}{546}
-\indexentry{Galilei-muunnos}{546}
-\indexentry{sähkökenttä}{546}
-\indexentry{Faradayn laki}{548}
-\indexentry{viivaintegraali}{549}
-\indexentry{magneettivuo}{549}
-\indexentry{induktanssi}{551}
-\indexentry{käämi}{551}
-\indexentry{kela}{551}
-\indexentry{keskinäisinduktanssi}{554}
-\indexentry{itseinduktanssi}{554}
-\indexentry{induktanssi}{556}
-\indexentry{henry}{556}
-\indexentry{energiatiheys}{560}
-\indexentry{Maxwellin laki}{561}
-\indexentry{sähkövuo}{561}
-\indexentry{Ampèren ja Maxwellin laki}{564}
-\indexentry{Maxwellin yhtälöt}{564}
-\indexentry{värähtely}{574}
-\indexentry{oskillaatio}{574}
-\indexentry{jaksollinen}{574}
-\indexentry{tasapaino}{574}
-\indexentry{jakso}{575}
-\indexentry{periodi}{575}
-\indexentry{amplitudi}{576}
-\indexentry{jaksonaika}{576}
-\indexentry{taajuus}{576}
-\indexentry{hertsi}{576}
-\indexentry{harmoninen}{577}
-\indexentry{projektio}{577}
-\indexentry{vaihe}{578}
-\indexentry{kulmataajuus}{578}
-\indexentry{vaiheenosoitin}{580}
-\indexentry{differentiaaliyhtälö}{581}
-\indexentry{alkuehto}{582}
-\indexentry{energia}{583}
-\indexentry{kompleksiluku}{584}
-\indexentry{imaginääriyksikkö}{584}
-\indexentry{koordinaatisto}{584}
-\indexentry{itseisarvo}{584}
-\indexentry{sarjakehitelmä}{585}
-\indexentry{Eulerin kaava}{585}
-\indexentry{napakoordinaatisto}{585}
-\indexentry{vaihe}{585}
-\indexentry{tasapaino}{587}
-\indexentry{Taylorin sarja}{588}
-\indexentry{sarjakehitelmä}{589}
-\indexentry{approksimaatio}{589}
-\indexentry{potentiaalienergia}{589}
-\indexentry{heiluri}{589}
-\indexentry{ääni}{592}
+\indexentry{irreversiibeli}{338}
+\indexentry{entropia}{340}
+\indexentry{eristetty}{340}
+\indexentry{termodynamiikan pääsäännöt}{340}
+\indexentry{irreversiibeli}{341}
+\indexentry{reversiibeli}{341}
+\indexentry{entropia}{344}
+\indexentry{ideaalikaasu}{344}
+\indexentry{lämpötila}{346}
+\indexentry{adiabaattinen}{352}
+\indexentry{termodynamiikan pääsäännöt}{352}
+\indexentry{kvasistaattinen}{353}
+\indexentry{isentrooppinen}{356}
+\indexentry{pV-diagrammi}{356}
+\indexentry{isokoorinen}{357}
+\indexentry{isobaarinen}{357}
+\indexentry{isoterminen}{357}
+\indexentry{isentrooppinen}{358}
+\indexentry{adiabaattivakio}{358}
+\indexentry{adiabaattilaki}{358}
+\indexentry{työ}{361}
+\indexentry{ominaislämpökapasiteetti}{363}
+\indexentry{lämpökapasiteetti}{363}
+\indexentry{adiabaattivakio}{365}
+\indexentry{entropia}{368}
+\indexentry{energiansiirtokaavio}{371}
+\indexentry{kiertoprosessi}{373}
+\indexentry{lämpövoimakone}{374}
+\indexentry{hyötysuhde}{374}
+\indexentry{entropiadiagrammi}{375}
+\indexentry{Carnot'n prosessi}{377}
+\indexentry{vuorovaikutus}{390}
+\indexentry{sähkövaraus}{390}
+\indexentry{alkeisvaraus}{392}
+\indexentry{coulombi}{392}
+\indexentry{protoni}{392}
+\indexentry{elektroni}{392}
+\indexentry{SI-järjestelmä}{392}
+\indexentry{ioni}{392}
+\indexentry{säilyvä}{393}
+\indexentry{varauksenkuljettaja}{393}
+\indexentry{johde}{394}
+\indexentry{eriste}{394}
+\indexentry{polarisaatio}{395}
+\indexentry{dipoli}{396}
+\indexentry{pistevaraus}{398}
+\indexentry{Coulombin laki}{398}
+\indexentry{voima}{398}
+\indexentry{kenttä}{399}
+\indexentry{sähkökenttä}{399}
+\indexentry{testivaraus}{401}
+\indexentry{vektorikenttäkuvaaja}{403}
+\indexentry{superpositio}{403}
+\indexentry{integraali}{405}
+\indexentry{varaustiheys}{407}
+\indexentry{pintavaraustiheys}{408}
+\indexentry{pituusvaraustiheys}{408}
+\indexentry{asymptootti}{409}
+\indexentry{Gaussin laki}{412}
+\indexentry{kenttäviiva}{412}
+\indexentry{tangentti}{412}
+\indexentry{vuo}{414}
+\indexentry{sähkövuo}{414}
+\indexentry{virtaviiva}{414}
+\indexentry{poikkipinta-ala}{415}
+\indexentry{kohtisuora}{415}
+\indexentry{vektori}{415}
+\indexentry{pintavektori}{415}
+\indexentry{lähde}{416}
+\indexentry{nielu}{416}
+\indexentry{sähkövakio}{419}
+\indexentry{permittiivisyys}{419}
+\indexentry{Gaussin laki}{419}
+\indexentry{symmetria}{419}
+\indexentry{Gaussin pinta}{420}
+\indexentry{malli}{423}
+\indexentry{asymptootti}{424}
+\indexentry{energiaperiaate}{426}
+\indexentry{potentiaalienergia}{429}
+\indexentry{potentiaali}{431}
+\indexentry{voltti}{431}
+\indexentry{tasa-arvopinta}{433}
+\indexentry{gradientti}{434}
+\indexentry{jännite}{435}
+\indexentry{elektronivoltti}{436}
+\indexentry{potentiaali}{437}
+\indexentry{johde}{442}
+\indexentry{Faradayn häkki}{443}
+\indexentry{eriste}{444}
+\indexentry{permittiivisyys}{444}
+\indexentry{jännitelähde}{448}
+\indexentry{sähköpari}{448}
+\indexentry{paristo}{448}
+\indexentry{elektrodi}{448}
+\indexentry{elektrolyytti}{448}
+\indexentry{napa}{448}
+\indexentry{lähdejännite}{449}
+\indexentry{maadoitus}{449}
+\indexentry{kondensaattori}{451}
+\indexentry{kapasitanssi}{451}
+\indexentry{faradi}{451}
+\indexentry{levykondensaattori}{451}
+\indexentry{rinnankytkentä}{452}
+\indexentry{sarjaankytkentä}{452}
+\indexentry{dissipatiivinen}{465}
+\indexentry{jatkuva virtaus}{465}
+\indexentry{sähkövirta}{466}
+\indexentry{ampeeri}{466}
+\indexentry{virtapiiri}{469}
+\indexentry{hila}{470}
+\indexentry{sironta}{470}
+\indexentry{vaellusnopeus}{470}
+\indexentry{johtavuus}{472}
+\indexentry{resistanssi}{472}
+\indexentry{Ohmin laki}{472}
+\indexentry{ohmi}{472}
+\indexentry{vastus}{473}
+\indexentry{virrantiheys}{474}
+\indexentry{oikosulku}{477}
+\indexentry{piirikaavio}{478}
+\indexentry{silmukka}{479}
+\indexentry{risteys}{479}
+\indexentry{Kirchhoffin säännöt}{479}
+\indexentry{sarjaankytkentä}{479}
+\indexentry{rinnankytkentä}{480}
+\indexentry{Kirchhoffin säännöt}{483}
+\indexentry{yhtälöryhmä}{485}
+\indexentry{matriisi}{485}
+\indexentry{RC-piiri}{489}
+\indexentry{differentiaaliyhtälö}{492}
+\indexentry{yrite}{492}
+\indexentry{aikavakio}{492}
+\indexentry{teho}{495}
+\indexentry{energiatiheys}{499}
+\indexentry{magneetti}{508}
+\indexentry{vuorovaikutus}{508}
+\indexentry{napa}{508}
+\indexentry{pohjoisnapa}{508}
+\indexentry{etelänapa}{508}
+\indexentry{dipoli}{509}
+\indexentry{polarisaatio}{509}
+\indexentry{magnetoituminen}{510}
+\indexentry{magneettikenttä}{511}
+\indexentry{oikean käden sääntö}{512}
+\indexentry{tesla}{513}
+\indexentry{voima}{515}
+\indexentry{voima}{516}
+\indexentry{superpositio}{517}
+\indexentry{Biot'n ja Savartin laki}{519}
+\indexentry{ristitulo}{519}
+\indexentry{Gaussin laki}{524}
+\indexentry{magneettivuo}{524}
+\indexentry{vuo}{524}
+\indexentry{weber}{524}
+\indexentry{magneettivuon tiheys}{524}
+\indexentry{Ampèren laki}{524}
+\indexentry{viivaintegraali}{524}
+\indexentry{suljettu reitti}{524}
+\indexentry{Ampèren laki}{527}
+\indexentry{magneettivakio}{527}
+\indexentry{permeabiliteetti}{527}
+\indexentry{pyörre}{527}
+\indexentry{silmukka}{529}
+\indexentry{oikean käden sääntö}{529}
+\indexentry{dipoli}{530}
+\indexentry{elektroni}{530}
+\indexentry{magneetti}{531}
+\indexentry{napa}{531}
+\indexentry{momentti}{538}
+\indexentry{potentiaalienergia}{538}
+\indexentry{induktio}{548}
+\indexentry{jännite}{550}
+\indexentry{induktiolaki}{551}
+\indexentry{magneettivuo}{551}
+\indexentry{Lenzin laki}{552}
+\indexentry{oikean käden sääntö}{552}
+\indexentry{muutos}{553}
+\indexentry{sähkömagneettinen}{555}
+\indexentry{vuorovaikutus}{555}
+\indexentry{pituuskontraktio}{555}
+\indexentry{valonnopeus}{558}
+\indexentry{suhteellinen}{558}
+\indexentry{magneettikenttä}{560}
+\indexentry{Galilei-muunnos}{560}
+\indexentry{sähkökenttä}{560}
+\indexentry{Faradayn laki}{562}
+\indexentry{viivaintegraali}{563}
+\indexentry{magneettivuo}{563}
+\indexentry{induktanssi}{565}
+\indexentry{käämi}{565}
+\indexentry{kela}{565}
+\indexentry{keskinäisinduktanssi}{568}
+\indexentry{itseinduktanssi}{568}
+\indexentry{induktanssi}{570}
+\indexentry{henry}{570}
+\indexentry{energiatiheys}{574}
+\indexentry{Maxwellin laki}{575}
+\indexentry{sähkövuo}{575}
+\indexentry{Ampèren ja Maxwellin laki}{578}
+\indexentry{Maxwellin yhtälöt}{578}
+\indexentry{värähtely}{588}
+\indexentry{oskillaatio}{588}
+\indexentry{jaksollinen}{588}
+\indexentry{tasapaino}{588}
+\indexentry{jakso}{589}
+\indexentry{periodi}{589}
+\indexentry{amplitudi}{590}
+\indexentry{jaksonaika}{590}
+\indexentry{taajuus}{590}
+\indexentry{hertsi}{590}
+\indexentry{harmoninen}{591}
+\indexentry{projektio}{591}
+\indexentry{vaihe}{592}
+\indexentry{kulmataajuus}{592}
 \indexentry{vaiheenosoitin}{594}
-\indexentry{huojunta}{597}
-\indexentry{ääni}{599}
-\indexentry{moiré-kuvio}{599}
-\indexentry{Fourier-sarja}{599}
+\indexentry{differentiaaliyhtälö}{595}
+\indexentry{alkuehto}{596}
+\indexentry{energia}{597}
+\indexentry{kompleksiluku}{598}
+\indexentry{imaginääriyksikkö}{598}
+\indexentry{koordinaatisto}{598}
+\indexentry{itseisarvo}{598}
 \indexentry{sarjakehitelmä}{599}
-\indexentry{harmoninen}{600}
-\indexentry{perustaajuus}{600}
-\indexentry{ylätaajuus}{600}
-\indexentry{ääni}{602}
-\indexentry{spektri}{602}
-\indexentry{vaimennus}{602}
-\indexentry{aikavakio}{603}
-\indexentry{alivaimennus}{603}
-\indexentry{ylivaimennus}{604}
-\indexentry{differentiaaliyhtälö}{605}
-\indexentry{resonanssi}{606}
-\indexentry{aallot}{616}
-\indexentry{aaltopulssi}{617}
-\indexentry{aaltofunktio}{617}
-\indexentry{aallonpohja}{617}
-\indexentry{aallonharja}{617}
-\indexentry{poikittainen}{618}
-\indexentry{pitkittäinen}{618}
-\indexentry{aaltofunktio}{623}
-\indexentry{aaltopulssi}{623}
-\indexentry{harmoninen}{625}
-\indexentry{aallonpituus}{625}
-\indexentry{aaltoliikkeen perusyhtälö}{625}
-\indexentry{aaltoluku}{626}
-\indexentry{vaihe}{627}
-\indexentry{aaltoliikkeen perusyhtälö}{627}
-\indexentry{vaiheenosoitin}{628}
-\indexentry{energiatiheys}{632}
-\indexentry{teho}{633}
-\indexentry{superpositio}{635}
-\indexentry{Fourier-sarja}{636}
-\indexentry{puoliarvoleveys}{638}
-\indexentry{epätarkkuusperiaate}{640}
-\indexentry{rajapinta}{642}
-\indexentry{läpäiseminen}{642}
-\indexentry{heijastuminen}{642}
-\indexentry{reunaehto}{643}
-\indexentry{seisova aalto}{646}
-\indexentry{vaiheensiirto}{647}
-\indexentry{seisova aalto}{650}
-\indexentry{solmu}{651}
-\indexentry{kupu}{651}
-\indexentry{moodi}{651}
-\indexentry{perustaajuus}{652}
-\indexentry{ylätaajuus}{652}
-\indexentry{dispersio}{653}
-\indexentry{nopeus}{655}
-\indexentry{vaihenopeus}{655}
-\indexentry{ryhmänopeus}{655}
-\indexentry{Doppler-ilmiö}{659}
-\indexentry{aaltoyhtälö}{663}
-\indexentry{kolmiulotteinen}{672}
-\indexentry{aaltorintama}{672}
-\indexentry{absorptio}{673}
-\indexentry{intensiteetti}{675}
-\indexentry{beli}{676}
-\indexentry{desibeli}{676}
-\indexentry{tasoaalto}{677}
-\indexentry{Huygensin periaate}{677}
-\indexentry{diffraktio}{678}
-\indexentry{peili}{679}
-\indexentry{rajapinta}{679}
-\indexentry{heijastuminen}{679}
-\indexentry{valo}{679}
-\indexentry{läpäiseminen}{679}
-\indexentry{taittuminen}{679}
-\indexentry{taittumislaki}{680}
-\indexentry{taitekerroin}{680}
-\indexentry{kokonaisheijastuminen}{681}
-\indexentry{dispersio}{682}
-\indexentry{polarisaatio}{682}
-\indexentry{interferenssi}{685}
-\indexentry{vaiheenosoitin}{688}
-\indexentry{optiikka}{693}
+\indexentry{Eulerin kaava}{599}
+\indexentry{napakoordinaatisto}{599}
+\indexentry{vaihe}{599}
+\indexentry{tasapaino}{601}
+\indexentry{Taylorin sarja}{602}
+\indexentry{sarjakehitelmä}{603}
+\indexentry{approksimaatio}{603}
+\indexentry{potentiaalienergia}{603}
+\indexentry{heiluri}{603}
+\indexentry{ääni}{606}
+\indexentry{vaiheenosoitin}{608}
+\indexentry{huojunta}{611}
+\indexentry{ääni}{613}
+\indexentry{moiré-kuvio}{613}
+\indexentry{Fourier-sarja}{613}
+\indexentry{sarjakehitelmä}{613}
+\indexentry{harmoninen}{614}
+\indexentry{perustaajuus}{614}
+\indexentry{ylätaajuus}{614}
+\indexentry{ääni}{616}
+\indexentry{spektri}{616}
+\indexentry{vaimennus}{616}
+\indexentry{aikavakio}{617}
+\indexentry{alivaimennus}{617}
+\indexentry{ylivaimennus}{618}
+\indexentry{differentiaaliyhtälö}{619}
+\indexentry{resonanssi}{620}
+\indexentry{aallot}{630}
+\indexentry{aaltopulssi}{631}
+\indexentry{aaltofunktio}{631}
+\indexentry{aallonpohja}{631}
+\indexentry{aallonharja}{631}
+\indexentry{poikittainen}{632}
+\indexentry{pitkittäinen}{632}
+\indexentry{aaltofunktio}{637}
+\indexentry{aaltopulssi}{637}
+\indexentry{harmoninen}{639}
+\indexentry{aallonpituus}{639}
+\indexentry{aaltoliikkeen perusyhtälö}{639}
+\indexentry{aaltoluku}{640}
+\indexentry{vaihe}{641}
+\indexentry{aaltoliikkeen perusyhtälö}{641}
+\indexentry{vaiheenosoitin}{642}
+\indexentry{energiatiheys}{646}
+\indexentry{teho}{647}
+\indexentry{superpositio}{649}
+\indexentry{Fourier-sarja}{650}
+\indexentry{puoliarvoleveys}{652}
+\indexentry{epätarkkuusperiaate}{654}
+\indexentry{rajapinta}{656}
+\indexentry{läpäiseminen}{656}
+\indexentry{heijastuminen}{656}
+\indexentry{reunaehto}{657}
+\indexentry{seisova aalto}{660}
+\indexentry{vaiheensiirto}{661}
+\indexentry{seisova aalto}{664}
+\indexentry{solmu}{665}
+\indexentry{kupu}{665}
+\indexentry{moodi}{665}
+\indexentry{perustaajuus}{666}
+\indexentry{ylätaajuus}{666}
+\indexentry{dispersio}{667}
+\indexentry{nopeus}{669}
+\indexentry{vaihenopeus}{669}
+\indexentry{ryhmänopeus}{669}
+\indexentry{Doppler-ilmiö}{673}
+\indexentry{aaltoyhtälö}{677}
+\indexentry{kolmiulotteinen}{686}
+\indexentry{aaltorintama}{686}
+\indexentry{absorptio}{687}
+\indexentry{intensiteetti}{689}
+\indexentry{beli}{690}
+\indexentry{desibeli}{690}
+\indexentry{tasoaalto}{691}
+\indexentry{Huygensin periaate}{691}
+\indexentry{diffraktio}{692}
+\indexentry{peili}{693}
+\indexentry{rajapinta}{693}
+\indexentry{heijastuminen}{693}
 \indexentry{valo}{693}
-\indexentry{sähkömagneettinen}{693}
-\indexentry{aaltoyhtälö}{697}
-\indexentry{valonnopeus}{697}
-\indexentry{energiatiheys}{698}
-\indexentry{valo}{699}
-\indexentry{säde}{699}
-\indexentry{optiikka}{699}
-\indexentry{kuva}{699}
-\indexentry{kovera}{699}
-\indexentry{peili}{699}
-\indexentry{polttopiste}{699}
-\indexentry{polttoväli}{699}
-\indexentry{kupera}{699}
-\indexentry{linssi}{700}
-\indexentry{kupera}{700}
-\indexentry{kovera}{700}
-\indexentry{kuva}{701}
-\indexentry{esine}{701}
-\indexentry{suurennussuhde}{702}
-\indexentry{linssiyhtälö}{702}
-\indexentry{valekuva}{702}
-\indexentry{varjostin}{703}
-\indexentry{optiikka}{706}
-\indexentry{interferenssi}{706}
-\indexentry{kaksoisrako}{706}
-\indexentry{Huygensin periaate}{706}
-\indexentry{intensiteetti}{708}
-\indexentry{vaiheenosoitin}{708}
-\indexentry{hila}{710}
-\indexentry{diffraktio}{710}
-\indexentry{diffraktio}{712}
-\indexentry{vaiheenosoitin}{713}
-\indexentry{intensiteetti}{714}
-\indexentry{diffraktio}{716}
-\indexentry{interferenssi}{716}
-\indexentry{interferenssi}{717}
-\indexentry{interferometri}{717}
-\indexentry{emissio}{726}
-\indexentry{musta kappale}{726}
-\indexentry{Planckin hypoteesi}{726}
-\indexentry{ekvipartitio}{727}
-\indexentry{Planckin vakio}{727}
-\indexentry{SI-järjestelmä}{727}
-\indexentry{kvanttimekaniikka}{727}
-\indexentry{valo}{727}
-\indexentry{valosähköinen ilmiö}{727}
-\indexentry{pysäytysjännite}{729}
-\indexentry{fotoni}{730}
-\indexentry{energia}{730}
-\indexentry{taajuus}{730}
-\indexentry{kaksoisrako}{732}
-\indexentry{interferenssi}{733}
-\indexentry{todennäköisyys}{733}
-\indexentry{Planckin hypoteesi}{734}
-\indexentry{energia}{734}
-\indexentry{liikemäärä}{734}
-\indexentry{aaltoluku}{734}
-\indexentry{de Broglien hypoteesi}{734}
-\indexentry{aaltofunktio}{735}
-\indexentry{aaltopulssi}{735}
-\indexentry{kompleksiluku}{735}
-\indexentry{liike-energia}{737}
-\indexentry{ryhmänopeus}{737}
-\indexentry{dispersio}{737}
-\indexentry{tila}{738}
-\indexentry{ket}{738}
-\indexentry{vektori}{738}
-\indexentry{kvanttiluku}{738}
-\indexentry{seisova aalto}{738}
-\indexentry{todennäköisyys}{740}
-\indexentry{normitus}{741}
-\indexentry{odotusarvo}{741}
-\indexentry{varianssi}{742}
-\indexentry{keskihajonta}{742}
-\indexentry{superpositio}{744}
-\indexentry{Fourier-sarja}{747}
-\indexentry{aaltolukuesitys}{747}
+\indexentry{läpäiseminen}{693}
+\indexentry{taittuminen}{693}
+\indexentry{taittumislaki}{694}
+\indexentry{taitekerroin}{694}
+\indexentry{kokonaisheijastuminen}{695}
+\indexentry{dispersio}{696}
+\indexentry{polarisaatio}{696}
+\indexentry{interferenssi}{699}
+\indexentry{vaiheenosoitin}{702}
+\indexentry{optiikka}{707}
+\indexentry{valo}{707}
+\indexentry{sähkömagneettinen}{707}
+\indexentry{aaltoyhtälö}{711}
+\indexentry{valonnopeus}{711}
+\indexentry{energiatiheys}{712}
+\indexentry{valo}{713}
+\indexentry{säde}{713}
+\indexentry{optiikka}{713}
+\indexentry{kuva}{713}
+\indexentry{kovera}{713}
+\indexentry{peili}{713}
+\indexentry{polttopiste}{713}
+\indexentry{polttoväli}{713}
+\indexentry{kupera}{713}
+\indexentry{linssi}{714}
+\indexentry{kupera}{714}
+\indexentry{kovera}{714}
+\indexentry{kuva}{715}
+\indexentry{esine}{715}
+\indexentry{suurennussuhde}{716}
+\indexentry{linssiyhtälö}{716}
+\indexentry{valekuva}{716}
+\indexentry{varjostin}{717}
+\indexentry{optiikka}{720}
+\indexentry{interferenssi}{720}
+\indexentry{kaksoisrako}{720}
+\indexentry{Huygensin periaate}{720}
+\indexentry{intensiteetti}{722}
+\indexentry{vaiheenosoitin}{722}
+\indexentry{hila}{724}
+\indexentry{diffraktio}{724}
+\indexentry{diffraktio}{726}
+\indexentry{vaiheenosoitin}{727}
+\indexentry{intensiteetti}{728}
+\indexentry{diffraktio}{730}
+\indexentry{interferenssi}{730}
+\indexentry{interferenssi}{731}
+\indexentry{interferometri}{731}
+\indexentry{emissio}{740}
+\indexentry{musta kappale}{740}
+\indexentry{Planckin hypoteesi}{740}
+\indexentry{ekvipartitio}{741}
+\indexentry{Planckin vakio}{741}
+\indexentry{SI-järjestelmä}{741}
+\indexentry{kvanttimekaniikka}{741}
+\indexentry{valo}{741}
+\indexentry{valosähköinen ilmiö}{741}
+\indexentry{pysäytysjännite}{743}
+\indexentry{fotoni}{744}
+\indexentry{energia}{744}
+\indexentry{taajuus}{744}
+\indexentry{kaksoisrako}{746}
+\indexentry{interferenssi}{747}
 \indexentry{todennäköisyys}{747}
-\indexentry{epätarkkuusperiaate}{749}
-\indexentry{keskihajonta}{749}
-\indexentry{kvantittuminen}{753}
-\indexentry{absorptio}{753}
-\indexentry{emissio}{753}
-\indexentry{spektri}{753}
-\indexentry{perustila}{753}
-\indexentry{viritystila}{753}
-\indexentry{seisova aalto}{755}
-\indexentry{kvantittuminen}{755}
-\indexentry{perustaajuus}{755}
-\indexentry{ylätaajuus}{755}
-\indexentry{malli}{756}
-\indexentry{stationaarinen}{757}
-\indexentry{ominaistila}{757}
-\indexentry{ominaisenergia}{757}
-\indexentry{normitus}{759}
-\indexentry{Schrödingerin yhtälö}{760}
-\indexentry{ominaistila}{761}
-\indexentry{matriisi}{762}
-\indexentry{rajapinta}{763}
-\indexentry{reunaehto}{763}
-\indexentry{tunneloituminen}{765}
-\indexentry{kolmiulotteinen}{768}
-\indexentry{aaltofunktio}{768}
-\indexentry{kvanttiluku}{769}
-\indexentry{atomi}{770}
+\indexentry{Planckin hypoteesi}{748}
+\indexentry{energia}{748}
+\indexentry{liikemäärä}{748}
+\indexentry{aaltoluku}{748}
+\indexentry{de Broglien hypoteesi}{748}
+\indexentry{aaltofunktio}{749}
+\indexentry{aaltopulssi}{749}
+\indexentry{kompleksiluku}{749}
+\indexentry{liike-energia}{751}
+\indexentry{ryhmänopeus}{751}
+\indexentry{dispersio}{751}
+\indexentry{tila}{752}
+\indexentry{ket}{752}
+\indexentry{vektori}{752}
+\indexentry{kvanttiluku}{752}
+\indexentry{seisova aalto}{752}
+\indexentry{todennäköisyys}{754}
+\indexentry{normitus}{755}
+\indexentry{odotusarvo}{755}
+\indexentry{varianssi}{756}
+\indexentry{keskihajonta}{756}
+\indexentry{superpositio}{758}
+\indexentry{Fourier-sarja}{761}
+\indexentry{aaltolukuesitys}{761}
+\indexentry{todennäköisyys}{761}
+\indexentry{epätarkkuusperiaate}{763}
+\indexentry{keskihajonta}{763}
+\indexentry{kvantittuminen}{767}
+\indexentry{absorptio}{767}
+\indexentry{emissio}{767}
+\indexentry{spektri}{767}
+\indexentry{perustila}{767}
+\indexentry{viritystila}{767}
+\indexentry{seisova aalto}{769}
+\indexentry{kvantittuminen}{769}
+\indexentry{perustaajuus}{769}
+\indexentry{ylätaajuus}{769}
 \indexentry{malli}{770}
-\indexentry{Schrödingerin yhtälö}{772}
-\indexentry{energia}{772}
-\indexentry{kvanttiluku}{772}
-\indexentry{kvantittuminen}{772}
-\indexentry{radiaalinen}{773}
-\indexentry{seisova aalto}{773}
-\indexentry{kupu}{773}
-\indexentry{solmu}{773}
-\indexentry{kulmaliikemäärä}{775}
-\indexentry{kiertoliike}{775}
-\indexentry{kvanttiluku}{775}
-\indexentry{kvantittuminen}{775}
-\indexentry{seisova aalto}{777}
-\indexentry{kupu}{777}
-\indexentry{solmu}{777}
-\indexentry{kulmaliikemäärä}{778}
-\indexentry{dipoli}{779}
-\indexentry{kvanttiluku}{779}
-\indexentry{paikka}{779}
-\indexentry{spin}{781}
-\indexentry{orbitaali}{782}
-\indexentry{spektroskooppinen notaatio}{782}
-\indexentry{Paulin sääntö}{783}
-\indexentry{fermioni}{783}
-\indexentry{bosoni}{783}
+\indexentry{stationaarinen}{771}
+\indexentry{ominaistila}{771}
+\indexentry{ominaisenergia}{771}
+\indexentry{normitus}{773}
+\indexentry{Schrödingerin yhtälö}{774}
+\indexentry{ominaistila}{775}
+\indexentry{matriisi}{776}
+\indexentry{rajapinta}{777}
+\indexentry{reunaehto}{777}
+\indexentry{tunneloituminen}{779}
+\indexentry{kolmiulotteinen}{782}
+\indexentry{aaltofunktio}{782}
+\indexentry{kvanttiluku}{783}
+\indexentry{atomi}{784}
+\indexentry{malli}{784}
+\indexentry{Schrödingerin yhtälö}{786}
+\indexentry{energia}{786}
+\indexentry{kvanttiluku}{786}
+\indexentry{kvantittuminen}{786}
+\indexentry{radiaalinen}{787}
+\indexentry{seisova aalto}{787}
+\indexentry{kupu}{787}
+\indexentry{solmu}{787}
+\indexentry{kulmaliikemäärä}{789}
+\indexentry{kiertoliike}{789}
+\indexentry{kvanttiluku}{789}
+\indexentry{kvantittuminen}{789}
+\indexentry{seisova aalto}{791}
+\indexentry{kupu}{791}
+\indexentry{solmu}{791}
+\indexentry{kulmaliikemäärä}{792}
+\indexentry{dipoli}{793}
+\indexentry{kvanttiluku}{793}
+\indexentry{paikka}{793}
+\indexentry{spin}{795}
+\indexentry{orbitaali}{796}
+\indexentry{spektroskooppinen notaatio}{796}
+\indexentry{Paulin sääntö}{797}
+\indexentry{fermioni}{797}
+\indexentry{bosoni}{797}
