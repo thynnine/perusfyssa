@@ -1934,7 +1934,7 @@ Yhtälö (\autoref{rajaarvo}) näyttää hankalalta, mutta sen pitäisi olla tut
 \begin{equation} f'(x) = \lim_{\Delta x \to 0} \frac{\Delta f}{\Delta x} = \lim_{x_\text{loppu} \to x} \frac{f(x_\text{loppu}) - f(x)}{x_\text{loppu} - x}.\label{derivaatta} \end{equation}
 Nopeuden tapauksessa funktion symboli oli \(x\) ja sen argumentti oli \(t\), mutta muuten yhtälöt (\autoref{rajaarvo}) ja (\autoref{derivaatta}) ovat täsmälleen samanlaiset. Siispä yhtälö (\autoref{rajaarvo}) sanoo, että \emph{nopeus on paikan derivaatta ajan suhteen}.
 
-Derivaatta on matemaattinen työkalu, joka kertoo \emph{miten nopeasti funktio muuttuu sen argumentin muuttuessa}.
+Derivaatta on matemaattinen työkalu, joka kertoo \emph{miten nopeasti funktion arvo muuttuu sen argumentin muuttuessa}.
 Jos funktion \( f(x) \) derivaatta on vakio ja saa vaikkapa arvon \(f'(x) = 2\), se tarkoittaa \(f\):n \emph{kasvavan} kahdella, kun \(x\) kasvaa yhdellä. Tällöin funktion kuvaaja piirtää nousevan suoran. Vastaavasti jos derivaatan arvo on \(f'(x) = -3\), \(f\) \emph{pienenee} kolmella, kun \(x\) kasvaa yhdellä, ja sen kuvaaja piirtää laskevan suoran.
 Jos derivaatta on nolla, funktion arvo ei muutu vaikka \(x\) muuttuisi, ja kuvaaja on vaakasuora.
 
@@ -2466,7 +2466,7 @@ Tästä laskusta nähdään myös, mikä kiihtyvyyden yksikkö on. Se on ``metri
 Valitaan suoralla itä-länsisuuntaisella tiellä positiivinen suunta itään. Auto kulkee aluksi nopeudella \(v_x = 10 \un{m/s}\) itään. Mikä on (i) nopeus lopuksi (ii) nopeuden muutos ja (iii) keskimääräinen kiihtyvyys, jos auto kulkee viiden sekunnin kuluttua \(5 \un{m/s}\) (a) itään, (b) länteen?
 \end{stopQ}
 
-Kuvaan piirretty oranssi nuoli kuvasi auton nopeuden muutosta, mutta koska kiihtyvyys mittaa nopeuden muutoksta, oranssi nuoli kuvaa suoraan myös auton keskimääräistä kiihtyvyyttä, kunhan mittakaava valitaan sopivasti.
+Kuvaan piirretty oranssi nuoli kuvasi auton nopeuden muutosta, mutta koska kiihtyvyys mittaa nopeuden muutosta, oranssi nuoli kuvaa suoraan myös auton keskimääräistä kiihtyvyyttä, kunhan mittakaava valitaan sopivasti.
 Se, että kiihtyvyys piirretään nuolena, vihjaa kiihtyvyyden olevan vektorisuure. Sitä se onkin, sillä
 \emph{kiihtyvyys on vektori, joka osoittaa aina siihen suuntaan, johon nopeusvektori muuttuu}.
 
@@ -2613,7 +2613,7 @@ Saman kappaleen nopeus.}%
 Täsmälleen samalla tavalla kuin yhtälössä (\autoref{paikkaintegraali}) lausutaan paikka nopeuden integraalina, voidaan nopeus ilmaista kiihtyvyyden integraalina. Toistetaan harjoituksen vuoksi tämä päättely, mutta jätetään raja-arvotarkastelut pois ja käytetään päättelyssä vain differentiaaleja.
 
 Aloitetaan kertomalla yhtälö (\autoref{kiihtyvyysderivaatta}) puolittain differentiaalilla \(\dd t\), jolloin saadaan
-\begin{equation} a_x \dd t = \frac{\dd v_x}{\dd t} \dd t = v_x \frac{\dd t}{\dd t} = \dd v_x. \end{equation}
+\begin{equation} a_x \dd t = \frac{\dd v_x}{\dd t} \dd t = \dd v_x \frac{\dd t}{\dd t} = \dd v_x. \end{equation}
 Yhtälön vasen ja oikea puoli voidaan integroida erikseen, jolloin saadaan
 \begin{equation} \int_{t_{\text{alku}}}^{t_{\text{loppu}}} a_x \dd t = \int_{v_{x,\text{alku}}}^{v_{x,\text{loppu}}} \dd v_x. \end{equation}
 Vasemmalla puolella on integraali tuntemattomasta funktiosta \( a_x(t) \), joka voi olla oikeastaan mitä vain, joten tätä integraalia ei voi sieventää sen enempää. Yhtälön oikealla puolella olevan integraalin sen sijaan voi laskea.
@@ -2662,7 +2662,7 @@ Siispä alkunopeus on
 }
 
  \model  Nopeus on yhtälön (\autoref{kiihtyvyysintegraali}) perusteella
-\begin{equation} v_x(t) = v_-{x,\text{alku}} + \int_{0}^{t} a_x(\underline{t}) \dd \underline{t}, \end{equation}
+\begin{equation} v_x(t) = v_{x,\text{alku}} + \int_{0}^{t} a_x(\underline{t}) \dd \underline{t}, \end{equation}
 missä ajan nollahetki on valittu jarrutuksen alkuun, \(t_\text{alku} = 0 \un{s}\).
 
 Kun nopeus on ratkaistu, pysähtymishetki on ratkaistavissa ehdosta
@@ -2928,7 +2928,7 @@ Solve[ deltax == v0 t + 1/2 a t^2, t ]
   \textit!{{t -> (-v0 + Sqrt[2 a deltax + v0^2])/a},?
   \textit! {t -> -(v0 + Sqrt[2 a deltax + v0^2])/a}}?
 
-(* tallennetaan edellinen tulos muuttujaan 'ratkaisu' *)
+(* tallennetaan edellinen tulos muuttujaan 'aika' *)
 aika = %
 
 (* sijoitetaan ratkaistu aika nopeuden lausekkeeseen *)
@@ -3946,7 +3946,7 @@ Kappale on aluksi paikoillaan, mutta lähtee liikkeelle. Missä seuraavista tapa
 Ota kirja, aseta se pöydälle ja työnnä se liukumaan pitkin pöydän pintaa. Todennäköisesti huomaat kirjan pysähtyvän melko nopeasti. Liikkuvalla kirjalla on aluksi liike-energiaa, mutta koska kirja pysähtyy, sen liike-energian täytyy olla lopuksi nolla. Jos sinulla olisi hyvin tarkka lämpömittari, voisit kuitenkin samalla havaita kirjan ja pöydän pinnan hieman lämpenevän. Kirjan liike-energia siis vähenee, ja pintojen lämpöenergia lisääntyy, joten prosessissa mekaanista liike-energiaa muuttuu kappaleiden lämpöenergiaksi eli sisäenergiaksi.
 
 \widepictures{tb}%
-{Yksinkertainen malli kitkan toiminnasta kahden liikkuvan kappaleen rajapinnalla. Pallot kuvaavat atomeja ja niiden väliset "jouset" atomisidoksia.;%
+{Yksinkertainen malli kitkan toiminnasta kahden liikkuvan kappaleen rajapinnalla. Pallot kuvaavat atomeja ja niiden väliset ''jouset'' atomisidoksia.;%
 Pinnat liikkuvat.;%
 Pinnat kohtaavat.;%
 Pinnat värähtelevät.;%
@@ -4016,7 +4016,7 @@ Mitkä seuraavista prosesseista ovat reversiibeleitä? (a) Kappale liukuu tasais
 
  \twocol{0.69}{0.3}{ \setup  Valitaan systeemiksi kappale ja maan painovoimakenttä. Piirretään systeemin kuva ja prosessia kuvaava energiadiagrammi. Merkitään kappaleen kulkemaa matkaa \(s = 1.0 \un{m}\) ja tason kaltevuuskulmaa \(\theta = 40^\circ\). Kappaleen massa on \(m = 0.350 \un{kg}\) ja sen saama nopeus \(v_{\text{loppu}} = 1.5 \un{m/s}\).
 
- \physics Systeemin potentiaalienergia pienenee ja liike-energia kasvaa kappaleen liikkuessa alaspäin. Kappaleeseen vaikuttavat dissipatiiviset vuorovaikutukset, kitka ja ilmanvastus, kuitenkin muuttavat samalla liike-energiaa lämpöenergiaksi. Systeemin kokonaisenergia ei ole vakio, mutta energian säilymislain perusteella systeemistä hävinneen mekaanisen energian täytyy muuttua muihin energian muotoihin, pääasiassa lämpöenergiaksi.
+ \physics Systeemin potentiaalienergia pienenee ja liike-energia kasvaa kappaleen liikkuessa alaspäin. Kappaleeseen vaikuttavat kitka ja ilmanvastus kuitenkin muuttavat samalla liike-energiaa lämpöenergiaksi. Systeemin kokonaisenergia ei ole vakio, mutta energian säilymislain perusteella systeemistä hävinneen mekaanisen energian täytyy muuttua muihin energian muotoihin, pääasiassa lämpöenergiaksi.
 
  \model  Kappale siirtyy pystysuoran etäisyyden \(\Delta x = -s \sin \theta\) ja sen potentiaalienergia pienenee tällöin määrän
 \( \Delta U = mg\Delta x = -mgs \sin \theta. \)
@@ -4141,7 +4141,7 @@ Nopeuden kuvaaja.}%
 {1.0;1.0}%
 {liikemaara_tormays_5.pdf;liikemaara_tormays_6.pdf}
 
-Huomaa erityisesti, että kuvassa \autoref{fig:liikemaaratormays2} vaunun A \emph{vauhti kasvaa} törmäyksessä, mutta sen \emph{nopeuden muutos on silti negatiivinen}, sillä nopeuden kuvaaja laskee eli muuttuu negatiiviseen suuntaan. Vastaavasti vaunun B vauhti pienenee, mutta sen nopeuden muutos on negatiivinen. Yleisesti nopeuden muutoksen etumerkkiä ei voikaan päätellä vauhdista. Nopeus on vektori, ja sen etumerkki pitää muistaa huomioida.
+Huomaa erityisesti, että kuvassa \autoref{fig:liikemaaratormays2} vaunun A \emph{vauhti kasvaa} törmäyksessä, mutta sen \emph{nopeuden muutos on silti negatiivinen}, sillä nopeuden kuvaaja laskee eli muuttuu negatiiviseen suuntaan. Vastaavasti vaunun B vauhti pienenee, mutta sen nopeuden muutos on positiivinen. Yleisesti nopeuden muutoksen etumerkkiä ei voikaan päätellä vauhdista. Nopeus on vektori, ja sen etumerkki pitää muistaa huomioida.
 
 Tutkitaan sitten, mitä tapahtuu, kun kaksi erikokoista kappaletta törmää. Teemme tämän niin, että kiinnitämme vaunuun A toisen samanlaisen vaunun, jolloin vaunu A on käytännössä kooltaan kaksinkertainen vaunuun B nähden.
 Kuvassa \autoref{fig:liikemaaratormays3a} nähdään, mitä näiden vaunujen törmäyksessä tapahtuu. Nyt vaunujen nopeuksien kuvaajat eivät enää olekaan symmetriset
@@ -4365,7 +4365,7 @@ Lopuksi on vielä syytä täsmentää dissipatiivisten vuorovaikutusten ja liike
 {0.7}%
 {liikemaara_kitka_1.pdf}
 
-Sen, että kitka ei hävitä liikemäärää vaan siirtää sen vain kappaleelta toiselle, voi todeta seuraavalla kuvassa \autoref{fig:liikemaarakitka_2} esitetyllä kokeella. Asetetaan lähes kitkattomalle suoralle radalle pitkä kappale B ja tämän päälle toinen kappale A. Kappale B on aluksi levossa, mutta kappalee A työnnetään liikkeelle. Koska B on kitkattomalla radalla, sen alapintaan ei vaikuta kitka. A:n ja B:n välisellä pinnalla kitkaa kuitenkin on, ja tämä kitka pyrkii pysäyttämään pintojen liikkeen \emph{toistensa suhteen}. Tämä tarkoittaa sitä, että kitka hidastaa kappaleen A liikettä mutta samalla se vetää kappaleen B liikkeelle. Lopputulos on se, että kappaleet päätyvät liikkumaan samalla nopeudella, ja tämä nopeus määräytyy liikemäärän säilymislain mukaisesti niin, että lopputilanteessa kappaleiden A ja B liikemäärien summa on sama kuin kappaleen A liikemäärä alkutilanteessa. Tässä kokeessa kitka on siis systeemin sisäinen vuorovaikutus, joka siirtää liikemäärää kappaleelta A kappaleelle B, mutta sekään ei voi hävittää liikemäärää. Tämä koe on myös esimerkki tilanteesta, jossa kitka ei pyri pysäyttämään kappaletta, sillä nyt kitka nimenomaan työntää kappaleen B liikkeelle. Kitka kuten muutkin dissipatiiviset vuorovaikutukset pyrkivät saamaan kappaleet liikkumaan samalla nopeudella, mutta tämä nopeus ei välttämättä ole nolla.
+Sen, että kitka ei hävitä liikemäärää vaan siirtää sen vain kappaleelta toiselle, voi todeta seuraavalla kuvassa \autoref{fig:liikemaarakitka_2} esitetyllä kokeella. Asetetaan lähes kitkattomalle suoralle radalle pitkä kappale B ja tämän päälle toinen kappale A. Kappale B on aluksi levossa, mutta kappale A työnnetään liikkeelle. Koska B on kitkattomalla radalla, sen alapintaan ei vaikuta kitka. A:n ja B:n välisellä pinnalla kitkaa kuitenkin on, ja tämä kitka pyrkii pysäyttämään pintojen liikkeen \emph{toistensa suhteen}. Tämä tarkoittaa sitä, että kitka hidastaa kappaleen A liikettä mutta samalla se vetää kappaleen B liikkeelle. Lopputulos on se, että kappaleet päätyvät liikkumaan samalla nopeudella, ja tämä nopeus määräytyy liikemäärän säilymislain mukaisesti niin, että lopputilanteessa kappaleiden A ja B liikemäärien summa on sama kuin kappaleen A liikemäärä alkutilanteessa. Tässä kokeessa kitka on siis systeemin sisäinen vuorovaikutus, joka siirtää liikemäärää kappaleelta A kappaleelle B, mutta sekään ei voi hävittää liikemäärää. Tämä koe on myös esimerkki tilanteesta, jossa kitka ei pyri pysäyttämään kappaletta, sillä nyt kitka nimenomaan työntää kappaleen B liikkeelle. Kitka kuten muutkin dissipatiiviset vuorovaikutukset pyrkivät saamaan kappaleet liikkumaan samalla nopeudella, mutta tämä nopeus ei välttämättä ole nolla.
 
 \begin{stopQ}{q:tiivistelmatormaykset}%
 Kirjoita tiivistelmä törmäyksistä ja säilyvistä suureista. Kuvaile elastiset ja epäelastiset törmäykset sekä räjähtävät erotukset. Selitä erityisesti milloin ja miksi liike-energia tai liikemäärä on vakio ja selitä, mikä näitä suureita voi muuttaa.
@@ -4711,7 +4711,12 @@ Systeemi koostuu kahdesta osasta, joiden massat ovat \(2.0 \un{kg}\) ja \(3.0 \u
 Epäsäännöllisen muotoisen kappaleen potentiaalienergian voi siis laskea kahdella tavalla (kuva \autoref{fig:liikemaara_mkp_jako_2}). Yksi tapa on jakaa kappale osiin ja laskea kunkin osan potentiaalienergia erikseen, jolloin koko kappaleen potentiaalienergia on sen osien energioiden summa. Toinen tapa on määrittää ensin kappaleen massakeskipisteen paikka. Kappaleella on nimittäin sama potentiaalienergia kuin pallolla, jolla on sama massa ja joka on samalla korkeudella kuin kappaleen massakeskipiste.
 
 Systeemin \emph{liike-energiaa ei kuitenkaan voi laskea yhtä yksinkertaisesti}. Jos systeemin kaikki kappaleet liikkuvat samaan suuntaan samalla nopeudella \(v_x\), myös systeemin massakeskipisteen nopeus on sama, \(v_{x,\text{cm}} = v_x\) ja tällöin systeemin liike-energia voidaan laskea massakeskipisteen massan ja nopeuden avulla,
-\begin{equation} K = \frac{1}{2} m_1 v_{x,1}^2 + \frac{1}{2} m_2 v_{x,2}^2 \ldots = \frac{1}{2} m_1 v_{x,\text{cm}}^2 + \frac{1}{2} m_2 v_{x,\text{cm}}^2 = \frac{1}{2} (m_1 + m_2 + \ldots) v_{x,\text{cm}}^2 = \frac{1}{2} M v_{x,\text{cm}}^2. \end{equation}
+
+\begin{eqnarray} K &=& \frac{1}{2} m_1 v_{x,1}^2 + \frac{1}{2} m_2 v_{x,2}^2 + \ldots \\
+&=& \frac{1}{2} m_1 v_{x,\text{cm}}^2 + \frac{1}{2} m_2 v_{x,\text{cm}}^2 + \ldots \\
+&=& \frac{1}{2} (m_1 + m_2 + \ldots) v_{x,\text{cm}}^2 \\
+&=/ \frac{1}{2} M v_{x,\text{cm}}^2. \end{eqnarray}
+
 Yleensä tämä \emph{ei kuitenkaan päde}! Esimerkiksi jos systeemiin kuuluu kaksi vastakkaiisin suuntiin kulkevaa kappaletta, joilla on sama massa ja sama vauhti, niiden muodostaman systeemin massakeskipistenopeus on nolla, vaikka systeemillä selvästikin on liike-energiaa. Niinpä yleisesti pätee
 \begin{equation} K_\text{systeemi} \ge \frac{1}{2} M v_{x,\text{cm}}^2, \end{equation}
 ja yhtäsuuruus on voimassa vain kun kaikilla kappaleilla on sama nopeus.
@@ -5808,7 +5813,7 @@ Gravitaation potentiaalienergian arvo riippuu siitä, minkä suhteen korkeutta m
 Tarkastellaan sitten jousen tuottamaa voimaa.
 Luvussa \autoref{luku:sailymislait} todettiin, että elastista potentiaalienergiaa voidaan kuvata melko hyvällä tarkkuudella mallilla \(U = \frac{1}{2}k(x-x_0)^2\), (\autoref{harmoninen_pot}). Potentiaalienergian lausekkeessa \(x_0\) on piste, jossa energia on minimissään, ja \(x-x_0\) on etäisyys tästä pisteestä. Esimerkiksi jousen tapauksessa \(x_0\) on jousen luonnollinen pituus ja \(x-x_0\) on jousen venymä. Tällaista potentiaalienergiaa vastaa voima
 \begin{equation} F_x =  -\frac{\dd U}{\dd x} = -k(x-x_0). \label{harmoninen_voima}\end{equation}
-Voima on siis suoraan verrannollinen venymään ja verrannollisuuskerroin on jousivakio \(k\). Tämä tulos tunnetaan \textbf{Hooken lakina}.
+Voima on siis suoraan verrannollinen venymään ja verrannollisuuskerroin on jousivakio \(k\). Tämä tulos tunnetaan \textbf{Hooken lakina} (Robert Hooken mukaan).
 
 \index{jousi}
 \index{elastinen}
@@ -6155,8 +6160,8 @@ Voiman kuvaaja.}%
 Luvussa \autoref{luku:sailymislait} törmäysten tarkastelussa todettiin kappaleiden liikemäärien muuttuvan kappaleiden saamien impulssien takia. Kuvassa \autoref{fig:voimaimpulssi} on esitetty kahden kappaleen törmäys mukaanlukien kappaleisiin vaikuttavien voimien kuvaaja. Kuvan esimerkissä kappaleen A massa on kaksinkertainen kappaleen B massaan nähden, sillä kappaleen A nopeuden muutos on törmäyksessä vain puolet kappaleen B vastaavasta. Kuitenkin koska systeemin liikemäärä on vakio, kummankin kappaleen liikemäärän pitää muuttua yhtä paljon mutta vastakkaiseen suuntaan eli kappaleet saavat yhtä suuret impulssit. Kappaleisiin kohdistuvien voimien kuvaajassa impulssi on kuvaajan ja aika-akselin väliin jäävä pinta-ala, joka on molemmilla kappaleilla itseisarvoltaan sama mutta vastakkaismerkkinen, koska kappaleisiin kohdistuvilla voimilla on eri etumerkit. Erot kappaleiden nopeuksien muutoksissa ovat seurausta kappaleiden erilaisista inertioista --- kappaleiden saamat impulssit ovat yhtä suuret.
 
 Impulssin ja voiman yhteyttä voidaan käyttää myös voiman arvioimiseksi, kun kappaleen saama impulssi tunnetaan. Jos nimittäin törmäys kestää ajan \(\Delta t\) ja voiman on tässä ajassa tuotettava \(x\)-suuntainen impulssi \(I_x\), voiman suuruuden on oltava keskimäärin
-\(F_x = I_x / \Delta t\)
-ja koska voima ei käytännössä ole kuitenkaan vakio sen maksimiarvo voi olla tätä selvästi suurempikin.
+\(F_x = I_x / \Delta t, \)
+ja koska voima ei käytännössä ole kuitenkaan vakio, sen maksimiarvo voi olla tätä selvästi suurempikin.
 Tästä syystä esimerkiksi kolarit ja korkealta putoaminen ovat vaarallisia. Liikemäärän \emph{suuri} muutos vaatii suuren impulssin ja liikemäärän \emph{nopea} muutos tarkoittaa impulssin tapahtuvan lyhyessä ajassa. Molemmat ehdot vaativat, että impulssin tuottava voima on suuri. Materiaalien kestäminen tai rikkoutuminen rasituksessa riippuu pääasiassa niihin kohdistuvan voiman suuruudesta (vrt. elastiset ja plastiset muodonmuutokset), joten nopea pysähtyminen suuresta vauhdista on vaaraksi niin esineille kuin elollisille olennoillekin.
 
 \begin{stopQ}{q:gravitaation_impulssi}%
@@ -6497,7 +6502,7 @@ Lämmön kautta tapahtuvaa energian siirtymistä ja tähän liittyviä lainalais
 Energian säilymislain perusteella emme siis voi päätellä paljonko työntäjän, laatikon ja lattian sisäenergiat muuttuvat, joten vaikka tarkastelisimme systeemiä, johon nämä kaikki kuuluvat ja jonka energia on vakio, emme pysty suoraan päättelemään esimerkiksi laatikon saamaa liike-energiaa. Työn avulla voimme kuitenkin tämän selvittää. Laatikon työntäjältä saama liike-energia on nimittäin täsmälleen yhtä suuri kuin työntäjän laatikkoon tekemä työ. Vastaavasti kitka kuluttaa laatikon liike-energiaa täsmälleen kitkavoiman tekemän työn verran. Niinpä voimme määrittää laatikon liike-energian muutoksen siihen kohdistuvien voimien tekemänä kokonaistyönä.
 
 \begin{stopQ}{q:tyonto_kitka_tyo}%
-Työntäjä kohdistaa laatikkoon \(100 \un{N}\) vakiovoiman oikealle ja laatikkoon vaikuttaa \(80 \un{N}\) kitkavoima vasemmalle. Työntäjä työntää laatikkoa yhden metrin oikealle. (a) Paljonko laatikko saa työntäjältä liike-energiaa? (b) Paljonko laatikko menettää kitkan takia liike-energiaa? (c) Mikä on laatikon liike-energian muutos? (d) Mikä on työntäjän, laatikon ja lattian sisäenergian kokonaismuutos?
+Työntäjä kohdistaa laatikkoon \(100 \un{N}\) vakiovoiman oikealle ja laatikkoon vaikuttaa \(80 \un{N}\) kitkavoima vasemmalle. Työntäjä työntää laatikkoa yhden metrin oikealle. (a) Paljonko laatikko saa työntäjältä liike-energiaa? (b) Paljonko laatikko menettää kitkan takia liike-energiaa? (c) Mikä on laatikon liike-energian muutos? (d) Mikä on työntäjän, laatikon, ilman ja lattian muodostaman systeemin sisäenergian kokonaismuutos?
 \end{stopQ}
 
 \begin{exam}{Dissipatiivinen työ}{ex:dissipatiivinentyo}\noindent
@@ -7418,7 +7423,7 @@ v_{y,B,\text{loppu}} &=& v_{y,B,\text{alku}} + \frac{m_A}{m_B}(v_{y,A,\text{alku
 Kiekon A saaman impulssin komponentit ovat
 
 \begin{eqnarray} I_{x,B \to A} &=& m_A (v_{x,A,\text{loppu}} - v_{x,A,\text{alku}}) = -0.585 \un{Ns} \\
-I_{y,B \to A} &=& m_B (v_{y,A,\text{loppu}} - v_{y,A,\text{alku}}) = -0.180 \un{Ns} \end{eqnarray}
+I_{y,B \to A} &=& m_A (v_{y,A,\text{loppu}} - v_{y,A,\text{alku}}) = -0.180 \un{Ns} \end{eqnarray}
 
 ja vastaavasti kiekkoon B kohdistuu impulssi
 
@@ -7638,7 +7643,7 @@ Ensimmäinen yhtälö kertoo meille suoraan tuntemattoman \(a\) arvon, ja tämä
 
 Pistetulon avulla työn matemaattinen määritelmä yleistyy helposti kolmeen ulottuvuuteen. Kappaleeseen vaikuttavan voiman \(\bs{F}\) ollessa vakio ja kappaleen siirtyessä matkan \(\Delta \bs{r}\) voiman tekemä työ saadaan voiman \emph{siirtymän suuntaisen komponentin} ja siirtymän pituuden tulona.
 \begin{equation} W = F_{\Delta r} \Delta r. \end{equation}
-Voiman komponentti puolestaan voidaan kirjoittaa pistetulon avulla muodossa
+Voiman komponentti puolestaan voidaan kirjoittaa yhtälön (\autoref{komponentti_pistetulosta}) perusteella muodossa
 \begin{equation} F_{\Delta r} = \frac{1}{\Delta r} \bs{F} \cdot \Delta \bs{r}, \end{equation}
 joten työ on yksinkertaisesti \emph{voiman ja siirtymän pistetulo}
 \begin{equation} W = \bs{F} \cdot \Delta \bs{r}, \label{tyo_pistetulo}\end{equation}
@@ -8736,7 +8741,7 @@ Koska liike suoralla on tavallaan ympyräliikkeen erikoistapaus, jossa ratasäde
 \begin{equation} a_\vartheta = \frac{\dd v_\vartheta}{\dd t} = \frac{\dd \omega_\theta}{\dd t} r. \end{equation}
 Tangenttikiihtyvyys voitiin tässä kirjoittaa myös kulmanopeuden avulla, sillä ympyräradalla kulmanopeus ja nopeus ovat suoraan verrannolliset yhtälön (\autoref{kulmanopeus}) mukaisesti.
 Määritellään vielä \textbf{kulmakiihtyvyys} kulmanopeuden aikaderivaattana
-\bigeq{ \alpha_\theta = \frac{\dd \omega_\theta}{\dd t} = \frac{\dd^2 \theta}{\dd t^2}, \label{kulmakiihtyvyys}}
+\bigeq{ \alpha_\theta = \frac{\dd \omega_\theta}{\dd t} = \omega_\theta'(t) = \frac{\dd^2 \theta}{\dd t^2} = \theta''(t), \label{kulmakiihtyvyys}}
 jolloin kiihtyvyyden tangenttikomponentti on suoraan verrannollinen kappaleen kulmakiihtyvyyteen
 \begin{equation} a_\vartheta = \alpha_\theta r, \end{equation}
 aivan kuten kappaleen nopeuden tangenttikomponentti on verrannollinen kappaleen kulmanopeuteen.
@@ -8815,7 +8820,7 @@ Hiukkasen kulmakiihtyvyys on \(\alpha_\theta = 0\) ja kiihtyvyysvektori \(\bs{a}
  \solu  (a) Sijoittamalla hiukkasen koordinaatit radan säteeksi saadaan
 \(r = 1.25 \un{m}\) ja napakoordinaatiston yksikkövektorit ovat siis \(\uv{r} = 0.28\uv{i} - 0.96 \uv{j}\) sekä \(\uv{\vartheta} = 0.96\uv{i}+0.28\uv{j}\).
 
-(b) Kulmanopeus on \(\omega_\theta = 1.2 \un{s}^{-1}\), (c) nopeusvektori \(\bs{v} = (1.4 \un{m/s}) \uv{i} + (0.42 \un{m/s}^2) \uv{j}\), (d) kulmakiihtyvyys on nolla ja (e) kiihtyvyysvektori \(\uv{a} = (-0.50 \un{m/s}^2) \uv{i} + (1.7 \un{m/s}^2) \uv{j}\).
+(b) Kulmanopeus on \(\omega_\theta = 1.2 \un{s}^{-1}\), (c) nopeusvektori \(\bs{v} = (1.4 \un{m/s}) \uv{i} + (0.42 \un{m/s}^2) \uv{j}\), (d) kulmakiihtyvyys on nolla ja (e) kiihtyvyysvektori \(\uv{a} = (-0.50 \un{m/s}^2) \uv{i} + (1.7 \un{m/s}) \uv{j}\).
 
 \mbar
 \begin{mathematica}[commandchars=\\!?]
@@ -8983,6 +8988,7 @@ Vastaavasti jos kappaleen tiheys tunnetaan, voidaan tilavuuden \(\dd V\) massa k
 \begin{equation} \dd m = \rho \dd V. \end{equation}
 Kappaleen kokonaismassa saadaan tällöin jakamalla koko kappale pieniin osiin kuvassa \autoref{fig:pyoriminenkappaleenhitausmomentti} (b) kuvattuun tapaan, laskemalla näiden osien massat sekä summaamalla massat yhteen. Infinitesimaalisten massojen tapauksessa summaaminen tapahtuu integroimalla
 \begin{equation} m = \int \dd m = \int_V \rho \dd V. \label{massaint} \end{equation}
+Tässä alaindeksi \(V\) muistuttaa vain siitä, että yhteen lasketaan kaikki osat kappaleen tilavuuden \(V\) sisältä.
 
 \begin{stopQ}{q:pyorimisliike_summa}%
 Eräs sauva koostuu kolmesta osasta, joiden tiheydet ovat järjestyksessä \(800 \un{kg/m}^3\), \(1000 \un{kg/m}^3\) ja \(1300 \un{kg/m}^3\) ja pituudet \(5.0 \un{cm}\), \(15.0 \un{cm}\) ja \(10.0 \un{cm}\).
@@ -9580,7 +9586,7 @@ Joka tapauksessa pyörivän liikkeen kulmaliikemäärä on suuruusluokkaa
 ja etenevän liikkeen kulmaliikemäärä on
 \begin{equation} L_{\theta,\text{cm}} = r_{\perp v} m v. \end{equation}
 Näiden suhde on siis
-\begin{equation} \frac{L_{\theta,\text{rotaatio}}}{L_{\theta,\text{cm}}} \approx \frac{R v_\vartheta}{r_{\perp v} m v}. \end{equation}
+\begin{equation} \frac{L_{\theta,\text{rotaatio}}}{L_{\theta,\text{cm}}} \approx \frac{R v_\vartheta}{r_{\perp v} v}. \end{equation}
 Tässä esimerkissä kiekon ulkoreuna kiertää sen keskusta noin kaksinkertaisella nopeudella kuin millä kiekon keskipiste liikkuu, mutta kiekon säde on vain kymmenesosa etäisyydestä, jolla kiekko ohittaa akselin. Niinpä tämän arvion mukaan \( \frac{L_{\theta,\text{rotaatio}}}{L_{\theta,\text{cm}}} \approx \frac{1}{5} \) eli pyörimisen kulmaliikemäärä on selvästi pienempi kuin etenevän liikkeen kulmaliikemäärä. Aikaisemman laskumme mukaan itse asiassa \( \frac{L_{\theta,\text{rotaatio}}}{L_{\theta,\text{cm}}} \approx \frac{1}{10} \), ja ero johtuu taas siitä, että hitausmomentin kerroin \(1/2\) jätettiin äskeisessä karkeassa arviossa huomioimatta.
 
 \end{exam}
@@ -10087,7 +10093,7 @@ ja yleinen pyörimisen liikeyhtälö on
 
 \item kulmakiihtyvyys (angular acceleration)
 
-\item hitausmomentti (rotational inertia)
+\item hitausmomentti (rotational inertia, moment of inertia)
 
 \item tiheys (density)
 
@@ -10123,7 +10129,7 @@ paikkakoordinaatti & $x$                        & kulmakoordinaatti & $\theta$ \
 nopeus          & $v_x = \frac{\dd x}{\dd t}$   & kulmanopeus       & $\omega_\theta = \frac{\dd \theta}{\dd t}$ \\
 kiihtyvyys      & $a_x = \frac{\dd v_x}{\dd t}$ & kulmakiihtyvyys   & $\alpha_\theta = \frac{\dd \omega_\theta}{\dd t}$ \\
 inertia            & $m$                        & hitausmomentti    & $I_\theta = \sum_i m_i r_i^2$ \\
-liike-energia   & $K_\text{cm} = \frac{1}{2}mv_\text{cm}^2$ & liike-energia & $K_\text{rotaatio} = \frac{1}{2}I_\theta\omega^2$ \\
+liike-energia   & $K = \frac{1}{2}mv_x^2$ & liike-energia & $K_\text{rotaatio} = \frac{1}{2}I_\theta\omega^2$ \\
 liikem\"a\"ar\"a   & $p_x = mv_x$           & kulmaliikem\"a\"ar\"a & $L_{\theta,\text{rotaatio}} = I_\theta\omega$ \\
                    &                            &                   & $L_{\theta,\text{cm}} = mv_{\text{cm},\vartheta} r = m\omega_\theta r^2$ \\
 voima              & $F_x$                      & momentti          & $\tau_\theta = r F_\vartheta$ \\
@@ -10340,7 +10346,7 @@ Tämän luvun opiskeltuasi sinun tulee osata:
 \index{kiintopiste}
 
 Luvussa \autoref{luku:liike} määrittelimme paikan fysikaalisena suureena koordinaatiston avulla. Valitsimme kiintopisteen eli origon, jonka suhteen paikkoja mittasimme, ja tällöin pystyimme ilmaisemaan paikan koordinaattien avulla.
-Havainnoidessamme liikettä arkisissa tilanteissa kiintopisteeksi valitaan usein jokin \emph{Maapallon pinnan piste}, koska valtavan suurena kappaleena Maa vaikuttaa meistä liikkumattomalta. Näin ei kuitenkaan tarvitse tehdä. Aivan yhtä hyvin kiintopisteeksi voidaan valita jokin \emph{Maan suhteen liikkuva piste}. Erityisesti jos liikumme itse Maan suhteen tai teemme mittauksia liikkuvilla havaintovälineillä, on järkevää valita kiintopisteeksi \emph{havaitsija}.
+Havainnoidessamme liikettä arkisissa tilanteissa kiintopisteeksi valitaan usein jokin \emph{maapallon pinnan piste}, koska valtavan suurena kappaleena Maa vaikuttaa meistä liikkumattomalta. Näin ei kuitenkaan tarvitse tehdä. Aivan yhtä hyvin kiintopisteeksi voidaan valita jokin \emph{Maan suhteen liikkuva piste}. Erityisesti jos liikumme itse Maan suhteen tai teemme mittauksia liikkuvilla havaintovälineillä, on järkevää valita kiintopisteeksi \emph{havaitsija}.
 Kuitenkin jos paikkaa mitataan eri kiintopisteiden suhteen, mittaustuloksina saadut koordinaatit ovat luonnollisesti erilaiset. Myös monet muut suureet saavat eri koordinaatistoissa eri arvot, ja tässä luvussa tutkimme, miten havaitsijan liike vaikuttaa hänen tekemiinsä havaintoihin.
 
 \subsection{Inertiaalikoordinaatistot}
@@ -10437,7 +10443,7 @@ Tilanne on näissä tapauksissa matkustajan kannalta täsmälleen samanlainen ku
 \index{Coriolis-voima}
 
 Koska auto on kiihtyvässä liikkeessä myös kääntyessään, matkustaja tuntee kääntyvässäkin autossa näennäisvoiman, jota yleisesti kutsutaan keskipakoisvoimaksi. Keskipakoisvoima \emph{ei ole oikea voima} vaan yksinkertaisesti seuraus siitä, että ympyräradalla kulkeva auto on kiihtyvässä liikkeessä \emph{kohti liikeradan piirtämän ympyrän keskustaa}, ja tällöin auton mukana liikkuva havaitsija tuntee omassa koordinaatistossaan \emph{poispäin ympyrän keskustasta osoittavan näennäisvoiman}.
-Keskipakoisvoiman lisäksi pyörivissä koordinaatistoissa kuten Maapallon pinnalla liikkuviin kappaleisiin kohdistuu \emph{Coriolis-näennäisvoima} (Gaspard-Gustave de Coriolisin mukaan), joka vaikuttaa esimerkiksi ilmakehän liikkeeseen ja siten sääilmiöihin.
+Keskipakoisvoiman lisäksi pyörivissä koordinaatistoissa kuten maapallon pinnalla liikkuviin kappaleisiin kohdistuu \emph{Coriolis-näennäisvoima} (Gaspard-Gustave de Coriolisin mukaan), joka vaikuttaa esimerkiksi ilmakehän liikkeeseen ja siten sääilmiöihin.
 
 \begin{stopQ}{q:suhteellisuus_ilmapallo}%
 Auton sisällä on narulla kiinnitetty helium-ilmapallo. Mihin suuntaan se liikkuu auton lähtiessä liikkeelle ja jarruttaessa?
@@ -10894,7 +10900,7 @@ Systeemin muodostaa kaksi samanlaista hiukkasta (massa \(1.0 \un{g}\)). Koordina
 }
 
  \physics Merkitään sisäenergiaa \(E_\text{sis\"a} = M e_\text{sis\"a}\), missä \(M\) on kaasun massa ja \(e_\text{sis\"a} = 230 \un{kJ/kg}\). Merkitään \(x\)-suuntaisen liike-energian osuutta sisäenergiasta \(\eta = 1/5\).
-Typpimolekyylin massa on \(m_{N_2} = 2 \cdot 14.01 u = 46.52 \cdot 10^{-27} \un{kg}\). Molekyylin liike-energia riippuu sen massasta, ja samoin kaasun sisältämien molekyylien lukumäärä on kaasun massa jaettuna yhden molekyylin massalla. Molekyyleillä on kaasussa eri liike-energioita, mutta merkitään hakasulkeilla yhden molekyylin \(x\)-suuntaisen liikkeen liike-energian keskiarvoa \(\langle K_{N_2} \rangle\). Tämä saadaan laskemalla kaikkien molekyylien liike-energiat yhteen ja jakamalla molekyylien lukumäärällä.
+Typpimolekyylin massa on \(m_{N_2} = 2 \cdot 14.01 u = 46.52 \cdot 10^{-27} \un{kg}\). Molekyylin liike-energia riippuu sen massasta, ja samoin kaasun sisältämien molekyylien lukumäärä on kaasun massa jaettuna yhden molekyylin massalla. Molekyyleillä on kaasussa eri liike-energioita, mutta merkitään kulmasulkeilla yhden molekyylin \(x\)-suuntaisen liikkeen liike-energian keskiarvoa \(\langle K_{N_2} \rangle\). Tämä saadaan laskemalla kaikkien molekyylien liike-energiat yhteen ja jakamalla molekyylien lukumäärällä.
 
  \model  Kaasussa on \(N=M/m_{N_2}\) molekyyliä. Yhden molekyylin liike-energia on \(K_{N_2,i} = \frac{1}{2}m_{N_2}v_{x,i}^2\) ja molekyylien keskimääräinen liike-energia on
 \begin{equation} \langle K_{N_2} \rangle = \frac{1}{N} (K_{N_2,1} + K_{N_2,2} + K_{N_2,3} + \ldots) = \frac{1}{N} \sum_i K_{N_2,i}. \end{equation}
@@ -11672,7 +11678,7 @@ Törmäys koordinaatistossa, jossa toinen kappaleista ei liiku \(x\)-suunnassa.}
 {0.4;0.5}%
 {suhteellisuus_relativistinen_liikemaara_1.pdf;suhteellisuus_relativistinen_liikemaara_2.pdf}
 
-Koordinaatiston \(x\)-suunta on valittu niin, että kummankin kappaleen törmäyksessä saama impulssi on \(y\)-suuntainen ja koordinaatiston origon määrittelee kappaleiden törmäys (joka on tapahtuma). Kuvan esimerkissä kappaleen P alkunopeus on \(\bs{v}_{\text{alku},P(A)} = (0.6 c) \uv{i} + (0.6 c) \uv{j} \) ja kappaleen V \(\bs{v}_{\text{alku},V(A)} = -(0.6 c) \uv{i} + -(0.6 c) \uv{j} \). Törmäyksessä kummankin kappaleen nopeuden \(x\)-komponentti on vakio, ja koska myös kokonaisliike-energia on elastisessa törmäyksessä vakio, kappaleiden \(y\)-suuntaiset nopeuskomponentit kääntyvät ympäri.
+Koordinaatiston \(x\)-suunta on valittu niin, että kummankin kappaleen törmäyksessä saama impulssi on \(y\)-suuntainen ja koordinaatiston origon määrittelee kappaleiden törmäys (joka on tapahtuma). Kuvan esimerkissä kappaleen P alkunopeus on \(\bs{v}_{\text{alku},P(A)} = (0.6 c) \uv{i} + (0.6 c) \uv{j} \) ja kappaleen V \(\bs{v}_{\text{alku},V(A)} = (-0.6 c) \uv{i} + (-0.6 c) \uv{j} \). Törmäyksessä kummankin kappaleen nopeuden \(x\)-komponentti on vakio, ja koska myös kokonaisliike-energia on elastisessa törmäyksessä vakio, kappaleiden \(y\)-suuntaiset nopeuskomponentit kääntyvät ympäri.
 Kappaleiden nopeudet voidaan jälleen määrittää havaitsemalla kappaleet törmäyksen jälkeen. Kuvassa kappaleen V havaitseminen on tapahtuma pisteessä \( (x,y,t)_{V(A)} = (-900 \un{m}, 900 \un{m}, 5 \ \mu\text{s}) \) ja kappaleen P havainto tapahtuu pisteessä \( (x,y,t)_{P(A)} = (900 \un{m}, -900 \un{m}, 5 \ \mu\text{s}) \).
 
 Kummankin kappaleen mukana \(x\)-suunnassa kulkee kello, ja koska kellot liikkuvat koordinaatistossa A vauhdilla \(0.6 c\), ne käyvät koordinaatiston ominaisaikaa hitaammin. Tätä nopeutta vastaava Lorenzin tekijä on
@@ -13536,6 +13542,10 @@ ja vakiotermin \( T_\text{ilma} \) lisääminen yhtälön kummallekin puolelle j
 Tämä on täsmälleen sama kuin yritteellä etsitty ratkaisu (\autoref{dy_ratkaisu_2}).
 Näin pitää olla, koska ei ole tietenkään mitään väliä, miten ratkaisun etsii. Siksi differentiaaliyhtälöitä ratkaistaessa kannattaakin miettiä, miten pääsee helpoimmalla. Jos ratkaisun osaa arvata, yritteen avulla arvauksen voi osoittaa oikeaksi. Separointia kannattaa yrittää, jos arvaaminen ei onnistu. Silloinkin ratkaisu kannattaa ehdottomasti aina tarkistaa sijoittamalla se alkuperäiseen differentiaaliyhtälöön ja tutkimalla, toteutuuko yhtälö.
 
+\begin{stopQ}{q:jatkuva_aine_yhteenveto_dy}%
+Selitä omin sanoin, mikä on differentiaaliyhtälö. Mikä on yrite, ja miten ratkaiset differentiaaliyhtälön, jos tiedät sopivan yritteen? Mikä on alkuarvo, ja miksi sellaisia tarvitaan?
+\end{stopQ}
+
 \begin{exam}{Korkoa korolle}{ex:dy}\noindent
 
 \problem{Erään tilin tuotto on huikeat 125 \% vuodessa. Jos tilillä on aluksi 100 euroa, paljonko siellä on vuoden päästä jos korko lasketaan (a) kerran vuodessa, (b) kerran kuukaudessa, (c) kerran sekunnissa, (d) jatkuvasti?
@@ -13575,13 +13585,13 @@ Ratkaistaan yhtälö yritteellä
 \begin{equation} M(t) = a + b e^{t / c}. \end{equation}
 
  \solu  (a) Kun korkoa maksetaan kerran, rahamääräksi tulee
-\begin{equation} M(1\un{a}) = (1 + p) M_0 = 225 \un{e} \end{equation}
+\( M(1\un{a}) = (1 + p) M_0 = 225 \un{e} \)
 
 (b) Kuukausittain laskien \(n = 12\). Rahamääräksi tulee
-\begin{equation} M(1\un{a}) = \left( 1 + \frac{p}{12} \right)^{12} M_0 = 328.41 \un{e} \end{equation}
+\( M(1\un{a}) = \left( 1 + \frac{p}{12} \right)^{12} M_0 = 328.41 \un{e} \)
 
-(c) Vuodessa on \(n = 365 \cdot 24 \cdot 60 \cdot 60 = 36266400\) sekuntia. Rahamääräksi tulee siis
-\begin{equation} M(1\un{a}) = \left( 1 + \frac{p}{36266400} \right)^{36266400} M_0 = 349.03 \un{e} \end{equation}
+(c) Vuodessa on \(n = 365 \cdot 24 \cdot 60 \cdot 60 = 31536000\) sekuntia. Rahamääräksi tulee siis
+\begin{equation} M(1\un{a}) = \left( 1 + \frac{p}{31536000} \right)^{31536000} M_0 = 349.03 \un{e} \end{equation}
 
 (d) Yritteen derivaatta on \( M'(t) = \frac{b}{c} e^{t / c} \), ja tämän sijoitus differentiaaliyhtälöön antaa
 \begin{equation} \frac{b}{c} e^{t / c} = \frac{p}{t_0} (a + b e^{t / c}). \end{equation}
@@ -13594,7 +13604,7 @@ Vakio \(b\) ratkeaa alkuehdosta \( M(0) = M_0 = 100 \) e, josta saadaan \(b = M_
 Yhtälön ratkaisu on siis funktio
 \begin{equation} M(t) = M_0 e^{\frac{p}{t_0} t}, \end{equation}
 josta rahamääräksi vuoden päästä ratkeaa
-\begin{equation} M(1 \un{a}) = M_0 e^{1.25} = 349.03 \un{e} \end{equation}
+\( M(1 \un{a}) = M_0 e^{1.25} = 349.03 \un{e} \)
 
 Alla on ratkaistu tehtävä Mathematicalla ja piirretty tilillä oleva rahamäärä. Punainen piste saadaan tilittämällä korko kerran vuodessa. Siniset pisteet kuvaavat tuottoa, kun korko lasketaan joka kuukausi. Käyrä kuvaa jatkuvaa korkoa.
 
@@ -13646,8 +13656,13 @@ ovat kumpikin samaa muotoa: derivaatta = funktio + vakio, eli fysikaalisesti suu
 
 \end{exam}
 
-\begin{stopQ}{q:jatkuva_aine_yhteenveto_dy}%
-Selitä omin sanoin, mikä on differentiaaliyhtälö. Mikä on yrite, ja miten ratkaiset differentiaaliyhtälön, jos tiedät sopivan yritteen? Mikä on alkuarvo, ja miksi sellaisia tarvitaan?
+\begin{stopQ}{q:jatkuva_aine_korko}%
+Taloutta mitataan bruttokansantuotteella \(B\), joka laskee vuoden aikana tuotettujen tavaroiden ja palveluiden rahallisen arvon. Oletetaan, että talous kasvaa aidosti (inflaatio yms. tekijät huomioiden) \(n\) \% vuodessa.
+Silloin \( B(t + 1 \un{a}) = (1 + \frac{1}{100}n) B(t) \).\\
+(a) Osoita, että funktio \(B(t) = B_0 e^{t/c} \) toteuttaa tämän ehdon vakiolla \(c = (1 \un{a})/\ln(1 + \frac{1}{100}n) \).\\
+(b) Vuonna 2010 maailmantalouden koko oli likimain 10 kertaa niin suuri kuin vuonna 1950. Mikä oli sen perusteella vakio \(c\) ja kasvuprosentti \(n\) tällä välillä?\\
+(c) Mikä on \(B\) (i) 2100, (ii) 2200 ja (iii) 3000 verrattuna vuoteen 1950?\\
+(d) Taloudessa toivotaan, että kasvu jatkuu. Onko se mahdollista pitkällä aikavälillä?
 \end{stopQ}
 
 \section{Tilanmuuttujat}
@@ -13671,7 +13686,7 @@ Kuvaako seuraavissa systeemeissä kaikkia tilanmuuttujia vain yksi arvo koko sys
 
 Oletetaan siis systeemin olevan tilassa, jossa sen jokaisella tilanmuuttujalla on kaikkialla sama arvo. Esimerkiksi systeemissä on kauttaaltaan sama lämpötila.
 Tilanmuuttujien arvojen tunteminen kuvaa siis systeemin tilan, mutta tämä logiikka toimii myös kääntäen. Tapahtuipa systeemille mitä tahansa, jos se palaa takaisin samaan tilaan kuin missä se aluksi oli, sen tilanmuuttujien täytyy saada samat arvot kuin mitä niillä oli aluksi.
-Jos esimerkiksi säiliössä olevaa kaasua jäähdytetään ja sitten kaasu taas lämmitetään takaisin samaan lämpötilaan ja tilavuuteen kuin aluksi, kaasu palaa samaan tilaan kuin missä se alunperinkin oli. Tällöin luonnollisesti kaasun lämpötila palaa samaan arvoon kuin aluksi, mutta niin palaavat \emph{kaikki muutkin} tilanmuuttujat. Ei ole mahdollista jäähdyttää ja lämmittää kaasua niin, että sillä olisi lopuksi esimerkiksi sama lämpötila ja tilavuus kuin aluksi mutta eri paine.
+Jos esimerkiksi säiliössä olevaa kaasua jäähdytetään ja sitten kaasu taas lämmitetään takaisin samaan lämpötilaan ja tilavuuteen kuin aluksi, kaasu palaa samaan tilaan kuin missä se alunperinkin oli. Tällöin luonnollisesti kaasun lämpötila palaa samaan arvoon kuin aluksi, mutta niin palaavat \emph{kaikki muutkin} tilanmuuttujat. Ei ole mahdollista jäähdyttää ja lämmittää kaasua niin, että sillä olisi lopuksi esimerkiksi sama ainemäärä, lämpötila ja tilavuus kuin aluksi mutta eri paine.
 Huomaa kuitenkin että kaikki suureet eivät ole tilanmuuttujia. Esimerkiksi mekaanisen kappaleen paikka on sen tilaa kuvaava suure, mutta kappaleen kulkeman matkan pituus ei ole, sillä samaan paikkaan voi päästä monia eri reittejä pitkin. Samaan tapaan lämpötila on tilanmuuttuja, mutta lämpönä siirtynyt energia ei ole, koska kappaleen voi lämmittää tiettyyn lämpötilaan monella eri tavalla.
 
 \subsection{Tilanyhtälöt}
@@ -13680,7 +13695,7 @@ Huomaa kuitenkin että kaikki suureet eivät ole tilanmuuttujia. Esimerkiksi mek
 \index{tilanyhtälö}
 
 \marginpicture%
-{-50}%
+{-65}%
 {\(n, T\) vakio: \(p\) kaksinkertaistuu ja \(V\) puolittuu.}%
 {fig:jatkuva_tilanyhtalo_a}%
 {0.62}%
@@ -13689,7 +13704,7 @@ Huomaa kuitenkin että kaikki suureet eivät ole tilanmuuttujia. Esimerkiksi mek
 Mekaniikassa tilaa kuvaavat suureet kuten kappaleen paikka ja nopeus ovat pääasiassa toisistaan riippumattomia. Yleensä kappaleen paikkaa ei voi päätellä, jos tunnetaan kappaleen nopeus yhdellä hetkellä, sillä se, miten kappale yksittäisellä hetkellä liikkuu, ei mitenkään määrää sitä, missä kappale on. Lämpöilmiöitä kuvaavien tilanmuuttijen tapauksessa näin ei kuitenkaan ole. Suureet kuten paine, tilavuus ja lämpötila kaikki \emph{riippuvat toisistaan}. Jos tilanmuuttujista muutama tunnetaan, kaikkien muiden arvot voidaan päätellä tämän perusteella. Tällaista tilanmuuttujien keskinäistä riippuvuutta kuvaavia matemaattisia lausekkeita kutsutaan \textbf{tilanyhtälöksi}.
 
 \marginpicture%
-{-15}%
+{-33}%
 {\(n, p\) vakio: \(T\) ja \(V\) kaksinkertaistuvat.}%
 {fig:jatkuva_tilanyhtalo_b}%
 {0.56}%
@@ -13700,7 +13715,7 @@ Tarkastellaan esimerkkejä tällaisista tilanmuuttujien välisistä riippuvuuksi
 missä \(c_1 \) on jokin lämpötilasta ja ainemäärästä riippuva verrannollisuuskerroin. Erityisesti \(c_1\) ei riipu tilavuudesta tai paineesta, joten jos ainemäärä ja lämpötila pidetään vakioina, \(c_1\) on vakio ja \(V\) sekä \(p\) ovat kääntäen verrannolliset toisiinsa.
 
 \marginpicture%
-{-15}%
+{-31}%
 {\(n, V\) vakio: \(T\) ja \(p\) kaksinkertaistuvat.;}%
 {fig:jatkuva_tilanyhtalo_c}%
 {0.56}%
@@ -13715,7 +13730,7 @@ Kuvassa \autoref{fig:jatkuva_tilanyhtalo_c} kaasua lämmitetään niin, että s�
 missä \(c_3 \) riippuu tilavuudesta ja ainemäärästä.
 
 \marginpicture%
-{-20}%
+{-40}%
 {\(p, T\) vakio: \(n\) ja \(V\) kaksinkertaistuvat.}%
 {fig:jatkuva_tilanyhtalo_d}%
 {1.0}%
@@ -13827,7 +13842,7 @@ Mikä on ideaalikaasun tilavuuden lämpölaajenemiskerroin tilanyhtälön (\auto
 \problem{Eräässä kitarassa on teräskieli, jonka pituus on \(610.0 \un{mm}\). Kieli on vireessä, kun sitä jännittävä voima on \(67.0 \un{N}\). Kieli viritetään lämpötilassa \(0.0\ ^\circ\text{C}\), ja seuraavaksi kitaraa soitetaan paikassa, jossa lämpötila on \(30.0\ ^\circ\text{C}\). Mikä on nyt kielen jännitysvoima, jos kitaraa ei viritetä uudelleen? Kielen jousivakio on noin \(49.0 \un{kN/m}\), ja voit olettaa sen pysyvän muuttumattomana. Teräksen pituuden lämpölaajenemiskerroin on noin \(12 \cdot 10^{-6} \un{K}^{-1}\).
 }
 
- \twocol{0.5}{0.49}{\setup 
+ \twocol{0.6}{0.39}{\setup 
 Merkitään kielen pituutta \(L = 610.0 \un{mm}\), sen jousivakiota \(k = 49.0 \un{kN/m}\) ja tarvittavaa jännitysvoimaa \(F = 67.0 \un{N}\). Lämpötilan muutos on \(\Delta T = 30.0 \un{K}\) ja lämpölaajenemiskerroin \(\alpha = 12 \cdot 10^{-6} \un{K}^{-1}\).
 
 \physics Jännittävä voima venyttää kieltä hiukan, jolloin jännitysvoima riippuu Hooken lain mukaisesti venymästä. Kielen lepopituus \(L_0\) on siis lyhyempi kuin kielen todellinen pituus \(L\).
@@ -14165,6 +14180,33 @@ Lämpötila on ajan funktiona \( T(t) = 280 \un{K} + 20 \un{K} \cdot e^{-0.5 \un
 Virhe tapahtuu integraalissa \(\int (T - T_\text{ilma}) \dd t\). Kysymyksen virheellinen lasku toimii vain, jos \( T - T_\text{ilma} \) on vakio. Nyt kuitenkin lämpötila on ajan funktio, jolloin pitää integroida ajasta riippuvaa funktiota \(\int [T(t) - T_\text{ilma}] \dd t\). Tätä integraalia ei voi laskea tuntematta funktiota \( T(t) \), joten differentiaaliyhtälöä ei voi ratkaista tällä tavalla. (Jos haluat lisäharjoitusta, voit sijoittaa integraaliin lausekkeen
 \( T(t) = T_\text{ilma} + ( T_\text{alku} - T_\text{ilma} ) e^{- \frac{k}{C} t } \) ja integroida. Tulokseksi pitäisi tulla
 \(\int (T - T_\text{ilma}) \dd t = ( T_\text{alku} - T_\text{ilma} ) e^{- \frac{k}{C} t } + c\), missä \(c\) on integrointivakio. Tämä lasku antaa kyllä oikean lopputuloksen, mutta näin ei tosiaan voi laskea ellei funktiota \( T(t) \) tiedetä jo etukäteen.)
+}
+
+\stopA{q:jatkuva_aine_korko}{%\\
+(a) Yritteen mukaan
+\begin{equation} B(t + 1 \un{a}) = B_0 e^{\frac{1}{c}(t + 1\un{a})} = B_0 e^{\frac{1}{c}t}e^{\frac{1}{c} (1 \un{a})} \end{equation}
+ja tämän pitää siis olla sama kuin
+\begin{equation} \left(1 + \frac{1}{100}n \right) B(t) = \left(1 + \frac{1}{100}n \right) B_0 e^{\frac{1}{c}t}. \end{equation}
+Näin on täsmälleen silloin, jos
+\( (1 + \frac{1}{100}n) = e^{\frac{1}{c} (1\un{a})} \).
+Otetaan tästä puolittain logaritmi
+\( \ln (1 + \frac{1}{100}n) = \frac{1}{c} (1\un{a}) \)
+ja ratkaistaan vielä vakio
+\( c = (1\un{a}) / \ln (1 + \frac{1}{100}n). \)\\
+(b) Pätee siis \( \frac{ B(2010 \un{a}) }{ B(1950 \un{a}) } = 10 \).
+Edellisen kohdan perusteella
+\( B(1950 \un{a}) = B_0 e^{\frac{1}{c}(1950 \un{a})} \) ja
+\( B(2010 \un{a}) = B_0 e^{\frac{1}{c}(1950 \un{a} + 60 \un{a})} =  B_0 e^{\frac{1}{c}(1950 \un{a})}e^{\frac{1}{c}(60 \un{a})}, \) joten
+\( \frac{ B(2010 \un{a}) }{ B(1950 \un{a}) } = e^{\frac{1}{c}(60 \un{a})} = 10 \).
+Tästä ratkeaa
+\( c = \frac{60 \un{a}}{\ln 10} \approx 26 \un{a} \) sekä
+\( n = 100 (e^{(1\un{a}) / c} -1) \approx 3.9 \).
+Talous on siis kasvanut keskimäärin noin 4 \% vuodessa.\\
+(c) Suoralla sijoituksella
+\(B(2100 \un{a}) \approx 316 B(1950 \un{a}) \),\\
+\(B(2200 \un{a}) \approx 14700 B(1950 \un{a}) \),\\
+\(B(3000 \un{a}) \approx (1.2 \cdot 10^{17}) B(1950 \un{a}) \).\\
+(d) Ei ole. Ihmisten toiminta ylittää jo nyt maapallon kantokyvyn, eikä talouden kasvattaminen satoja kertoja suuremmaksi luonnonvaroja käyttämällä ole mahdollista. Vaikka taloutta saisi uusilla teknologioilla jonkin verran kasvatettua ilman luonnonvarojen käytön lisäämistäkin, raja tulee silti vastaan melko pian, koska eksponentiaalinen kasvu vain kiihtyy. Edes koko galaksin asuttaminen, mikä ei tapahdu 1000 vuodessa, ei kasvattaisi taloutta \(10^{17}\)-kertaiseksi.
 }
 
 \stopA{q:jatkuva_aine_tilanmuuttuja}{%\\
@@ -14668,7 +14710,7 @@ Koska systeemi on niin pieni, voimme yksinkertaisesti \emph{taulukoida} kaikki m
 
 Olemme tähän mennessä puhuneet paljon \emph{tilasta}, jolla tarkoitetaan kappaletta tai systeemiä kuvaavien fysikaalisten suureiden joukkoa. Nyt on syytä laajentaa tilan käsitettä erottelemalla \textbf{makrotila} ja \textbf{mikrotila}. Mikrotilalla tarkoitetaan systeemin täydellistä kuvausta. Kaasun mikrotilaan esimerkiksi kuuluu tieto kaasun \emph{kaikkien hiukkasten} paikoista, nopeuksista ja energioista. Makrotilalla puolestaan tarkoitetaan systeemin kuvausta makroskooppisesti havaittavien suureiden kuten lämpötilan ja paineen avulla. Esimerkiksi kuvassa \autoref{fig:entropiataulu1} kukin erilainen tapa jakaa energiayksiköt hiukkasten kesken on eri mikrotila ja systeemillä on siis 84 mahdollista mikrotilaa.
 
-Jako makro- ja mikrotilan ominaisuuksiin ei ole yksikäsitteinen, vaan se riippuu siitä, mitä systeemistä pystytään suoraan havainnoimaan. Esimerkiksi jos edellä tarkasteltuun neljän hiukkasen systeemiin liitetään sensori, joka pystyy mittaamaan paljonko energiaa yhdellä hiukkasella maksimissaan on (mutta ei paljonko energiaa kullakin hiukkasella täsmälleen on), ominaisuus ``yhden hiukkasen maksimienergia'', \(E_{\max}\), on makrotilaa kuvaava suure. Tällöin systeemissä on 7 mahdollista makrotilaa --- \(E_{\max} = 0, \epsilon, 2 \epsilon, \ldots, 6 \epsilon\). Kuvan \autoref{fig:entropiataulu1} esittämässä taulukossa kukin systeemi (84 kpl) esittää eri mikrotilaa ja niiden ryhmät esittävät eri makrotiloja.
+Jako makro- ja mikrotilan ominaisuuksiin ei ole yksikäsitteinen, vaan se riippuu siitä, mitä systeemistä pystytään suoraan havainnoimaan. Esimerkiksi jos edellä tarkasteltuun neljän hiukkasen systeemiin liitetään kuvitteellinen sensori, joka pystyy mittaamaan paljonko energiaa yhdellä hiukkasella maksimissaan on (mutta ei paljonko energiaa kullakin hiukkasella täsmälleen on), ominaisuus ``yhden hiukkasen maksimienergia'', \(E_{\max}\), on makrotilaa kuvaava suure. Tällöin systeemissä on 7 mahdollista makrotilaa --- \(E_{\max} = 0, \epsilon, 2 \epsilon, \ldots, 6 \epsilon\). Kuvan \autoref{fig:entropiataulu1} esittämässä taulukossa kukin systeemi (84 kpl) esittää eri mikrotilaa ja niiden ryhmät esittävät eri makrotiloja.
 
 \begin{stopQ}{q:hiukkasaine_makrotilat}%
 Kuvassa \autoref{fig:entropiataulu1} on vain 5 eri makrotilaa vaikka tekstissä todettiin makrotiloja olevan 7. Mitkä makrotilat puuttuvat kuvasta ja miksi?
@@ -14905,7 +14947,7 @@ Tuloksista nähdään, kuinka systeemin koon kasvattaminen lisää mikrotilojen 
 \subsection{Pyrkimys tasapainoon}
 \label{pyrkimystasapainoon}
 
-Edellä tarkasteltu mikrotilojen lukumäärään perustuva päättely perustuu oletukseen, että kaikki mikrotilat ovat yhtä todennäköisiä, mikä pätee tasapainossa olevalle eristetylle systeemille. Systeemi voi kuitenkin ulkoisten vuorovaikutusten takia päätyä johonkin epätasapainotilaan. Esimerkiksi jos yhdistämme kappaleen A, jonka hiukkasilla on paljon energiaa, sekä kappaleen B, jonka hiukkasilla energiaa on vähän, päädymme tilanteeseen, jossa systeemin osassa A on suhteellisesti enemmän energiaa kuin mitä tasapainotilassa sillä kuuluisi olla. Käytännössä näin voidaan tehdä esimerkiksi yhdistämällä kuuma ja kylmä kappale. Jos systeemi tämän jälkeen eristetään ja sen annetaan kehittyä itsekseen, kappaleiden lämpötilojen voidaan havaita muuttuvan energian alkaessa virrata osasta A osaan B. Tämä prosessi jatkuu kunnes kappaleilla on \emph{samat lämpötilat}, jolloin myös energia on keskimäärin jakautunut systeemissä tasaisesti.
+Edellä tarkasteltu mikrotilojen lukumäärään pohjautuva päättely perustuu oletukseen, että kaikki mikrotilat ovat yhtä todennäköisiä, mikä pätee tasapainossa olevalle eristetylle systeemille. Systeemi voi kuitenkin ulkoisten vuorovaikutusten takia päätyä johonkin epätasapainotilaan. Esimerkiksi jos yhdistämme kappaleen A, jonka hiukkasilla on paljon energiaa, sekä kappaleen B, jonka hiukkasilla energiaa on vähän, päädymme tilanteeseen, jossa systeemin osassa A on suhteellisesti enemmän energiaa kuin mitä tasapainotilassa sillä kuuluisi olla. Käytännössä näin voidaan tehdä esimerkiksi yhdistämällä kuuma ja kylmä kappale. Jos systeemi tämän jälkeen eristetään ja sen annetaan kehittyä itsekseen, kappaleiden lämpötilojen voidaan havaita muuttuvan energian alkaessa virrata osasta A osaan B. Tämä prosessi jatkuu kunnes kappaleilla on \emph{samat lämpötilat}, jolloin myös energia on keskimäärin jakautunut systeemissä tasaisesti.
 
 Todellinen fysikaalinen systeemi on aina jossakin tietyssä mikrotilassa, eikä se voi hypätä siitä yhtäkkiä mihin tahansa toiseen mikrotilaan. Sen sijaan muutokset tapahtuvat askeleittain: hiukkaset voivat vuorovaikuttaa esimerkiksi törmäilemällä (kuten kaasussa), jolloin energiaa siirtyy hiukkaselta toiselle, ja systeemin mikrotila hieman muuttuu. Makroskooppisissa systeemeissä näitä hiukkasten välisiä vuorovaikutuksia tapahtuu koko ajan ja jos systeemi on tasapainossa, vuorovaikutukset yhdessä siirtävät energiaa systeemin eri osien välillä täsmälleen yhtä paljon kaikkiin suuntiin, eikä energian kokonaismäärä systeemin eri osissa muutu. Sen sijaan jos systeemi \emph{ei ole tasapainossa}, tapahtumat, joissa systeemin tila muuttuu enemmän tasapainotilan kaltaiseksi, ovat \emph{todennäköisempiä} kuin tapahtumat, joissa systeemi siirtyy kauemmas tasapainosta. Niinpä epätasapainossa olevan systeemin tila muuttuu jatkuvasti enemmän tasapainotilan kaltaiseksi kunnes systeemi lopulta saavuttaa tasapainon.
 
@@ -16683,7 +16725,7 @@ Täsmällinen arvo on ekstensiivisillä suureilla: tilavuus, ainemäärä, entro
 
 \stopA{q:termodynamiikka_vertailu}{%\\
 (a) Kaasujen lämpötilat ovat ideaalikaasun tilanyhtälön mukaisesti \(T_A = 300 \un{K}\) ja \(T_B = 286 \un{K}\).\\
-(b) Kaasun entropia riippuu vakioiden \(V_0\) ja \(T_0\) arvosta, mutta voimme laskea entropioiden eron, joka ei riipu näistä. Kaasun A entropia on \(75.3 \un{J/K}\) suurempi kuin kaasun B.\\
+(b) Kaasun entropia riippuu vakioiden \(V_0\) ja \(T_0\) arvosta, mutta voimme laskea entropioiden eron, joka ei riipu näistä. Kaasun B entropia on \(0.64 \un{J/K}\) suurempi kuin kaasun A.\\
 (c) Kaasujen sisäenergia on suoraan verrannollinen niiden lämpötiloihin, \(K_A = 5610 \un{J}\) ja \(K_B = 5350 \un{J}\).
 }
 
@@ -17560,7 +17602,7 @@ Kiekko voidaan jakaa puolestaan ohuiksi renkaiksi. Edellisen päättelyn mukaan 
  \model  Tarkastellaan renkaan osaa A, jonka pituus on \(\dd l\). Koko renkaan kaaren pituus on \(L = 2 \pi r\), ja renkaan pituusvaraustiheys on \( \lambda = q/L\), joten tämän osan varaus on
 \begin{equation} \dd q = \lambda \dd l = \frac{q}{2 \pi r} \dd l. \end{equation}
 Pistevarausmallin mukaisesti varaus luo pisteeseen P sähkökentän, jonka voimakkuus on
-\begin{equation} \dd E_{A \to P} = \frac{1}{4 \pi \varepsilon_0} \frac{\dd q}{s^2}. \end{equation}
+\begin{equation} \dd E_{A \to P} = k_\varepsilon \frac{\dd q}{s^2}. \end{equation}
 Lisäksi etäisyydet
 \( s = \sqrt{x^2 + r^2} \)
 ja \(x\) muodostavat suorakulmaisen kolmion, joka on yhdenmuotoinen sähkökenttävektorin \(\dd \bs{E}_{A \to P}\) sekä sen symmetria-akselin suuntaisen komponentin \(\dd \bs{E}_{x,A \to P}\) muodostaman kolmion kanssa, joten näiden kolmioiden sivujen pituuksien suhteen täytyy olla sama,
@@ -17576,19 +17618,19 @@ Varaus riippuu siis renkaan pinta-alasta, ja tämä voidaan päätellä seuraava
 Näin saadaan selville yhden renkaan varaus, ja tästä voidaan laskea edelleen renkaan tuottama sähkökenttä. Kokonaiskenttä saadaan laskemalla kaikkien renkaiden luomat kentät yhteen eli integroimalla koko kiekon yli.
 
  \solu  Tarkastellun renkaan osan luoman sähkökentän voimakkuus on
-\begin{equation} \dd E_{A \to P} =  \frac{1}{4 \pi \varepsilon_0} \frac{q}{2 \pi r} \frac{1}{x^2 + r^2} \dd l, \end{equation}
+\begin{equation} \dd E_{A \to P} =  k_\varepsilon \frac{q}{2 \pi r} \frac{1}{x^2 + r^2} \dd l, \end{equation}
 ja sen \(x\)-skalaarikomponentti on
-\begin{equation} \dd E_{x,A \to P} = \frac{x}{s} \dd E_{A \to P} = \frac{1}{4 \pi \varepsilon_0} \frac{q}{2 \pi r} \frac{x}{(x^2 + r^2)^{3/2}}\dd l. \end{equation}
+\begin{equation} \dd E_{x,A \to P} = \frac{x}{s} \dd E_{A \to P} = k_\varepsilon \frac{q}{2 \pi r} \frac{x}{(x^2 + r^2)^{3/2}}\dd l. \end{equation}
 Koko renkaan tuottama kenttä saadaan integroimalla muuttujaa \(l\) renkaan ympäri eli arvosta \(l = 0\) arvoon \(l = L = 2 \pi r\). Koska renkaan kaikki pisteet ovat yhtä kaukana tarkastelupisteestä, integroitava funktio on vakio tämän muuttujan suhteen ja integraalin laskeminen on helppoa,
-\begin{equation} E_\text{rengas} = E_{x,A \to P} = \frac{1}{4 \pi \varepsilon_0} \frac{q}{2 \pi r} \frac{x}{(x^2 + r^2)^{3/2}} \int_0^{2 \pi r} \dd l = \frac{1}{4 \pi \varepsilon_0} \frac{x q}{(x^2 + r^2)^{3/2}}. \label{rengaskentta} \end{equation}
+\begin{equation} E_\text{rengas} = E_{x,A \to P} = k_\varepsilon \frac{q}{2 \pi r} \frac{x}{(x^2 + r^2)^{3/2}} \int_0^{2 \pi r} \dd l = k_\varepsilon \frac{x q}{(x^2 + r^2)^{3/2}}. \label{rengaskentta} \end{equation}
 
 Tämän tuloksen avulla saamme laskettua kiekon sähkökentän. Tarkastellun \(\dd r\)-levyisen renkaan varaus on
 \begin{equation}  \dd Q = Q \frac{2r}{R^2} \dd r, \end{equation}
 joten sen luoma sähkökenttä on lausekkeen (\autoref{rengaskentta}) perusteella
-\begin{equation} \dd E_{r \to P} = \frac{1}{4 \pi \varepsilon_0} Q \frac{2xr}{R^2 (x^2 + r^2)^{3/2}} \dd r. \end{equation}
+\begin{equation} \dd E_{r \to P} = k_\varepsilon Q \frac{2xr}{R^2 (x^2 + r^2)^{3/2}} \dd r. \end{equation}
 Kokonaissähkökenttä saadaan integroimalla muuttujaa \(r\) koko kiekon yli eli arvosta \(r=0\) arvoon \(r=R\).
 Tässä integrointi onnistuu huomaamalla, että funktion \( f(r) = (x^2 + r^2)^{-1/2} \) derivaatta on \( f'(r)  = -1/2 \cdot 2 r \cdot (x^2 + r^2)^{-3/2}  \). Niinpä funktion \( -f'(r) = r (x^2 + r^2)^{-3/2} \) integraalin täytyy olla \( -f(r) =-(x^2 + r^2)^{-1/2} \), ja näin saamme tuloksen
-\begin{equation} E_\text{kiekko} = \frac{1}{4 \pi \varepsilon_0} \frac{2xQ}{R^2} \int_0^R \frac{r}{(x^2 + r^2)^{3/2}} \dd r = \frac{1}{4 \pi \varepsilon_0} \frac{2xQ}{R^2} \bigg|_0^R - \frac{1}{\sqrt{x^2 + r^2}} = \frac{1}{4 \pi \varepsilon_0} \frac{2Q}{R^2}  \left( 1 - \frac{x}{\sqrt{x^2 + R^2}} \right). \end{equation}
+\begin{equation} E_\text{kiekko} = k_\varepsilon \frac{2xQ}{R^2} \int_0^R \frac{r}{(x^2 + r^2)^{3/2}} \dd r = k_\varepsilon \frac{2xQ}{R^2} \bigg|_0^R - \frac{1}{\sqrt{x^2 + r^2}} = k_\varepsilon \frac{2Q}{R^2}  \left( 1 - \frac{x}{\sqrt{x^2 + R^2}} \right). \end{equation}
 
 \mbar
 \begin{mathematica}[commandchars=\\!?]
@@ -21639,7 +21681,7 @@ Tässä verrannollisuuskerroin on juuri \(\frac{1}{2} k_\mu = 1.0 \cdot 10^{-7} 
 \index{ristitulo}
 
 \marginpictures%
-{80}
+{75}
 {Liikkuvan varauksen magneettikenttä.;%
 Kenttäviivaesitys.;%
 Kenttä pisteessä P.}%
