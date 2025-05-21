@@ -22024,7 +22024,7 @@ Vertaamalla yhtälöitä (\autoref{melkein_ampere}) ja (\autoref{ampere}) näemm
 Koska Amp\`eren laki on yleispätevä laki ja Biot'n ja Savartin laki vain sen erikoistapaus
 (samaan tapaan kuin Gaussin laki on sähkökenttien fundamentaali laki ja Coulombin laki sen erikoistapaus), magnetismia kuvaavissa laeissa käytetään yleisesti nimenomaan magneettivakiota \(\mu_0\). Edelleen koska ampeerin vanha määritelmä antoi vakiolle \(k_\mu\) arvon \(2.0 \cdot 10^{-7} \un{N/A}^2\), magneettivakion arvo on likimain
 \begin{equation} \mu_0 = 4 \pi \cdot 10^{-7} \un{N/A}^2. \end{equation}
-Vanhassa SI-järjestelmässä tämä arvo oli täsmällinen. Koska nykyään ampeeri määritellään vakion \(e\) kautta, arvo ei ole enää aivan täsmällinen, mutta se on edelleen erittäin tarkka likiarvo.
+Vanhassa SI-järjestelmässä tämä arvo oli täsmällinen. Koska nykyään ampeeri määritellään alkeisvarauksen \(e\) kautta, arvo ei ole enää aivan täsmällinen, mutta se on edelleen erittäin tarkka likiarvo.
 
 \index{pyörre}
 
@@ -22176,8 +22176,8 @@ Neliön muotoisessa virtasilmukassa kulkee elektroneja. Silmukan kärjet ovat pi
 \widepictures{tbp}%
 {Sähköisen dipolin dipolimomentti riippuu varausten suuruudesta ja niiden välisestä etäisyydestä. Magneettisen dipolin dipolimomentti riippuu virran suuruudesta ja silmukan koosta.;%
 Suuri sähköinen dipolimomentti.;%
+Suuri magneettinen dipolimomentti.;%
 Pieni sähköinen dipolimomentti.;%
-`{=latex}.;%
 Pieni magneettinen dipolimomentti.}%
 {fig:magnetismi_dipolimomentti_1;fig:magnetismi_dipolimomentti_1_a;fig:magnetismi_dipolimomentti_1_b;fig:magnetismi_dipolimomentti_1_c;fig:magnetismi_dipolimomentti_1_d;}%
 {0.45;0.45;0.45;0.45}%
@@ -24653,7 +24653,7 @@ Esimerkiksi eksponenttifunktio \emph{määritellään} kompleksiluvuille päätt
 \begin{equation} e^{\ii\phi} = 1 + \ii\phi + \frac{(\ii\phi)^2}{2!} + \frac{(\ii\phi)^3}{3!} + \frac{(\ii\phi)^4}{4!} + \frac{(\ii\phi)^5}{5!} \ldots. \label{expsarja} \end{equation}
 Tämä ei ole käytännön laskemisen kannalta kovin kätevää, mutta voimme tämän esityksen avulla tehdä uusia päätelmiä.
 Jos nimittäin yllä esitetty lauseke sievennetään huomioiden imaginääriyksikön neliön olevan \(\ii^2 = -1\), saadaan tulos
-\begin{equation} e^{\ii\phi} = \left(1 - \frac{\phi^2}{2!} + \frac{\phi^4}{4!} \ldots \right) + \ii \left(\phi - \frac{\phi^3}{3!} + \frac{\phi^5}{5!} + \ldots \right). \end{equation}
+\begin{equation} e^{\ii\phi} = \left(1 - \frac{\phi^2}{2!} + \frac{\phi^4}{4!} - \ldots \right) + \ii \left(\phi - \frac{\phi^3}{3!} + \frac{\phi^5}{5!} - \ldots \right). \end{equation}
 Tässä suluissa olevat lausekkeet ovat kuitenkin kosini- ja sinifunktioiden sarjakehitelmät. Näin saadaan johdettua tärkeä \textbf{Eulerin kaava} (Leonhard Eulerin mukaan) kompleksiselle eksponenttifunktiolle,
 \bigeq{ e^{\ii\phi} = \cos \phi + \ii \sin \phi. \label{kompleksieuler} }
 Tämän mukaan \emph{kompleksisen eksponenttifunktion reaali- ja imaginääriosat ovat kulman \(\phi\) kosini ja sini}, joten
@@ -25031,7 +25031,7 @@ Usean harmonisen liikkeen yhdistelmän kuvaajan voi piirtää vaiheenosoittimien
 
  \twocol{0.6}{0.39}{ \physics  Koska värähtelijöillä on sama kulmataajuus, niiden yhdistelmäkin värähtelee harmonisesti tällä samalla kulmataajuudella. Yhdistettyä värähtelyä kuvaava vaiheenosoitin saadaan periaatteessa laskemalla alkuperäisten värähtelijöiden vaiheenosoittimet vektoreina yhteen, jolloin yhdistetyn värähtelyn amplitudi on sitä kuvaavan vaiheenosoittimen pituus.
 
-Piirretään vaiheenosoitinkuvio. Indeksoidaan värähtelijät alaindeksillä \(i = 1, 2, \ldots, n\). Valitaan ajan nollahetki niin, että ensimmäisen värähtelijän vaihe on silloin nolla, \( \phi_{\text{alku},1} = 0\). Seuraavan värähtelijän vaihe alkuhetkellä on silloin \( \phi_{\text{alku},2} = \Delta \phi\) ja yleisesti värähtelijän \(i\) vaihe on \( \phi_{\text{alku},i} = (i-1)\Delta \phi\).
+Piirretään vaiheenosoitinkuvio. Indeksoidaan värähtelijät alaindeksillä \(i = 1, 2, \ldots, n\). Valitaan ajan nollahetki niin, että ensimmäisen värähtelijän vaihe on silloin nolla, \( \phi_{\text{alku},1} = 0\). Seuraavan värähtelijän vaihe alkuhetkellä on silloin \( \phi_{\text{alku},2} = \Delta \phi\) ja yleisesti värähtelijän \(m\) vaihe on \( \phi_{\text{alku},m} = (m-1)\Delta \phi\).
 
 }{%
 \begin{center}%
@@ -25041,15 +25041,15 @@ Piirretään vaiheenosoitinkuvio. Indeksoidaan värähtelijät alaindeksillä \(
 
 Periaatteessa voisimme laskea vaiheenosoittimien summan geometrisesti, mutta se on varsin hankalaa. Kuitenkin sen sijaan että ajattelemme nuolet geometrisiksi vektoreiksi, tässä tilanteessa osoittautuu paljon hyödyllisemmäksi ajatella nuolten kuvaavan kompleksilukuja kompleksitasossa.
 Kutakin värähtelijää kuvaa siis funktio
-\begin{equation} z_i(t) = A e^{\ii (\omega t + \phi_{\text{alku},i}) } = A e^{\ii \omega t} e^{\ii (i-1) \Delta \phi } \end{equation}
+\begin{equation} z_m(t) = A e^{\ii (\omega t + \phi_{\text{alku},m}) } = A e^{\ii [\omega t +(m-1) \Delta \phi] } = A e^{\ii \omega t} e^{\ii (m-1) \Delta \phi } \end{equation}
 ja niiden summa on
 \( z_\text{summa} = z_1 + z_2 + \ldots z_n. \)
+Edellä eksponentissa ollut summa hajotettiin laskusäännöllä \(e^{A+B} = e^A e^B\).
 Yhdistetyn värähtelyn amplitudi on tämän pituus eli itseisarvo
 \( A_\text{summa} = |z_\text{summa}|. \)
 
  \solu  Värähtelijöiden summa on
 \begin{equation} z_\text{summa}(t) = z_1(t) + z_2(t) + \ldots + z_n(t) = A e^{\ii \omega t} (1 + e^{\ii \Delta \phi} + e^{2 \ii \Delta \phi} + \ldots + e^{(n-1) \ii \Delta \phi}). \end{equation}
-Tässä ajasta riippuva tekijä voidaan erotella jokaisesta termistä laskusäännöllä \(e^{A+B} = e^A e^B\) ja ottaa yhteiseksi tekijäksi.
 
 Seuraavaksi sivennämme lausekkeen käyttämällä paria matemaattista kikkaa, joita et ehkä olisi tullut itse ajatelleeksi. Ensinnäkin yllä kirjoitetussa summassa lasketaan yhteen termejä, joiden suhde on aina \(Z = e^{\ii \Delta \phi}\). Tämä on geometrinen summa, jolle pätee laskusääntö
 \( 1+ Z + Z^2 + \ldots + Z^{n-1} = \frac{Z^n - 1}{Z - 1}, \)
@@ -25352,7 +25352,7 @@ Toisen kertaluvun differentiaaliyhtälön yleiseen ratkaisuun täytyy kuulua kak
 {Jouseen kiinnitetyn vaunun liike, kun jousen toinen pää on kiinni harmonista liikettä tekevässä kappaleessa. Vaunun amplitudi on suuri, jos kappaleen liikkeen taajuus on lähellä vaunun luonnollista taajuutta.;%
 Pieni taajuus.;%
 Resonanssitaajuus.;%
-`{=latex}.}%
+Suuri taajuus.}%
 {fig:jaksollinen_resonanssi_1;fig:jaksollinen_resonanssi_1_a;fig:jaksollinen_resonanssi_1_b;fig:jaksollinen_resonanssi_1_c;}%
 {0.3;0.3;0.3}%
 {0.3;0.3;0.3}%
@@ -25949,7 +25949,7 @@ Voimme määritellä myös pitkittäiselle aallolle poikkeamaa kuvaavan aaltofun
 Ilmassa kulkevien ääniaaltojen tapauksessa aaltofunktiolla voi kuvata molekyylien siirtymiä, mutta yhtä hyvin ääniaaltoja kuvaavana aaltofunktiona voi käyttää ilmanpainetta \( p(x,t) \), koska hiukkasten liikkuessa myös ilmanpaine muuttuu. Lisäksi on olemassa myös muita kuin mekaanisia aaltoja. Valo nimittäin on \emph{sähkömagneettisen kentän aalto}, jossa aaltoja muodostavat suureet ovat sähkö- ja magneettikenttä. Sähkömagneettista aaltoa kuvaavana aaltofunktiona käytetäänkin yleensä sähkökenttää \(\bs{E}(x,t) \). Aaltofunktion kuvaajan voi toki laatia myös paineelle ja sähkökentälle, mutta tällöin pitää olla erityisen tarkkana kuvaajaa tulkittaessa.
 
 \begin{stopQ}{q:aaltoliike_pitkittainen}%
-(a) Kuvassa \autoref{fig:aalto_pitkittainen} (b) pitkittäisen aallon aaltofunktio on piirretty symmetrisenä, mutta kuvassa (a) aalto ei näytä symmetriseltä. Selitä miksi.
+(a) Kuvassa \autoref{fig:aalto_pitkittainen} aaltoon kuuluu sekä puristettuja että venytettyjä jousia, mutta sen aaltofunktio on silti piirretty kokoaan positiiviseksi. Selitä miksi.
 (b) Millainen kuvaaja olisi, jos aalto synnytettäisiin vetämällä ensimmäistä hiukkasta vasemmalle?
 \end{stopQ}
 
@@ -26349,7 +26349,7 @@ Aaltoluku ratkeaa edelleen aallon nopeuden avulla,
 \( k = \omega / v_{x,\text{aalto}} = 1.72 \un{m}^{-1}. \)
 Aaltofunktio on siis
 \begin{equation} u_y(x,t) = (2.0 \un{cm}) \cos \left[ (1.72 \un{m}^{-1}) x - (31.4 \un{s}^{-1}) t + \frac{\pi}{2}\right]. \end{equation}
-Täsmällisesti tämä lauseke pätee vain alueessa \(x < v_{x,\text{aalto}} t\), koska aalto etenee tällä vauhdilla. Muualla aaltofunktio on nolla.
+Täsmällisesti tämä lauseke pätee vain alueessa \(x < v_{x,\text{aalto}} t\), koska aalto etenee rajallisella vauhdilla. Muualla aaltofunktio on nolla.
 
  \eval  Kosinifunktion sisään saatiin tässä täsmälleen samat kertoimet kuin esimerkissä \autoref{ex:aaltofunktio-klassinen}, eikä tämä ole sattumaa. Edellisen esimerkin aaltopulssi luotiin \(0.2 \un{s}\) kestävällä heilautuksella, ja myös nyt aallon jaksonaika on \(T = 2 \pi / \omega = 0.2 \un{s}\). Siksi ajan \(t\) edessä oleva kerroin on sama. Toisaalta aallot kulkevat yhtä nopeasti, koska ne on luotu samanlaiseen köyteen. Aaltofunktion \( \cos(kx - \omega t) \) kuvaama poikkeama kuitenkin etenee nopeudella \(v_{x,\text{aalto}} = \omega/k\), eli nopeus saadaan jakamalla ajan kerroin paikan kertoimella. Niinpä jos aalloilla on sama nopeus \(18.3 \un{m/s}\) ja aaltofunktiossa ajan kerroin on sama \(31.4 \un{s}^{-1}\), myös paikkakoordinaatin kertoimen täytyy olla kummassakin sama.
 
@@ -26571,8 +26571,8 @@ Mitä tapahtuu aaltojen energialle kuvan \autoref{fig:aalto_superpositio_1} (b) 
 
 Kuten jaksollisen liikkeen yhteydessä luvussa \autoref{luku:jaksollinen} opimme, kaikki jaksollinen liike voidaan kuvata harmonisten värähtelyjen yhdistelmänä eli matemaattisesti kaikki jaksolliset funktiot voidaan kirjoittaa harmonisten eli sinimuotoisten funktioiden summana eli \emph{Fourier-sarjana}.
 Sinimuotoisten aaltojen aaltofunktiot ovat nimensä mukaisesti sinimuotoisia ja aaltojen superpositioperiaatteen mukaan päällekäisten aaltojen muodostaman aallon aaltofunktio saadaan laskemalla alkuperäisten aaltojen aaltofunktiot yhteen, joten Fourier-sarjoja voidaan soveltaa myös aaltojen kuvaamiseen. Erityisesti siis \emph{mikä tahansa jaksollinen aalto voidaan esittää sinimuotoisten aaltojen summana}
-\begin{equation} u_y(x,t) = a_0 + \sum_{n=1}^\infty [ a_n \cos(k_n x - \omega_n t) + b_n \sin(k_n x - \omega_n t) ]. \label{aaltofouriersarja} \end{equation}
-Vaihtoehtoisesti tämä sarja voidaan esittää esimerkiksi muodossa
+\begin{equation} u_y(x,t) = a_0 + \sum_{n=1}^\infty [ a_n \cos(k_n x - \omega_n t) + b_n \sin(k_n x - \omega_n t) ], \label{aaltofouriersarja} \end{equation}
+missä \(k_n = n k_1\). Vaihtoehtoisesti tämä sarja voidaan esittää esimerkiksi muodossa
 \begin{equation} u_y(x,t) = a_0 + \sum_{n=1}^\infty A_n \cos(k_n x - \omega_n t + \phi_n). \end{equation}
 
 \index{Fourier-sarja}
@@ -26911,7 +26911,7 @@ Myös sinimuotoiset aallot voivat heijastua kohdatessaan rajapinnan tai läpäis
 
 \index{seisova aalto}
 
-Kuvassa \autoref{fig:aalto_heijastus_seisova} nähdään myös, että saapuvan ja heijastuneen aallon superpositio ei ole enää etenevä sinimuotoinen aalto. Sen sijaan köyteen syntyy \textbf{seisova aalto}, jossa jotkin köyden alueet värähtelevät voimakkaasti ja toiset eivät lainkaan. Kun saapuvan ja heijastuneen aallon aallonharjat ja pohjat ovat päällekäin, köydessä on korkeita aaltoja. Sen sijaan jos aallonpohjat ja -harjat osuvat samoihin paikkoihin, köysi on hetkellisesti suora.
+Kuvassa \autoref{fig:aalto_heijastus_seisova} nähdään myös, että saapuvan ja heijastuneen aallon superpositio ei ole enää etenevä sinimuotoinen aalto. Sen sijaan köyteen syntyy \textbf{seisova aalto}, jossa jotkin köyden alueet värähtelevät voimakkaasti ja toiset eivät lainkaan. Kun saapuvan ja heijastuneen aallon aallonharjat ovat päällekäin, köydessä on korkeita aaltoja. Sen sijaan jos yhden aallon harjat ja toisen pohjat osuvat samoihin paikkoihin, köysi on hetkellisesti suora.
 
 Seisovat aallot ovat erittäin tärkeä ja yleinen aaltojen erikoistapaus. Jos nimittäin aalto vangitaan pieneen tilaan kuten kielisoittimen kieleen, sen on pakko heijastua kielessä jatkuvasti edestakaisin. Tällöin kielessä kulkee aaltoja superpositiossa vastakkaisiin suuntiin, ja tuloksena on seisova aalto.
 Palaamme hetken päästä tutkimaan seisovia aaltoja tarkemmin, mutta tarkastellaan sitä ennen, kuinka sinimuotoiset aallot käyttäytyvät rajapinnalla, jonka ne voivat myös osittain \emph{läpäistä}.
@@ -26942,7 +26942,7 @@ Köyden muoto kuvan (b) tapauksessa.}%
 {0.42;0.48;0.42;0.48}%
 {aallot_heijastus_7.pdf;aallot_heijastus_9.pdf;aallot_heijastus_8.pdf;aallot_heijastus_10.pdf}
 
-Kuvissa \autoref{fig:aalto_heijastus_4} (a) ja (b) on eroteltu saapuva (punainen), heijastunut (sininen) ja läpäissyt (vihreä) aalto. Kuvassa (a) nämä aallot on selkeyden vuoksi piirretty erikseen ja kuvassa (b) superpositioon, jolloin köyden todellinen muoto nähdään.
+Kuvissa \autoref{fig:aalto_heijastus_4} (a) ja (c) on eroteltu saapuva (punainen), heijastunut (sininen) ja läpäissyt (vihreä) aalto. Kuvassa (a) nämä aallot on selkeyden vuoksi piirretty erikseen ja kuvassa (c) superpositioon, jolloin köyden todellinen muoto nähdään.
 Kuvatulla hetkellä saapuvan aallon aallonharja saavuttaa pian rajapinnan, mutta heijastuneen aallon rajapinnalle on syntymässä pian aallonpohja, eli tässäkin tapauksessa heijastunut aalto on ``kääntynyt ympäri köyden alapuolelle''. Rajapinnan läpäisseessä aallossa rajapinnalle on muodostumassa aallonharja, joten tämä aalto ei ole kääntynyt ympäri.
 
 Sinimuotoisen aallon tapauksessa aallon ``kääntymisen ympäri'' voi ilmaista täsmällisesti aallon \emph{vaiheen} avulla, ja siksi kuvaan (a) onkin piirretty aaltojen vaiheenosoittimet rajapinnalla. Saapuvan aallon vaihe rajapinnalla on kuvassa kahdeksasosakierros eli \(\phi_\text{saapuva} = \pi/4\), mitä kuvaa vaiheenosoitin, jota on kierretty tämän verran pystysuunnasta vastapäivään (positiiviseen kiertosuuntaan). Aallon kulkiessa sen vaihe rajapinnalla muuttuu, ja vaiheenosoitin pyörii myötäpäivään.
@@ -26950,17 +26950,17 @@ Rajapinnan läpäisseen aallon vaihe on sama kuin saapuvan aallon vaihe, joten n
 
 \index{vaiheensiirto}
 
-Vaikka kuvassa (a) aallot piirrettiin erikseen, todellisuudessa aallot kulkevat tietenkin samassa köydessä, jonka todellinen muoto on piirretty kuvaan (b). Erityisesti saapuva ja heijastunut aalto kulkevat köyden samassa osassa, jolloin köyden muoto on näiden aaltojen superpositio.
-Lisäksi köyden vasen ja oikea puoli eivät voi värähdellä toisistaan riippumatta, koska köysi on yhtenäinen. Köysi ei saa mennä rajapinnalla poikki, joten köyden muodon kuvaajan pitää olla aina jatkuva --- siihen ei saa milloinkaan tulla hyppäystä rajapinnalla. Ohuen ja paksun köyden rajapinnalla kohtaavien päiden täytyy siis värähdellä täsmälleen samalla tavalla, mikä toteutuu jos ja vain jos niiden \emph{vaiheenosoittimet ovat samat} (kuva \autoref{fig:aalto_heijastus_4} (b)). Rajapinnan vasemmalla puolella saapuva ja heijastunut aalto ovat superpositiossa, joten köyden värähtelyä kuvaa niiden vaiheenosoittimien vektorisumma (punainen + sininen nuoli). Rajapinnan oikealla puolella on vain läpäissyt aallo, joten köyden värähtelyä kuvaa sen vaiheenosoitin (vihreä). Siispä vihreän nuolen täytyy olla sama kuin punaisen ja sinisen nuolen summa. Tämän täytyy toteutua \emph{aina} (koska köysi ei voi mennä välillä poikki ja yhdistyä uudelleen), joten vaiheenosoitinten täytyy myös pyöriä yhtä nopeasti. Tämä tarkoittaa sitä, että kaikilla kolmella aallolla täytyy olla \emph{sama taajuus}, kuten kuvan \autoref{fig:aalto_taajuus} (b) perusteella jo aikaisemmin pääteltiin. Luvun lopussa esimerkissä \autoref{ex:aalto_rajapinta} näytetään, kuinka vastaavat ehdot kirjoitetaan yhtälöinä ja aaltofunktio voidaan laskea.
+Vaikka kuvassa (a) aallot piirrettiin erikseen, todellisuudessa aallot kulkevat tietenkin samassa köydessä, jonka todellinen muoto on piirretty kuvaan (c). Erityisesti saapuva ja heijastunut aalto kulkevat köyden samassa osassa, jolloin köyden muoto on näiden aaltojen superpositio.
+Lisäksi köyden vasen ja oikea puoli eivät voi värähdellä toisistaan riippumatta, koska köysi on yhtenäinen. Köysi ei saa mennä rajapinnalla poikki, joten köyden muodon kuvaajan pitää olla aina jatkuva --- siihen ei saa milloinkaan tulla hyppäystä rajapinnalla. Ohuen ja paksun köyden rajapinnalla kohtaavien päiden täytyy siis värähdellä täsmälleen samalla tavalla, mikä toteutuu jos ja vain jos niiden \emph{vaiheenosoittimet ovat samat} (kuva \autoref{fig:aalto_heijastus_4_c}). Rajapinnan vasemmalla puolella saapuva ja heijastunut aalto ovat superpositiossa, joten köyden värähtelyä kuvaa niiden vaiheenosoittimien vektorisumma (punainen + sininen nuoli). Rajapinnan oikealla puolella on vain läpäissyt aallo, joten köyden värähtelyä kuvaa sen vaiheenosoitin (vihreä). Siispä vihreän nuolen täytyy olla sama kuin punaisen ja sinisen nuolen summa. Tämän täytyy toteutua \emph{aina} (koska köysi ei voi mennä välillä poikki ja yhdistyä uudelleen), joten vaiheenosoitinten täytyy myös pyöriä yhtä nopeasti. Tämä tarkoittaa sitä, että kaikilla kolmella aallolla täytyy olla \emph{sama taajuus}, kuten kuvan \autoref{fig:aalto_taajuus} (b) perusteella jo aikaisemmin pääteltiin. Luvun lopussa esimerkissä \autoref{ex:aalto_rajapinta} näytetään, kuinka vastaavat ehdot kirjoitetaan yhtälöinä ja aaltofunktio voidaan laskea.
 
 \begin{stopQ}{q:aaltoliike_jatkuvuus_rajapinnalla}%
-Kuvassa \autoref{fig:aalto_heijastus_4} (b) aallon amplitudi rajapinnan vasemmalla puolella on suurempi kuin oikealla puolella. Kuinka tämä on mahdollista vaikka köyden pitää aina olla rajapinnalla jatkuva?
+Kuvassa \autoref{fig:aalto_heijastus_4_c} aallon amplitudi rajapinnan vasemmalla puolella on suurempi kuin oikealla puolella. Kuinka tämä on mahdollista vaikka köyden pitää aina olla rajapinnalla jatkuva?
 \end{stopQ}
 
-Kuvissa \autoref{fig:aalto_heijastus_4} (c) ja (d) on esitetty vastaava tilanne, kun rajapinnan oikealla puolella on ohut köysi. Tämä muistuttaa kuvan \autoref{fig:aalto_heijastus_3b} tilannetta, jossa heijastunut aaltopulssi pysyy köyden yläpuolella eli samalla puolella kuin saapuva aalto. Sinimuotoisten aaltojen tapauksessa tämä tarkoittaa saapuvan ja heijastuneen aallon vaiheen olevan sama rajapinnalla. Niinpä tässä tapauksessa kaikkien kolmen aallon vaiheenosoittimet osoittavat samaan suuntaan. Tässäkin tapauksessa aallon täytyy olla rajapinnalla jatkuva, joten saapuvan ja heijastuneen aallon vaiheenosoittimien summan pitää aina olla sama kuin läpäisseen aallon vaiheenosoitin.
+Kuvissa \autoref{fig:aalto_heijastus_4} (b) ja (d) on esitetty vastaava tilanne, kun rajapinnan oikealla puolella on ohut köysi. Tämä muistuttaa kuvan \autoref{fig:aalto_heijastus_3b} tilannetta, jossa heijastunut aaltopulssi pysyy köyden yläpuolella eli samalla puolella kuin saapuva aalto. Sinimuotoisten aaltojen tapauksessa tämä tarkoittaa saapuvan ja heijastuneen aallon vaiheen olevan sama rajapinnalla. Niinpä tässä tapauksessa kaikkien kolmen aallon vaiheenosoittimet osoittavat samaan suuntaan. Tässäkin tapauksessa aallon täytyy olla rajapinnalla jatkuva, joten saapuvan ja heijastuneen aallon vaiheenosoittimien summan pitää aina olla sama kuin läpäisseen aallon vaiheenosoitin.
 
 \begin{stopQ}{q:aaltoliike_osoitin_rajapinnalla}%
-Kuvissa \autoref{fig:aalto_heijastus_4} (a) ja (c) punainen aalto on sama. Miten ja miksi siniset aallot ja niiden vaiheenosoittimet eroavat toisistaan? Entä vihreät?
+Kuvissa \autoref{fig:aalto_heijastus_4} (a) ja (b) punainen aalto on sama. Miten ja miksi siniset aallot ja niiden vaiheenosoittimet eroavat toisistaan? Entä vihreät?
 \end{stopQ}
 
 %\newpage
@@ -27369,7 +27369,7 @@ kuten onkin.
 \label{doppler-ilmiö}
 
 Kuvassa \autoref{fig:aallot_sini_1} esitettiin, kuinka köyden päähän kiinnitetty harmonisesti värähtelevä kappale tuottaa sinimuotoista aaltoliikettä köyteen. Samanlainen tilanne syntyy aina, kun aaltolähde lähettää sinimuotoista aaltoa. Esimerkiksi värähtelevä äänirauta synnyttää ilmaan sinimuotoisesti värähteleviä paineaaltoja.
-Kuvassa \autoref{fig:aallot_doppler} (a) on esitetty vastaava tilanne, jossa aaltolähde on kuvan keskellä ja sen lähettämä aalto leviää lähteestä sekä oikealle että vasemmalle. Kuvaan on myös merkitty kaksi tarkastelupistettä (punainen ja sininen), jotka havaitsevat aallon tuottaman värähtelyn. Kuvan voi ajatella esittävän köyttä, jolloin aaltolähde on värähtelevä kappale ja tarkastelupisteet ovat köyteen merkittyjä pisteitä. Toisaalta kuvan voi ajatella esittävän esimerkiksi paineen muutoksia ilmassa. Tällöin aaltolähteenä voi toimia äänirauta ja havaintopisteet voivat kuvata kuulijoiden tärykalvoja. Kuulo perustuu siihen, että ilmassa kulkeva paineaalto saa paineen värähtelemään tärykalvon kohdalla, ja tämä puolestaan saa tärykalvon värähtelemään samalla taajuudella. Kuvassa \autoref{fig:aallot_doppler} (b) on esitetty tarkastelupisteiden värähtely ajan funktiona, ja äänen tapauksessa korva havaitsee nimenomaan tämän värähtelyn. Kuvaan on myös piirretty tämän värähtelyiden vaiheenosoittimet.
+Kuvassa \autoref{fig:aallot_doppler} (a) on esitetty vastaava tilanne, jossa aaltolähde on kuvan keskellä ja sen lähettämä aalto leviää lähteestä sekä oikealle että vasemmalle. Kuvaan on myös merkitty kaksi tarkastelupistettä (punainen ja sininen), jotka havaitsevat aallon tuottaman värähtelyn. Kuvan voi ajatella esittävän köyttä, jolloin aaltolähde on värähtelevä kappale ja tarkastelupisteet ovat köyteen merkittyjä pisteitä. Toisaalta kuvan voi ajatella esittävän esimerkiksi paineen muutoksia ilmassa. Tällöin aaltolähteenä voi toimia äänirauta ja havaintopisteet voivat kuvata kuulijoiden tärykalvoja. Kuulo perustuu siihen, että ilmassa kulkeva paineaalto saa paineen värähtelemään tärykalvon kohdalla, ja tämä puolestaan saa tärykalvon värähtelemään samalla taajuudella. Kuvassa \autoref{fig:aallot_doppler_d} on esitetty tarkastelupisteiden värähtely ajan funktiona, ja äänen tapauksessa korva havaitsee nimenomaan tämän värähtelyn. Kuvaan on myös piirretty tämän värähtelyiden vaiheenosoittimet.
 
 \widepictures{tb}%
 {Aaltolähteen liike muuttaa aaltojen taajuutta. Havaitsijan liike muuttaa havaittua taajuutta.;%
@@ -27384,11 +27384,11 @@ Värähtely kuvan (c) havaintopisteissä.}%
 {0.3;0.3;0.3;0.3;0.3;0.3}%
 {aallot_doppler_1.pdf;aallot_doppler_3.pdf;aallot_doppler_5.pdf;aallot_doppler_2.pdf;aallot_doppler_4.pdf;aallot_doppler_6.pdf}
 
-Tilanne muuttuu, jos aaltolähde liikkuu. Jos kyseessä on köyttä liikuttava värähtelijä, tämä tarkoittaa värähtelevän kappaleen liukuvan köyttä pitkin. (Tällöin köysi ei voi olla kappaleessa kiinni vaan kappaleessa voi esimerkiksi olla reikä, jonka läpi köysi kulkee.) Jos kyseessä on äänilähde kuten äänirauta, tämä tarkoittaa yksinkertaisesti sitä, että äänirauta liikkuu ilman suhteen. Tilanne on esitetty kuvassa \autoref{fig:aallot_doppler} (c).
-Aaltoliike etenee tässä tilanteessa poispäin lähteestä täsmälleen samalla vauhdilla kuin kuvassa \autoref{fig:aallot_doppler} (a). Aallon nopeutta on kuvattu punaisilla katkoviivoilla, ja koska aaltoliikken nopeus on kuvissa sama, näiden viivojen kulma on sama.
+Tilanne muuttuu, jos aaltolähde liikkuu. Jos kyseessä on köyttä liikuttava värähtelijä, tämä tarkoittaa värähtelevän kappaleen liukuvan köyttä pitkin. (Tällöin köysi ei voi olla kappaleessa kiinni vaan kappaleessa voi esimerkiksi olla reikä, jonka läpi köysi kulkee.) Jos kyseessä on äänilähde kuten äänirauta, tämä tarkoittaa yksinkertaisesti sitä, että äänirauta liikkuu ilman suhteen. Tilanne on esitetty kuvassa \autoref{fig:aallot_doppler_b}.
+Aaltoliike etenee tässä tilanteessa poispäin lähteestä täsmälleen samalla vauhdilla kuin kuvassa \autoref{fig:aallot_doppler_a}. Aallon nopeutta on kuvattu punaisilla katkoviivoilla, ja koska aaltoliikken nopeus on kuvissa sama, näiden viivojen kulma on sama.
 Punaiset katkoviivat on kuvissa piirretty täsmälleen niiden pisteiden kautta, joissa väliaine on tasapainoasemassa liikkeessä ylöspäin. Toisin sanoen punaisten viivojen kohdalla aallon vaihe on neljänneskierros positiiviseen kiertosuuntaan, \( \phi = \pi/2 \), ja vaiheenosoitin osoittaa vaakasuoraan vasemmalle.
 
-Koska punaiset viivat kuvaavat aallon samassa vaiheessa olevia pisteitä, niiden välinen vaakasuora etäisyys on yksi aallonpituus. Kuvassa (a) sekä vasemmalle että oikealle kulkevien aaltojen aallonpituus on sama, mutta kuvassa (c) näin ei ole, koska aaltolähde kulkee oikealle. Yhden värähdyksen aikana aaltolähde siirtyy lähemmäs oikelle kulkevaa aaltoa ja kauemmas vasemmalle kulkevasta aallosta, jolloin oikealle kulkevaan aaltoon muodostuu lyhyempiä ja vasemmalle kulkevaan pidempiä aaltoja kuin lähteen ollessa paikoillaan.
+Koska punaiset viivat kuvaavat aallon samassa vaiheessa olevia pisteitä, niiden välinen vaakasuora etäisyys on yksi aallonpituus. Kuvassa (a) sekä vasemmalle että oikealle kulkevien aaltojen aallonpituus on sama, mutta kuvassa (b) näin ei ole, koska aaltolähde kulkee oikealle. Yhden värähdyksen aikana aaltolähde siirtyy lähemmäs oikelle kulkevaa aaltoa ja kauemmas vasemmalle kulkevasta aallosta, jolloin oikealle kulkevaan aaltoon muodostuu lyhyempiä ja vasemmalle kulkevaan pidempiä aaltoja kuin lähteen ollessa paikoillaan.
 
 Jos aaltojen nopeus on \(\pm v_{x,\text{aalto}}\) (etumerkki riippuu aallon kulkusuunnasta), yhden aaltolähteen värähdyksen aikana \(T_\text{l\"ahde}\) aallot kulkevat matkan
 \(\Delta x_\text{aalto} = v_{x,\text{aalto}} T_\text{l\"ahde}\).
@@ -27397,11 +27397,11 @@ Jos aaltolähteen nopeus on \(v_{x,\text{l\"ahde}}\), lähde siirtyy tässä aja
 ja niinpä syntyvien aaltojen aallonpituus on
 \begin{equation} \lambda = |\Delta x_\text{aalto} - \Delta x_\text{l\"ahde}| =  |v_{x,\text{aalto}} - v_{x,\text{l\"ahde}}| T_\text{l\"ahde}. \end{equation}
 
-Jos kyseessä on ääni, jonka vastaanottaa mikrofoni tai korva, havaitsija ei mittaa aallonpituutta vaan aallon tuottaman värähtelyn taajuuden omalla kohdallaan eli kuvassa \autoref{fig:aallot_doppler} (d) esitetyn värähtelyn. Tämä havaittu värähtelytaajuus voidaan kuitenkin ratkaista aallonpituuden avulla, sillä sinimuotoisille aalloille pätee edelleen aaltoliikkeen perusyhtälö (\autoref{aaltoliikkeen_perus}), jonka perusteella aallon taajuus riippuu aaltojen vauhdista ja aallonpituudesta
+Jos kyseessä on ääni, jonka vastaanottaa mikrofoni tai korva, havaitsija ei mittaa aallonpituutta vaan aallon tuottaman värähtelyn taajuuden omalla kohdallaan eli kuvassa \autoref{fig:aallot_doppler_e} esitetyn värähtelyn. Tämä havaittu värähtelytaajuus voidaan kuitenkin ratkaista aallonpituuden avulla, sillä sinimuotoisille aalloille pätee edelleen aaltoliikkeen perusyhtälö (\autoref{aaltoliikkeen_perus}), jonka perusteella aallon taajuus riippuu aaltojen vauhdista ja aallonpituudesta
 \begin{equation} f_\text{aalto} = \frac{v_\text{aalto}}{\lambda} = \frac{v_\text{aalto}}{ |v_{x,\text{aalto}} - v_{x,\text{l\"ahde}}| T_\text{l\"ahde}} = \frac{v_\text{aalto}}{ |v_{x,\text{aalto}} - v_{x,\text{l\"ahde}}|} f_\text{l\"ahde}. \label{doppler_liikkuvalahde} \end{equation}
 Tämä on myös paikoillaan olevat havaitsijan vastaanottama taajuus.
 
-Jos aaltolähde liikkuu samaan suuntaan kuin aalto, \( |v_{x,\text{aalto}} - v_{x,\text{l\"ahde}}| = v_{\text{aalto}} - v_{\text{l\"ahde}} < v_\text{aalto} \), ja tällöin aallon aallonpituus on lyhyempi kuin aaltolähteen ollessa levossa ja aallon taajuus on suurempi kuin aaltolähteen taajuus. Tämä tapaus vastaa kuvan (d) sinistä käyrää. Jos sen sijaan aaltolähde liikkuu vastakkaiseen suuntaan aaltoon nähden, \( |v_{x,\text{aalto}} - v_{x,\text{l\"ahde}}| = v_{\text{aalto}} + v_{\text{l\"ahde}} > v_\text{aalto} \). Tässä tapauksessa aallon taajuus on pienempi kuin aaltolähteen taajuus, kuten kuvan (d) punaisessa käyrässä. Äänen tapauksessa tämä tarkoittaa sitä, että havaitsijaa kohti liikkuvan lähteen tuottaman äänen taajuus suurempi kuin vastaavan levossa olevan lähteen tuottama ääni, jolloin ääni kuullaan korkeana. Havaitsijasta poispäin kulkevan lähteen äänen taajuus on puolestaan pienempi kuin levossa olevan lähteen, jolloin ääni kuullaan matalana. Tätä kutsutaan \textbf{Doppler-ilmiöksi} (Christian Dopplerin mukaan). Klassinen esimerkki Doppler-ilmiöstä on liikkuvan ajoneuvon kuten ambulanssin ääni, jonka havaittu taajuus selvästi muuttuu ajoneuvon ajaessa havaitsijan ohitse.
+Jos aaltolähde liikkuu samaan suuntaan kuin aalto, \( |v_{x,\text{aalto}} - v_{x,\text{l\"ahde}}| = v_{\text{aalto}} - v_{\text{l\"ahde}} < v_\text{aalto} \), ja tällöin aallon aallonpituus on lyhyempi kuin aaltolähteen ollessa levossa ja aallon taajuus on suurempi kuin aaltolähteen taajuus. Tämä tapaus vastaa kuvan (e) sinistä käyrää. Jos sen sijaan aaltolähde liikkuu vastakkaiseen suuntaan aaltoon nähden, \( |v_{x,\text{aalto}} - v_{x,\text{l\"ahde}}| = v_{\text{aalto}} + v_{\text{l\"ahde}} > v_\text{aalto} \). Tässä tapauksessa aallon taajuus on pienempi kuin aaltolähteen taajuus, kuten kuvan (d) punaisessa käyrässä. Äänen tapauksessa tämä tarkoittaa sitä, että havaitsijaa kohti liikkuvan lähteen tuottaman äänen taajuus suurempi kuin vastaavan levossa olevan lähteen tuottama ääni, jolloin ääni kuullaan korkeana. Havaitsijasta poispäin kulkevan lähteen äänen taajuus on puolestaan pienempi kuin levossa olevan lähteen, jolloin ääni kuullaan matalana. Tätä kutsutaan \textbf{Doppler-ilmiöksi} (Christian Dopplerin mukaan). Klassinen esimerkki Doppler-ilmiöstä on liikkuvan ajoneuvon kuten ambulanssin ääni, jonka havaittu taajuus selvästi muuttuu ajoneuvon ajaessa havaitsijan ohitse.
 
 \index{Doppler-ilmiö}
 
@@ -27409,7 +27409,7 @@ Jos aaltolähde liikkuu samaan suuntaan kuin aalto, \( |v_{x,\text{aalto}} - v_{
 Kuvassa \autoref{fig:aallot_doppler} aaltojen vauhti on \(345 \un{m/s}\) ja aaltolähteen vauhti on \(115 \un{m/s}\). (a) Mikä on kuvissa (a) ja (c) kunkin aallon aallonpituus? (b) Mikä on kuvissa (b) ja (d) kunkin havaitun värähtelyn taajuus ja jaksonaika? Vertaa kuvaajia ja yhtälön (\autoref{doppler_liikkuvalahde}) antamaa tulosta.
 \end{stopQ}
 
-On tietenkin myös mahdollista, että havaitsijat liikkuvat. Jos kyseessä on esimerkiksi ääni, näin tapahtuu kuuntelijan liikkuessa. Tämä tilanne on piirretty kuvassa \autoref{fig:aallot_doppler} (e), jossa punainen havaintopiste lähestyy aaltolähdettä ja sininen loittonee siitä. Havaitsijat mittaavat jälleen väliaineen värähtelyn omalla kohdallaan, mutta koska he liikkuvat väliaineen suhteen, tämän havaitun värähtelyn taajuus ei ole sama kuin aallon värähtelytaajuus. Esimerkiksi kuvassa (e) punainen havaitsija kohtaa ensimmäisen punaisen katkoviivan (aallon etureunan) neljännessä kuvassa ylhäältä eli ajan hetkellä \(t = 3 \un{ms}\) ja toisen punaisen katkoviivan (ensimmäisen aallonpituuden) jo alimmassa kuvassa eli ajan hetkellä \(t = 6 \un{ms}\). Punainen värähtelijä havaitsee siis yhden värähtelyjakson kestoksi vain kolme millisekuntia, vaikka aaltolähteen värähtelyn jaksonaika on neljä millisekuntia. Vastaavasti aallon etureuna saavuttaa sinisen havaintopisteen hetkellä \(t = 3 \un{ms}\), mutta koska tämä piste kulkee aallon kanssa samaan suuntaan, hetkellä \(t = 6 \un{ms}\) sinisen pisteen ohi on kulkenut vasta puoli aallonpituutta. Sininen piste havaitsee kolmessa millisekunnissa vain puolikkaan värähtelyjakson, joten tämä piste havaitsee värähtelyn jaksonajaksi kuusi millisekuntia.
+On tietenkin myös mahdollista, että havaitsijat liikkuvat. Jos kyseessä on esimerkiksi ääni, näin tapahtuu kuuntelijan liikkuessa. Tämä tilanne on piirretty kuvassa \autoref{fig:aallot_doppler} (c), jossa punainen havaintopiste lähestyy aaltolähdettä ja sininen loittonee siitä. Havaitsijat mittaavat jälleen väliaineen värähtelyn omalla kohdallaan, mutta koska he liikkuvat väliaineen suhteen, tämän havaitun värähtelyn taajuus ei ole sama kuin aallon värähtelytaajuus. Esimerkiksi kuvassa (c) punainen havaitsija kohtaa ensimmäisen punaisen katkoviivan (aallon etureunan) neljännessä kuvassa ylhäältä eli ajan hetkellä \(t = 3 \un{ms}\) ja toisen punaisen katkoviivan (ensimmäisen aallonpituuden) jo alimmassa kuvassa eli ajan hetkellä \(t = 6 \un{ms}\). Punainen värähtelijä havaitsee siis yhden värähtelyjakson kestoksi vain kolme millisekuntia, vaikka aaltolähteen värähtelyn jaksonaika on neljä millisekuntia. Vastaavasti aallon etureuna saavuttaa sinisen havaintopisteen hetkellä \(t = 3 \un{ms}\), mutta koska tämä piste kulkee aallon kanssa samaan suuntaan, hetkellä \(t = 6 \un{ms}\) sinisen pisteen ohi on kulkenut vasta puoli aallonpituutta. Sininen piste havaitsee kolmessa millisekunnissa vain puolikkaan värähtelyjakson, joten tämä piste havaitsee värähtelyn jaksonajaksi kuusi millisekuntia.
 
 Havaitsija siis mittaa yhden värähdyksen jaksonajaksi \(T_\text{havaitsija}\) sen ajan, jossa yksi aallonpituus kulkee havaitsijan ohitse. Jos siis havaitsija kulkee tänä aikana siirtymän \(\Delta x_\text{havaitsija} = v_{x,\text{havaitsija}} T_\text{havaitsija}\) ja aalto kulkee samassa ajassa siirtymän
 \(\Delta x_\text{aalto} = v_{x,\text{aalto}} T_\text{havaitsija}\), havaittu jaksonaika määräytyy niin, että havaitsijan siirtymä \emph{aallon suhteen} on yhtä pitkä kuin yksi aallonpituus,
@@ -27550,7 +27550,7 @@ Aaltoyhtälö ei voi mitenkään määrätä aaltojen niitä ominaisuuksia, jotk
 
 Teoreettisesti aaltoyhtälö on erityisen merkittävä siksi, että \emph{mikä tahansa suure, jolle pätee aaltoyhtälö (\autoref{aaltoyhtalo}), muodostaa aaltoja}. Esimerkiksi tarkastelemalla ilman puristumisen ja paineen välistä yhteyttä, ilmanpaineelle voidaan johtaa aaltoyhtälö, mikä tarkoittaa sitä, että ilmanpaineen paikalliset muutokset synnyttävät ilmaan paineaaltoja (eli ääntä).
 Aikoinaan sähkömagneettisten aaltojen olemassaolo pystyttiin päättelemään sillä perusteella, että sähkömagnetismin peruslaeista voidaan johtaa sähkömagneettiselle kentälle aaltoyhtälö.
-Myös hiljattain kokeellisesti havaittuja gravitaatioaaltoja osattiin etsiä juuri siksi, että yleisen suhteellisuusteorian gravitaatiota kuvaavasta matematiikasta voidaan johtaa aaltoyhtälö. Sen sijaan esimerkiksi kiinteän aineen lämpötila noudattaa erilaista differentiaaliyhtälöä (ns. diffuusioyhtälöä), joten lämpö \emph{ei} siirry aaltoina vaan johtumalla.
+Myös vuonna 2016 kokeellisesti havaittuja gravitaatioaaltoja osattiin etsiä juuri siksi, että yleisen suhteellisuusteorian gravitaatiota kuvaavasta matematiikasta voidaan johtaa aaltoyhtälö. Sen sijaan esimerkiksi kiinteän aineen lämpötila noudattaa erilaista differentiaaliyhtälöä (ns. diffuusioyhtälöä), joten lämpö \emph{ei} siirry aaltoina vaan johtumalla.
 
 \begin{stopQ}{q:aaltoliike_yhtalo_yhteenveto}%
 Selitä omin sanoin, mikä on aaltoyhtälö. Mitä aaltojen ominaisuuksia aaltoyhtälöstä voidaan päätellä ja mitä ominaisuuksia ei? Mitä eroa on aaltoyhtälöllä ja aaltofunktiolla?
@@ -27742,7 +27742,7 @@ Ensimmäisessä kuvassa pulssin leveys on noin \(\Delta x = 2 \un{m}\) ja se ohi
 }
 
 \stopA{q:aaltoliike_pitkittainen}{%\\
-(a) Pulssi on symmetrinen, sillä kappaleiden siirtymät ovat pulssin kummallakin reunalla samanlaiset. Koska pulssi on pitkittäinen, jouset kappaleiden välissä puristuvat, kun jäljessä tuleva kappale siirtyy kohti seuraavaa enemmän kuin sen edessä oleva kappale (pulssin etupuoli), ja jouset venyvät, kun jäljessä tuleva kappale siirtyy vähemmän (pulssin takapuoli).\\
+(a) Pulssi on positiivinen, sillä kappaleiden siirtymät ovat kaikki positiiviseen suuntaan. Koska pulssi on pitkittäinen, jouset kappaleiden välissä puristuvat, kun jäljessä tuleva kappale siirtyy kohti seuraavaa enemmän kuin sen edessä oleva kappale (pulssin etupuoli), ja jouset venyvät, kun jäljessä tuleva kappale siirtyy vähemmän (pulssin takapuoli).\\
 (b) Nyt siirtymät olisivat negatiiviseen suuntaan, joten pulssin kuvaaja kääntyisi ympäri, koordinaatiston negatiiviselle puolelle.
 }
 
@@ -28705,7 +28705,7 @@ Leveä lähteiden rivi.}%
 
 Tarkastellaan sitten kuvan \autoref{fig:moniaalto_interferenssi_monta} (a) oikeanpuoleista pystysaraketta eli tapauksia, joissa on rivissä kahdeksan pistemäistä aaltolähdettä. Ylimmässä kuvassa rivin leveys on yksi aallonpituus ja alimmassa kuvassa neljä aallonpituutta, joten lähteiden välinen etäisyys on kaikissa kuvissa pienempi kuin aallonpituus. Kaikissa näissä tapauksissa suurimman amplitudin aalto muodostaa kuvassa ylöspäin (ja alaspäin) kulkevan kiilan.
 
-Ylimmässä kuvassa, jossa lähteiden rivin leveys on yksi aallonpituus, kiila on leveä. Sen sijaan alimmassa kuvasssa, jossa rivin leveys on neljä aallonpituutta, muodostuu kapea, melkein suorista aaltorintamista koostuva kiila.
+Ylimmässä kuvassa, jossa lähteiden rivin leveys on yksi aallonpituus, kiila on leveä. Sen sijaan alimmassa kuvassa, jossa rivin leveys on neljä aallonpituutta, muodostuu kapea, melkein suorista aaltorintamista koostuva kiila.
 Toisin sanoen jos aaltojen lähteet ovat tiheässä rivissä tai aaltoa tuottaa viivamainen lähde pistemäisen sijaan, syntyy pääasiassa tämän rivin tai viivan normaalin suuntaan kulkeva aalto.
 
 \begin{stopQ}{q:moniulotteinen_aaltoliike_interferenssi}%
@@ -28831,9 +28831,9 @@ Faradayn laki.}%
 {0.45;0.45}%
 {aallot_sm_8.pdf;aallot_sm_9.pdf}
 
-Kuvassa \autoref{fig:aalto_smpulssi} on kerrattu Maxwellin lain toteutuminen tässä pulssissa. Pulssi kulkee kuvassa oikealle, joten pulssin oikea reuna on sen etureuna. Tässä reunassa sähkökentän voimakkuus kasvaa ajan kuluessa, jolloin kuvan \autoref{fig:aalto_sm_1} (a) tapaan magneettikentän täytyy heikentyä kuvassa oikealle kuljettaessa, kuten tapahtuukin. Vastaavasti pulssin vasemmassa reunassa sähkökenttä heikkenee ajan kuluessa, koska pulssi on jo ohittamassa pisteen, ja niinpä magneettikentän täytyy kuvan \autoref{fig:aalto_sm_1} (b) mukaisesti voimistua kuvassa oikealle kuljettaessa. Näinkin tapahtuu, joten pulssi toteuttaa Maxwellin lain.
+Kuvassa \autoref{fig:aalto_smpulssi_a} on kerrattu Maxwellin lain toteutuminen tässä pulssissa. Pulssi kulkee kuvassa oikealle, joten pulssin oikea reuna on sen etureuna. Tässä reunassa sähkökentän voimakkuus kasvaa ajan kuluessa, jolloin kuvan \autoref{fig:aalto_sm_1} (a) tapaan magneettikentän täytyy heikentyä kuvassa oikealle kuljettaessa, kuten tapahtuukin. Vastaavasti pulssin vasemmassa reunassa sähkökenttä heikkenee ajan kuluessa, koska pulssi on jo ohittamassa pisteen, ja niinpä magneettikentän täytyy kuvan \autoref{fig:aalto_sm_1} (b) mukaisesti voimistua kuvassa oikealle kuljettaessa. Näinkin tapahtuu, joten pulssi toteuttaa Maxwellin lain.
 
-Samaan tapaan kuvassa \autoref{fig:aalto_smpulssi} (c) on todettu, että pulssi toteuttaa myös Faradayn lain. Pulssin oikeassa reunassa magneettikenttä voimistuu ajan kuluessa, joten kuvan \autoref{fig:aalto_sm_2} (b) perusteella sähkökentän pitää heikentyä oikealle kuljettaessa. Pulssin vasemmassa reunassa tilanne on päinvastainen ja vastaa kuvaa \autoref{fig:aalto_sm_2} (c).
+Samaan tapaan kuvassa \autoref{fig:aalto_smpulssi_b} on todettu, että pulssi toteuttaa myös Faradayn lain. Pulssin oikeassa reunassa magneettikenttä voimistuu ajan kuluessa, joten kuvan \autoref{fig:aalto_sm_2} (b) perusteella sähkökentän pitää heikentyä oikealle kuljettaessa. Pulssin vasemmassa reunassa tilanne on päinvastainen ja vastaa kuvaa \autoref{fig:aalto_sm_2} (c).
 
 Koska sähkömagneettinen aaltopulssi toteuttaa Maxwellin yhtälöt, sähkömagneettisessa kentässä mitä ilmeisimmin voi edetä aaltoja.
 Todistetaan tämä lopuksi matemaattisesti osoittamalla, että sähkö- ja magneettikenttä toteuttavat \emph{aaltoyhtälön}. Tästä nimittäin seuraa automaattisesti, että sähkömagneettisessa kentässä voi edetä minkä muotoisia aaltoja tahansa ja että näille aalloille pätee superpositioperiaate. Lisäksi aaltoyhtälö määrää nopeuden, jolla sähkömagneettiset aallot liikkuvat.
@@ -30779,7 +30779,7 @@ Tässä tilassa paikan mittaus antaa aina tulokseksi \emph{joko} arvon \(a\) \em
 Tässä itseisarvot tarvitaan siksi, että kertoimet voivat olla myös kompleksilukuja. Sama periaate toimii myös silloin, kun yhteen lasketaan enemmän kuin kaksi tilaa.
 
 \begin{stopQ}{q:kvanttimekaniikka_superpositio2}%
-Hiukkanen on superpositiossa \( \psi_\text{superpositio}(x,t) = c_a \psi_a(x,t) + c_b \psi_b(x,t), \) missä tiloille \(\ket{a}\) ja \(\ket{b}\) pätee kaikkialla \( |c_a \psi_a(x) + c_b \psi_b(x)|^2 = |c_a \psi_a(x)|^2 + |c_b \psi_b(x)|^2\). Millainen ehto pitää kertoimien \(c_a\) ja \(c_b\) toteuttaa, jotta superpositio olisi oikein normitettu?
+Hiukkanen on superpositiossa \( \psi_\text{superpositio}(x,t) = c_a \psi_a(x,t) + c_b \psi_b(x,t), \) missä tiloille \(\ket{a}\) ja \(\ket{b}\) pätee kaikkialla \( |c_a \psi_a(x,t) + c_b \psi_b(x,t)|^2 = |c_a \psi_a(x,t)|^2 + |c_b \psi_b(x,t)|^2\). Millainen ehto pitää kertoimien \(c_a\) ja \(c_b\) toteuttaa, jotta superpositio olisi oikein normitettu?
 \end{stopQ}
 
 \subsection{Hiukkasen liikemäärän todennäköisyys}
@@ -32541,9 +32541,14 @@ Jakamalla \(2 \ii\):llä saadaan yhtälö (\autoref{siniexp}).
 }
 
 \stopA{q:kvanttimekaniikka_kuoppalasku}{%\\
-(a) Kvanttimekaaninen kulmataajuus on \(\omega_n = \frac{1}{\hbar} E_n = \frac{\epsilon}{\hbar} (n+1/2) \).\\
-(b) \( \psi_n(x,t) = \psi_n(x) e^{-\ii \omega_n t}. \)\\
-(c) \( \psi(x,t) = \frac{1}{\sqrt{2}} \psi_1(x) e^{-\ii \omega_1 t} + \frac{1}{\sqrt{2}} \psi_2(x) e^{-\ii \omega_2 t} = \frac{1}{\sqrt{2}} \psi_1(x) e^{-\ii \frac{\epsilon}{2\hbar} t} + \frac{1}{\sqrt{2}} \psi_2(x) e^{-\ii \frac{3\epsilon}{2\hbar} t}. \)
+Tilassa \(\ket{n}\) energia on \( \frac{\hbar^2 \pi^2}{2 m L^2} n^2 \).
+Superpositiossa voidaan mitata minkä tahansa summassa mukana olevan tilan energia eli jokin lukuja \(n= 1\), \(n=2\) tai \(n=4\) vastaava energia.
+Kunkin mittauksen todennäköisyys on tilan kertoimen itseisarvon neliö eli
+\( P(1) = \left| \frac{1}{\sqrt{6}} \right|^2 = \frac{1}{6} \),
+\( P(2) = \left| \frac{2}{\sqrt{6}} \right|^2 = \frac{4}{6} \) ja
+\( P(4) = \left| \frac{1}{\sqrt{6}} \right|^2 = \frac{1}{6} \).
+Odotusarvo on siis \( \avr{E} = P(1)E_1 + P(2)E_2 + P(6)E_6 = 
+\left( \frac{1}{6} + \frac{4}{6} \cdot 2^2 + \frac{1}{6} \cdot 4^2 \right) \frac{\hbar^2 \pi^2}{2 m L^2} = \frac{11}{2} \frac{\hbar^2 \pi^2}{2 m L^2} = 2.1 \un{eV} = 3.3 \cdot 10^{-19} \un{J}. \)
 }
 
 \stopA{q:kvanttimekaniikka_p_operaattori}{%\\
